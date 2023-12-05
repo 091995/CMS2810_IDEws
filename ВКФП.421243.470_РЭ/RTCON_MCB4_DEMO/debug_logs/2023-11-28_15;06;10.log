@@ -1,0 +1,173 @@
+2023-11-28 15:06:11.686 DEBUG: RTCON v.5.5.5 [Windows 10 Home]
+2023-11-28 15:06:13.165 INFO: TForm1::FormShow
+2023-11-28 15:06:13.798 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:14.277 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:15.370 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:15.425 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:15.430 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:15.679 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:15.679 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:15.916 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:15.939 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:16.171 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:17.177 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:17.430 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:17.431 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:17.680 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:17.681 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:17.946 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:17.968 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:18.196 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:19.195 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:19.432 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:19.433 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:19.687 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:19.687 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:19.938 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:19.960 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:20.193 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:21.195 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:21.445 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:21.445 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:21.698 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:21.698 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:21.934 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:21.956 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:22.186 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:23.228 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:23.481 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:23.482 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:23.734 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:23.735 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:23.986 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:24.008 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:24.239 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:25.242 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:25.479 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:25.479 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:25.732 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:25.732 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:25.985 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:26.007 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:26.237 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:27.236 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:27.487 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:27.488 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:27.741 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:27.741 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:27.994 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:28.016 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:28.248 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:29.261 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:29.513 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:29.514 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:29.768 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:29.768 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:30.021 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:30.043 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:30.273 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:31.283 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:31.531 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:31.531 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:31.793 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:31.794 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:32.047 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:32.069 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:32.301 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:33.298 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:33.553 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:33.553 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:33.804 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:33.804 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:34.056 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:34.078 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:34.307 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:35.334 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:35.588 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:35.588 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:35.842 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:35.843 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:36.094 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:36.116 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:36.347 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:37.362 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:37.616 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:37.617 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:37.854 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:37.854 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:38.119 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:38.141 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:38.384 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:39.390 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:39.647 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:39.647 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:39.895 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:39.895 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:40.155 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:40.177 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:40.399 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:41.410 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:41.660 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:41.661 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:41.909 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:41.910 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:42.167 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:42.189 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:42.415 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:43.413 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:43.670 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:43.671 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:43.902 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:43.903 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:44.161 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:44.184 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:44.407 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:45.408 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:45.667 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:45.667 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:45.914 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:45.914 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:46.159 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:46.181 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:46.409 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:47.404 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:47.663 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:47.664 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:47.910 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:47.911 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:48.171 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:48.192 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:48.402 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:49.413 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:49.671 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:49.672 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:49.915 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:49.915 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:50.156 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:50.177 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:50.406 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:51.402 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:51.659 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:51.659 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:51.916 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:51.916 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:52.165 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:52.186 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:52.413 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:53.411 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:53.668 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:53.668 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:53.915 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:53.916 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:54.159 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:54.180 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:54.408 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:55.408 DEBUG: TForm1::MUF_Display_Update: Status: Статус: подключ
+2023-11-28 15:06:55.659 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT
+2023-11-28 15:06:55.659 DEBUG: TForm1::MUF_Display_Update: Status: Статус: запуск
+2023-11-28 15:06:55.908 DEBUG: TForm1::MUF_ConnectCalc: CONN_CONNECT_WAIT_OPEN
+2023-11-28 15:06:55.909 DEBUG: TForm1::MUF_Display_Update: Status: Статус: отключение
+2023-11-28 15:06:56.159 DEBUG: TForm1::MUF_ConnectCalc: CONN_DISCONNECT
+2023-11-28 15:06:56.181 DEBUG: TForm1::MUF_Display_Update: Status: Статус: ожидание
+2023-11-28 15:06:56.407 DEBUG: TForm1::MUF_ConnectCalc: CONN_WAIT_TIMEOUT
+2023-11-28 15:06:58.274 INFO: TForm1::FormClose

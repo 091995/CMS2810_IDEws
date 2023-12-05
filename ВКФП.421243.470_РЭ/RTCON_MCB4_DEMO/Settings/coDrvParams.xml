@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+	<current_device value="2"/>
+	<device DeviceNum="0" value="SYS_TEC">
+		<current_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="50"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="20"/>
+			<request_buffer_size value="20"/>
+			<msg_repeat_limit value="50"/>
+			<com_r_count_max value="30"/>
+			<buf_time_out value="200"/>
+			<SDO_time_out value="200"/>
+			<consumer_heartbeat_time value="5000"/>
+			<EXPOS_time_out value="20000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="800"/>
+			<ChComNum value="4"/>
+			<Frame29ID value="1"/>
+			<CANLogEnable value="1"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="1"/>
+		</current_settings>
+		<default_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="50"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="20"/>
+			<request_buffer_size value="20"/>
+			<msg_repeat_limit value="50"/>
+			<com_r_count_max value="30"/>
+			<buf_time_out value="200"/>
+			<SDO_time_out value="200"/>
+			<consumer_heartbeat_time value="5000"/>
+			<EXPOS_time_out value="20000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="800"/>
+			<ChComNum value="4"/>
+			<Frame29ID value="1"/>
+			<CANLogEnable value="1"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="1"/>
+		</default_settings>
+	</device>
+	<device DeviceNum="1" value="IXXAT">
+		<current_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="50"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="20"/>
+			<request_buffer_size value="20"/>
+			<msg_repeat_limit value="50"/>
+			<com_r_count_max value="30"/>
+			<buf_time_out value="200"/>
+			<SDO_time_out value="200"/>
+			<consumer_heartbeat_time value="5000"/>
+			<EXPOS_time_out value="20000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="800"/>
+			<ChComNum value="4"/>
+			<QueryVendorToken value="1"/>
+		</current_settings>
+		<default_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="50"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="20"/>
+			<request_buffer_size value="20"/>
+			<msg_repeat_limit value="50"/>
+			<com_r_count_max value="30"/>
+			<buf_time_out value="200"/>
+			<SDO_time_out value="200"/>
+			<consumer_heartbeat_time value="5000"/>
+			<EXPOS_time_out value="20000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="800"/>
+			<ChComNum value="4"/>
+			<QueryVendorToken value="1"/>
+		</default_settings>
+	</device>
+	<device DeviceNum="2" value="MARATHON">
+		<current_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="50"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="20"/>
+			<request_buffer_size value="20"/>
+			<msg_repeat_limit value="50"/>
+			<com_r_count_max value="30"/>
+			<buf_time_out value="200"/>
+			<SDO_time_out value="200"/>
+			<consumer_heartbeat_time value="10000"/>
+			<EXPOS_time_out value="20000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="800"/>
+			<ChComNum value="0"/>
+			<Frame29ID value="1"/>
+			<CANLogEnable value="1"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="1"/>
+		</current_settings>
+		<default_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="50"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="20"/>
+			<request_buffer_size value="20"/>
+			<msg_repeat_limit value="50"/>
+			<com_r_count_max value="30"/>
+			<buf_time_out value="200"/>
+			<SDO_time_out value="200"/>
+			<consumer_heartbeat_time value="5000"/>
+			<EXPOS_time_out value="20000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="800"/>
+			<ChComNum value="0"/>
+			<Frame29ID value="1"/>
+			<CANLogEnable value="1"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="1"/>
+		</default_settings>
+	</device>
+	<device DeviceNum="3" value="ZBEE">
+		<current_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="1"/>
+			<node_info_repeat_limit value="5"/>
+			<request_fifo_size value="1"/>
+			<request_buffer_size value="1"/>
+			<msg_repeat_limit value="50"/>
+			<com_r_count_max value="30"/>
+			<buf_time_out value="300"/>
+			<SDO_time_out value="400"/>
+			<consumer_heartbeat_time value="15000"/>
+			<EXPOS_time_out value="10000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="200"/>
+			<ChComNum value="1"/>
+			<Frame29ID value="1"/>
+			<CANLogEnable value="0"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="1"/>
+		</current_settings>
+		<default_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="1"/>
+			<node_info_repeat_limit value="5"/>
+			<request_fifo_size value="2"/>
+			<request_buffer_size value="3"/>
+			<msg_repeat_limit value="50"/>
+			<com_r_count_max value="30"/>
+			<buf_time_out value="300"/>
+			<SDO_time_out value="300"/>
+			<consumer_heartbeat_time value="7000"/>
+			<EXPOS_time_out value="10000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="200"/>
+			<ChComNum value="4"/>
+			<Frame29ID value="0"/>
+			<CANLogEnable value="0"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="1"/>
+		</default_settings>
+	</device>
+	<device DeviceNum="4" value="EMULATOR">
+		<current_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="3"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="10"/>
+			<request_buffer_size value="10"/>
+			<msg_repeat_limit value="150"/>
+			<com_r_count_max value="300"/>
+			<buf_time_out value="500"/>
+			<SDO_time_out value="200"/>
+			<consumer_heartbeat_time value="3000"/>
+			<EXPOS_time_out value="10000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="200"/>
+			<ChComNum value="4"/>
+			<Frame29ID value="0"/>
+			<CANLogEnable value="1"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="1"/>
+		</current_settings>
+		<default_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="3"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="10"/>
+			<request_buffer_size value="10"/>
+			<msg_repeat_limit value="150"/>
+			<com_r_count_max value="300"/>
+			<buf_time_out value="500"/>
+			<SDO_time_out value="200"/>
+			<consumer_heartbeat_time value="3000"/>
+			<EXPOS_time_out value="10000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="200"/>
+			<ChComNum value="4"/>
+			<Frame29ID value="0"/>
+			<CANLogEnable value="1"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="0"/>
+		</default_settings>
+	</device>
+	<device DeviceNum="5" value="USB RS">
+		<current_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="50"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="50"/>
+			<request_buffer_size value="1"/>
+			<msg_repeat_limit value="150"/>
+			<com_r_count_max value="300"/>
+			<buf_time_out value="100"/>
+			<SDO_time_out value="100"/>
+			<consumer_heartbeat_time value="10000"/>
+			<EXPOS_time_out value="10000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="200"/>
+			<ChComNum value="3"/>
+			<Frame29ID value="1"/>
+			<CANLogEnable value="1"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="1"/>
+		</current_settings>
+		<default_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="50"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="50"/>
+			<request_buffer_size value="1"/>
+			<msg_repeat_limit value="150"/>
+			<com_r_count_max value="300"/>
+			<buf_time_out value="100"/>
+			<SDO_time_out value="100"/>
+			<consumer_heartbeat_time value="10000"/>
+			<EXPOS_time_out value="10000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="200"/>
+			<ChComNum value="1"/>
+			<Frame29ID value="0"/>
+			<CANLogEnable value="1"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="1"/>
+		</default_settings>
+	</device>
+	<device DeviceNum="6" value="USB">
+		<current_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="50"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="160"/>
+			<request_buffer_size value="160"/>
+			<msg_repeat_limit value="50"/>
+			<com_r_count_max value="30"/>
+			<buf_time_out value="200"/>
+			<SDO_time_out value="200"/>
+			<consumer_heartbeat_time value="10000"/>
+			<EXPOS_time_out value="20000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="800"/>
+			<ChComNum value="4"/>
+			<Frame29ID value="1"/>
+			<CANLogEnable value="1"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="1"/>
+		</current_settings>
+		<default_settings>
+			<baudrate value="5"/>
+			<can_fifo_size value="50"/>
+			<node_info_repeat_limit value="2"/>
+			<request_fifo_size value="20"/>
+			<request_buffer_size value="20"/>
+			<msg_repeat_limit value="50"/>
+			<com_r_count_max value="30"/>
+			<buf_time_out value="200"/>
+			<SDO_time_out value="200"/>
+			<consumer_heartbeat_time value="10000"/>
+			<EXPOS_time_out value="20000"/>
+			<zero_traffic_time value="0"/>
+			<zero_traffic_period value="800"/>
+			<ChComNum value="4"/>
+			<Frame29ID value="0"/>
+			<CANLogEnable value="1"/>
+			<CANLogAutoDelete value="1"/>
+			<QueryVendorToken value="1"/>
+		</default_settings>
+	</device>
+</root>

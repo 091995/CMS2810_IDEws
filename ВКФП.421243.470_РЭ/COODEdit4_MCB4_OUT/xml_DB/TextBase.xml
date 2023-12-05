@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+	<Texts>
+		<text_1 id="1" textid="1" text="Device Type" sets="0" trus="Тип устройства" teng="Device Type" author="default"/>
+		<text_2 id="2" textid="2" text="ErrReg" sets="0" trus="Регистр ошибок" teng="Error Register" author="default"/>
+		<text_3 id="3" textid="3" text="DevSta" sets="0" trus="Manufacturer Status Register" teng="Manufacturer Status Register" author="default"/>
+		<text_4 id="4" textid="4" text="eCOBID" sets="0" trus="COB-ID Emergency Object" teng="COB-ID Emergency Object" author="default"/>
+		<text_5 id="5" textid="5" text="CHBT" sets="0" trus="Время ожидания сообщения Heartbeat" teng="Consumer Heartbeat Time" author="default"/>
+		<text_6 id="6" textid="6" text="PHBT" sets="0" trus="Период генерации сообщения Heartbeat" teng="Producer Heartbeat Time" author="default"/>
+		<text_7 id="7" textid="7" text="IdObj" sets="0" trus="Идентификационный объект" teng="Identity Object" author="default"/>
+		<text_8 id="8" textid="8" text="VendID" sets="0" trus="Код производителя" teng="Vendor ID" author="default"/>
+		<text_9 id="9" textid="9" text="PrCode" sets="0" trus="Код продукта" teng="Product Code" author="default"/>
+		<text_10 id="10" textid="10" text="RevNum" sets="0" trus="Номер ревизии" teng="Revision Number" author="default"/>
+		<text_11 id="11" textid="11" text="SerNum" sets="0" trus="Серийный номер" teng="Serial Number" author="default"/>
+		<text_12 id="12" textid="12" text="SSDOP" sets="0" trus="Параметры SDO сервиса" teng="Server SDO Parameter" author="default"/>
+		<text_13 id="13" textid="13" text="CSRXID" sets="0" trus="COB-ID Client-&gt;Server(rx)" teng="COB-ID Client-&gt;Server(rx)" author="default"/>
+		<text_14 id="14" textid="14" text="SCTXID" sets="0" trus="COB-ID Server-&gt;Client(tx)" teng="COB-ID Server-&gt;Client(tx)" author="default"/>
+		<text_15 id="15" textid="15" text="CSDOP" sets="0" trus="Client SDO Parameter" teng="Client SDO Parameter" author="default"/>
+		<text_16 id="16" textid="16" text="CSTXID" sets="0" trus="COB-ID Client-&gt;Server(tx)" teng="COB-ID Client-&gt;Server(tx)" author="default"/>
+		<text_17 id="17" textid="17" text="SCRXID" sets="0" trus="COB-ID Server-&gt;Client(rx)" teng="COB-ID Server-&gt;Client(rx)" author="default"/>
+		<text_18 id="18" textid="18" text="SDOSID" sets="0" trus="NODE-ID on SDO server" teng="NODE-ID on SDO server" author="default"/>
+		<text_19 id="19" textid="19" text="RPDO1P" sets="0" trus="RPDO1 Communication Parameters" teng="RPDO1 Communication Parameters" author="default"/>
+		<text_20 id="20" textid="20" text="IRPDO1" sets="0" trus="COB-ID for RPDO1" teng="COB-ID for RPDO1" author="default"/>
+		<text_21 id="21" textid="21" text="TransT" sets="0" trus="Тип передачи" teng="Transmission Type" author="default"/>
+		<text_22 id="22" textid="22" text="RPDO2P" sets="0" trus="RPDO2 Communication Parameters" teng="RPDO2 Communication Parameters" author="default"/>
+		<text_23 id="23" textid="23" text="IRPDO2" sets="0" trus="COB-ID for RPDO2" teng="COB-ID for RPDO2" author="default"/>
+		<text_24 id="24" textid="24" text="RPDO3P" sets="0" trus="RPDO3 Communication Parameters" teng="RPDO3 Communication Parameters" author="default"/>
+		<text_25 id="25" textid="25" text="IRPDO3" sets="0" trus="COB-ID for RPDO3" teng="COB-ID for RPDO3" author="default"/>
+		<text_26 id="26" textid="26" text="RPDO4P" sets="0" trus="RPDO4 Communication Parameters" teng="RPDO4 Communication Parameters" author="default"/>
+		<text_27 id="27" textid="27" text="IRPDO4" sets="0" trus="COB-ID for RPDO4" teng="COB-ID for RPDO4" author="default"/>
+		<text_28 id="28" textid="28" text="RPDO5P" sets="0" trus="RPDO5 Communication Parameters" teng="RPDO5 Communication Parameters" author="default"/>
+		<text_29 id="29" textid="29" text="IRPDO5" sets="0" trus="COB-ID for RPDO5" teng="COB-ID for RPDO5" author="default"/>
+		<text_30 id="30" textid="30" text="RPDO6P" sets="0" trus="RPDO6 Communication Parameters" teng="RPDO6 Communication Parameters" author="default"/>
+		<text_31 id="31" textid="31" text="IRPDO6" sets="0" trus="COB-ID for RPDO6" teng="COB-ID for RPDO6" author="default"/>
+		<text_32 id="32" textid="32" text="RPDO7P" sets="0" trus="RPDO7 Communication Parameters" teng="RPDO7 Communication Parameters" author="default"/>
+		<text_33 id="33" textid="33" text="IRPDO7" sets="0" trus="COB-ID for RPDO7" teng="COB-ID for RPDO7" author="default"/>
+		<text_34 id="34" textid="34" text="RPDO8P" sets="0" trus="RPDO8 Communication Parameters" teng="RPDO8 Communication Parameters" author="default"/>
+		<text_35 id="35" textid="35" text="IRPDO8" sets="0" trus="COB-ID for RPDO8" teng="COB-ID for RPDO8" author="default"/>
+		<text_36 id="36" textid="36" text="RPDO1M" sets="0" trus="RPDO1 Mapping Parameters" teng="RPDO1 Mapping Parameters" author="default"/>
+		<text_37 id="37" textid="37" text="RPM11" sets="0" trus="RPDO1-1 Mapping" teng="RPDO1-1 Mapping" author="default"/>
+		<text_38 id="38" textid="38" text="RPM12" sets="0" trus="RPDO1-2 Mapping" teng="RPDO1-2 Mapping" author="default"/>
+		<text_39 id="39" textid="39" text="RPM13" sets="0" trus="RPDO1-3 Mapping" teng="RPDO1-3 Mapping" author="default"/>
+		<text_40 id="40" textid="40" text="RPM14" sets="0" trus="RPDO1-4 Mapping" teng="RPDO1-4 Mapping" author="default"/>
+		<text_41 id="41" textid="41" text="RPDO2M" sets="0" trus="RPDO2 Mapping Parameters" teng="RPDO2 Mapping Parameters" author="default"/>
+		<text_42 id="42" textid="42" text="RPM21" sets="0" trus="RPDO2-1 Mapping" teng="RPDO2-1 Mapping" author="default"/>
+		<text_43 id="43" textid="43" text="RPM22" sets="0" trus="RPDO2-2 Mapping" teng="RPDO2-2 Mapping" author="default"/>
+		<text_44 id="44" textid="44" text="RPM23" sets="0" trus="RPDO2-3 Mapping" teng="RPDO2-3 Mapping" author="default"/>
+		<text_45 id="45" textid="45" text="RPM24" sets="0" trus="RPDO2-4 Mapping" teng="RPDO2-4 Mapping" author="default"/>
+		<text_46 id="46" textid="46" text="RPDO3M" sets="0" trus="RPDO3 Mapping Parameters" teng="RPDO3 Mapping Parameters" author="default"/>
+		<text_47 id="47" textid="47" text="RPM31" sets="0" trus="RPDO3-1 Mapping" teng="RPDO3-1 Mapping" author="default"/>
+		<text_48 id="48" textid="48" text="RPM32" sets="0" trus="RPDO3-2 Mapping" teng="RPDO3-2 Mapping" author="default"/>
+		<text_49 id="49" textid="49" text="RPM33" sets="0" trus="RPDO3-3 Mapping" teng="RPDO3-3 Mapping" author="default"/>
+		<text_50 id="50" textid="50" text="RPM34" sets="0" trus="RPDO3-4 Mapping" teng="RPDO3-4 Mapping" author="default"/>
+		<text_51 id="51" textid="51" text="RPDO4M" sets="0" trus="RPDO4 Mapping Parameters" teng="RPDO4 Mapping Parameters" author="default"/>
+		<text_52 id="52" textid="52" text="RPM41" sets="0" trus="RPDO4-1 Mapping" teng="RPDO4-1 Mapping" author="default"/>
+		<text_53 id="53" textid="53" text="RPM42" sets="0" trus="RPDO4-2 Mapping" teng="RPDO4-2 Mapping" author="default"/>
+		<text_54 id="54" textid="54" text="RPM43" sets="0" trus="RPDO4-3 Mapping" teng="RPDO4-3 Mapping" author="default"/>
+		<text_55 id="55" textid="55" text="RPM44" sets="0" trus="RPDO4-4 Mapping" teng="RPDO4-4 Mapping" author="default"/>
+		<text_56 id="56" textid="56" text="RPDO5M" sets="0" trus="RPDO5 Mapping Parameters" teng="RPDO5 Mapping Parameters" author="default"/>
+		<text_57 id="57" textid="57" text="RPM51" sets="0" trus="RPDO5-1 Mapping" teng="RPDO5-1 Mapping" author="default"/>
+		<text_58 id="58" textid="58" text="RPM52" sets="0" trus="RPDO5-2 Mapping" teng="RPDO5-2 Mapping" author="default"/>
+		<text_59 id="59" textid="59" text="RPM53" sets="0" trus="RPDO5-3 Mapping" teng="RPDO5-3 Mapping" author="default"/>
+		<text_60 id="60" textid="60" text="RPM54" sets="0" trus="RPDO5-4 Mapping" teng="RPDO5-4 Mapping" author="default"/>
+		<text_61 id="61" textid="61" text="RPDO6M" sets="0" trus="RPDO6 Mapping Parameters" teng="RPDO6 Mapping Parameters" author="default"/>
+		<text_62 id="62" textid="62" text="RPM61" sets="0" trus="RPDO6-1 Mapping" teng="RPDO6-1 Mapping" author="default"/>
+		<text_63 id="63" textid="63" text="RPM62" sets="0" trus="RPDO6-2 Mapping" teng="RPDO6-2 Mapping" author="default"/>
+		<text_64 id="64" textid="64" text="RPM63" sets="0" trus="RPDO6-3 Mapping" teng="RPDO6-3 Mapping" author="default"/>
+		<text_65 id="65" textid="65" text="RPM64" sets="0" trus="RPDO6-4 Mapping" teng="RPDO6-4 Mapping" author="default"/>
+		<text_66 id="66" textid="66" text="RPDO7M" sets="0" trus="RPDO7 Mapping Parameters" teng="RPDO7 Mapping Parameters" author="default"/>
+		<text_67 id="67" textid="67" text="RPM71" sets="0" trus="RPDO7-1 Mapping" teng="RPDO7-1 Mapping" author="default"/>
+		<text_68 id="68" textid="68" text="RPM72" sets="0" trus="RPDO7-2 Mapping" teng="RPDO7-2 Mapping" author="default"/>
+		<text_69 id="69" textid="69" text="RPM73" sets="0" trus="RPDO7-3 Mapping" teng="RPDO7-3 Mapping" author="default"/>
+		<text_70 id="70" textid="70" text="RPM74" sets="0" trus="RPDO7-4 Mapping" teng="RPDO7-4 Mapping" author="default"/>
+		<text_71 id="71" textid="71" text="RPDO8M" sets="0" trus="RPDO8 Mapping Parameters" teng="RPDO8 Mapping Parameters" author="default"/>
+		<text_72 id="72" textid="72" text="RPM81" sets="0" trus="RPDO8-1 Mapping" teng="RPDO8-1 Mapping" author="default"/>
+		<text_73 id="73" textid="73" text="RPM82" sets="0" trus="RPDO8-2 Mapping" teng="RPDO8-2 Mapping" author="default"/>
+		<text_74 id="74" textid="74" text="RPM83" sets="0" trus="RPDO8-3 Mapping" teng="RPDO8-3 Mapping" author="default"/>
+		<text_75 id="75" textid="75" text="RPM84" sets="0" trus="RPDO8-4 Mapping" teng="RPDO8-4 Mapping" author="default"/>
+		<text_76 id="76" textid="76" text="TPDO1P" sets="0" trus="TPDO1 Communication Parameters" teng="TPDO1 Communication Parameters" author="default"/>
+		<text_77 id="77" textid="77" text="ITPDO1" sets="0" trus="COB-ID for TPDO1" teng="COB-ID for TPDO1" author="default"/>
+		<text_78 id="78" textid="78" text="ITime1" sets="0" trus="Inhibit Time 1" teng="Inhibit Time 1" author="default"/>
+		<text_79 id="79" textid="79" text="CompEn" sets="0" trus="Compatibility Entry" teng="Compatibility Entry" author="default"/>
+		<text_80 id="80" textid="80" text="EvTmr1" sets="0" trus="Event Timer 1" teng="Event Timer 1" author="default"/>
+		<text_81 id="81" textid="81" text="TPDO2P" sets="0" trus="TPDO2 Communication Parameters" teng="TPDO2 Communication Parameters" author="default"/>
+		<text_82 id="82" textid="82" text="ITPDO2" sets="0" trus="COB-ID for TPDO2" teng="COB-ID for TPDO2" author="default"/>
+		<text_83 id="83" textid="83" text="ITime2" sets="0" trus="Inhibit Time 2" teng="Inhibit Time 2" author="default"/>
+		<text_84 id="84" textid="84" text="EvTmr2" sets="0" trus="Event Timer 2" teng="Event Timer 2" author="default"/>
+		<text_85 id="85" textid="85" text="TPDO3P" sets="0" trus="TPDO3 Communication Parameters" teng="TPDO3 Communication Parameters" author="default"/>
+		<text_86 id="86" textid="86" text="ITPDO3" sets="0" trus="COB-ID for TPDO3" teng="COB-ID for TPDO3" author="default"/>
+		<text_87 id="87" textid="87" text="ITime3" sets="0" trus="Inhibit Time 3" teng="Inhibit Time 3" author="default"/>
+		<text_88 id="88" textid="88" text="EvTmr3" sets="0" trus="Event Timer 3" teng="Event Timer 3" author="default"/>
+		<text_89 id="89" textid="89" text="TPDO4P" sets="0" trus="TPDO4 Communication Parameters" teng="TPDO4 Communication Parameters" author="default"/>
+		<text_90 id="90" textid="90" text="ITPDO4" sets="0" trus="COB-ID for TPDO4" teng="COB-ID for TPDO4" author="default"/>
+		<text_91 id="91" textid="91" text="ITime4" sets="0" trus="Inhibit Time 4" teng="Inhibit Time 4" author="default"/>
+		<text_92 id="92" textid="92" text="EvTmr4" sets="0" trus="Event Timer 4" teng="Event Timer 4" author="default"/>
+		<text_93 id="93" textid="93" text="TPDO5P" sets="0" trus="TPDO5 Communication Parameters" teng="TPDO5 Communication Parameters" author="default"/>
+		<text_94 id="94" textid="94" text="ITPDO5" sets="0" trus="COB-ID for TPDO5" teng="COB-ID for TPDO5" author="default"/>
+		<text_95 id="95" textid="95" text="ITime5" sets="0" trus="Inhibit Time 5" teng="Inhibit Time 5" author="default"/>
+		<text_96 id="96" textid="96" text="EvTmr5" sets="0" trus="Event Timer 5" teng="Event Timer 5" author="default"/>
+		<text_97 id="97" textid="97" text="TPDO6P" sets="0" trus="TPDO6 Communication Parameters" teng="TPDO6 Communication Parameters" author="default"/>
+		<text_98 id="98" textid="98" text="ITPDO6" sets="0" trus="COB-ID for TPDO6" teng="COB-ID for TPDO6" author="default"/>
+		<text_99 id="99" textid="99" text="ITime6" sets="0" trus="Inhibit Time 6" teng="Inhibit Time 6" author="default"/>
+		<text_100 id="100" textid="100" text="EvTmr6" sets="0" trus="Event Timer 6" teng="Event Timer 6" author="default"/>
+		<text_101 id="101" textid="101" text="TPDO7P" sets="0" trus="TPDO7 Communication Parameters" teng="TPDO7 Communication Parameters" author="default"/>
+		<text_102 id="102" textid="102" text="ITPDO7" sets="0" trus="COB-ID for TPDO7" teng="COB-ID for TPDO7" author="default"/>
+		<text_103 id="103" textid="103" text="ITime7" sets="0" trus="Inhibit Time 7" teng="Inhibit Time 7" author="default"/>
+		<text_104 id="104" textid="104" text="EvTmr7" sets="0" trus="Event Timer 7" teng="Event Timer 7" author="default"/>
+		<text_105 id="105" textid="105" text="TPDO8P" sets="0" trus="TPDO8 Communication Parameters" teng="TPDO8 Communication Parameters" author="default"/>
+		<text_106 id="106" textid="106" text="ITPDO8" sets="0" trus="COB-ID for TPDO8" teng="COB-ID for TPDO8" author="default"/>
+		<text_107 id="107" textid="107" text="ITime8" sets="0" trus="Inhibit Time 8" teng="Inhibit Time 8" author="default"/>
+		<text_108 id="108" textid="108" text="EvTmr8" sets="0" trus="Event Timer 8" teng="Event Timer 8" author="default"/>
+		<text_109 id="109" textid="109" text="TPDO1M" sets="0" trus="TPDO1 Mapping Parameters" teng="TPDO1 Mapping Parameters" author="default"/>
+		<text_110 id="110" textid="110" text="TPM11" sets="0" trus="TPDO1-1 Mapping" teng="TPDO1-1 Mapping" author="default"/>
+		<text_111 id="111" textid="111" text="TPM12" sets="0" trus="TPDO1-2 Mapping" teng="TPDO1-2 Mapping" author="default"/>
+		<text_112 id="112" textid="112" text="TPM13" sets="0" trus="TPDO1-3 Mapping" teng="TPDO1-3 Mapping" author="default"/>
+		<text_113 id="113" textid="113" text="TPM14" sets="0" trus="TPDO1-4 Mapping" teng="TPDO1-4 Mapping" author="default"/>
+		<text_114 id="114" textid="114" text="TPDO2M" sets="0" trus="TPDO2 Mapping Parameters" teng="TPDO2 Mapping Parameters" author="default"/>
+		<text_115 id="115" textid="115" text="TPM21" sets="0" trus="TPDO2-1 Mapping" teng="TPDO2-1 Mapping" author="default"/>
+		<text_116 id="116" textid="116" text="TPM22" sets="0" trus="TPDO2-2 Mapping" teng="TPDO2-2 Mapping" author="default"/>
+		<text_117 id="117" textid="117" text="TPM23" sets="0" trus="TPDO2-3 Mapping" teng="TPDO2-3 Mapping" author="default"/>
+		<text_118 id="118" textid="118" text="TPM24" sets="0" trus="TPDO2-4 Mapping" teng="TPDO2-4 Mapping" author="default"/>
+		<text_119 id="119" textid="119" text="TPDO3M" sets="0" trus="TPDO3 Mapping Parameters" teng="TPDO3 Mapping Parameters" author="default"/>
+		<text_120 id="120" textid="120" text="TPM31" sets="0" trus="TPDO3-1 Mapping" teng="TPDO3-1 Mapping" author="default"/>
+		<text_121 id="121" textid="121" text="TPM32" sets="0" trus="TPDO3-2 Mapping" teng="TPDO3-2 Mapping" author="default"/>
+		<text_122 id="122" textid="122" text="TPM33" sets="0" trus="TPDO3-3 Mapping" teng="TPDO3-3 Mapping" author="default"/>
+		<text_123 id="123" textid="123" text="TPM34" sets="0" trus="TPDO3-4 Mapping" teng="TPDO3-4 Mapping" author="default"/>
+		<text_124 id="124" textid="124" text="TPDO4M" sets="0" trus="TPDO4 Mapping Parameters" teng="TPDO4 Mapping Parameters" author="default"/>
+		<text_125 id="125" textid="125" text="TPM41" sets="0" trus="TPDO4-1 Mapping" teng="TPDO4-1 Mapping" author="default"/>
+		<text_126 id="126" textid="126" text="TPM42" sets="0" trus="TPDO4-2 Mapping" teng="TPDO4-2 Mapping" author="default"/>
+		<text_127 id="127" textid="127" text="TPM43" sets="0" trus="TPDO4-3 Mapping" teng="TPDO4-3 Mapping" author="default"/>
+		<text_128 id="128" textid="128" text="TPM44" sets="0" trus="TPDO4-4 Mapping" teng="TPDO4-4 Mapping" author="default"/>
+		<text_129 id="129" textid="129" text="TPDO5M" sets="0" trus="TPDO5 Mapping Parameters" teng="TPDO5 Mapping Parameters" author="default"/>
+		<text_130 id="130" textid="130" text="TPM51" sets="0" trus="TPDO5-1 Mapping" teng="TPDO5-1 Mapping" author="default"/>
+		<text_131 id="131" textid="131" text="TPM52" sets="0" trus="TPDO5-2 Mapping" teng="TPDO5-2 Mapping" author="default"/>
+		<text_132 id="132" textid="132" text="TPM53" sets="0" trus="TPDO5-3 Mapping" teng="TPDO5-3 Mapping" author="default"/>
+		<text_133 id="133" textid="133" text="TPM54" sets="0" trus="TPDO5-4 Mapping" teng="TPDO5-4 Mapping" author="default"/>
+		<text_134 id="134" textid="134" text="TPDO6M" sets="0" trus="TPDO6 Mapping Parameters" teng="TPDO6 Mapping Parameters" author="default"/>
+		<text_135 id="135" textid="135" text="TPM61" sets="0" trus="TPDO6-1 Mapping" teng="TPDO6-1 Mapping" author="default"/>
+		<text_136 id="136" textid="136" text="TPM62" sets="0" trus="TPDO6-2 Mapping" teng="TPDO6-2 Mapping" author="default"/>
+		<text_137 id="137" textid="137" text="TPM63" sets="0" trus="TPDO6-3 Mapping" teng="TPDO6-3 Mapping" author="default"/>
+		<text_138 id="138" textid="138" text="TPM64" sets="0" trus="TPDO6-4 Mapping" teng="TPDO6-4 Mapping" author="default"/>
+		<text_139 id="139" textid="139" text="TPDO7M" sets="0" trus="TPDO7 Mapping Parameters" teng="TPDO7 Mapping Parameters" author="default"/>
+		<text_140 id="140" textid="140" text="TPM71" sets="0" trus="TPDO7-1 Mapping" teng="TPDO7-1 Mapping" author="default"/>
+		<text_141 id="141" textid="141" text="TPM72" sets="0" trus="TPDO7-2 Mapping" teng="TPDO7-2 Mapping" author="default"/>
+		<text_142 id="142" textid="142" text="TPM73" sets="0" trus="TPDO7-3 Mapping" teng="TPDO7-3 Mapping" author="default"/>
+		<text_143 id="143" textid="143" text="TPM74" sets="0" trus="TPDO7-4 Mapping" teng="TPDO7-4 Mapping" author="default"/>
+		<text_144 id="144" textid="144" text="TPDO8M" sets="0" trus="TPDO8 Mapping Parameters" teng="TPDO8 Mapping Parameters" author="default"/>
+		<text_145 id="145" textid="145" text="TPM81" sets="0" trus="TPDO8-1 Mapping" teng="TPDO8-1 Mapping" author="default"/>
+		<text_146 id="146" textid="146" text="TPM82" sets="0" trus="TPDO8-2 Mapping" teng="TPDO8-2 Mapping" author="default"/>
+		<text_147 id="147" textid="147" text="TPM83" sets="0" trus="TPDO8-3 Mapping" teng="TPDO8-3 Mapping" author="default"/>
+		<text_148 id="148" textid="148" text="TPM84" sets="0" trus="TPDO8-4 Mapping" teng="TPDO8-4 Mapping" author="default"/>
+		<text_149 id="149" textid="149" text="NodeID" sets="0" trus="CAN NODE-ID" teng="CAN NODE-ID" author="default"/>
+		<text_150 id="150" textid="150" text="CANBR" sets="1" trus="CAN Bit Rate" teng="CAN Bit Rate" author="default"/>
+		<text_151 id="151" textid="151" text="SpData" sets="0" trus="Special Data" teng="Special Data" author="default"/>
+		<text_152 id="152" textid="152" text="SpDat1" sets="0" trus="Special Data 1" teng="Special Data 1" author="default"/>
+		<text_153 id="153" textid="153" text="SpDat2" sets="0" trus="Special Data 2" teng="Special Data 2" author="default"/>
+		<text_154 id="154" textid="154" text="SpDat3" sets="0" trus="Special Data 3" teng="Special Data 3" author="default"/>
+		<text_155 id="155" textid="155" text="SpDat4" sets="0" trus="Special Data 4" teng="Special Data 4" author="default"/>
+		<text_156 id="156" textid="156" text="Secret" sets="0" trus="Secret Code" teng="Secret Code" author="default"/>
+		<text_157 id="157" textid="157" text="ProtBt" sets="4" trus="Protect Bit" teng="Protect Bit" author="default"/>
+		<text_158 id="158" textid="158" text="OD_md5_hash" sets="0" trus="OD_md5_hash" teng="OD_md5_hash" author="default"/>
+		<text_159 id="159" textid="159" text="md5_hash_0" sets="0" trus="md5_hash_0" teng="md5_hash_0" author="default"/>
+		<text_160 id="160" textid="160" text="md5_hash_1" sets="0" trus="md5_hash_1" teng="md5_hash_1" author="default"/>
+		<text_161 id="161" textid="161" text="md5_hash_2" sets="0" trus="md5_hash_2" teng="md5_hash_2" author="default"/>
+		<text_162 id="162" textid="162" text="md5_hash_3" sets="0" trus="md5_hash_3" teng="md5_hash_3" author="default"/>
+		<text_163 id="163" textid="163" text="HBFlag" sets="0" trus="Heartbeat Flag" teng="Heartbeat Flag" author="default"/>
+		<text_164 id="164" textid="164" text="HFlag0" sets="0" trus="Heartbeat Flag 0-31" teng="Heartbeat Flag 0-31" author="default"/>
+		<text_165 id="165" textid="165" text="HFlag1" sets="0" trus="Heartbeat Flag 32-63" teng="Heartbeat Flag 32-63" author="default"/>
+		<text_166 id="166" textid="166" text="HFlag2" sets="0" trus="Heartbeat Flag 64-95" teng="Heartbeat Flag 64-95" author="default"/>
+		<text_167 id="167" textid="167" text="HFlag3" sets="0" trus="Heartbeat Flag 96-127" teng="Heartbeat Flag 96-127" author="default"/>
+		<text_168 id="168" textid="168" text="HBMask" sets="0" trus="Heartbeat Mask" teng="Heartbeat Mask" author="default"/>
+		<text_169 id="169" textid="169" text="HMask0" sets="0" trus="Heartbeat Mask 0-31" teng="Heartbeat Mask 0-31" author="default"/>
+		<text_170 id="170" textid="170" text="HMask1" sets="0" trus="Heartbeat Mask 32-63" teng="Heartbeat Mask 32-63" author="default"/>
+		<text_171 id="171" textid="171" text="HMask2" sets="0" trus="Heartbeat Mask 64-95" teng="Heartbeat Mask 64-95" author="default"/>
+		<text_172 id="172" textid="172" text="HMask3" sets="0" trus="Heartbeat Mask 96-127" teng="Heartbeat Mask 96-127" author="default"/>
+		<text_173 id="173" textid="173" text="HBASta" sets="3" trus="Heartbeat Autostart" teng="Heartbeat Autostart" author="default"/>
+		<text_174 id="174" textid="174" text="HBARec" sets="3" trus="Heartbeat Autorecovery" teng="Heartbeat Autorecovery" author="default"/>
+		<text_175 id="175" textid="175" text="State" sets="0" trus="Состояние драйвера CAN-Open" teng="Состояние драйвера CAN-Open" author="default"/>
+		<text_176 id="176" textid="176" text="EmErCo" sets="0" trus="Emergency Error Code" teng="Emergency Error Code" author="default"/>
+		<text_177 id="177" textid="177" text="DeErSt" sets="0" trus="Device Error State" teng="Device Error State" author="default"/>
+		<text_178 id="178" textid="178" text="ODComW" sets="0" trus="Object Dictionary Command Window" teng="Object Dictionary Command Window" author="default"/>
+		<text_179 id="179" textid="179" text="ODComm" sets="0" trus="Object Dictionary Command" teng="Object Dictionary Command" author="default"/>
+		<text_180 id="180" textid="180" text="ODCInd" sets="0" trus="Current OD Index" teng="Current OD Index" author="default"/>
+		<text_181 id="181" textid="181" text="ODCSub" sets="0" trus="Current OD Sub-Index" teng="Current OD Sub-Index" author="default"/>
+		<text_182 id="182" textid="182" text="ODCTxt" sets="0" trus="Current OD Element Text" teng="Current OD Element Text" author="default"/>
+		<text_183 id="183" textid="183" text="ODCFrm" sets="0" trus="Current OD Element Format" teng="Current OD Element Format" author="default"/>
+		<text_184 id="184" textid="184" text="ODCMin" sets="0" trus="Current OD Element Min" teng="Current OD Element Min" author="default"/>
+		<text_185 id="185" textid="185" text="ODCMax" sets="0" trus="Current OD Element Max" teng="Current OD Element Max" author="default"/>
+		<text_186 id="186" textid="186" text="ODCDef" sets="0" trus="Current OD Element Default" teng="Current OD Element Default" author="default"/>
+		<text_187 id="187" textid="187" text="ODCMiL" sets="0" trus="Current OD Element MinLow" teng="Current OD Element MinLow" author="default"/>
+		<text_188 id="188" textid="188" text="ODCMaL" sets="0" trus="Current OD Element MaxLow" teng="Current OD Element MaxLow" author="default"/>
+		<text_189 id="189" textid="189" text="ODCDeL" sets="0" trus="Current OD Element Default Low" teng="Current OD Element Default Low" author="default"/>
+		<text_190 id="190" textid="190" text="ODCAdr" sets="0" trus="Current OD Element Address" teng="Current OD Element Address" author="default"/>
+		<text_191 id="191" textid="191" text="Группа" sets="0" trus="Группа параметров" teng="Parameter Group" author="default"/>
+		<text_192 id="192" textid="192" text="КолИнд" sets="0" trus="Количество индексов" teng="Number of Indexes" author="default"/>
+		<text_193 id="193" textid="193" text="DefInd" sets="0" trus="Default Index" teng="Default Index" author="default"/>
+		<text_194 id="194" textid="194" text="DfInd1" sets="0" trus="Default Index 1" teng="Default Index 1" author="default"/>
+		<text_195 id="195" textid="195" text="DfInd2" sets="0" trus="Default Index 2" teng="Default Index 2" author="default"/>
+		<text_196 id="196" textid="196" text="ProfML" sets="0" trus="Profile Mask List" teng="Profile Mask List" author="default"/>
+		<text_197 id="197" textid="197" text="MskEl0" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_198 id="198" textid="198" text="MskEl1" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_199 id="199" textid="199" text="MskEl2" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_200 id="200" textid="200" text="MskEl3" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_201 id="201" textid="201" text="MskEl4" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_202 id="202" textid="202" text="MskEl5" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_203 id="203" textid="203" text="MskEl6" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_204 id="204" textid="204" text="MskEl7" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_205 id="205" textid="205" text="MskEl8" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_206 id="206" textid="206" text="MskEl9" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_207 id="207" textid="207" text="MskElA" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_208 id="208" textid="208" text="MskElB" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_209 id="209" textid="209" text="MskElC" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_210 id="210" textid="210" text="MskElD" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_211 id="211" textid="211" text="MskElE" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_212 id="212" textid="212" text="MskElF" sets="5" trus="Mask Element" teng="Mask Element" author="default"/>
+		<text_213 id="213" textid="213" text="SNR0" sets="0" trus="Scale Number 0 Record" teng="Scale Number 0 Record" author="default"/>
+		<text_214 id="214" textid="214" text="SN0" sets="0" trus="Scale Number 0" teng="Scale Number 0" author="default"/>
+		<text_215 id="215" textid="215" text="S0Fmt" sets="0" trus="Scale Number 0 Format" teng="Scale Number 0 Format" author="default"/>
+		<text_216 id="216" textid="216" text="Q-type" sets="0" trus="Scale Number Format Q" teng="Scale Number Format Q" author="default"/>
+		<text_217 id="217" textid="217" text="NFloat" sets="0" trus="Scale Number Format NumOfFloat" teng="Scale Number Format NumOfFloat" author="default"/>
+		<text_218 id="218" textid="218" text="Prefix" sets="6" trus="Scale Number Format Prefix" teng="Scale Number Format Prefix" author="default"/>
+		<text_219 id="219" textid="219" text="Units" sets="7" trus="Scale Number Format Units" teng="Scale Number Format Units" author="default"/>
+		<text_220 id="220" textid="220" text="SNR1" sets="0" trus="Scale Number 1 Record" teng="Scale Number 1 Record" author="default"/>
+		<text_221 id="221" textid="221" text="SN1" sets="0" trus="Scale Number 1" teng="Scale Number 1" author="default"/>
+		<text_222 id="222" textid="222" text="S1Fmt" sets="0" trus="Scale Number 1 Format" teng="Scale Number 1 Format" author="default"/>
+		<text_223 id="223" textid="223" text="SNR2" sets="0" trus="Scale Number 2 Record" teng="Scale Number 2 Record" author="default"/>
+		<text_224 id="224" textid="224" text="SN2" sets="0" trus="Scale Number 2" teng="Scale Number 2" author="default"/>
+		<text_225 id="225" textid="225" text="S2Fmt" sets="0" trus="Scale Number 2 Format" teng="Scale Number 2 Format" author="default"/>
+		<text_226 id="226" textid="226" text="SNR3" sets="0" trus="Scale Number 3 Record" teng="Scale Number 3 Record" author="default"/>
+		<text_227 id="227" textid="227" text="SN3" sets="0" trus="Scale Number 3" teng="Scale Number 3" author="default"/>
+		<text_228 id="228" textid="228" text="S3Fmt" sets="0" trus="Scale Number 3 Format" teng="Scale Number 3 Format" author="default"/>
+		<text_229 id="229" textid="229" text="SNR4" sets="0" trus="Scale Number 4 Record" teng="Scale Number 4 Record" author="default"/>
+		<text_230 id="230" textid="230" text="SN4" sets="0" trus="Scale Number 4" teng="Scale Number 4" author="default"/>
+		<text_231 id="231" textid="231" text="S4Fmt" sets="0" trus="Scale Number 4 Format" teng="Scale Number 4 Format" author="default"/>
+		<text_232 id="232" textid="232" text="SNR5" sets="0" trus="Scale Number 5 Record" teng="Scale Number 5 Record" author="default"/>
+		<text_233 id="233" textid="233" text="SN5" sets="0" trus="Scale Number 5" teng="Scale Number 5" author="default"/>
+		<text_234 id="234" textid="234" text="S5Fmt" sets="0" trus="Scale Number 5 Format" teng="Scale Number 5 Format" author="default"/>
+		<text_235 id="235" textid="235" text="SNR6" sets="0" trus="Scale Number 6 Record" teng="Scale Number 6 Record" author="default"/>
+		<text_236 id="236" textid="236" text="SN6" sets="0" trus="Scale Number 6" teng="Scale Number 6" author="default"/>
+		<text_237 id="237" textid="237" text="S6Fmt" sets="0" trus="Scale Number 6 Format" teng="Scale Number 6 Format" author="default"/>
+		<text_238 id="238" textid="238" text="SNR7" sets="0" trus="Scale Number 7 Record" teng="Scale Number 7 Record" author="default"/>
+		<text_239 id="239" textid="239" text="SN7" sets="0" trus="Scale Number 7" teng="Scale Number 7" author="default"/>
+		<text_240 id="240" textid="240" text="S7Fmt" sets="0" trus="Scale Number 7 Format" teng="Scale Number 7 Format" author="default"/>
+		<text_241 id="241" textid="241" text="SNR8" sets="0" trus="Scale Number 8 Record" teng="Scale Number 8 Record" author="default"/>
+		<text_242 id="242" textid="242" text="SN8" sets="0" trus="Scale Number 8" teng="Scale Number 8" author="default"/>
+		<text_243 id="243" textid="243" text="S8Fmt" sets="0" trus="Scale Number 8 Format" teng="Scale Number 8 Format" author="default"/>
+		<text_244 id="244" textid="244" text="SNR9" sets="0" trus="Scale Number 9 Record" teng="Scale Number 9 Record" author="default"/>
+		<text_245 id="245" textid="245" text="SN9" sets="0" trus="Scale Number 9" teng="Scale Number 9" author="default"/>
+		<text_246 id="246" textid="246" text="S9Fmt" sets="0" trus="Scale Number 9 Format" teng="Scale Number 9 Format" author="default"/>
+		<text_247 id="247" textid="247" text="SNRA" sets="0" trus="Scale Number A Record" teng="Scale Number A Record" author="default"/>
+		<text_248 id="248" textid="248" text="SNA" sets="0" trus="Scale Number A" teng="Scale Number A" author="default"/>
+		<text_249 id="249" textid="249" text="SAFmt" sets="0" trus="Scale Number A Format" teng="Scale Number A Format" author="default"/>
+		<text_250 id="250" textid="250" text="SNRB" sets="0" trus="Scale Number B Record" teng="Scale Number B Record" author="default"/>
+		<text_251 id="251" textid="251" text="SNB" sets="0" trus="Scale Number B" teng="Scale Number B" author="default"/>
+		<text_252 id="252" textid="252" text="SBFmt" sets="0" trus="Scale Number B Format" teng="Scale Number B Format" author="default"/>
+		<text_253 id="253" textid="253" text="SNRC" sets="0" trus="Scale Number C Record" teng="Scale Number C Record" author="default"/>
+		<text_254 id="254" textid="254" text="SNC" sets="0" trus="Scale Number C" teng="Scale Number C" author="default"/>
+		<text_255 id="255" textid="255" text="SCFmt" sets="0" trus="Scale Number C Format" teng="Scale Number C Format" author="default"/>
+		<text_256 id="256" textid="256" text="SNRD" sets="0" trus="Scale Number D Record" teng="Scale Number D Record" author="default"/>
+		<text_257 id="257" textid="257" text="SND" sets="0" trus="Scale Number D" teng="Scale Number D" author="default"/>
+		<text_258 id="258" textid="258" text="SDFmt" sets="0" trus="Scale Number D Format" teng="Scale Number D Format" author="default"/>
+		<text_259 id="259" textid="259" text="SNRE" sets="0" trus="Scale Number E Record" teng="Scale Number E Record" author="default"/>
+		<text_260 id="260" textid="260" text="SNE" sets="0" trus="Scale Number E" teng="Scale Number E" author="default"/>
+		<text_261 id="261" textid="261" text="SEFmt" sets="0" trus="Scale Number E Format" teng="Scale Number E Format" author="default"/>
+		<text_262 id="262" textid="262" text="SNRF" sets="0" trus="Scale Number F Record" teng="Scale Number F Record" author="default"/>
+		<text_263 id="263" textid="263" text="SNF" sets="0" trus="Scale Number F" teng="Scale Number F" author="default"/>
+		<text_264 id="264" textid="264" text="SFFmt" sets="0" trus="Scale Number F Format" teng="Scale Number F Format" author="default"/>
+		<text_265 id="265" textid="265" text="SNR10" sets="0" trus="Scale Number 10 Record" teng="Scale Number 10 Record" author="default"/>
+		<text_266 id="266" textid="266" text="SN10" sets="0" trus="Scale Number 10" teng="Scale Number 10" author="default"/>
+		<text_267 id="267" textid="267" text="S10Fmt" sets="0" trus="Scale Number 10 Format" teng="Scale Number 10 Format" author="default"/>
+		<text_268 id="268" textid="268" text="SNR11" sets="0" trus="Scale Number 11 Record" teng="Scale Number 11 Record" author="default"/>
+		<text_269 id="269" textid="269" text="SN11" sets="0" trus="Scale Number 11" teng="Scale Number 11" author="default"/>
+		<text_270 id="270" textid="270" text="S11Fmt" sets="0" trus="Scale Number 11 Format" teng="Scale Number 11 Format" author="default"/>
+		<text_271 id="271" textid="271" text="SNR12" sets="0" trus="Scale Number 12 Record" teng="Scale Number 12 Record" author="default"/>
+		<text_272 id="272" textid="272" text="SN12" sets="0" trus="Scale Number 12" teng="Scale Number 12" author="default"/>
+		<text_273 id="273" textid="273" text="S12Fmt" sets="0" trus="Scale Number 12 Format" teng="Scale Number 12 Format" author="default"/>
+		<text_274 id="274" textid="274" text="SNR13" sets="0" trus="Scale Number 13 Record" teng="Scale Number 13 Record" author="default"/>
+		<text_275 id="275" textid="275" text="SN13" sets="0" trus="Scale Number 13" teng="Scale Number 13" author="default"/>
+		<text_276 id="276" textid="276" text="S13Fmt" sets="0" trus="Scale Number 13 Format" teng="Scale Number 13 Format" author="default"/>
+		<text_277 id="277" textid="277" text="SNR14" sets="0" trus="Scale Number 14 Record" teng="Scale Number 14 Record" author="default"/>
+		<text_278 id="278" textid="278" text="SN14" sets="0" trus="Scale Number 14" teng="Scale Number 14" author="default"/>
+		<text_279 id="279" textid="279" text="S14Fmt" sets="0" trus="Scale Number 14 Format" teng="Scale Number 14 Format" author="default"/>
+		<text_280 id="280" textid="280" text="SNR15" sets="0" trus="Scale Number 15 Record" teng="Scale Number 15 Record" author="default"/>
+		<text_281 id="281" textid="281" text="SN15" sets="0" trus="Scale Number 15" teng="Scale Number 15" author="default"/>
+		<text_282 id="282" textid="282" text="S15Fmt" sets="0" trus="Scale Number 15Format" teng="Scale Number 15Format" author="default"/>
+		<text_283 id="283" textid="283" text="SNR16" sets="0" trus="Scale Number 16 Record" teng="Scale Number 16 Record" author="default"/>
+		<text_284 id="284" textid="284" text="SN16" sets="0" trus="Scale Number 16" teng="Scale Number 16" author="default"/>
+		<text_285 id="285" textid="285" text="S16Fmt" sets="0" trus="Scale Number 16Format" teng="Scale Number 16Format" author="default"/>
+		<text_286 id="286" textid="286" text="SNR17" sets="0" trus="Scale Number 17 Record" teng="Scale Number 17 Record" author="default"/>
+		<text_287 id="287" textid="287" text="SN17" sets="0" trus="Scale Number 17" teng="Scale Number 17" author="default"/>
+		<text_288 id="288" textid="288" text="S17Fmt" sets="0" trus="Scale Number 17Format" teng="Scale Number 17Format" author="default"/>
+		<text_289 id="289" textid="289" text="SNR18" sets="0" trus="Scale Number 18 Record" teng="Scale Number 18 Record" author="default"/>
+		<text_290 id="290" textid="290" text="SN18" sets="0" trus="Scale Number 18" teng="Scale Number 18" author="default"/>
+		<text_291 id="291" textid="291" text="S18Fmt" sets="0" trus="Scale Number 18Format" teng="Scale Number 18Format" author="default"/>
+		<text_292 id="292" textid="292" text="SNR19" sets="0" trus="Scale Number 19 Record" teng="Scale Number 19 Record" author="default"/>
+		<text_293 id="293" textid="293" text="SN19" sets="0" trus="Scale Number 19" teng="Scale Number 19" author="default"/>
+		<text_294 id="294" textid="294" text="S19Fmt" sets="0" trus="Scale Number 19Format" teng="Scale Number 19Format" author="default"/>
+		<text_295 id="295" textid="295" text="SNR1A" sets="0" trus="Scale Number 1A Record" teng="Scale Number 1A Record" author="default"/>
+		<text_296 id="296" textid="296" text="SN1A" sets="0" trus="Scale Number 1A" teng="Scale Number 1A" author="default"/>
+		<text_297 id="297" textid="297" text="S1AFmt" sets="0" trus="Scale Number 1AFormat" teng="Scale Number 1AFormat" author="default"/>
+		<text_298 id="298" textid="298" text="SNR1B" sets="0" trus="Scale Number 1B Record" teng="Scale Number 1B Record" author="default"/>
+		<text_299 id="299" textid="299" text="SN1B" sets="0" trus="Scale Number 1B" teng="Scale Number 1B" author="default"/>
+		<text_300 id="300" textid="300" text="S1BFmt" sets="0" trus="Scale Number 1BFormat" teng="Scale Number 1BFormat" author="default"/>
+		<text_301 id="301" textid="301" text="SNR1C" sets="0" trus="Scale Number 1C Record" teng="Scale Number 1C Record" author="default"/>
+		<text_302 id="302" textid="302" text="SN1C" sets="0" trus="Scale Number 1C" teng="Scale Number 1C" author="default"/>
+		<text_303 id="303" textid="303" text="S1CFmt" sets="0" trus="Scale Number 1C Format" teng="Scale Number 1C Format" author="default"/>
+		<text_304 id="304" textid="304" text="SNR1D" sets="0" trus="Scale Number 1D Record" teng="Scale Number 1D Record" author="default"/>
+		<text_305 id="305" textid="305" text="SN1D" sets="0" trus="Scale Number 1D" teng="Scale Number 1D" author="default"/>
+		<text_306 id="306" textid="306" text="S1DFmt" sets="0" trus="Scale Number 1D Format" teng="Scale Number 1D Format" author="default"/>
+		<text_307 id="307" textid="307" text="КмдCAN" sets="0" trus="Слово управления CAN" teng="CAN command register" author="default"/>
+		<text_308 id="308" textid="308" text="Пуск" sets="2" trus="Пуск" teng="Command: Start" author="default"/>
+		<text_309 id="309" textid="309" text="Стоп" sets="2" trus="Стоп" teng="Command: Stop" author="default"/>
+		<text_310 id="310" textid="310" text="СбрАвр" sets="2" trus="Сбросить состояние Аварии" teng="Command: Reset fault" author="default"/>
+		<text_311 id="311" textid="311" text="RTC" sets="0" trus="Часы реального времени" teng="Real time clock" author="default"/>
+		<text_312 id="312" textid="312" text="System" sets="0" trus="Системный объект" teng="System object" author="default"/>
+		<text_313 id="313" textid="313" text="Код аварии MCB4" sets="16" trus="Код аварии MCB4" teng="" author="default"/>
+		<text_314 id="314" textid="314" text="Авр+" sets="11" trus="Расширение кода аварии" teng="Extension of fault ID" author="default"/>
+		<text_315 id="315" textid="315" text="Конфиг. ПУ" sets="0" trus="Конфигурация отображения пульта управления" teng="Control panel configuration" author="default"/>
+		<text_316 id="316" textid="316" text="№ гр ПУ" sets="0" trus="Номер груп для пульта управления" teng="" author="default"/>
+		<text_317 id="317" textid="317" text="Статус" sets="0" trus="Статус преобразователя" teng="Статус преобразователя" author="default"/>
+		<text_318 id="318" textid="318" text="Сч.прерыв.1 кГц" sets="0" trus="Счётчик прерываний 1 кГц" teng="" author="default"/>
+		<text_319 id="319" textid="319" text="Сч.прерыв.10 кГц" sets="0" trus="Счётчик прерываний 10 кГц" teng="" author="default"/>
+		<text_320 id="320" textid="320" text="BackgroundCounter" sets="0" trus="BackgroundCounter" teng="" author="default"/>
+		<text_321 id="321" textid="321" text="T_10кГц" sets="0" trus="T_10кГц" teng="T_10кГц" author="default"/>
+		<text_322 id="322" textid="322" text="T_1кГц" sets="0" trus="T_1кГц" teng="T_1кГц" author="default"/>
+		<text_323 id="323" textid="323" text="ЗИ" sets="0" trus="Задатчик интенсивности" teng="Ramp" author="default"/>
+		<text_324 id="324" textid="324" text="rmpT" sets="0" trus="T разгона до номинала" teng="T разгона до номинала" author="default"/>
+		<text_325 id="325" textid="325" text="ВходЗИ" sets="0" trus="Вход ЗИ" teng="Ramp input" author="default"/>
+		<text_326 id="326" textid="326" text="ВыходЗИ" sets="0" trus="Выход ЗИ" teng="Ramp output" author="default"/>
+		<text_327 id="327" textid="327" text="Рег_id" sets="0" trus="ПИД регулятор тока Id" teng="ПИД регулятор тока Id" author="default"/>
+		<text_328 id="328" textid="328" text="Зад-е" sets="0" trus="Задание" teng="Reference" author="default"/>
+		<text_329 id="329" textid="329" text="Обр.Св" sets="0" trus="Обратная связь" teng="Feedback" author="default"/>
+		<text_330 id="330" textid="330" text="Kp" sets="0" trus="Пропорц. коэфф. Kp" teng="Kp" author="default"/>
+		<text_331 id="331" textid="331" text="Max" sets="0" trus="Максимум выхода" teng="Maximum Output Limits" author="default"/>
+		<text_332 id="332" textid="332" text="Min" sets="0" trus="Минимум выхода" teng="Minimum Output Limits" author="default"/>
+		<text_333 id="333" textid="333" text="Ki" sets="0" trus="Интегральный коэфф. Ki" teng="Ki" author="default"/>
+		<text_334 id="334" textid="334" text="Kd" sets="0" trus="Дифф. коэфф. Kd" teng="Kd" author="default"/>
+		<text_335 id="335" textid="335" text="Kc" sets="0" trus="Интегр.корректир.коэффициент" teng="Integral correction gain" author="default"/>
+		<text_336 id="336" textid="336" text="Ошибка" sets="0" trus="Ошибка рассогласования сигналов" teng="" author="default"/>
+		<text_337 id="337" textid="337" text="Выход" sets="0" trus="Выход регулятора" teng="Controller output" author="default"/>
+		<text_338 id="338" textid="338" text="Вых.Пропорц." sets="0" trus="Вых.Пропорц." teng="Ud" author="default"/>
+		<text_339 id="339" textid="339" text="Вых.Интегр." sets="0" trus="Вых.Интегр." teng="Integral Output" author="default"/>
+		<text_340 id="340" textid="340" text="Вых.Диффер." sets="0" trus="Вых.Диффер." teng="Ud" author="default"/>
+		<text_341 id="341" textid="341" text="РегСкр" sets="0" trus="ПИ регулятор скорости" teng="ПИ регулятор скорости" author="default"/>
+		<text_342 id="342" textid="342" text="pisref" sets="0" trus="Задание" teng="Задание" author="default"/>
+		<text_343 id="343" textid="343" text="pisfbd" sets="0" trus="Обратная связь" teng="Обратная связь" author="default"/>
+		<text_344 id="344" textid="344" text="pisKd" sets="0" trus="Дифф. коэфф. Kd" teng="Дифференциальный коэффициент" author="default"/>
+		<text_345 id="345" textid="345" text="pisout" sets="0" trus="Выход регулятора" teng="Выход регулятора" author="default"/>
+		<text_346 id="346" textid="346" text="Прев. насыщ" sets="0" trus="Превышение насыщения" teng="saterr_reg3" author="default"/>
+		<text_347 id="347" textid="347" text="Рег_iq" sets="0" trus="ПИД регулятор тока Iq" teng="ПИД регулятор тока Iq" author="default"/>
+		<text_348 id="348" textid="348" text="Зад-ие" sets="0" trus="Задание" teng="Задание" author="default"/>
+		<text_349 id="349" textid="349" text="Обр.Св" sets="0" trus="Обратная связь" teng="Обратная связь" author="default"/>
+		<text_350 id="350" textid="350" text="Kp" sets="0" trus="Пропорц. коэфф. Kp" teng="Пропорциональный коэффициент Kp" author="default"/>
+		<text_351 id="351" textid="351" text="Max" sets="0" trus="Максимум выхода" teng="Максимум выхода" author="default"/>
+		<text_352 id="352" textid="352" text="Min" sets="0" trus="Минимум выхода" teng="Минимум выхода" author="default"/>
+		<text_353 id="353" textid="353" text="Ki" sets="0" trus="Интегральный коэфф. Ki" teng="Интегральный коэффициент Ki" author="default"/>
+		<text_354 id="354" textid="354" text="Kd" sets="0" trus="Дифф. коэфф. Kd" teng="Дифференциальный коэффициент Kd" author="default"/>
+		<text_355 id="355" textid="355" text="Выход" sets="0" trus="Выход регулятора" teng="Controller Output" author="default"/>
+		<text_356 id="356" textid="356" text="pos_reg" sets="0" trus="Регулятор положения" teng="Position regulator" author="default"/>
+		<text_357 id="357" textid="357" text="Делит. дифф. части" sets="0" trus="Делит. дифф. части" teng="DiffDelim" author="default"/>
+		<text_358 id="358" textid="358" text="Коэф. фильтра" sets="0" trus="Коэф. фильтра" teng="Kf_d" author="default"/>
+		<text_359 id="359" textid="359" text="Мертвая зона" sets="0" trus="Мертвая зона" teng="DeadZone" author="default"/>
+		<text_360 id="360" textid="360" text="Фильтр ошибки" sets="0" trus="Фильтр ошибки" teng="filterOut" author="default"/>
+		<text_361 id="361" textid="361" text="ПИД рег. Ia" sets="0" trus="ПИД рег. тока якоря" teng="PID Cur Ia" author="default"/>
+		<text_362 id="362" textid="362" text="ШИМ" sets="0" trus="ШИМ" teng="PWM" author="default"/>
+		<text_363 id="363" textid="363" text="UaЗад" sets="0" trus="UaЗад" teng="UaЗад" author="default"/>
+		<text_364 id="364" textid="364" text="UbЗад" sets="0" trus="UbЗад" teng="UbЗад" author="default"/>
+		<text_365 id="365" textid="365" text="U_огр" sets="0" trus="U_огр" teng="U_огр" author="default"/>
+		<text_366 id="366" textid="366" text="GmA" sets="0" trus="GammaA" teng="GammaA" author="default"/>
+		<text_367 id="367" textid="367" text="GmB" sets="0" trus="GammaB" teng="GammaB" author="default"/>
+		<text_368 id="368" textid="368" text="GmC" sets="0" trus="GammaC" teng="GammaC" author="default"/>
+		<text_369 id="369" textid="369" text="TPWM" sets="0" trus="TPWM" teng="TPWM" author="default"/>
+		<text_370 id="370" textid="370" text="Мерт. время" sets="0" trus="Мертвое время (мкс)" teng="DeadBand" author="default"/>
+		<text_371 id="371" textid="371" text="GamLim" sets="0" trus="Ограничение мин. скважн." teng="GamLim" author="default"/>
+		<text_372 id="372" textid="372" text="UdКомпK" sets="0" trus="Коэф. компенсации Ud" teng="UdCompK" author="default"/>
+		<text_373 id="373" textid="373" text="UdКомп" sets="2" trus="Компенсация Ud" teng="UdCompEnable" author="default"/>
+		<text_374 id="374" textid="374" text="ТипШИМ" sets="12" trus="Тип ШИМ" teng="PWMType" author="default"/>
+		<text_375 id="375" textid="375" text="ULimitation" sets="0" trus="ULimitation" teng="ULimitation" author="default"/>
+		<text_376 id="376" textid="376" text="Fшим" sets="0" trus="Частота ШИМ" teng="PWM frequency" author="default"/>
+		<text_377 id="377" textid="377" text="Сектор" sets="0" trus="Сектор" teng="Sector" author="default"/>
+		<text_378 id="378" textid="378" text="U_ампл" sets="0" trus="U_ампл" teng="U_ампл" author="default"/>
+		<text_379 id="379" textid="379" text="F_bits" sets="0" trus="Флаги аварий" teng="F_bits" author="default"/>
+		<text_380 id="380" textid="380" text="smctrl" sets="0" trus="sm_ctrl" teng="sm_ctrl" author="default"/>
+		<text_381 id="381" textid="381" text="smstat" sets="0" trus="sm_state" teng="sm_state" author="default"/>
+		<text_382 id="382" textid="382" text="stcode" sets="57" trus="drv_status_code" teng="drv_status_code" author="default"/>
+		<text_383 id="383" textid="383" text="Защиты" sets="0" trus="Защиты" teng="Protection" author="default"/>
+		<text_384 id="384" textid="384" text="bitF_1" sets="0" trus="Флаги аварий 1" teng="Флаги аварий 1" author="default"/>
+		<text_385 id="385" textid="385" text="bitF_2" sets="0" trus="Флаги аварий 2" teng="Флаги аварий 2" author="default"/>
+		<text_386 id="386" textid="386" text="mask1L" sets="0" trus="Маска аварий 1L" teng="Маска аварий 1L" author="default"/>
+		<text_387 id="387" textid="387" text="mask1H" sets="0" trus="Маска аварий 1H" teng="Маска аварий 1H" author="default"/>
+		<text_388 id="388" textid="388" text="mask2L" sets="0" trus="Маска аварий 2L" teng="Маска аварий 2L" author="default"/>
+		<text_389 id="389" textid="389" text="mask2H" sets="0" trus="Маска аварий  2H" teng="Маска аварий  2H" author="default"/>
+		<text_390 id="390" textid="390" text="Макс.Ток" sets="0" trus="Максимальный ток" teng="Максимальный ток" author="default"/>
+		<text_391 id="391" textid="391" text="Ud_max" sets="0" trus="Максимальное напряжение" teng="Максимальное напряжение" author="default"/>
+		<text_392 id="392" textid="392" text="Ud_min" sets="0" trus="Минимальное напряжение" teng="Минимальное напряжение" author="default"/>
+		<text_393 id="393" textid="393" text="speed_max" sets="0" trus="Максимальная скорость" teng="Maximum speed" author="default"/>
+		<text_394 id="394" textid="394" text="ЗадПар" sets="9" trus="Задания" teng="Задания" author="default"/>
+		<text_395 id="395" textid="395" text="Скор_з" sets="0" trus="Скорость" teng="Скорость" author="default"/>
+		<text_396 id="396" textid="396" text="ТокСТз" sets="0" trus="Макс. ток ВУ" teng="ТокСТз" author="default"/>
+		<text_397 id="397" textid="397" text="ТокУПз" sets="0" trus="Ток удержания" teng="Ток удержания" author="default"/>
+		<text_398 id="398" textid="398" text="элекУг" sets="0" trus="theta_elec" teng="theta_elec" author="default"/>
+		<text_399 id="399" textid="399" text="ПарДв" sets="0" trus="Параметры двигателя" teng="Параметры двигателя" author="default"/>
+		<text_400 id="400" textid="400" text="ПарПол" sets="0" trus="Число пар полюсов" teng="Число пар полюсов" author="default"/>
+		<text_401 id="401" textid="401" text="IпчНом" sets="0" trus="Номинальный ток" teng="Номинальный ток" author="default"/>
+		<text_402 id="402" textid="402" text="Uф_ном" sets="0" trus="Номинальное напряжение фазн." teng="Номинальное напряжение фазн." author="default"/>
+		<text_403 id="403" textid="403" text="СкоростьНом" sets="0" trus="Номинальная скорость" teng="Номинальная скорость" author="default"/>
+		<text_404 id="404" textid="404" text="UdcНом" sets="0" trus="Номинальное напряжение ЗПТ" teng="Номинальное напряжение ЗПТ" author="default"/>
+		<text_405 id="405" textid="405" text="Rs" sets="0" trus="Rs" teng="Rs" author="default"/>
+		<text_406 id="406" textid="406" text="Ls" sets="0" trus="Ls" teng="Ls" author="default"/>
+		<text_407 id="407" textid="407" text="Ном.част." sets="0" trus="Номинальная частота" teng="Rated frequency" author="default"/>
+		<text_408 id="408" textid="408" text="Sens_type" sets="14" trus="Тип датчика положения" teng="Sensor type" author="default"/>
+		<text_409 id="409" textid="409" text="СистПр" sets="0" trus="Параметры системы" teng="Параметры системы" author="default"/>
+		<text_410 id="410" textid="410" text="HardwareType" sets="17" trus="Тип аппаратной части" teng="HardwareType" author="default"/>
+		<text_411 id="411" textid="411" text="РежРаб" sets="0" trus="Режим работы" teng="Mode of operation" author="default"/>
+		<text_412 id="412" textid="412" text="Рекупр" sets="0" trus="Рекуперация" teng="Рекуперация" author="default"/>
+		<text_413 id="413" textid="413" text="АЦПсмещ" sets="0" trus="АЦП авто смещ." teng="AutoOffset" author="default"/>
+		<text_414 id="414" textid="414" text="Перезагрузка" sets="0" trus="Перезагрузка" teng="Reboot" author="default"/>
+		<text_415 id="415" textid="415" text="АЦП" sets="0" trus="АЦП" teng="ADC" author="default"/>
+		<text_416 id="416" textid="416" text="IaУсил" sets="0" trus="Коэффициент тока фазы А" teng="Phase A Current Max. Scale" author="default"/>
+		<text_417 id="417" textid="417" text="IaСмещ" sets="0" trus="Смещение тока фазы А" teng="Phase A Current Offset" author="default"/>
+		<text_418 id="418" textid="418" text="Ia_мгн" sets="0" trus="Ток фазы А" teng="Phase A Current" author="default"/>
+		<text_419 id="419" textid="419" text="IbУсил" sets="0" trus="Коэффициент тока фазы В" teng="Phase B Current Max. Scale" author="default"/>
+		<text_420 id="420" textid="420" text="IbСмещ" sets="0" trus="Смещение тока фазы В" teng="Phase B Current Offset" author="default"/>
+		<text_421 id="421" textid="421" text="Ib_мгн" sets="0" trus="Ток фазы В" teng="Phase B Current" author="default"/>
+		<text_422 id="422" textid="422" text="IcУсил" sets="0" trus="Коэффициент тока фазы C" teng="Коэффициент тока фазы C" author="default"/>
+		<text_423 id="423" textid="423" text="IcСмещ" sets="0" trus="Смещение тока фазы C" teng="Смещение тока фазы C" author="default"/>
+		<text_424 id="424" textid="424" text="Ic_мгн" sets="0" trus="Ток фазы С" teng="Phase C Current" author="default"/>
+		<text_425 id="425" textid="425" text="UdУсил" sets="0" trus="Коэффициент напряжения ЗПТ" teng="Udc Max. Scale" author="default"/>
+		<text_426 id="426" textid="426" text="Udсмещ" sets="0" trus="Смещение напряж. ЗПТ" teng="Udc Offset" author="default"/>
+		<text_427 id="427" textid="427" text="Ud" sets="0" trus="Напряжение ЗПТ" teng="Напряжение ЗПТ" author="default"/>
+		<text_428 id="428" textid="428" text="Закон U(f) (АД)" sets="0" trus="Модуль U/F" teng="Модуль U/F" author="default"/>
+		<text_429 id="429" textid="429" text="F_вых" sets="0" trus="Выходная частота" teng="Выходная частота" author="default"/>
+		<text_430 id="430" textid="430" text="U_вых" sets="0" trus="Выходное напряжение" teng="Выходное напряжение" author="default"/>
+		<text_431 id="431" textid="431" text="f [0]" sets="0" trus="Нулевая опроная частота" teng="Нулевая опроная частота" author="default"/>
+		<text_432 id="432" textid="432" text="U [0]" sets="0" trus="Нулевое опорное напряжение" teng="Нулевое опорное напряжение" author="default"/>
+		<text_433 id="433" textid="433" text="f [1]" sets="0" trus="Первая опорная частота" teng="Первая опорная частота" author="default"/>
+		<text_434 id="434" textid="434" text="U [1]" sets="0" trus="Первое опорное напряжение" teng="Первое опорное напряжение" author="default"/>
+		<text_435 id="435" textid="435" text="f max" sets="0" trus="Максимальная частота" teng="Максимальная частота" author="default"/>
+		<text_436 id="436" textid="436" text="текЗнч" sets="10" trus="Текущие значения" teng="Текущие значения" author="default"/>
+		<text_437 id="437" textid="437" text="скор" sets="0" trus="Скорость" teng="Speed" author="default"/>
+		<text_438 id="438" textid="438" text="АктМощ" sets="0" trus="Акт. мощность" teng="main_pInd" author="default"/>
+		<text_439 id="439" textid="439" text="ТокСт" sets="0" trus="Ток статора" teng="Ток статора" author="default"/>
+		<text_440 id="440" textid="440" text="ЭлУголЗад" sets="0" trus="ЭлУголЗад" teng="ЭлУголЗад" author="default"/>
+		<text_441 id="441" textid="441" text="ЭлУгол" sets="0" trus="ЭлУгол" teng="ЭлУгол" author="default"/>
+		<text_442 id="442" textid="442" text="ТокСтЗад" sets="0" trus="Ток статора зад" teng="Ток статора зад" author="default"/>
+		<text_443 id="443" textid="443" text="dlog" sets="0" trus="dlog" teng="dlog" author="default"/>
+		<text_444 id="444" textid="444" text="mode" sets="0" trus="dlog.mode_reset" teng="dlog.mode_reset" author="default"/>
+		<text_445 id="445" textid="445" text="dlcont" sets="0" trus="dlog.control" teng="dlog.control" author="default"/>
+		<text_446 id="446" textid="446" text="dlisi1" sets="0" trus="dlog.ind_subind1" teng="dlog.ind_subind1" author="default"/>
+		<text_447 id="447" textid="447" text="dlisi2" sets="0" trus="dlog.ind_subind2" teng="dlog.ind_subind2" author="default"/>
+		<text_448 id="448" textid="448" text="dlisi3" sets="0" trus="dlog.ind_subind3" teng="dlog.ind_subind3" author="default"/>
+		<text_449 id="449" textid="449" text="dlisi4" sets="0" trus="dlog.ind_subind4" teng="dlog.ind_subind4" author="default"/>
+		<text_450 id="450" textid="450" text="StrtBL" sets="0" trus="StartBitL" teng="StartBitL" author="default"/>
+		<text_451 id="451" textid="451" text="StrtBH" sets="0" trus="StartBitH" teng="StartBitH" author="default"/>
+		<text_452 id="452" textid="452" text="OneShotOp" sets="2" trus="OneShotOperation" teng="OneShotOperation" author="default"/>
+		<text_453 id="453" textid="453" text="N предыст." sets="0" trus="Количество точек предыстории" teng="Prehistory Points Number" author="default"/>
+		<text_454 id="454" textid="454" text="dlnval" sets="0" trus="dlog.next_value_var" teng="dlog.next_value_var" author="default"/>
+		<text_455 id="455" textid="455" text="Энкодер" sets="0" trus="Энкодер" teng="TposspeedEqep" author="default"/>
+		<text_456 id="456" textid="456" text="Кол-во периодов" sets="0" trus="Кол-во периодов" teng="Resolution" author="default"/>
+		<text_457 id="457" textid="457" text="Наличие репера" sets="2" trus="Наличие репера" teng="index_en" author="default"/>
+		<text_458 id="458" textid="458" text="SpeedCalcType" sets="0" trus="Рассчитывать скорость программно" teng="SpeedCalcType" author="default"/>
+		<text_459 id="459" textid="459" text="СмещУг" sets="0" trus="СмещУгол" teng="thetae_offset" author="default"/>
+		<text_460 id="460" textid="460" text="Механическ.угол в ме" sets="0" trus="Механическ.угол в метках" teng="Ang_mech" author="default"/>
+		<text_461 id="461" textid="461" text="Скорость" sets="0" trus="Скорость" teng="Speed" author="default"/>
+		<text_462 id="462" textid="462" text="Угол. электр." sets="0" trus="Угол. электр." teng="Electrical angle" author="default"/>
+		<text_463 id="463" textid="463" text="Угол мех." sets="0" trus="Угол мех." teng="theta_mech_tmp" author="default"/>
+		<text_464 id="464" textid="464" text="Команда иниц." sets="0" trus="Команда иниц." teng="Reinit Command" author="default"/>
+		<text_465 id="465" textid="465" text="Кф. скорости" sets="0" trus="К быстродействия фильтра скорости" teng="" author="default"/>
+		<text_466 id="466" textid="466" text="Posspeed_FLG1" sets="0" trus="Posspeed_FLG1" teng="Posspeed_FLG1" author="default"/>
+		<text_467 id="467" textid="467" text="GPIOsValue" sets="0" trus="GPIOsValue" teng="GPIOsValue" author="default"/>
+		<text_468 id="468" textid="468" text="UPPS" sets="0" trus="UPPS" teng="UPPS" author="default"/>
+		<text_469 id="469" textid="469" text="QCPRD" sets="0" trus="QCPRD" teng="QCPRD" author="default"/>
+		<text_470 id="470" textid="470" text="QEPSTS" sets="0" trus="QEPSTS" teng="QEPSTS" author="default"/>
+		<text_471 id="471" textid="471" text="revolCounter" sets="0" trus="Число оборотов" teng="Total Revolutions" author="default"/>
+		<text_472 id="472" textid="472" text="qcAbsPos" sets="0" trus="Абс. положение в метках" teng="Absolute position (qc)" author="default"/>
+		<text_473 id="473" textid="473" text="Уг.мех.не_огр" sets="0" trus="Угол механический не огранич." teng="theta_mechContinouos" author="default"/>
+		<text_474 id="474" textid="474" text="Уг.эл.не_огр" sets="0" trus="Угол электрический не огранич." teng="theta_elecContinouos" author="default"/>
+		<text_475 id="475" textid="475" text="Датчик Холла" sets="0" trus="Датчик Холла" teng="DPR" author="default"/>
+		<text_476 id="476" textid="476" text="Уставка Скорости" sets="0" trus="Уставка Скорости" teng="speedMIN" author="default"/>
+		<text_477 id="477" textid="477" text="ЭлУгол6" sets="0" trus="ЭлУгол6" teng="Angle6" author="default"/>
+		<text_478 id="478" textid="478" text="Инт-полятор вкл" sets="2" trus="Инт-полятор вкл" teng="Инт-полятор вкл" author="default"/>
+		<text_479 id="479" textid="479" text="Уставка обнуления ск" sets="0" trus="Уставка обнуления скорости" teng="" author="default"/>
+		<text_480 id="480" textid="480" text="Скорость Мин." sets="0" trus="Скорость Мин." teng="speed min" author="default"/>
+		<text_481 id="481" textid="481" text="Ложные фронты" sets="0" trus="Ложные фронты" teng="CAP_WrongEdgeCnt" author="default"/>
+		<text_482 id="482" textid="482" text="Входы" sets="0" trus="Дискретные входы" teng="Digital Inputs" author="default"/>
+		<text_483 id="483" textid="483" text="Уровень помех" sets="0" trus="Уровень помех" teng="" author="default"/>
+		<text_484 id="484" textid="484" text="Ошиб_1_к." sets="0" trus="Ошибка 1 канала" teng="" author="default"/>
+		<text_485 id="485" textid="485" text="Ошиб_2_к." sets="0" trus="Ошибка 2 канала" teng="" author="default"/>
+		<text_486 id="486" textid="486" text="Ошиб_3_к." sets="0" trus="Ошибка 3 канала" teng="" author="default"/>
+		<text_487 id="487" textid="487" text="НапрВр" sets="13" trus="Направление вращения" teng="Направление вращения" author="default"/>
+		<text_488 id="488" textid="488" text="Макс.ош.ДПР" sets="0" trus="Макс.число ошибок ДПР" teng="" author="default"/>
+		<text_489 id="489" textid="489" text="Ошибки последоват." sets="0" trus="Кол-во ошибок неверной последовательности" teng="" author="default"/>
+		<text_490 id="490" textid="490" text="Счёт.Rx.Int." sets="0" trus="Счётчик прерываний по приему" teng="" author="default"/>
+		<text_491 id="491" textid="491" text="Сч.прерыв.CAP1" sets="0" trus="Счётчик прерываний CAP1" teng="" author="default"/>
+		<text_492 id="492" textid="492" text="Сч.прерыв.CAP2" sets="0" trus="Счётчик прерываний CAP2" teng="" author="default"/>
+		<text_493 id="493" textid="493" text="Сч.прерыв.CAP3" sets="0" trus="Счётчик прерываний CAP3" teng="" author="default"/>
+		<text_494 id="494" textid="494" text="qepTik" sets="0" trus="Количество импульсов на оборот" teng="Количество импульсов на оборот" author="default"/>
+		<text_495 id="495" textid="495" text="theta_mech_filtered" sets="0" trus="Угол мех. фильтрованный" teng="theta_mech_filtered" author="default"/>
+		<text_496 id="496" textid="496" text="Кф. угла" sets="0" trus="К быстродействия фильтра угла" teng="" author="default"/>
+		<text_497 id="497" textid="497" text="Для отладки" sets="0" trus="Для отладки" teng="test" author="default"/>
+		<text_498 id="498" textid="498" text="DebugL1" sets="0" trus="DebugL1" teng="DebugL1" author="default"/>
+		<text_499 id="499" textid="499" text="DebugL2" sets="0" trus="DebugL2" teng="DebugL2" author="default"/>
+		<text_500 id="500" textid="500" text="DebugI3" sets="0" trus="DebugI3" teng="DebugI3" author="default"/>
+		<text_501 id="501" textid="501" text="DebugI4" sets="0" trus="DebugI4" teng="DebugI4" author="default"/>
+		<text_502 id="502" textid="502" text="DebugW1" sets="0" trus="DebugW1" teng="DebugW1" author="default"/>
+		<text_503 id="503" textid="503" text="DebugW2" sets="0" trus="DebugW2" teng="DebugW2" author="default"/>
+		<text_504 id="504" textid="504" text="DebugW3" sets="0" trus="DebugW3" teng="DebugW3" author="default"/>
+		<text_505 id="505" textid="505" text="DebugW4" sets="0" trus="DebugW4" teng="" author="default"/>
+		<text_506 id="506" textid="506" text="DebugF1" sets="0" trus="DebugF1" teng="" author="default"/>
+		<text_507 id="507" textid="507" text="DebugF2" sets="0" trus="DebugF2" teng="" author="default"/>
+		<text_508 id="508" textid="508" text="DebugF3" sets="0" trus="DebugF3" teng="" author="default"/>
+		<text_509 id="509" textid="509" text="DebugF4" sets="0" trus="DebugF4" teng="" author="default"/>
+		<text_510 id="510" textid="510" text="Симулятор" sets="0" trus="Симулятор" teng="Simulator" author="default"/>
+		<text_511 id="511" textid="511" text="ModelMotorType" sets="18" trus="Тип двигателя модели" teng="ModelMotorType" author="default"/>
+		<text_512 id="512" textid="512" text="Мнагр сим." sets="0" trus="Симулируемый момент нагрузки" teng="Simulated load torque" author="default"/>
+		<text_513 id="513" textid="513" text="Реал.Эл.Мом" sets="0" trus="Реализованный электрический момент" teng="torque" author="default"/>
+		<text_514 id="514" textid="514" text="qepspd" sets="0" trus="Скорость" teng="Speed" author="default"/>
+		<text_515 id="515" textid="515" text="qeptm" sets="0" trus="Механический угол" teng="Механический угол" author="default"/>
+		<text_516 id="516" textid="516" text="EncoderIncrements" sets="0" trus="EncoderIncrements" teng="" author="default"/>
+		<text_517 id="517" textid="517" text="IsAlpha" sets="0" trus="Ток статора по оси Alpha" teng="Stator current in Alpha-axis" author="default"/>
+		<text_518 id="518" textid="518" text="IsBeta" sets="0" trus="Ток статора по оси Beta" teng="Stator current in Beta-axis" author="default"/>
+		<text_519 id="519" textid="519" text="Ia" sets="0" trus="Ток фазы А" teng="Ток фазы А" author="default"/>
+		<text_520 id="520" textid="520" text="Ic" sets="0" trus="Ток фазы C" teng="Ток фазы C" author="default"/>
+		<text_521 id="521" textid="521" text="Ua" sets="0" trus="Напряжение фазы A" teng="" author="default"/>
+		<text_522 id="522" textid="522" text="Ub" sets="0" trus="Напряжение фазы B" teng="" author="default"/>
+		<text_523 id="523" textid="523" text="Uc" sets="0" trus="Напряжение фазы C" teng="" author="default"/>
+		<text_524 id="524" textid="524" text="Мощ-ть" sets="0" trus="Мощность" teng="" author="default"/>
+		<text_525 id="525" textid="525" text="КодАвр" sets="0" trus="Код аварии" teng="Код аварии" author="default"/>
+		<text_526 id="526" textid="526" text="Lm" sets="0" trus="Взаимная индуктивность Lm" teng="Lm" author="default"/>
+		<text_527 id="527" textid="527" text="Ls" sets="0" trus="Индуктивность статора Ls" teng="Ls" author="default"/>
+		<text_528 id="528" textid="528" text="Lr" sets="0" trus="Индуктивность ротора Lr" teng="Lr" author="default"/>
+		<text_529 id="529" textid="529" text="Rs" sets="0" trus="Сопротивление статора Rs" teng="Rs" author="default"/>
+		<text_530 id="530" textid="530" text="Rr" sets="0" trus="Сопротивление ротора Rr" teng="Rr" author="default"/>
+		<text_531 id="531" textid="531" text="Инерция сим." sets="0" trus="Симулируемый момент инерции" teng="Simulated motor inertia" author="default"/>
+		<text_532 id="532" textid="532" text="Торм.Мом.Выбег" sets="0" trus="Тормозной момент для выбега" teng="Torque ref for overrun" author="default"/>
+		<text_533 id="533" textid="533" text="QEPResolution" sets="0" trus="Число периодов квадратурного датчика" teng="QEPResolution" author="default"/>
+		<text_534 id="534" textid="534" text="IphaseK" sets="0" trus="Коэффициент датчика тока фаз" teng="Коэффициент датчика тока фаз" author="default"/>
+		<text_535 id="535" textid="535" text="Коэф. АЦП тока" sets="0" trus="Коэффициент АЦП тока фаз" teng="ADC_k_i" author="default"/>
+		<text_536 id="536" textid="536" text="PsiRD" sets="0" trus="Поток ротора по оси D" teng="Rotor flux D-axis" author="default"/>
+		<text_537 id="537" textid="537" text="PsiRQ" sets="0" trus="Поток ротора по оси Q" teng="Rotor flux Q-axis" author="default"/>
+		<text_538 id="538" textid="538" text="PsiRAlfa" sets="0" trus="Поток ротора по оси Alpha" teng="Rotor flux Alpha-axis" author="default"/>
+		<text_539 id="539" textid="539" text="PsiRBeta" sets="0" trus="Поток ротора по оси Beta" teng="Rotor flux Beta-axis" author="default"/>
+		<text_540 id="540" textid="540" text="m" sets="0" trus="Потокосцепление магнитов" teng="m" author="default"/>
+		<text_541 id="541" textid="541" text="Lsd" sets="0" trus="Индуктивность статора Lsd" teng="Lsd" author="default"/>
+		<text_542 id="542" textid="542" text="Lsq" sets="0" trus="Индуктивность статора Lsq" teng="Lsq" author="default"/>
+		<text_543 id="543" textid="543" text="La" sets="0" trus="Индуктивность якоря" teng="La" author="default"/>
+		<text_544 id="544" textid="544" text="Lf" sets="0" trus="Индуктивность ОВ" teng="Lf" author="default"/>
+		<text_545 id="545" textid="545" text="Ra" sets="0" trus="Сопротивление якоря" teng="Ra" author="default"/>
+		<text_546 id="546" textid="546" text="Rf" sets="0" trus="Сопротивление ОВ" teng="Rf" author="default"/>
+		<text_547 id="547" textid="547" text="Коэф. датч. ОЯ" sets="0" trus="Коэффициент датчика тока ОЯ" teng="k_ia" author="default"/>
+		<text_548 id="548" textid="548" text="Коэф. датч. ОВ" sets="0" trus="Коэффициент датчика тока ОВ" teng="k_if" author="default"/>
+		<text_549 id="549" textid="549" text="Коэф. АЦП ток ОЯ" sets="0" trus="Коэффициент АЦП тока ОЯ" teng="ADC_k_ia" author="default"/>
+		<text_550 id="550" textid="550" text="Коэф. АЦП ток ОВ" sets="0" trus="Коэффициент АЦП тока ОВ" teng="ADC_k_if" author="default"/>
+		<text_551 id="551" textid="551" text="Доб.сопротив." sets="0" trus="Добавочное сопротивление, Rad" teng="Rad" author="default"/>
+		<text_552 id="552" textid="552" text="Ua" sets="0" trus="Разность потенциалов ОЯ" teng="Ua" author="default"/>
+		<text_553 id="553" textid="553" text="Uf" sets="0" trus="Разность потенциалов ОВ" teng="Uf" author="default"/>
+		<text_554 id="554" textid="554" text="Ia" sets="0" trus="Ток ОЯ" teng="Ia" author="default"/>
+		<text_555 id="555" textid="555" text="Ток ОВ" sets="0" trus="Ток ОВ" teng="Exciter current" author="default"/>
+		<text_556 id="556" textid="556" text="ДПТ СУ" sets="0" trus="ДПТ Сист. Упр." teng="DCM Ctrl" author="default"/>
+		<text_557 id="557" textid="557" text="Зад. Скор." sets="0" trus="Задание скорости (Подч. Рег.)" teng="SpeeD Ref" author="default"/>
+		<text_558 id="558" textid="558" text="Ua_ref" sets="0" trus="Заданное напряжение якоря" teng="Ua_ref" author="default"/>
+		<text_559 id="559" textid="559" text="Uf_ref" sets="0" trus="Заданное напряжение ОВ" teng="Uf_ref" author="default"/>
+		<text_560 id="560" textid="560" text="Поток A" sets="0" trus="Поток статора фазы A" teng="" author="default"/>
+		<text_561 id="561" textid="561" text="Поток B" sets="0" trus="Поток статора фазы B" teng="" author="default"/>
+		<text_562 id="562" textid="562" text="Поток C" sets="0" trus="Поток статора фазы C" teng="" author="default"/>
+		<text_563 id="563" textid="563" text="Момент A" sets="0" trus="Момент фазы A" teng="" author="default"/>
+		<text_564 id="564" textid="564" text="Момент B" sets="0" trus="Момент фазы B" teng="" author="default"/>
+		<text_565 id="565" textid="565" text="Момент C" sets="0" trus="Момент фазы C" teng="" author="default"/>
+		<text_566 id="566" textid="566" text="MODBUS" sets="0" trus="MODBUS" teng="" author="default"/>
+		<text_567 id="567" textid="567" text="ModBus_ID" sets="0" trus="Номер в сети ModBus" teng="ModBus node ID" author="default"/>
+		<text_568 id="568" textid="568" text="MODBUS online" sets="0" trus="MODBUS online" teng="MODBUS online" author="default"/>
+		<text_569 id="569" textid="569" text="485_RD" sets="0" trus="rs485_last_received_data" teng="rs485_last_received_data" author="default"/>
+		<text_570 id="570" textid="570" text="Состояние" sets="0" trus="Состояние" teng="" author="default"/>
+		<text_571 id="571" textid="571" text="Tr" sets="0" trus="Пост. времени ротора" teng="Tr" author="default"/>
+		<text_572 id="572" textid="572" text="FluxCurrentRatio" sets="0" trus="Соотношение тока возб. X к току Y" teng="FluxCurrentRatio" author="default"/>
+		<text_573 id="573" textid="573" text="FluxCurrentMin" sets="0" trus="Минимальный ток возбуждения" teng="FluxCurrentMin" author="default"/>
+		<text_574 id="574" textid="574" text="IsD" sets="0" trus="Ток статора по оси D" teng="Stator current D-Axis" author="default"/>
+		<text_575 id="575" textid="575" text="IsQ" sets="0" trus="Ток статора по оси Q" teng="Stator current Q-Axis" author="default"/>
+		<text_576 id="576" textid="576" text="psiRalpha" sets="0" trus="Угол потока ротора" teng="Rotor flux angle" author="default"/>
+		<text_577 id="577" textid="577" text="VendorToken" sets="0" trus="VendorToken" teng="VendorToken" author="default"/>
+		<text_578 id="578" textid="578" text="TXState" sets="0" trus="Состояние передачи посылки" teng="TXState" author="default"/>
+		<text_579 id="579" textid="579" text="ReceivePacketCounte" sets="0" trus="Пакетов принято" teng="ReceivePacketCounter" author="default"/>
+		<text_580 id="580" textid="580" text="ReceiveByteCounter" sets="0" trus="Байт принято" teng="ReceiveByteCounter" author="default"/>
+		<text_581 id="581" textid="581" text="OfflineCounterMax" sets="0" trus="Таймаут потери связи" teng="OfflineCounterMax" author="default"/>
+		<text_582 id="582" textid="582" text="OfflineCounter" sets="0" trus="Счетчик потери связи" teng="OfflineCounter" author="default"/>
+		<text_583 id="583" textid="583" text="auto_res" sets="0" trus="Перезапуск при сбоях на линии" teng="auto_res" author="default"/>
+		<text_584 id="584" textid="584" text="Id" sets="0" trus="Ток фазы D" teng="Ток фазы D" author="default"/>
+		<text_585 id="585" textid="585" text="IdУсил" sets="0" trus="Коэффициент тока фазы D" teng="Phase D Current Max. Scale" author="default"/>
+		<text_586 id="586" textid="586" text="IdСмещ" sets="0" trus="Смещение тока фазы D" teng="Phase D Current Offset" author="default"/>
+		<text_587 id="587" textid="587" text="Id_мгн" sets="0" trus="Ток фазы D" teng="Phase D Current" author="default"/>
+		<text_588 id="588" textid="588" text="Psi возб" sets="0" trus="Поток возбуждения" teng="" author="default"/>
+		<text_589 id="589" textid="589" text="Вкл" sets="0" trus="Включен" teng="Enabled" author="default"/>
+		<text_590 id="590" textid="590" text="Возб" sets="0" trus="Возбудитель" teng="" author="default"/>
+		<text_591 id="591" textid="591" text="RatedPower" sets="0" trus="Номинальная мощность" teng="RatedPower" author="default"/>
+		<text_592 id="592" textid="592" text="RatedCurrent" sets="0" trus="Номинальный действующий ток" teng="RatedCurrent" author="default"/>
+		<text_593 id="593" textid="593" text="RatedFluxCurrent" sets="0" trus="Номинальный ток ОВ" teng="RatedFluxCurrent" author="default"/>
+		<text_594 id="594" textid="594" text="RatedCurrent" sets="0" trus="Номинальный ток якоря" teng="RatedCurrent" author="default"/>
+		<text_595 id="595" textid="595" text="My new variable" sets="0" trus="Моя новая переменная" teng="MyVar" author="default"/>
+		<text_596 id="596" textid="596" text="BT Interpreter" sets="0" trus="Block Transfer Interpreter" teng="BT Interpreter" author="default"/>
+		<text_597 id="597" textid="597" text="CAN programming" sets="0" trus="CAN programming" teng="CAN programming" author="default"/>
+		<text_598 id="598" textid="598" text="cmd" sets="0" trus="cmd" teng="cmd" author="default"/>
+		<text_599 id="599" textid="599" text="status" sets="0" trus="status" teng="status" author="default"/>
+		<text_600 id="600" textid="600" text="quest1" sets="0" trus="quest1" teng="quest1" author="default"/>
+		<text_601 id="601" textid="601" text="quest2" sets="0" trus="quest2" teng="quest2" author="default"/>
+		<text_602 id="602" textid="602" text="quest3" sets="0" trus="quest3" teng="quest3" author="default"/>
+		<text_603 id="603" textid="603" text="quest4" sets="0" trus="quest4" teng="quest4" author="default"/>
+		<text_604 id="604" textid="604" text="ans1" sets="0" trus="ans1" teng="ans1" author="default"/>
+		<text_605 id="605" textid="605" text="ans2" sets="0" trus="ans2" teng="ans2" author="default"/>
+		<text_606 id="606" textid="606" text="ans3" sets="0" trus="ans3" teng="ans3" author="default"/>
+		<text_607 id="607" textid="607" text="ans4" sets="0" trus="ans4" teng="ans4" author="default"/>
+		<text_608 id="608" textid="608" text="addr" sets="0" trus="addr" teng="addr" author="default"/>
+		<text_609 id="609" textid="609" text="CPU_ID" sets="0" trus="CPU_ID" teng="CPU_ID" author="default"/>
+		<text_610 id="610" textid="610" text="sector_mask" sets="0" trus="sector_mask" teng="sector_mask" author="default"/>
+		<text_611 id="611" textid="611" text="version" sets="0" trus="version" teng="version" author="default"/>
+		<text_612 id="612" textid="612" text="CRC" sets="0" trus="CRC" teng="CRC" author="default"/>
+		<text_613 id="613" textid="613" text="Power On Time" sets="0" trus="Время запитанного состояния, мин" teng="Power On Time" author="default"/>
+		<text_614 id="614" textid="614" text="Work Time" sets="0" trus="Вреря работы привода, мин" teng="Work Time" author="default"/>
+		<text_615 id="615" textid="615" text="drv_interface" sets="0" trus="drv_interface" teng="drv_interface" author="default"/>
+		<text_616 id="616" textid="616" text="req_data" sets="0" trus="req_data" teng="req_data" author="default"/>
+		<text_617 id="617" textid="617" text="data_Low" sets="0" trus="data_Low" teng="data_Low" author="default"/>
+		<text_618 id="618" textid="618" text="data_High" sets="0" trus="data_High" teng="data_High" author="default"/>
+		<text_619 id="619" textid="619" text="ans_data" sets="0" trus="ans_data" teng="ans_data" author="default"/>
+		<text_620 id="620" textid="620" text="БВУ" sets="0" trus="БВУ" teng="БВУ" author="default"/>
+		<text_621 id="621" textid="621" text="freq_smo" sets="0" trus="Частота перехода на БВУ" teng="freq_smo" author="default"/>
+		<text_622 id="622" textid="622" text="isalfae" sets="0" trus="Наблюдаемый ток Alpha" teng="isalfae" author="default"/>
+		<text_623 id="623" textid="623" text="isbetae" sets="0" trus="Наблюдаемый ток Beta" teng="isbetae" author="default"/>
+		<text_624 id="624" textid="624" text="esalfa" sets="0" trus="ЭДС по оси Alpha" teng="esalfa" author="default"/>
+		<text_625 id="625" textid="625" text="esbeta" sets="0" trus="ЭДС по оси Beta" teng="esbeta" author="default"/>
+		<text_626 id="626" textid="626" text="smooth_charge" sets="0" trus="Плавный заряд ЗПТ" teng="smooth_charge" author="default"/>
+		<text_627 id="627" textid="627" text="relay on-delay" sets="0" trus="Задежка включения реле, мс" teng="relay_on_delay" author="default"/>
+		<text_628 id="628" textid="628" text="on-voltage" sets="0" trus="Напряжение включения, В" teng="on_voltage" author="default"/>
+		<text_629 id="629" textid="629" text="off-voltage" sets="0" trus="Напряжение выключения, В" teng="off_voltage" author="default"/>
+		<text_630 id="630" textid="630" text="derivative_voltage" sets="0" trus="Производная напряжения ЗПТ" teng="derivative_voltage" author="default"/>
+		<text_631 id="631" textid="631" text="Relay_state" sets="0" trus="Текущее состояние реле" teng="Relay_state" author="default"/>
+		<text_632 id="632" textid="632" text="derivative_const" sets="0" trus="Уставка по производной ЗПТ" teng="derivative_const" author="default"/>
+		<text_633 id="633" textid="633" text="t_gain" sets="0" trus="Коэффициент температуры" teng="temperature_gain" author="default"/>
+		<text_634 id="634" textid="634" text="t" sets="0" trus="Температура" teng="temperature" author="default"/>
+		<text_635 id="635" textid="635" text="cool_syst" sets="0" trus="Система охлаждения" teng="cooling system" author="default"/>
+		<text_636 id="636" textid="636" text="fan_state" sets="0" trus="Текущее состояние вентилятора" teng="fan_state" author="default"/>
+		<text_637 id="637" textid="637" text="t_on" sets="0" trus="Температура включения вентилятора" teng="t_on" author="default"/>
+		<text_638 id="638" textid="638" text="t_off" sets="0" trus="Температура выключения вентилятора" teng="t_off" author="default"/>
+		<text_639 id="639" textid="639" text="t_max" sets="0" trus="Максимальная температура" teng="t_max" author="default"/>
+		<text_640 id="640" textid="640" text="t_alarm" sets="0" trus="Температура вывода предупреждения о перегреве" teng="t_alarm" author="default"/>
+		<text_641 id="641" textid="641" text="ADC_ext1" sets="0" trus="Внешний аналоговый вход 1" teng="ADC_ext1" author="default"/>
+		<text_642 id="642" textid="642" text="ADC_ext_gain" sets="0" trus="Коэффициент внешнего входа" teng="ADC_ext_gain" author="default"/>
+		<text_643 id="643" textid="643" text="ADC_ext_offset" sets="0" trus="Смещение внешнего входа" teng="ADC_ext_offset" author="default"/>
+		<text_644 id="644" textid="644" text="dlogFreq" sets="0" trus="Частота даталогера" teng="DataLogger Sampling Rate" author="default"/>
+		<text_645 id="645" textid="645" text="" sets="0" trus="Адрес в EEPROM" teng="" author="default"/>
+		<text_646 id="646" textid="646" text="ADC10" sets="0" trus="ADC10" teng="ADC10" author="default"/>
+		<text_647 id="647" textid="647" text="ADC12" sets="0" trus="ADC12" teng="ADC12" author="default"/>
+		<text_648 id="648" textid="648" text="ADC14" sets="0" trus="ADC14" teng="ADC14" author="default"/>
+		<text_649 id="649" textid="649" text="X20" sets="0" trus="ADC10 (MCB1) / ADC20 (MCB3) - разъем X20" teng="X20" author="default"/>
+		<text_650 id="650" textid="650" text="X1" sets="0" trus="ADC12 (MCB1) / ADC15 (MCB3) - разъем X1" teng="X1" author="default"/>
+		<text_651 id="651" textid="651" text="X2" sets="0" trus="ADC14 (MCB1) / ADC27 (MCB3) - разъем X2" teng="X2" author="default"/>
+		<text_652 id="652" textid="652" text="on_off_all_DO" sets="0" trus="Вкл/выкл дискретные выходы" teng="on_off_all_DO" author="default"/>
+		<text_653 id="653" textid="653" text="DO_1" sets="0" trus="Дискретный выход 1" teng="DO_1" author="default"/>
+		<text_654 id="654" textid="654" text="DO_2" sets="0" trus="Дискретный выход 2" teng="DO_2" author="default"/>
+		<text_655 id="655" textid="655" text="DO_3" sets="0" trus="Дискретный выход 3" teng="DO_3" author="default"/>
+		<text_656 id="656" textid="656" text="DI_1" sets="0" trus="Дискретный вход 1" teng="DI_1" author="default"/>
+		<text_657 id="657" textid="657" text="DI_2" sets="0" trus="Дискретный вход 2" teng="DI_2" author="default"/>
+		<text_658 id="658" textid="658" text="DI_3" sets="0" trus="Дискретный вход 3" teng="DI_3" author="default"/>
+		<text_659 id="659" textid="659" text="" sets="0" trus="Для тестирования" teng="" author="default"/>
+		<text_660 id="660" textid="660" text="" sets="0" trus="Частота тактирования модуляторов" teng="" author="default"/>
+		<text_661 id="661" textid="661" text="ADC_SDFM" sets="0" trus="АЦП - SDFM" teng="ADC - SDFM" author="default"/>
+		<text_662 id="662" textid="662" text="" sets="0" trus="Скважность сигнала тактирования" teng="" author="default"/>
+		<text_663 id="663" textid="663" text="TBPRD" sets="0" trus="TBPRD" teng="TBPRD" author="default"/>
+		<text_664 id="664" textid="664" text="CMPA" sets="0" trus="CMPA" teng="CMPA" author="default"/>
+		<text_665 id="665" textid="665" text="ADC - SPORT" sets="0" trus="АЦП - SPORT" teng="ADC - SPORT" author="default"/>
+		<text_666 id="666" textid="666" text="data_out[0]" sets="0" trus="data_out[0]" teng="data_out[0]" author="default"/>
+		<text_667 id="667" textid="667" text="data_out[1]" sets="0" trus="data_out[1]" teng="data_out[1]" author="default"/>
+		<text_668 id="668" textid="668" text="data_out[2]" sets="0" trus="data_out[2]" teng="data_out[2]" author="default"/>
+		<text_669 id="669" textid="669" text="data_out[3]" sets="0" trus="data_out[3]" teng="data_out[3]" author="default"/>
+		<text_670 id="670" textid="670" text="data_out[4]" sets="0" trus="data_out[4]" teng="data_out[4]" author="default"/>
+		<text_671 id="671" textid="671" text="data_out[5]" sets="0" trus="data_out[5]" teng="data_out[5]" author="default"/>
+		<text_672 id="672" textid="672" text="ADC_type" sets="0" trus="Тип АЦП (0 - SPORT, 1 - SDFM)" teng="ADC type" author="default"/>
+		<text_673 id="673" textid="673" text="" sets="0" trus="Бит статуса синхронизации манчестерского кода (SDFM0 канал 1)" teng="" author="default"/>
+		<text_674 id="674" textid="674" text="" sets="0" trus="Бит статуса синхронизации манчестерского кода (SDFM0 канал 2)" teng="" author="default"/>
+		<text_675 id="675" textid="675" text="" sets="0" trus="Бит статуса синхронизации манчестерского кода (SDFM0 канал 3)" teng="" author="default"/>
+		<text_676 id="676" textid="676" text="" sets="0" trus="Бит статуса синхронизации манчестерского кода (SDFM0 канал 4)" teng="" author="default"/>
+		<text_677 id="677" textid="677" text="" sets="0" trus="Бит статуса синхронизации манчестерского кода (SDFM1 канал 1)" teng="" author="default"/>
+		<text_678 id="678" textid="678" text="" sets="0" trus="Бит статуса синхронизации манчестерского кода (SDFM1 канал 2)" teng="" author="default"/>
+		<text_679 id="679" textid="679" text="" sets="0" trus="UalphaRef" teng="" author="default"/>
+		<text_680 id="680" textid="680" text="" sets="0" trus="UbetaRef" teng="" author="default"/>
+		<text_681 id="681" textid="681" text="" sets="0" trus="UalphaNorm" teng="" author="default"/>
+		<text_682 id="682" textid="682" text="" sets="0" trus="UbetaNorm" teng="" author="default"/>
+		<text_683 id="683" textid="683" text="" sets="0" trus="Автоограничение выходов регуляторов тока напряжением ЗПТ" teng="" author="default"/>
+		<text_684 id="684" textid="684" text="Debug1" sets="0" trus="Debug1" teng="Debug1" author="default"/>
+		<text_685 id="685" textid="685" text="Debug2" sets="0" trus="Debug2" teng="Debug2" author="default"/>
+		<text_686 id="686" textid="686" text="" sets="59" trus="Код аварии Стенд1" teng="" author="default"/>
+		<text_687 id="687" textid="687" text="" sets="0" trus="dlogTrigger.state" teng="dlogTrigger.state" author="default"/>
+		<text_688 id="688" textid="688" text="" sets="0" trus="dlogTrigger.index" teng="dlogTrigger.index" author="default"/>
+		<text_689 id="689" textid="689" text="" sets="0" trus="dlogTrigger.subIndex" teng="dlogTrigger.subIndex" author="default"/>
+		<text_690 id="690" textid="690" text="" sets="0" trus="dlogTrigger.mode" teng="dlogTrigger.mode" author="default"/>
+		<text_691 id="691" textid="691" text="" sets="0" trus="dlogTrigger.minimum" teng="dlogTrigger.minimum" author="default"/>
+		<text_692 id="692" textid="692" text="" sets="0" trus="dlogTrigger.maximum" teng="dlogTrigger.maximum" author="default"/>
+		<text_693 id="693" textid="693" text="" sets="0" trus="dlogTrigger.prehistory" teng="dlogTrigger.prehistory" author="default"/>
+		<text_694 id="694" textid="694" text="dout" sets="0" trus="Дискретные выходы" teng="Digital Outputs" author="default"/>
+		<text_695 id="695" textid="695" text="tpr" sets="0" trus="Период таймера" teng="Timer Period" author="default"/>
+		<text_696 id="696" textid="696" text="func1" sets="0" trus="Последняя функция 1" teng="Latest Function 1" author="default"/>
+		<text_697 id="697" textid="697" text="func2" sets="0" trus="Последняя функция 2" teng="Latest Function 2" author="default"/>
+		<text_698 id="698" textid="698" text="func3" sets="0" trus="Последняя функция 3" teng="Latest Function 3" author="default"/>
+		<text_699 id="699" textid="699" text="func4" sets="0" trus="Последняя функция 4" teng="Latest Function 4" author="default"/>
+		<text_700 id="700" textid="700" text="pCnt" sets="0" trus="Счётчик прерываний профилировщика" teng="Profiler ISR Counter" author="default"/>
+		<text_701 id="701" textid="701" text="prof" sets="0" trus="Профилировщик" teng="Profiler" author="default"/>
+		<text_702 id="702" textid="702" text="Vendor Specific" sets="0" trus="Vendor Specific" teng="Vendor Specific" author="default"/>
+		<text_703 id="703" textid="703" text="Vendor Token" sets="0" trus="Vendor Token" teng="Vendor Token" author="default"/>
+		<text_704 id="704" textid="704" text="" sets="0" trus="Пользовательская память" teng="" author="default"/>
+		<text_705 id="705" textid="705" text="" sets="0" trus="Запустить тест памяти" teng="" author="default"/>
+		<text_706 id="706" textid="706" text="" sets="0" trus="Текущая страница" teng="" author="default"/>
+		<text_707 id="707" textid="707" text="" sets="0" trus="Количество ошибок" teng="" author="default"/>
+		<text_708 id="708" textid="708" text="" sets="0" trus="Последняя ошибка" teng="" author="default"/>
+		<text_709 id="709" textid="709" text="" sets="0" trus="Указатель массива" teng="" author="default"/>
+		<text_710 id="710" textid="710" text="" sets="0" trus="Разрешить светодиод вместо JTAG" teng="" author="default"/>
+		<text_711 id="711" textid="711" text="" sets="0" trus="Диапазон аналогового входа" teng="" author="default"/>
+		<text_712 id="712" textid="712" text="" sets="0" trus="Включить принудительно" teng="" author="default"/>
+		<text_713 id="713" textid="713" text="" sets="0" trus="Тормозной резистор" teng="" author="default"/>
+		<text_714 id="714" textid="714" text="" sets="0" trus="Счетчик событий индексной метки" teng="" author="default"/>
+		<text_715 id="715" textid="715" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_716 id="716" textid="716" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_717 id="717" textid="717" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_718 id="718" textid="718" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_719 id="719" textid="719" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_720 id="720" textid="720" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_721 id="721" textid="721" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_722 id="722" textid="722" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_723 id="723" textid="723" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_724 id="724" textid="724" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_725 id="725" textid="725" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_726 id="726" textid="726" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_727 id="727" textid="727" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_728 id="728" textid="728" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_729 id="729" textid="729" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_730 id="730" textid="730" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_731 id="731" textid="731" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_732 id="732" textid="732" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_733 id="733" textid="733" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_734 id="734" textid="734" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_735 id="735" textid="735" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_736 id="736" textid="736" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_737 id="737" textid="737" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_738 id="738" textid="738" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_739 id="739" textid="739" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_740 id="740" textid="740" text="" sets="0" trus="резерв ш" teng="" author="default"/>
+		<text_741 id="741" textid="741" text="" sets="0" trus="" teng="" author="default"/>
+		<text_742 id="742" textid="742" text="" sets="0" trus="" teng="" author="default"/>
+		<text_743 id="743" textid="743" text="DebugW5" sets="0" trus="DebugW5" teng="DebugW5" author="default"/>
+		<text_744 id="744" textid="744" text="DebugW6" sets="0" trus="DebugW6" teng="DebugW6" author="default"/>
+		<text_745 id="745" textid="745" text="QPOSCNT" sets="0" trus="QPOSCNT" teng="QPOSCNT" author="default"/>
+		<text_746 id="746" textid="746" text="QPOSILAT" sets="0" trus="QPOSILAT" teng="QPOSILAT" author="default"/>
+		<text_747 id="747" textid="747" text="" sets="0" trus="" teng="" author="default"/>
+		<text_748 id="748" textid="748" text="" sets="0" trus="" teng="" author="default"/>
+		<text_749 id="749" textid="749" text="" sets="0" trus="" teng="" author="default"/>
+		<text_750 id="750" textid="750" text="" sets="0" trus="" teng="" author="default"/>
+		<text_751 id="751" textid="751" text="" sets="0" trus="" teng="" author="default"/>
+		<text_752 id="752" textid="752" text="" sets="0" trus="" teng="" author="default"/>
+	</Texts>
+</root>

@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root CreationDateTime="25.04.2023 13:03:54">
+	<params>
+		<param name="Тип устройства" ShortText="Device Type" EngText="Device Type" textid="1" sets="0"/>
+		<param name="Регистр ошибок" ShortText="ErrReg" EngText="Error Register" textid="2" sets="0"/>
+		<param name="Manufacturer Status Register" ShortText="DevSta" EngText="Manufacturer Status Register" textid="3" sets="0"/>
+		<param name="COB-ID Emergency Object" ShortText="eCOBID" EngText="COB-ID Emergency Object" textid="4" sets="0"/>
+		<param name="Время ожидания сообщения Heartbeat" ShortText="CHBT" EngText="Consumer Heartbeat Time" textid="5" sets="0"/>
+		<param name="Период генерации сообщения Heartbeat" ShortText="PHBT" EngText="Producer Heartbeat Time" textid="6" sets="0"/>
+		<param name="Идентификационный объект" ShortText="IdObj" EngText="Identity Object" textid="7" sets="0"/>
+		<param name="Код производителя" ShortText="VendID" EngText="Vendor ID" textid="8" sets="0"/>
+		<param name="Код продукта" ShortText="PrCode" EngText="Product Code" textid="9" sets="0"/>
+		<param name="Номер ревизии" ShortText="RevNum" EngText="Revision Number" textid="10" sets="0"/>
+		<param name="Серийный номер" ShortText="SerNum" EngText="Serial Number" textid="11" sets="0"/>
+		<param name="Параметры SDO сервиса" ShortText="SSDOP" EngText="Server SDO Parameter" textid="12" sets="0"/>
+		<param name="COB-ID Client-&gt;Server(rx)" ShortText="CSRXID" EngText="COB-ID Client-&gt;Server(rx)" textid="13" sets="0"/>
+		<param name="COB-ID Server-&gt;Client(tx)" ShortText="SCTXID" EngText="COB-ID Server-&gt;Client(tx)" textid="14" sets="0"/>
+		<param name="Client SDO Parameter" ShortText="CSDOP" EngText="Client SDO Parameter" textid="15" sets="0"/>
+		<param name="COB-ID Client-&gt;Server(tx)" ShortText="CSTXID" EngText="COB-ID Client-&gt;Server(tx)" textid="16" sets="0"/>
+		<param name="COB-ID Server-&gt;Client(rx)" ShortText="SCRXID" EngText="COB-ID Server-&gt;Client(rx)" textid="17" sets="0"/>
+		<param name="NODE-ID on SDO server" ShortText="SDOSID" EngText="NODE-ID on SDO server" textid="18" sets="0"/>
+		<param name="RPDO1 Communication Parameters" ShortText="RPDO1P" EngText="RPDO1 Communication Parameters" textid="19" sets="0"/>
+		<param name="COB-ID for RPDO1" ShortText="IRPDO1" EngText="COB-ID for RPDO1" textid="20" sets="0"/>
+		<param name="Тип передачи" ShortText="TransT" EngText="Transmission Type" textid="21" sets="0"/>
+		<param name="RPDO2 Communication Parameters" ShortText="RPDO2P" EngText="RPDO2 Communication Parameters" textid="22" sets="0"/>
+		<param name="COB-ID for RPDO2" ShortText="IRPDO2" EngText="COB-ID for RPDO2" textid="23" sets="0"/>
+		<param name="RPDO3 Communication Parameters" ShortText="RPDO3P" EngText="RPDO3 Communication Parameters" textid="24" sets="0"/>
+		<param name="COB-ID for RPDO3" ShortText="IRPDO3" EngText="COB-ID for RPDO3" textid="25" sets="0"/>
+		<param name="RPDO4 Communication Parameters" ShortText="RPDO4P" EngText="RPDO4 Communication Parameters" textid="26" sets="0"/>
+		<param name="COB-ID for RPDO4" ShortText="IRPDO4" EngText="COB-ID for RPDO4" textid="27" sets="0"/>
+		<param name="RPDO5 Communication Parameters" ShortText="RPDO5P" EngText="RPDO5 Communication Parameters" textid="28" sets="0"/>
+		<param name="COB-ID for RPDO5" ShortText="IRPDO5" EngText="COB-ID for RPDO5" textid="29" sets="0"/>
+		<param name="RPDO6 Communication Parameters" ShortText="RPDO6P" EngText="RPDO6 Communication Parameters" textid="30" sets="0"/>
+		<param name="COB-ID for RPDO6" ShortText="IRPDO6" EngText="COB-ID for RPDO6" textid="31" sets="0"/>
+		<param name="RPDO7 Communication Parameters" ShortText="RPDO7P" EngText="RPDO7 Communication Parameters" textid="32" sets="0"/>
+		<param name="COB-ID for RPDO7" ShortText="IRPDO7" EngText="COB-ID for RPDO7" textid="33" sets="0"/>
+		<param name="RPDO8 Communication Parameters" ShortText="RPDO8P" EngText="RPDO8 Communication Parameters" textid="34" sets="0"/>
+		<param name="COB-ID for RPDO8" ShortText="IRPDO8" EngText="COB-ID for RPDO8" textid="35" sets="0"/>
+		<param name="RPDO1 Mapping Parameters" ShortText="RPDO1M" EngText="RPDO1 Mapping Parameters" textid="36" sets="0"/>
+		<param name="RPDO1-1 Mapping" ShortText="RPM11" EngText="RPDO1-1 Mapping" textid="37" sets="0"/>
+		<param name="RPDO1-2 Mapping" ShortText="RPM12" EngText="RPDO1-2 Mapping" textid="38" sets="0"/>
+		<param name="RPDO1-3 Mapping" ShortText="RPM13" EngText="RPDO1-3 Mapping" textid="39" sets="0"/>
+		<param name="RPDO1-4 Mapping" ShortText="RPM14" EngText="RPDO1-4 Mapping" textid="40" sets="0"/>
+		<param name="RPDO2 Mapping Parameters" ShortText="RPDO2M" EngText="RPDO2 Mapping Parameters" textid="41" sets="0"/>
+		<param name="RPDO2-1 Mapping" ShortText="RPM21" EngText="RPDO2-1 Mapping" textid="42" sets="0"/>
+		<param name="RPDO2-2 Mapping" ShortText="RPM22" EngText="RPDO2-2 Mapping" textid="43" sets="0"/>
+		<param name="RPDO2-3 Mapping" ShortText="RPM23" EngText="RPDO2-3 Mapping" textid="44" sets="0"/>
+		<param name="RPDO2-4 Mapping" ShortText="RPM24" EngText="RPDO2-4 Mapping" textid="45" sets="0"/>
+		<param name="RPDO3 Mapping Parameters" ShortText="RPDO3M" EngText="RPDO3 Mapping Parameters" textid="46" sets="0"/>
+		<param name="RPDO3-1 Mapping" ShortText="RPM31" EngText="RPDO3-1 Mapping" textid="47" sets="0"/>
+		<param name="RPDO3-2 Mapping" ShortText="RPM32" EngText="RPDO3-2 Mapping" textid="48" sets="0"/>
+		<param name="RPDO3-3 Mapping" ShortText="RPM33" EngText="RPDO3-3 Mapping" textid="49" sets="0"/>
+		<param name="RPDO3-4 Mapping" ShortText="RPM34" EngText="RPDO3-4 Mapping" textid="50" sets="0"/>
+		<param name="RPDO4 Mapping Parameters" ShortText="RPDO4M" EngText="RPDO4 Mapping Parameters" textid="51" sets="0"/>
+		<param name="RPDO4-1 Mapping" ShortText="RPM41" EngText="RPDO4-1 Mapping" textid="52" sets="0"/>
+		<param name="RPDO4-2 Mapping" ShortText="RPM42" EngText="RPDO4-2 Mapping" textid="53" sets="0"/>
+		<param name="RPDO4-3 Mapping" ShortText="RPM43" EngText="RPDO4-3 Mapping" textid="54" sets="0"/>
+		<param name="RPDO4-4 Mapping" ShortText="RPM44" EngText="RPDO4-4 Mapping" textid="55" sets="0"/>
+		<param name="RPDO5 Mapping Parameters" ShortText="RPDO5M" EngText="RPDO5 Mapping Parameters" textid="56" sets="0"/>
+		<param name="RPDO5-1 Mapping" ShortText="RPM51" EngText="RPDO5-1 Mapping" textid="57" sets="0"/>
+		<param name="RPDO5-2 Mapping" ShortText="RPM52" EngText="RPDO5-2 Mapping" textid="58" sets="0"/>
+		<param name="RPDO5-3 Mapping" ShortText="RPM53" EngText="RPDO5-3 Mapping" textid="59" sets="0"/>
+		<param name="RPDO5-4 Mapping" ShortText="RPM54" EngText="RPDO5-4 Mapping" textid="60" sets="0"/>
+		<param name="RPDO6 Mapping Parameters" ShortText="RPDO6M" EngText="RPDO6 Mapping Parameters" textid="61" sets="0"/>
+		<param name="RPDO6-1 Mapping" ShortText="RPM61" EngText="RPDO6-1 Mapping" textid="62" sets="0"/>
+		<param name="RPDO6-2 Mapping" ShortText="RPM62" EngText="RPDO6-2 Mapping" textid="63" sets="0"/>
+		<param name="RPDO6-3 Mapping" ShortText="RPM63" EngText="RPDO6-3 Mapping" textid="64" sets="0"/>
+		<param name="RPDO6-4 Mapping" ShortText="RPM64" EngText="RPDO6-4 Mapping" textid="65" sets="0"/>
+		<param name="RPDO7 Mapping Parameters" ShortText="RPDO7M" EngText="RPDO7 Mapping Parameters" textid="66" sets="0"/>
+		<param name="RPDO7-1 Mapping" ShortText="RPM71" EngText="RPDO7-1 Mapping" textid="67" sets="0"/>
+		<param name="RPDO7-2 Mapping" ShortText="RPM72" EngText="RPDO7-2 Mapping" textid="68" sets="0"/>
+		<param name="RPDO7-3 Mapping" ShortText="RPM73" EngText="RPDO7-3 Mapping" textid="69" sets="0"/>
+		<param name="RPDO7-4 Mapping" ShortText="RPM74" EngText="RPDO7-4 Mapping" textid="70" sets="0"/>
+		<param name="RPDO8 Mapping Parameters" ShortText="RPDO8M" EngText="RPDO8 Mapping Parameters" textid="71" sets="0"/>
+		<param name="RPDO8-1 Mapping" ShortText="RPM81" EngText="RPDO8-1 Mapping" textid="72" sets="0"/>
+		<param name="RPDO8-2 Mapping" ShortText="RPM82" EngText="RPDO8-2 Mapping" textid="73" sets="0"/>
+		<param name="RPDO8-3 Mapping" ShortText="RPM83" EngText="RPDO8-3 Mapping" textid="74" sets="0"/>
+		<param name="RPDO8-4 Mapping" ShortText="RPM84" EngText="RPDO8-4 Mapping" textid="75" sets="0"/>
+		<param name="TPDO1 Communication Parameters" ShortText="TPDO1P" EngText="TPDO1 Communication Parameters" textid="76" sets="0"/>
+		<param name="COB-ID for TPDO1" ShortText="ITPDO1" EngText="COB-ID for TPDO1" textid="77" sets="0"/>
+		<param name="Inhibit Time 1" ShortText="ITime1" EngText="Inhibit Time 1" textid="78" sets="0"/>
+		<param name="Compatibility Entry" ShortText="CompEn" EngText="Compatibility Entry" textid="79" sets="0"/>
+		<param name="Event Timer 1" ShortText="EvTmr1" EngText="Event Timer 1" textid="80" sets="0"/>
+		<param name="TPDO2 Communication Parameters" ShortText="TPDO2P" EngText="TPDO2 Communication Parameters" textid="81" sets="0"/>
+		<param name="COB-ID for TPDO2" ShortText="ITPDO2" EngText="COB-ID for TPDO2" textid="82" sets="0"/>
+		<param name="Inhibit Time 2" ShortText="ITime2" EngText="Inhibit Time 2" textid="83" sets="0"/>
+		<param name="Event Timer 2" ShortText="EvTmr2" EngText="Event Timer 2" textid="84" sets="0"/>
+		<param name="TPDO3 Communication Parameters" ShortText="TPDO3P" EngText="TPDO3 Communication Parameters" textid="85" sets="0"/>
+		<param name="COB-ID for TPDO3" ShortText="ITPDO3" EngText="COB-ID for TPDO3" textid="86" sets="0"/>
+		<param name="Inhibit Time 3" ShortText="ITime3" EngText="Inhibit Time 3" textid="87" sets="0"/>
+		<param name="Event Timer 3" ShortText="EvTmr3" EngText="Event Timer 3" textid="88" sets="0"/>
+		<param name="TPDO4 Communication Parameters" ShortText="TPDO4P" EngText="TPDO4 Communication Parameters" textid="89" sets="0"/>
+		<param name="COB-ID for TPDO4" ShortText="ITPDO4" EngText="COB-ID for TPDO4" textid="90" sets="0"/>
+		<param name="Inhibit Time 4" ShortText="ITime4" EngText="Inhibit Time 4" textid="91" sets="0"/>
+		<param name="Event Timer 4" ShortText="EvTmr4" EngText="Event Timer 4" textid="92" sets="0"/>
+		<param name="TPDO5 Communication Parameters" ShortText="TPDO5P" EngText="TPDO5 Communication Parameters" textid="93" sets="0"/>
+		<param name="COB-ID for TPDO5" ShortText="ITPDO5" EngText="COB-ID for TPDO5" textid="94" sets="0"/>
+		<param name="Inhibit Time 5" ShortText="ITime5" EngText="Inhibit Time 5" textid="95" sets="0"/>
+		<param name="Event Timer 5" ShortText="EvTmr5" EngText="Event Timer 5" textid="96" sets="0"/>
+		<param name="TPDO6 Communication Parameters" ShortText="TPDO6P" EngText="TPDO6 Communication Parameters" textid="97" sets="0"/>
+		<param name="COB-ID for TPDO6" ShortText="ITPDO6" EngText="COB-ID for TPDO6" textid="98" sets="0"/>
+		<param name="Inhibit Time 6" ShortText="ITime6" EngText="Inhibit Time 6" textid="99" sets="0"/>
+		<param name="Event Timer 6" ShortText="EvTmr6" EngText="Event Timer 6" textid="100" sets="0"/>
+		<param name="TPDO7 Communication Parameters" ShortText="TPDO7P" EngText="TPDO7 Communication Parameters" textid="101" sets="0"/>
+		<param name="COB-ID for TPDO7" ShortText="ITPDO7" EngText="COB-ID for TPDO7" textid="102" sets="0"/>
+		<param name="Inhibit Time 7" ShortText="ITime7" EngText="Inhibit Time 7" textid="103" sets="0"/>
+		<param name="Event Timer 7" ShortText="EvTmr7" EngText="Event Timer 7" textid="104" sets="0"/>
+		<param name="TPDO8 Communication Parameters" ShortText="TPDO8P" EngText="TPDO8 Communication Parameters" textid="105" sets="0"/>
+		<param name="COB-ID for TPDO8" ShortText="ITPDO8" EngText="COB-ID for TPDO8" textid="106" sets="0"/>
+		<param name="Inhibit Time 8" ShortText="ITime8" EngText="Inhibit Time 8" textid="107" sets="0"/>
+		<param name="Event Timer 8" ShortText="EvTmr8" EngText="Event Timer 8" textid="108" sets="0"/>
+		<param name="TPDO1 Mapping Parameters" ShortText="TPDO1M" EngText="TPDO1 Mapping Parameters" textid="109" sets="0"/>
+		<param name="TPDO1-1 Mapping" ShortText="TPM11" EngText="TPDO1-1 Mapping" textid="110" sets="0"/>
+		<param name="TPDO1-2 Mapping" ShortText="TPM12" EngText="TPDO1-2 Mapping" textid="111" sets="0"/>
+		<param name="TPDO1-3 Mapping" ShortText="TPM13" EngText="TPDO1-3 Mapping" textid="112" sets="0"/>
+		<param name="TPDO1-4 Mapping" ShortText="TPM14" EngText="TPDO1-4 Mapping" textid="113" sets="0"/>
+		<param name="TPDO2 Mapping Parameters" ShortText="TPDO2M" EngText="TPDO2 Mapping Parameters" textid="114" sets="0"/>
+		<param name="TPDO2-1 Mapping" ShortText="TPM21" EngText="TPDO2-1 Mapping" textid="115" sets="0"/>
+		<param name="TPDO2-2 Mapping" ShortText="TPM22" EngText="TPDO2-2 Mapping" textid="116" sets="0"/>
+		<param name="TPDO2-3 Mapping" ShortText="TPM23" EngText="TPDO2-3 Mapping" textid="117" sets="0"/>
+		<param name="TPDO2-4 Mapping" ShortText="TPM24" EngText="TPDO2-4 Mapping" textid="118" sets="0"/>
+		<param name="TPDO3 Mapping Parameters" ShortText="TPDO3M" EngText="TPDO3 Mapping Parameters" textid="119" sets="0"/>
+		<param name="TPDO3-1 Mapping" ShortText="TPM31" EngText="TPDO3-1 Mapping" textid="120" sets="0"/>
+		<param name="TPDO3-2 Mapping" ShortText="TPM32" EngText="TPDO3-2 Mapping" textid="121" sets="0"/>
+		<param name="TPDO3-3 Mapping" ShortText="TPM33" EngText="TPDO3-3 Mapping" textid="122" sets="0"/>
+		<param name="TPDO3-4 Mapping" ShortText="TPM34" EngText="TPDO3-4 Mapping" textid="123" sets="0"/>
+		<param name="TPDO4 Mapping Parameters" ShortText="TPDO4M" EngText="TPDO4 Mapping Parameters" textid="124" sets="0"/>
+		<param name="TPDO4-1 Mapping" ShortText="TPM41" EngText="TPDO4-1 Mapping" textid="125" sets="0"/>
+		<param name="TPDO4-2 Mapping" ShortText="TPM42" EngText="TPDO4-2 Mapping" textid="126" sets="0"/>
+		<param name="TPDO4-3 Mapping" ShortText="TPM43" EngText="TPDO4-3 Mapping" textid="127" sets="0"/>
+		<param name="TPDO4-4 Mapping" ShortText="TPM44" EngText="TPDO4-4 Mapping" textid="128" sets="0"/>
+		<param name="TPDO5 Mapping Parameters" ShortText="TPDO5M" EngText="TPDO5 Mapping Parameters" textid="129" sets="0"/>
+		<param name="TPDO5-1 Mapping" ShortText="TPM51" EngText="TPDO5-1 Mapping" textid="130" sets="0"/>
+		<param name="TPDO5-2 Mapping" ShortText="TPM52" EngText="TPDO5-2 Mapping" textid="131" sets="0"/>
+		<param name="TPDO5-3 Mapping" ShortText="TPM53" EngText="TPDO5-3 Mapping" textid="132" sets="0"/>
+		<param name="TPDO5-4 Mapping" ShortText="TPM54" EngText="TPDO5-4 Mapping" textid="133" sets="0"/>
+		<param name="TPDO6 Mapping Parameters" ShortText="TPDO6M" EngText="TPDO6 Mapping Parameters" textid="134" sets="0"/>
+		<param name="TPDO6-1 Mapping" ShortText="TPM61" EngText="TPDO6-1 Mapping" textid="135" sets="0"/>
+		<param name="TPDO6-2 Mapping" ShortText="TPM62" EngText="TPDO6-2 Mapping" textid="136" sets="0"/>
+		<param name="TPDO6-3 Mapping" ShortText="TPM63" EngText="TPDO6-3 Mapping" textid="137" sets="0"/>
+		<param name="TPDO6-4 Mapping" ShortText="TPM64" EngText="TPDO6-4 Mapping" textid="138" sets="0"/>
+		<param name="TPDO7 Mapping Parameters" ShortText="TPDO7M" EngText="TPDO7 Mapping Parameters" textid="139" sets="0"/>
+		<param name="TPDO7-1 Mapping" ShortText="TPM71" EngText="TPDO7-1 Mapping" textid="140" sets="0"/>
+		<param name="TPDO7-2 Mapping" ShortText="TPM72" EngText="TPDO7-2 Mapping" textid="141" sets="0"/>
+		<param name="TPDO7-3 Mapping" ShortText="TPM73" EngText="TPDO7-3 Mapping" textid="142" sets="0"/>
+		<param name="TPDO7-4 Mapping" ShortText="TPM74" EngText="TPDO7-4 Mapping" textid="143" sets="0"/>
+		<param name="TPDO8 Mapping Parameters" ShortText="TPDO8M" EngText="TPDO8 Mapping Parameters" textid="144" sets="0"/>
+		<param name="TPDO8-1 Mapping" ShortText="TPM81" EngText="TPDO8-1 Mapping" textid="145" sets="0"/>
+		<param name="TPDO8-2 Mapping" ShortText="TPM82" EngText="TPDO8-2 Mapping" textid="146" sets="0"/>
+		<param name="TPDO8-3 Mapping" ShortText="TPM83" EngText="TPDO8-3 Mapping" textid="147" sets="0"/>
+		<param name="TPDO8-4 Mapping" ShortText="TPM84" EngText="TPDO8-4 Mapping" textid="148" sets="0"/>
+		<param name="CAN NODE-ID" ShortText="NodeID" EngText="CAN NODE-ID" textid="149" sets="0"/>
+		<param name="CAN Bit Rate" ShortText="CANBR" EngText="CAN Bit Rate" textid="150" sets="1"/>
+		<param name="Special Data" ShortText="SpData" EngText="Special Data" textid="151" sets="0"/>
+		<param name="Special Data 1" ShortText="SpDat1" EngText="Special Data 1" textid="152" sets="0"/>
+		<param name="Special Data 2" ShortText="SpDat2" EngText="Special Data 2" textid="153" sets="0"/>
+		<param name="Special Data 3" ShortText="SpDat3" EngText="Special Data 3" textid="154" sets="0"/>
+		<param name="Special Data 4" ShortText="SpDat4" EngText="Special Data 4" textid="155" sets="0"/>
+		<param name="Secret Code" ShortText="Secret" EngText="Secret Code" textid="156" sets="0"/>
+		<param name="Protect Bit" ShortText="ProtBt" EngText="Protect Bit" textid="157" sets="4"/>
+		<param name="OD_md5_hash" ShortText="OD_md5_hash" EngText="OD_md5_hash" textid="158" sets="0"/>
+		<param name="md5_hash_0" ShortText="md5_hash_0" EngText="md5_hash_0" textid="159" sets="0"/>
+		<param name="md5_hash_1" ShortText="md5_hash_1" EngText="md5_hash_1" textid="160" sets="0"/>
+		<param name="md5_hash_2" ShortText="md5_hash_2" EngText="md5_hash_2" textid="161" sets="0"/>
+		<param name="md5_hash_3" ShortText="md5_hash_3" EngText="md5_hash_3" textid="162" sets="0"/>
+		<param name="Heartbeat Flag" ShortText="HBFlag" EngText="Heartbeat Flag" textid="163" sets="0"/>
+		<param name="Heartbeat Flag 0-31" ShortText="HFlag0" EngText="Heartbeat Flag 0-31" textid="164" sets="0"/>
+		<param name="Heartbeat Flag 32-63" ShortText="HFlag1" EngText="Heartbeat Flag 32-63" textid="165" sets="0"/>
+		<param name="Heartbeat Flag 64-95" ShortText="HFlag2" EngText="Heartbeat Flag 64-95" textid="166" sets="0"/>
+		<param name="Heartbeat Flag 96-127" ShortText="HFlag3" EngText="Heartbeat Flag 96-127" textid="167" sets="0"/>
+		<param name="Heartbeat Mask" ShortText="HBMask" EngText="Heartbeat Mask" textid="168" sets="0"/>
+		<param name="Heartbeat Mask 0-31" ShortText="HMask0" EngText="Heartbeat Mask 0-31" textid="169" sets="0"/>
+		<param name="Heartbeat Mask 32-63" ShortText="HMask1" EngText="Heartbeat Mask 32-63" textid="170" sets="0"/>
+		<param name="Heartbeat Mask 64-95" ShortText="HMask2" EngText="Heartbeat Mask 64-95" textid="171" sets="0"/>
+		<param name="Heartbeat Mask 96-127" ShortText="HMask3" EngText="Heartbeat Mask 96-127" textid="172" sets="0"/>
+		<param name="Heartbeat Autostart" ShortText="HBASta" EngText="Heartbeat Autostart" textid="173" sets="3"/>
+		<param name="Heartbeat Autorecovery" ShortText="HBARec" EngText="Heartbeat Autorecovery" textid="174" sets="3"/>
+		<param name="Состояние драйвера CAN-Open" ShortText="State" EngText="Состояние драйвера CAN-Open" textid="175" sets="0"/>
+		<param name="Emergency Error Code" ShortText="EmErCo" EngText="Emergency Error Code" textid="176" sets="0"/>
+		<param name="Device Error State" ShortText="DeErSt" EngText="Device Error State" textid="177" sets="0"/>
+		<param name="Object Dictionary Command Window" ShortText="ODComW" EngText="Object Dictionary Command Window" textid="178" sets="0"/>
+		<param name="Object Dictionary Command" ShortText="ODComm" EngText="Object Dictionary Command" textid="179" sets="0"/>
+		<param name="Current OD Index" ShortText="ODCInd" EngText="Current OD Index" textid="180" sets="0"/>
+		<param name="Current OD Sub-Index" ShortText="ODCSub" EngText="Current OD Sub-Index" textid="181" sets="0"/>
+		<param name="Current OD Element Text" ShortText="ODCTxt" EngText="Current OD Element Text" textid="182" sets="0"/>
+		<param name="Current OD Element Format" ShortText="ODCFrm" EngText="Current OD Element Format" textid="183" sets="0"/>
+		<param name="Current OD Element Min" ShortText="ODCMin" EngText="Current OD Element Min" textid="184" sets="0"/>
+		<param name="Current OD Element Max" ShortText="ODCMax" EngText="Current OD Element Max" textid="185" sets="0"/>
+		<param name="Current OD Element Default" ShortText="ODCDef" EngText="Current OD Element Default" textid="186" sets="0"/>
+		<param name="Current OD Element MinLow" ShortText="ODCMiL" EngText="Current OD Element MinLow" textid="187" sets="0"/>
+		<param name="Current OD Element MaxLow" ShortText="ODCMaL" EngText="Current OD Element MaxLow" textid="188" sets="0"/>
+		<param name="Current OD Element Default Low" ShortText="ODCDeL" EngText="Current OD Element Default Low" textid="189" sets="0"/>
+		<param name="Current OD Element Address" ShortText="ODCAdr" EngText="Current OD Element Address" textid="190" sets="0"/>
+		<param name="Группа параметров" ShortText="Группа" EngText="Parameter Group" textid="191" sets="0"/>
+		<param name="Количество индексов" ShortText="КолИнд" EngText="Number of Indexes" textid="192" sets="0"/>
+		<param name="Default Index" ShortText="DefInd" EngText="Default Index" textid="193" sets="0"/>
+		<param name="Default Index 1" ShortText="DfInd1" EngText="Default Index 1" textid="194" sets="0"/>
+		<param name="Default Index 2" ShortText="DfInd2" EngText="Default Index 2" textid="195" sets="0"/>
+		<param name="Profile Mask List" ShortText="ProfML" EngText="Profile Mask List" textid="196" sets="0"/>
+		<param name="Mask Element" ShortText="MskEl0" EngText="Mask Element" textid="197" sets="5"/>
+		<param name="Mask Element" ShortText="MskEl1" EngText="Mask Element" textid="198" sets="5"/>
+		<param name="Mask Element" ShortText="MskEl2" EngText="Mask Element" textid="199" sets="5"/>
+		<param name="Mask Element" ShortText="MskEl3" EngText="Mask Element" textid="200" sets="5"/>
+		<param name="Mask Element" ShortText="MskEl4" EngText="Mask Element" textid="201" sets="5"/>
+		<param name="Mask Element" ShortText="MskEl5" EngText="Mask Element" textid="202" sets="5"/>
+		<param name="Mask Element" ShortText="MskEl6" EngText="Mask Element" textid="203" sets="5"/>
+		<param name="Mask Element" ShortText="MskEl7" EngText="Mask Element" textid="204" sets="5"/>
+		<param name="Mask Element" ShortText="MskEl8" EngText="Mask Element" textid="205" sets="5"/>
+		<param name="Mask Element" ShortText="MskEl9" EngText="Mask Element" textid="206" sets="5"/>
+		<param name="Mask Element" ShortText="MskElA" EngText="Mask Element" textid="207" sets="5"/>
+		<param name="Mask Element" ShortText="MskElB" EngText="Mask Element" textid="208" sets="5"/>
+		<param name="Mask Element" ShortText="MskElC" EngText="Mask Element" textid="209" sets="5"/>
+		<param name="Mask Element" ShortText="MskElD" EngText="Mask Element" textid="210" sets="5"/>
+		<param name="Mask Element" ShortText="MskElE" EngText="Mask Element" textid="211" sets="5"/>
+		<param name="Mask Element" ShortText="MskElF" EngText="Mask Element" textid="212" sets="5"/>
+		<param name="Scale Number 0 Record" ShortText="SNR0" EngText="Scale Number 0 Record" textid="213" sets="0"/>
+		<param name="Scale Number 0" ShortText="SN0" EngText="Scale Number 0" textid="214" sets="0"/>
+		<param name="Scale Number 0 Format" ShortText="S0Fmt" EngText="Scale Number 0 Format" textid="215" sets="0"/>
+		<param name="Scale Number Format Q" ShortText="Q-type" EngText="Scale Number Format Q" textid="216" sets="0"/>
+		<param name="Scale Number Format NumOfFloat" ShortText="NFloat" EngText="Scale Number Format NumOfFloat" textid="217" sets="0"/>
+		<param name="Scale Number Format Prefix" ShortText="Prefix" EngText="Scale Number Format Prefix" textid="218" sets="6"/>
+		<param name="Scale Number Format Units" ShortText="Units" EngText="Scale Number Format Units" textid="219" sets="7"/>
+		<param name="Scale Number 1 Record" ShortText="SNR1" EngText="Scale Number 1 Record" textid="220" sets="0"/>
+		<param name="Scale Number 1" ShortText="SN1" EngText="Scale Number 1" textid="221" sets="0"/>
+		<param name="Scale Number 1 Format" ShortText="S1Fmt" EngText="Scale Number 1 Format" textid="222" sets="0"/>
+		<param name="Scale Number 2 Record" ShortText="SNR2" EngText="Scale Number 2 Record" textid="223" sets="0"/>
+		<param name="Scale Number 2" ShortText="SN2" EngText="Scale Number 2" textid="224" sets="0"/>
+		<param name="Scale Number 2 Format" ShortText="S2Fmt" EngText="Scale Number 2 Format" textid="225" sets="0"/>
+		<param name="Scale Number 3 Record" ShortText="SNR3" EngText="Scale Number 3 Record" textid="226" sets="0"/>
+		<param name="Scale Number 3" ShortText="SN3" EngText="Scale Number 3" textid="227" sets="0"/>
+		<param name="Scale Number 3 Format" ShortText="S3Fmt" EngText="Scale Number 3 Format" textid="228" sets="0"/>
+		<param name="Scale Number 4 Record" ShortText="SNR4" EngText="Scale Number 4 Record" textid="229" sets="0"/>
+		<param name="Scale Number 4" ShortText="SN4" EngText="Scale Number 4" textid="230" sets="0"/>
+		<param name="Scale Number 4 Format" ShortText="S4Fmt" EngText="Scale Number 4 Format" textid="231" sets="0"/>
+		<param name="Scale Number 5 Record" ShortText="SNR5" EngText="Scale Number 5 Record" textid="232" sets="0"/>
+		<param name="Scale Number 5" ShortText="SN5" EngText="Scale Number 5" textid="233" sets="0"/>
+		<param name="Scale Number 5 Format" ShortText="S5Fmt" EngText="Scale Number 5 Format" textid="234" sets="0"/>
+		<param name="Scale Number 6 Record" ShortText="SNR6" EngText="Scale Number 6 Record" textid="235" sets="0"/>
+		<param name="Scale Number 6" ShortText="SN6" EngText="Scale Number 6" textid="236" sets="0"/>
+		<param name="Scale Number 6 Format" ShortText="S6Fmt" EngText="Scale Number 6 Format" textid="237" sets="0"/>
+		<param name="Scale Number 7 Record" ShortText="SNR7" EngText="Scale Number 7 Record" textid="238" sets="0"/>
+		<param name="Scale Number 7" ShortText="SN7" EngText="Scale Number 7" textid="239" sets="0"/>
+		<param name="Scale Number 7 Format" ShortText="S7Fmt" EngText="Scale Number 7 Format" textid="240" sets="0"/>
+		<param name="Scale Number 8 Record" ShortText="SNR8" EngText="Scale Number 8 Record" textid="241" sets="0"/>
+		<param name="Scale Number 8" ShortText="SN8" EngText="Scale Number 8" textid="242" sets="0"/>
+		<param name="Scale Number 8 Format" ShortText="S8Fmt" EngText="Scale Number 8 Format" textid="243" sets="0"/>
+		<param name="Scale Number 9 Record" ShortText="SNR9" EngText="Scale Number 9 Record" textid="244" sets="0"/>
+		<param name="Scale Number 9" ShortText="SN9" EngText="Scale Number 9" textid="245" sets="0"/>
+		<param name="Scale Number 9 Format" ShortText="S9Fmt" EngText="Scale Number 9 Format" textid="246" sets="0"/>
+		<param name="Scale Number A Record" ShortText="SNRA" EngText="Scale Number A Record" textid="247" sets="0"/>
+		<param name="Scale Number A" ShortText="SNA" EngText="Scale Number A" textid="248" sets="0"/>
+		<param name="Scale Number A Format" ShortText="SAFmt" EngText="Scale Number A Format" textid="249" sets="0"/>
+		<param name="Scale Number B Record" ShortText="SNRB" EngText="Scale Number B Record" textid="250" sets="0"/>
+		<param name="Scale Number B" ShortText="SNB" EngText="Scale Number B" textid="251" sets="0"/>
+		<param name="Scale Number B Format" ShortText="SBFmt" EngText="Scale Number B Format" textid="252" sets="0"/>
+		<param name="Scale Number C Record" ShortText="SNRC" EngText="Scale Number C Record" textid="253" sets="0"/>
+		<param name="Scale Number C" ShortText="SNC" EngText="Scale Number C" textid="254" sets="0"/>
+		<param name="Scale Number C Format" ShortText="SCFmt" EngText="Scale Number C Format" textid="255" sets="0"/>
+		<param name="Scale Number D Record" ShortText="SNRD" EngText="Scale Number D Record" textid="256" sets="0"/>
+		<param name="Scale Number D" ShortText="SND" EngText="Scale Number D" textid="257" sets="0"/>
+		<param name="Scale Number D Format" ShortText="SDFmt" EngText="Scale Number D Format" textid="258" sets="0"/>
+		<param name="Scale Number E Record" ShortText="SNRE" EngText="Scale Number E Record" textid="259" sets="0"/>
+		<param name="Scale Number E" ShortText="SNE" EngText="Scale Number E" textid="260" sets="0"/>
+		<param name="Scale Number E Format" ShortText="SEFmt" EngText="Scale Number E Format" textid="261" sets="0"/>
+		<param name="Scale Number F Record" ShortText="SNRF" EngText="Scale Number F Record" textid="262" sets="0"/>
+		<param name="Scale Number F" ShortText="SNF" EngText="Scale Number F" textid="263" sets="0"/>
+		<param name="Scale Number F Format" ShortText="SFFmt" EngText="Scale Number F Format" textid="264" sets="0"/>
+		<param name="Scale Number 10 Record" ShortText="SNR10" EngText="Scale Number 10 Record" textid="265" sets="0"/>
+		<param name="Scale Number 10" ShortText="SN10" EngText="Scale Number 10" textid="266" sets="0"/>
+		<param name="Scale Number 10 Format" ShortText="S10Fmt" EngText="Scale Number 10 Format" textid="267" sets="0"/>
+		<param name="Scale Number 11 Record" ShortText="SNR11" EngText="Scale Number 11 Record" textid="268" sets="0"/>
+		<param name="Scale Number 11" ShortText="SN11" EngText="Scale Number 11" textid="269" sets="0"/>
+		<param name="Scale Number 11 Format" ShortText="S11Fmt" EngText="Scale Number 11 Format" textid="270" sets="0"/>
+		<param name="Scale Number 12 Record" ShortText="SNR12" EngText="Scale Number 12 Record" textid="271" sets="0"/>
+		<param name="Scale Number 12" ShortText="SN12" EngText="Scale Number 12" textid="272" sets="0"/>
+		<param name="Scale Number 12 Format" ShortText="S12Fmt" EngText="Scale Number 12 Format" textid="273" sets="0"/>
+		<param name="Scale Number 13 Record" ShortText="SNR13" EngText="Scale Number 13 Record" textid="274" sets="0"/>
+		<param name="Scale Number 13" ShortText="SN13" EngText="Scale Number 13" textid="275" sets="0"/>
+		<param name="Scale Number 13 Format" ShortText="S13Fmt" EngText="Scale Number 13 Format" textid="276" sets="0"/>
+		<param name="Scale Number 14 Record" ShortText="SNR14" EngText="Scale Number 14 Record" textid="277" sets="0"/>
+		<param name="Scale Number 14" ShortText="SN14" EngText="Scale Number 14" textid="278" sets="0"/>
+		<param name="Scale Number 14 Format" ShortText="S14Fmt" EngText="Scale Number 14 Format" textid="279" sets="0"/>
+		<param name="Scale Number 15 Record" ShortText="SNR15" EngText="Scale Number 15 Record" textid="280" sets="0"/>
+		<param name="Scale Number 15" ShortText="SN15" EngText="Scale Number 15" textid="281" sets="0"/>
+		<param name="Scale Number 15Format" ShortText="S15Fmt" EngText="Scale Number 15Format" textid="282" sets="0"/>
+		<param name="Scale Number 16 Record" ShortText="SNR16" EngText="Scale Number 16 Record" textid="283" sets="0"/>
+		<param name="Scale Number 16" ShortText="SN16" EngText="Scale Number 16" textid="284" sets="0"/>
+		<param name="Scale Number 16Format" ShortText="S16Fmt" EngText="Scale Number 16Format" textid="285" sets="0"/>
+		<param name="Scale Number 17 Record" ShortText="SNR17" EngText="Scale Number 17 Record" textid="286" sets="0"/>
+		<param name="Scale Number 17" ShortText="SN17" EngText="Scale Number 17" textid="287" sets="0"/>
+		<param name="Scale Number 17Format" ShortText="S17Fmt" EngText="Scale Number 17Format" textid="288" sets="0"/>
+		<param name="Scale Number 18 Record" ShortText="SNR18" EngText="Scale Number 18 Record" textid="289" sets="0"/>
+		<param name="Scale Number 18" ShortText="SN18" EngText="Scale Number 18" textid="290" sets="0"/>
+		<param name="Scale Number 18Format" ShortText="S18Fmt" EngText="Scale Number 18Format" textid="291" sets="0"/>
+		<param name="Scale Number 19 Record" ShortText="SNR19" EngText="Scale Number 19 Record" textid="292" sets="0"/>
+		<param name="Scale Number 19" ShortText="SN19" EngText="Scale Number 19" textid="293" sets="0"/>
+		<param name="Scale Number 19Format" ShortText="S19Fmt" EngText="Scale Number 19Format" textid="294" sets="0"/>
+		<param name="Scale Number 1A Record" ShortText="SNR1A" EngText="Scale Number 1A Record" textid="295" sets="0"/>
+		<param name="Scale Number 1A" ShortText="SN1A" EngText="Scale Number 1A" textid="296" sets="0"/>
+		<param name="Scale Number 1AFormat" ShortText="S1AFmt" EngText="Scale Number 1AFormat" textid="297" sets="0"/>
+		<param name="Scale Number 1B Record" ShortText="SNR1B" EngText="Scale Number 1B Record" textid="298" sets="0"/>
+		<param name="Scale Number 1B" ShortText="SN1B" EngText="Scale Number 1B" textid="299" sets="0"/>
+		<param name="Scale Number 1BFormat" ShortText="S1BFmt" EngText="Scale Number 1BFormat" textid="300" sets="0"/>
+		<param name="Scale Number 1C Record" ShortText="SNR1C" EngText="Scale Number 1C Record" textid="301" sets="0"/>
+		<param name="Scale Number 1C" ShortText="SN1C" EngText="Scale Number 1C" textid="302" sets="0"/>
+		<param name="Scale Number 1C Format" ShortText="S1CFmt" EngText="Scale Number 1C Format" textid="303" sets="0"/>
+		<param name="Scale Number 1D Record" ShortText="SNR1D" EngText="Scale Number 1D Record" textid="304" sets="0"/>
+		<param name="Scale Number 1D" ShortText="SN1D" EngText="Scale Number 1D" textid="305" sets="0"/>
+		<param name="Scale Number 1D Format" ShortText="S1DFmt" EngText="Scale Number 1D Format" textid="306" sets="0"/>
+		<param name="Слово управления CAN" ShortText="КмдCAN" EngText="CAN command register" textid="307" sets="0"/>
+		<param name="Пуск" ShortText="Пуск" EngText="Command: Start" textid="308" sets="2"/>
+		<param name="Стоп" ShortText="Стоп" EngText="Command: Stop" textid="309" sets="2"/>
+		<param name="Сбросить состояние Аварии" ShortText="СбрАвр" EngText="Command: Reset fault" textid="310" sets="2"/>
+		<param name="Часы реального времени" ShortText="RTC" EngText="Real time clock" textid="311" sets="0"/>
+		<param name="Системный объект" ShortText="System" EngText="System object" textid="312" sets="0"/>
+		<param name="Код аварии MCB4" ShortText="Код аварии MCB4" EngText="" textid="313" sets="16"/>
+		<param name="Расширение кода аварии" ShortText="Авр+" EngText="Extension of fault ID" textid="314" sets="11"/>
+		<param name="Конфигурация отображения пульта управления" ShortText="Конфиг. ПУ" EngText="Control panel configuration" textid="315" sets="0"/>
+		<param name="Номер груп для пульта управления" ShortText="№ гр ПУ" EngText="" textid="316" sets="0"/>
+		<param name="Статус преобразователя" ShortText="Статус" EngText="Статус преобразователя" textid="317" sets="0"/>
+		<param name="Счётчик прерываний 1 кГц" ShortText="Сч.прерыв.1 кГц" EngText="" textid="318" sets="0"/>
+		<param name="Счётчик прерываний 10 кГц" ShortText="Сч.прерыв.10 кГц" EngText="" textid="319" sets="0"/>
+		<param name="BackgroundCounter" ShortText="BackgroundCounter" EngText="" textid="320" sets="0"/>
+		<param name="T_10кГц" ShortText="T_10кГц" EngText="T_10кГц" textid="321" sets="0"/>
+		<param name="T_1кГц" ShortText="T_1кГц" EngText="T_1кГц" textid="322" sets="0"/>
+		<param name="Задатчик интенсивности" ShortText="ЗИ" EngText="Ramp" textid="323" sets="0"/>
+		<param name="T разгона до номинала" ShortText="rmpT" EngText="T разгона до номинала" textid="324" sets="0"/>
+		<param name="Вход ЗИ" ShortText="ВходЗИ" EngText="Ramp input" textid="325" sets="0"/>
+		<param name="Выход ЗИ" ShortText="ВыходЗИ" EngText="Ramp output" textid="326" sets="0"/>
+		<param name="ПИД регулятор тока Id" ShortText="Рег_id" EngText="ПИД регулятор тока Id" textid="327" sets="0"/>
+		<param name="Задание" ShortText="Зад-е" EngText="Reference" textid="328" sets="0"/>
+		<param name="Обратная связь" ShortText="Обр.Св" EngText="Feedback" textid="329" sets="0"/>
+		<param name="Пропорц. коэфф. Kp" ShortText="Kp" EngText="Kp" textid="330" sets="0"/>
+		<param name="Максимум выхода" ShortText="Max" EngText="Maximum Output Limits" textid="331" sets="0"/>
+		<param name="Минимум выхода" ShortText="Min" EngText="Minimum Output Limits" textid="332" sets="0"/>
+		<param name="Интегральный коэфф. Ki" ShortText="Ki" EngText="Ki" textid="333" sets="0"/>
+		<param name="Дифф. коэфф. Kd" ShortText="Kd" EngText="Kd" textid="334" sets="0"/>
+		<param name="Интегр.корректир.коэффициент" ShortText="Kc" EngText="Integral correction gain" textid="335" sets="0"/>
+		<param name="Ошибка рассогласования сигналов" ShortText="Ошибка" EngText="" textid="336" sets="0"/>
+		<param name="Выход регулятора" ShortText="Выход" EngText="Controller output" textid="337" sets="0"/>
+		<param name="Вых.Пропорц." ShortText="Вых.Пропорц." EngText="Ud" textid="338" sets="0"/>
+		<param name="Вых.Интегр." ShortText="Вых.Интегр." EngText="Integral Output" textid="339" sets="0"/>
+		<param name="Вых.Диффер." ShortText="Вых.Диффер." EngText="Ud" textid="340" sets="0"/>
+		<param name="ПИ регулятор скорости" ShortText="РегСкр" EngText="ПИ регулятор скорости" textid="341" sets="0"/>
+		<param name="Задание" ShortText="pisref" EngText="Задание" textid="342" sets="0"/>
+		<param name="Обратная связь" ShortText="pisfbd" EngText="Обратная связь" textid="343" sets="0"/>
+		<param name="Дифф. коэфф. Kd" ShortText="pisKd" EngText="Дифференциальный коэффициент" textid="344" sets="0"/>
+		<param name="Выход регулятора" ShortText="pisout" EngText="Выход регулятора" textid="345" sets="0"/>
+		<param name="Превышение насыщения" ShortText="Прев. насыщ" EngText="saterr_reg3" textid="346" sets="0"/>
+		<param name="ПИД регулятор тока Iq" ShortText="Рег_iq" EngText="ПИД регулятор тока Iq" textid="347" sets="0"/>
+		<param name="Задание" ShortText="Зад-ие" EngText="Задание" textid="348" sets="0"/>
+		<param name="Обратная связь" ShortText="Обр.Св" EngText="Обратная связь" textid="349" sets="0"/>
+		<param name="Пропорц. коэфф. Kp" ShortText="Kp" EngText="Пропорциональный коэффициент Kp" textid="350" sets="0"/>
+		<param name="Максимум выхода" ShortText="Max" EngText="Максимум выхода" textid="351" sets="0"/>
+		<param name="Минимум выхода" ShortText="Min" EngText="Минимум выхода" textid="352" sets="0"/>
+		<param name="Интегральный коэфф. Ki" ShortText="Ki" EngText="Интегральный коэффициент Ki" textid="353" sets="0"/>
+		<param name="Дифф. коэфф. Kd" ShortText="Kd" EngText="Дифференциальный коэффициент Kd" textid="354" sets="0"/>
+		<param name="Выход регулятора" ShortText="Выход" EngText="Controller Output" textid="355" sets="0"/>
+		<param name="Регулятор положения" ShortText="pos_reg" EngText="Position regulator" textid="356" sets="0"/>
+		<param name="Делит. дифф. части" ShortText="Делит. дифф. части" EngText="DiffDelim" textid="357" sets="0"/>
+		<param name="Коэф. фильтра" ShortText="Коэф. фильтра" EngText="Kf_d" textid="358" sets="0"/>
+		<param name="Мертвая зона" ShortText="Мертвая зона" EngText="DeadZone" textid="359" sets="0"/>
+		<param name="Фильтр ошибки" ShortText="Фильтр ошибки" EngText="filterOut" textid="360" sets="0"/>
+		<param name="ПИД рег. тока якоря" ShortText="ПИД рег. Ia" EngText="PID Cur Ia" textid="361" sets="0"/>
+		<param name="ШИМ" ShortText="ШИМ" EngText="PWM" textid="362" sets="0"/>
+		<param name="UaЗад" ShortText="UaЗад" EngText="UaЗад" textid="363" sets="0"/>
+		<param name="UbЗад" ShortText="UbЗад" EngText="UbЗад" textid="364" sets="0"/>
+		<param name="U_огр" ShortText="U_огр" EngText="U_огр" textid="365" sets="0"/>
+		<param name="GammaA" ShortText="GmA" EngText="GammaA" textid="366" sets="0"/>
+		<param name="GammaB" ShortText="GmB" EngText="GammaB" textid="367" sets="0"/>
+		<param name="GammaC" ShortText="GmC" EngText="GammaC" textid="368" sets="0"/>
+		<param name="TPWM" ShortText="TPWM" EngText="TPWM" textid="369" sets="0"/>
+		<param name="Мертвое время (мкс)" ShortText="Мерт. время" EngText="DeadBand" textid="370" sets="0"/>
+		<param name="Ограничение мин. скважн." ShortText="GamLim" EngText="GamLim" textid="371" sets="0"/>
+		<param name="Коэф. компенсации Ud" ShortText="UdКомпK" EngText="UdCompK" textid="372" sets="0"/>
+		<param name="Компенсация Ud" ShortText="UdКомп" EngText="UdCompEnable" textid="373" sets="2"/>
+		<param name="Тип ШИМ" ShortText="ТипШИМ" EngText="PWMType" textid="374" sets="12"/>
+		<param name="ULimitation" ShortText="ULimitation" EngText="ULimitation" textid="375" sets="0"/>
+		<param name="Частота ШИМ" ShortText="Fшим" EngText="PWM frequency" textid="376" sets="0"/>
+		<param name="Сектор" ShortText="Сектор" EngText="Sector" textid="377" sets="0"/>
+		<param name="U_ампл" ShortText="U_ампл" EngText="U_ампл" textid="378" sets="0"/>
+		<param name="Флаги аварий" ShortText="F_bits" EngText="F_bits" textid="379" sets="0"/>
+		<param name="sm_ctrl" ShortText="smctrl" EngText="sm_ctrl" textid="380" sets="0"/>
+		<param name="sm_state" ShortText="smstat" EngText="sm_state" textid="381" sets="0"/>
+		<param name="drv_status_code" ShortText="stcode" EngText="drv_status_code" textid="382" sets="57"/>
+		<param name="Защиты" ShortText="Защиты" EngText="Protection" textid="383" sets="0"/>
+		<param name="Флаги аварий 1" ShortText="bitF_1" EngText="Флаги аварий 1" textid="384" sets="0"/>
+		<param name="Флаги аварий 2" ShortText="bitF_2" EngText="Флаги аварий 2" textid="385" sets="0"/>
+		<param name="Маска аварий 1L" ShortText="mask1L" EngText="Маска аварий 1L" textid="386" sets="0"/>
+		<param name="Маска аварий 1H" ShortText="mask1H" EngText="Маска аварий 1H" textid="387" sets="0"/>
+		<param name="Маска аварий 2L" ShortText="mask2L" EngText="Маска аварий 2L" textid="388" sets="0"/>
+		<param name="Маска аварий  2H" ShortText="mask2H" EngText="Маска аварий  2H" textid="389" sets="0"/>
+		<param name="Максимальный ток" ShortText="Макс.Ток" EngText="Максимальный ток" textid="390" sets="0"/>
+		<param name="Максимальное напряжение" ShortText="Ud_max" EngText="Максимальное напряжение" textid="391" sets="0"/>
+		<param name="Минимальное напряжение" ShortText="Ud_min" EngText="Минимальное напряжение" textid="392" sets="0"/>
+		<param name="Максимальная скорость" ShortText="speed_max" EngText="Maximum speed" textid="393" sets="0"/>
+		<param name="Задания" ShortText="ЗадПар" EngText="Задания" textid="394" sets="9"/>
+		<param name="Скорость" ShortText="Скор_з" EngText="Скорость" textid="395" sets="0"/>
+		<param name="Макс. ток ВУ" ShortText="ТокСТз" EngText="ТокСТз" textid="396" sets="0"/>
+		<param name="Ток удержания" ShortText="ТокУПз" EngText="Ток удержания" textid="397" sets="0"/>
+		<param name="theta_elec" ShortText="элекУг" EngText="theta_elec" textid="398" sets="0"/>
+		<param name="Параметры двигателя" ShortText="ПарДв" EngText="Параметры двигателя" textid="399" sets="0"/>
+		<param name="Число пар полюсов" ShortText="ПарПол" EngText="Число пар полюсов" textid="400" sets="0"/>
+		<param name="Номинальный ток" ShortText="IпчНом" EngText="Номинальный ток" textid="401" sets="0"/>
+		<param name="Номинальное напряжение фазн." ShortText="Uф_ном" EngText="Номинальное напряжение фазн." textid="402" sets="0"/>
+		<param name="Номинальная скорость" ShortText="СкоростьНом" EngText="Номинальная скорость" textid="403" sets="0"/>
+		<param name="Номинальное напряжение ЗПТ" ShortText="UdcНом" EngText="Номинальное напряжение ЗПТ" textid="404" sets="0"/>
+		<param name="Rs" ShortText="Rs" EngText="Rs" textid="405" sets="0"/>
+		<param name="Ls" ShortText="Ls" EngText="Ls" textid="406" sets="0"/>
+		<param name="Номинальная частота" ShortText="Ном.част." EngText="Rated frequency" textid="407" sets="0"/>
+		<param name="Тип датчика положения" ShortText="Sens_type" EngText="Sensor type" textid="408" sets="14"/>
+		<param name="Параметры системы" ShortText="СистПр" EngText="Параметры системы" textid="409" sets="0"/>
+		<param name="Тип аппаратной части" ShortText="HardwareType" EngText="HardwareType" textid="410" sets="17"/>
+		<param name="Режим работы" ShortText="РежРаб" EngText="Mode of operation" textid="411" sets="0"/>
+		<param name="Рекуперация" ShortText="Рекупр" EngText="Рекуперация" textid="412" sets="0"/>
+		<param name="АЦП авто смещ." ShortText="АЦПсмещ" EngText="AutoOffset" textid="413" sets="0"/>
+		<param name="Перезагрузка" ShortText="Перезагрузка" EngText="Reboot" textid="414" sets="0"/>
+		<param name="АЦП" ShortText="АЦП" EngText="ADC" textid="415" sets="0"/>
+		<param name="Коэффициент тока фазы А" ShortText="IaУсил" EngText="Phase A Current Max. Scale" textid="416" sets="0"/>
+		<param name="Смещение тока фазы А" ShortText="IaСмещ" EngText="Phase A Current Offset" textid="417" sets="0"/>
+		<param name="Ток фазы А" ShortText="Ia_мгн" EngText="Phase A Current" textid="418" sets="0"/>
+		<param name="Коэффициент тока фазы В" ShortText="IbУсил" EngText="Phase B Current Max. Scale" textid="419" sets="0"/>
+		<param name="Смещение тока фазы В" ShortText="IbСмещ" EngText="Phase B Current Offset" textid="420" sets="0"/>
+		<param name="Ток фазы В" ShortText="Ib_мгн" EngText="Phase B Current" textid="421" sets="0"/>
+		<param name="Коэффициент тока фазы C" ShortText="IcУсил" EngText="Коэффициент тока фазы C" textid="422" sets="0"/>
+		<param name="Смещение тока фазы C" ShortText="IcСмещ" EngText="Смещение тока фазы C" textid="423" sets="0"/>
+		<param name="Ток фазы С" ShortText="Ic_мгн" EngText="Phase C Current" textid="424" sets="0"/>
+		<param name="Коэффициент напряжения ЗПТ" ShortText="UdУсил" EngText="Udc Max. Scale" textid="425" sets="0"/>
+		<param name="Смещение напряж. ЗПТ" ShortText="Udсмещ" EngText="Udc Offset" textid="426" sets="0"/>
+		<param name="Напряжение ЗПТ" ShortText="Ud" EngText="Напряжение ЗПТ" textid="427" sets="0"/>
+		<param name="Модуль U/F" ShortText="Закон U(f) (АД)" EngText="Модуль U/F" textid="428" sets="0"/>
+		<param name="Выходная частота" ShortText="F_вых" EngText="Выходная частота" textid="429" sets="0"/>
+		<param name="Выходное напряжение" ShortText="U_вых" EngText="Выходное напряжение" textid="430" sets="0"/>
+		<param name="Нулевая опроная частота" ShortText="f [0]" EngText="Нулевая опроная частота" textid="431" sets="0"/>
+		<param name="Нулевое опорное напряжение" ShortText="U [0]" EngText="Нулевое опорное напряжение" textid="432" sets="0"/>
+		<param name="Первая опорная частота" ShortText="f [1]" EngText="Первая опорная частота" textid="433" sets="0"/>
+		<param name="Первое опорное напряжение" ShortText="U [1]" EngText="Первое опорное напряжение" textid="434" sets="0"/>
+		<param name="Максимальная частота" ShortText="f max" EngText="Максимальная частота" textid="435" sets="0"/>
+		<param name="Текущие значения" ShortText="текЗнч" EngText="Текущие значения" textid="436" sets="10"/>
+		<param name="Скорость" ShortText="скор" EngText="Speed" textid="437" sets="0"/>
+		<param name="Акт. мощность" ShortText="АктМощ" EngText="main_pInd" textid="438" sets="0"/>
+		<param name="Ток статора" ShortText="ТокСт" EngText="Ток статора" textid="439" sets="0"/>
+		<param name="ЭлУголЗад" ShortText="ЭлУголЗад" EngText="ЭлУголЗад" textid="440" sets="0"/>
+		<param name="ЭлУгол" ShortText="ЭлУгол" EngText="ЭлУгол" textid="441" sets="0"/>
+		<param name="Ток статора зад" ShortText="ТокСтЗад" EngText="Ток статора зад" textid="442" sets="0"/>
+		<param name="dlog" ShortText="dlog" EngText="dlog" textid="443" sets="0"/>
+		<param name="dlog.mode_reset" ShortText="mode" EngText="dlog.mode_reset" textid="444" sets="0"/>
+		<param name="dlog.control" ShortText="dlcont" EngText="dlog.control" textid="445" sets="0"/>
+		<param name="dlog.ind_subind1" ShortText="dlisi1" EngText="dlog.ind_subind1" textid="446" sets="0"/>
+		<param name="dlog.ind_subind2" ShortText="dlisi2" EngText="dlog.ind_subind2" textid="447" sets="0"/>
+		<param name="dlog.ind_subind3" ShortText="dlisi3" EngText="dlog.ind_subind3" textid="448" sets="0"/>
+		<param name="dlog.ind_subind4" ShortText="dlisi4" EngText="dlog.ind_subind4" textid="449" sets="0"/>
+		<param name="StartBitL" ShortText="StrtBL" EngText="StartBitL" textid="450" sets="0"/>
+		<param name="StartBitH" ShortText="StrtBH" EngText="StartBitH" textid="451" sets="0"/>
+		<param name="OneShotOperation" ShortText="OneShotOp" EngText="OneShotOperation" textid="452" sets="2"/>
+		<param name="Количество точек предыстории" ShortText="N предыст." EngText="Prehistory Points Number" textid="453" sets="0"/>
+		<param name="dlog.next_value_var" ShortText="dlnval" EngText="dlog.next_value_var" textid="454" sets="0"/>
+		<param name="Энкодер" ShortText="Энкодер" EngText="TposspeedEqep" textid="455" sets="0"/>
+		<param name="Кол-во периодов" ShortText="Кол-во периодов" EngText="Resolution" textid="456" sets="0"/>
+		<param name="Наличие репера" ShortText="Наличие репера" EngText="index_en" textid="457" sets="2"/>
+		<param name="Рассчитывать скорость программно" ShortText="SpeedCalcType" EngText="SpeedCalcType" textid="458" sets="0"/>
+		<param name="СмещУгол" ShortText="СмещУг" EngText="thetae_offset" textid="459" sets="0"/>
+		<param name="Механическ.угол в метках" ShortText="Механическ.угол в ме" EngText="Ang_mech" textid="460" sets="0"/>
+		<param name="Скорость" ShortText="Скорость" EngText="Speed" textid="461" sets="0"/>
+		<param name="Угол. электр." ShortText="Угол. электр." EngText="Electrical angle" textid="462" sets="0"/>
+		<param name="Угол мех." ShortText="Угол мех." EngText="theta_mech_tmp" textid="463" sets="0"/>
+		<param name="Команда иниц." ShortText="Команда иниц." EngText="Reinit Command" textid="464" sets="0"/>
+		<param name="К быстродействия фильтра скорости" ShortText="Кф. скорости" EngText="" textid="465" sets="0"/>
+		<param name="Posspeed_FLG1" ShortText="Posspeed_FLG1" EngText="Posspeed_FLG1" textid="466" sets="0"/>
+		<param name="GPIOsValue" ShortText="GPIOsValue" EngText="GPIOsValue" textid="467" sets="0"/>
+		<param name="UPPS" ShortText="UPPS" EngText="UPPS" textid="468" sets="0"/>
+		<param name="QCPRD" ShortText="QCPRD" EngText="QCPRD" textid="469" sets="0"/>
+		<param name="QEPSTS" ShortText="QEPSTS" EngText="QEPSTS" textid="470" sets="0"/>
+		<param name="Число оборотов" ShortText="revolCounter" EngText="Total Revolutions" textid="471" sets="0"/>
+		<param name="Абс. положение в метках" ShortText="qcAbsPos" EngText="Absolute position (qc)" textid="472" sets="0"/>
+		<param name="Угол механический не огранич." ShortText="Уг.мех.не_огр" EngText="theta_mechContinouos" textid="473" sets="0"/>
+		<param name="Угол электрический не огранич." ShortText="Уг.эл.не_огр" EngText="theta_elecContinouos" textid="474" sets="0"/>
+		<param name="Датчик Холла" ShortText="Датчик Холла" EngText="DPR" textid="475" sets="0"/>
+		<param name="Уставка Скорости" ShortText="Уставка Скорости" EngText="speedMIN" textid="476" sets="0"/>
+		<param name="ЭлУгол6" ShortText="ЭлУгол6" EngText="Angle6" textid="477" sets="0"/>
+		<param name="Инт-полятор вкл" ShortText="Инт-полятор вкл" EngText="Инт-полятор вкл" textid="478" sets="2"/>
+		<param name="Уставка обнуления скорости" ShortText="Уставка обнуления ск" EngText="" textid="479" sets="0"/>
+		<param name="Скорость Мин." ShortText="Скорость Мин." EngText="speed min" textid="480" sets="0"/>
+		<param name="Ложные фронты" ShortText="Ложные фронты" EngText="CAP_WrongEdgeCnt" textid="481" sets="0"/>
+		<param name="Дискретные входы" ShortText="Входы" EngText="Digital Inputs" textid="482" sets="0"/>
+		<param name="Уровень помех" ShortText="Уровень помех" EngText="" textid="483" sets="0"/>
+		<param name="Ошибка 1 канала" ShortText="Ошиб_1_к." EngText="" textid="484" sets="0"/>
+		<param name="Ошибка 2 канала" ShortText="Ошиб_2_к." EngText="" textid="485" sets="0"/>
+		<param name="Ошибка 3 канала" ShortText="Ошиб_3_к." EngText="" textid="486" sets="0"/>
+		<param name="Направление вращения" ShortText="НапрВр" EngText="Направление вращения" textid="487" sets="13"/>
+		<param name="Макс.число ошибок ДПР" ShortText="Макс.ош.ДПР" EngText="" textid="488" sets="0"/>
+		<param name="Кол-во ошибок неверной последовательности" ShortText="Ошибки последоват." EngText="" textid="489" sets="0"/>
+		<param name="Счётчик прерываний по приему" ShortText="Счёт.Rx.Int." EngText="" textid="490" sets="0"/>
+		<param name="Счётчик прерываний CAP1" ShortText="Сч.прерыв.CAP1" EngText="" textid="491" sets="0"/>
+		<param name="Счётчик прерываний CAP2" ShortText="Сч.прерыв.CAP2" EngText="" textid="492" sets="0"/>
+		<param name="Счётчик прерываний CAP3" ShortText="Сч.прерыв.CAP3" EngText="" textid="493" sets="0"/>
+		<param name="Количество импульсов на оборот" ShortText="qepTik" EngText="Количество импульсов на оборот" textid="494" sets="0"/>
+		<param name="Угол мех. фильтрованный" ShortText="theta_mech_filtered" EngText="theta_mech_filtered" textid="495" sets="0"/>
+		<param name="К быстродействия фильтра угла" ShortText="Кф. угла" EngText="" textid="496" sets="0"/>
+		<param name="Для отладки" ShortText="Для отладки" EngText="test" textid="497" sets="0"/>
+		<param name="DebugL1" ShortText="DebugL1" EngText="DebugL1" textid="498" sets="0"/>
+		<param name="DebugL2" ShortText="DebugL2" EngText="DebugL2" textid="499" sets="0"/>
+		<param name="DebugI3" ShortText="DebugI3" EngText="DebugI3" textid="500" sets="0"/>
+		<param name="DebugI4" ShortText="DebugI4" EngText="DebugI4" textid="501" sets="0"/>
+		<param name="DebugW1" ShortText="DebugW1" EngText="DebugW1" textid="502" sets="0"/>
+		<param name="DebugW2" ShortText="DebugW2" EngText="DebugW2" textid="503" sets="0"/>
+		<param name="DebugW3" ShortText="DebugW3" EngText="DebugW3" textid="504" sets="0"/>
+		<param name="DebugW4" ShortText="DebugW4" EngText="" textid="505" sets="0"/>
+		<param name="DebugF1" ShortText="DebugF1" EngText="" textid="506" sets="0"/>
+		<param name="DebugF2" ShortText="DebugF2" EngText="" textid="507" sets="0"/>
+		<param name="DebugF3" ShortText="DebugF3" EngText="" textid="508" sets="0"/>
+		<param name="DebugF4" ShortText="DebugF4" EngText="" textid="509" sets="0"/>
+		<param name="Симулятор" ShortText="Симулятор" EngText="Simulator" textid="510" sets="0"/>
+		<param name="Тип двигателя модели" ShortText="ModelMotorType" EngText="ModelMotorType" textid="511" sets="18"/>
+		<param name="Симулируемый момент нагрузки" ShortText="Мнагр сим." EngText="Simulated load torque" textid="512" sets="0"/>
+		<param name="Реализованный электрический момент" ShortText="Реал.Эл.Мом" EngText="torque" textid="513" sets="0"/>
+		<param name="Скорость" ShortText="qepspd" EngText="Speed" textid="514" sets="0"/>
+		<param name="Механический угол" ShortText="qeptm" EngText="Механический угол" textid="515" sets="0"/>
+		<param name="EncoderIncrements" ShortText="EncoderIncrements" EngText="" textid="516" sets="0"/>
+		<param name="Ток статора по оси Alpha" ShortText="IsAlpha" EngText="Stator current in Alpha-axis" textid="517" sets="0"/>
+		<param name="Ток статора по оси Beta" ShortText="IsBeta" EngText="Stator current in Beta-axis" textid="518" sets="0"/>
+		<param name="Ток фазы А" ShortText="Ia" EngText="Ток фазы А" textid="519" sets="0"/>
+		<param name="Ток фазы C" ShortText="Ic" EngText="Ток фазы C" textid="520" sets="0"/>
+		<param name="Напряжение фазы A" ShortText="Ua" EngText="" textid="521" sets="0"/>
+		<param name="Напряжение фазы B" ShortText="Ub" EngText="" textid="522" sets="0"/>
+		<param name="Напряжение фазы C" ShortText="Uc" EngText="" textid="523" sets="0"/>
+		<param name="Мощность" ShortText="Мощ-ть" EngText="" textid="524" sets="0"/>
+		<param name="Код аварии" ShortText="КодАвр" EngText="Код аварии" textid="525" sets="0"/>
+		<param name="Взаимная индуктивность Lm" ShortText="Lm" EngText="Lm" textid="526" sets="0"/>
+		<param name="Индуктивность статора Ls" ShortText="Ls" EngText="Ls" textid="527" sets="0"/>
+		<param name="Индуктивность ротора Lr" ShortText="Lr" EngText="Lr" textid="528" sets="0"/>
+		<param name="Сопротивление статора Rs" ShortText="Rs" EngText="Rs" textid="529" sets="0"/>
+		<param name="Сопротивление ротора Rr" ShortText="Rr" EngText="Rr" textid="530" sets="0"/>
+		<param name="Симулируемый момент инерции" ShortText="Инерция сим." EngText="Simulated motor inertia" textid="531" sets="0"/>
+		<param name="Тормозной момент для выбега" ShortText="Торм.Мом.Выбег" EngText="Torque ref for overrun" textid="532" sets="0"/>
+		<param name="Число периодов квадратурного датчика" ShortText="QEPResolution" EngText="QEPResolution" textid="533" sets="0"/>
+		<param name="Коэффициент датчика тока фаз" ShortText="IphaseK" EngText="Коэффициент датчика тока фаз" textid="534" sets="0"/>
+		<param name="Коэффициент АЦП тока фаз" ShortText="Коэф. АЦП тока" EngText="ADC_k_i" textid="535" sets="0"/>
+		<param name="Поток ротора по оси D" ShortText="PsiRD" EngText="Rotor flux D-axis" textid="536" sets="0"/>
+		<param name="Поток ротора по оси Q" ShortText="PsiRQ" EngText="Rotor flux Q-axis" textid="537" sets="0"/>
+		<param name="Поток ротора по оси Alpha" ShortText="PsiRAlfa" EngText="Rotor flux Alpha-axis" textid="538" sets="0"/>
+		<param name="Поток ротора по оси Beta" ShortText="PsiRBeta" EngText="Rotor flux Beta-axis" textid="539" sets="0"/>
+		<param name="Потокосцепление магнитов" ShortText="m" EngText="m" textid="540" sets="0"/>
+		<param name="Индуктивность статора Lsd" ShortText="Lsd" EngText="Lsd" textid="541" sets="0"/>
+		<param name="Индуктивность статора Lsq" ShortText="Lsq" EngText="Lsq" textid="542" sets="0"/>
+		<param name="Индуктивность якоря" ShortText="La" EngText="La" textid="543" sets="0"/>
+		<param name="Индуктивность ОВ" ShortText="Lf" EngText="Lf" textid="544" sets="0"/>
+		<param name="Сопротивление якоря" ShortText="Ra" EngText="Ra" textid="545" sets="0"/>
+		<param name="Сопротивление ОВ" ShortText="Rf" EngText="Rf" textid="546" sets="0"/>
+		<param name="Коэффициент датчика тока ОЯ" ShortText="Коэф. датч. ОЯ" EngText="k_ia" textid="547" sets="0"/>
+		<param name="Коэффициент датчика тока ОВ" ShortText="Коэф. датч. ОВ" EngText="k_if" textid="548" sets="0"/>
+		<param name="Коэффициент АЦП тока ОЯ" ShortText="Коэф. АЦП ток ОЯ" EngText="ADC_k_ia" textid="549" sets="0"/>
+		<param name="Коэффициент АЦП тока ОВ" ShortText="Коэф. АЦП ток ОВ" EngText="ADC_k_if" textid="550" sets="0"/>
+		<param name="Добавочное сопротивление, Rad" ShortText="Доб.сопротив." EngText="Rad" textid="551" sets="0"/>
+		<param name="Разность потенциалов ОЯ" ShortText="Ua" EngText="Ua" textid="552" sets="0"/>
+		<param name="Разность потенциалов ОВ" ShortText="Uf" EngText="Uf" textid="553" sets="0"/>
+		<param name="Ток ОЯ" ShortText="Ia" EngText="Ia" textid="554" sets="0"/>
+		<param name="Ток ОВ" ShortText="Ток ОВ" EngText="Exciter current" textid="555" sets="0"/>
+		<param name="ДПТ Сист. Упр." ShortText="ДПТ СУ" EngText="DCM Ctrl" textid="556" sets="0"/>
+		<param name="Задание скорости (Подч. Рег.)" ShortText="Зад. Скор." EngText="SpeeD Ref" textid="557" sets="0"/>
+		<param name="Заданное напряжение якоря" ShortText="Ua_ref" EngText="Ua_ref" textid="558" sets="0"/>
+		<param name="Заданное напряжение ОВ" ShortText="Uf_ref" EngText="Uf_ref" textid="559" sets="0"/>
+		<param name="Поток статора фазы A" ShortText="Поток A" EngText="" textid="560" sets="0"/>
+		<param name="Поток статора фазы B" ShortText="Поток B" EngText="" textid="561" sets="0"/>
+		<param name="Поток статора фазы C" ShortText="Поток C" EngText="" textid="562" sets="0"/>
+		<param name="Момент фазы A" ShortText="Момент A" EngText="" textid="563" sets="0"/>
+		<param name="Момент фазы B" ShortText="Момент B" EngText="" textid="564" sets="0"/>
+		<param name="Момент фазы C" ShortText="Момент C" EngText="" textid="565" sets="0"/>
+		<param name="MODBUS" ShortText="MODBUS" EngText="" textid="566" sets="0"/>
+		<param name="Номер в сети ModBus" ShortText="ModBus_ID" EngText="ModBus node ID" textid="567" sets="0"/>
+		<param name="MODBUS online" ShortText="MODBUS online" EngText="MODBUS online" textid="568" sets="0"/>
+		<param name="rs485_last_received_data" ShortText="485_RD" EngText="rs485_last_received_data" textid="569" sets="0"/>
+		<param name="Состояние" ShortText="Состояние" EngText="" textid="570" sets="0"/>
+		<param name="Пост. времени ротора" ShortText="Tr" EngText="Tr" textid="571" sets="0"/>
+		<param name="Соотношение тока возб. X к току Y" ShortText="FluxCurrentRatio" EngText="FluxCurrentRatio" textid="572" sets="0"/>
+		<param name="Минимальный ток возбуждения" ShortText="FluxCurrentMin" EngText="FluxCurrentMin" textid="573" sets="0"/>
+		<param name="Ток статора по оси D" ShortText="IsD" EngText="Stator current D-Axis" textid="574" sets="0"/>
+		<param name="Ток статора по оси Q" ShortText="IsQ" EngText="Stator current Q-Axis" textid="575" sets="0"/>
+		<param name="Угол потока ротора" ShortText="psiRalpha" EngText="Rotor flux angle" textid="576" sets="0"/>
+		<param name="VendorToken" ShortText="VendorToken" EngText="VendorToken" textid="577" sets="0"/>
+		<param name="Состояние передачи посылки" ShortText="TXState" EngText="TXState" textid="578" sets="0"/>
+		<param name="Пакетов принято" ShortText="ReceivePacketCounte" EngText="ReceivePacketCounter" textid="579" sets="0"/>
+		<param name="Байт принято" ShortText="ReceiveByteCounter" EngText="ReceiveByteCounter" textid="580" sets="0"/>
+		<param name="Таймаут потери связи" ShortText="OfflineCounterMax" EngText="OfflineCounterMax" textid="581" sets="0"/>
+		<param name="Счетчик потери связи" ShortText="OfflineCounter" EngText="OfflineCounter" textid="582" sets="0"/>
+		<param name="Перезапуск при сбоях на линии" ShortText="auto_res" EngText="auto_res" textid="583" sets="0"/>
+		<param name="Ток фазы D" ShortText="Id" EngText="Ток фазы D" textid="584" sets="0"/>
+		<param name="Коэффициент тока фазы D" ShortText="IdУсил" EngText="Phase D Current Max. Scale" textid="585" sets="0"/>
+		<param name="Смещение тока фазы D" ShortText="IdСмещ" EngText="Phase D Current Offset" textid="586" sets="0"/>
+		<param name="Ток фазы D" ShortText="Id_мгн" EngText="Phase D Current" textid="587" sets="0"/>
+		<param name="Поток возбуждения" ShortText="Psi возб" EngText="" textid="588" sets="0"/>
+		<param name="Включен" ShortText="Вкл" EngText="Enabled" textid="589" sets="0"/>
+		<param name="Возбудитель" ShortText="Возб" EngText="" textid="590" sets="0"/>
+		<param name="Номинальная мощность" ShortText="RatedPower" EngText="RatedPower" textid="591" sets="0"/>
+		<param name="Номинальный действующий ток" ShortText="RatedCurrent" EngText="RatedCurrent" textid="592" sets="0"/>
+		<param name="Номинальный ток ОВ" ShortText="RatedFluxCurrent" EngText="RatedFluxCurrent" textid="593" sets="0"/>
+		<param name="Номинальный ток якоря" ShortText="RatedCurrent" EngText="RatedCurrent" textid="594" sets="0"/>
+		<param name="Моя новая переменная" ShortText="My new variable" EngText="MyVar" textid="595" sets="0"/>
+		<param name="Block Transfer Interpreter" ShortText="BT Interpreter" EngText="BT Interpreter" textid="596" sets="0"/>
+		<param name="CAN programming" ShortText="CAN programming" EngText="CAN programming" textid="597" sets="0"/>
+		<param name="cmd" ShortText="cmd" EngText="cmd" textid="598" sets="0"/>
+		<param name="status" ShortText="status" EngText="status" textid="599" sets="0"/>
+		<param name="quest1" ShortText="quest1" EngText="quest1" textid="600" sets="0"/>
+		<param name="quest2" ShortText="quest2" EngText="quest2" textid="601" sets="0"/>
+		<param name="quest3" ShortText="quest3" EngText="quest3" textid="602" sets="0"/>
+		<param name="quest4" ShortText="quest4" EngText="quest4" textid="603" sets="0"/>
+		<param name="ans1" ShortText="ans1" EngText="ans1" textid="604" sets="0"/>
+		<param name="ans2" ShortText="ans2" EngText="ans2" textid="605" sets="0"/>
+		<param name="ans3" ShortText="ans3" EngText="ans3" textid="606" sets="0"/>
+		<param name="ans4" ShortText="ans4" EngText="ans4" textid="607" sets="0"/>
+		<param name="addr" ShortText="addr" EngText="addr" textid="608" sets="0"/>
+		<param name="CPU_ID" ShortText="CPU_ID" EngText="CPU_ID" textid="609" sets="0"/>
+		<param name="sector_mask" ShortText="sector_mask" EngText="sector_mask" textid="610" sets="0"/>
+		<param name="version" ShortText="version" EngText="version" textid="611" sets="0"/>
+		<param name="CRC" ShortText="CRC" EngText="CRC" textid="612" sets="0"/>
+		<param name="Время запитанного состояния, мин" ShortText="Power On Time" EngText="Power On Time" textid="613" sets="0"/>
+		<param name="Вреря работы привода, мин" ShortText="Work Time" EngText="Work Time" textid="614" sets="0"/>
+		<param name="drv_interface" ShortText="drv_interface" EngText="drv_interface" textid="615" sets="0"/>
+		<param name="req_data" ShortText="req_data" EngText="req_data" textid="616" sets="0"/>
+		<param name="data_Low" ShortText="data_Low" EngText="data_Low" textid="617" sets="0"/>
+		<param name="data_High" ShortText="data_High" EngText="data_High" textid="618" sets="0"/>
+		<param name="ans_data" ShortText="ans_data" EngText="ans_data" textid="619" sets="0"/>
+		<param name="БВУ" ShortText="БВУ" EngText="БВУ" textid="620" sets="0"/>
+		<param name="Частота перехода на БВУ" ShortText="freq_smo" EngText="freq_smo" textid="621" sets="0"/>
+		<param name="Наблюдаемый ток Alpha" ShortText="isalfae" EngText="isalfae" textid="622" sets="0"/>
+		<param name="Наблюдаемый ток Beta" ShortText="isbetae" EngText="isbetae" textid="623" sets="0"/>
+		<param name="ЭДС по оси Alpha" ShortText="esalfa" EngText="esalfa" textid="624" sets="0"/>
+		<param name="ЭДС по оси Beta" ShortText="esbeta" EngText="esbeta" textid="625" sets="0"/>
+		<param name="Плавный заряд ЗПТ" ShortText="smooth_charge" EngText="smooth_charge" textid="626" sets="0"/>
+		<param name="Задежка включения реле, мс" ShortText="relay on-delay" EngText="relay_on_delay" textid="627" sets="0"/>
+		<param name="Напряжение включения, В" ShortText="on-voltage" EngText="on_voltage" textid="628" sets="0"/>
+		<param name="Напряжение выключения, В" ShortText="off-voltage" EngText="off_voltage" textid="629" sets="0"/>
+		<param name="Производная напряжения ЗПТ" ShortText="derivative_voltage" EngText="derivative_voltage" textid="630" sets="0"/>
+		<param name="Текущее состояние реле" ShortText="Relay_state" EngText="Relay_state" textid="631" sets="0"/>
+		<param name="Уставка по производной ЗПТ" ShortText="derivative_const" EngText="derivative_const" textid="632" sets="0"/>
+		<param name="Коэффициент температуры" ShortText="t_gain" EngText="temperature_gain" textid="633" sets="0"/>
+		<param name="Температура" ShortText="t" EngText="temperature" textid="634" sets="0"/>
+		<param name="Система охлаждения" ShortText="cool_syst" EngText="cooling system" textid="635" sets="0"/>
+		<param name="Текущее состояние вентилятора" ShortText="fan_state" EngText="fan_state" textid="636" sets="0"/>
+		<param name="Температура включения вентилятора" ShortText="t_on" EngText="t_on" textid="637" sets="0"/>
+		<param name="Температура выключения вентилятора" ShortText="t_off" EngText="t_off" textid="638" sets="0"/>
+		<param name="Максимальная температура" ShortText="t_max" EngText="t_max" textid="639" sets="0"/>
+		<param name="Температура вывода предупреждения о перегреве" ShortText="t_alarm" EngText="t_alarm" textid="640" sets="0"/>
+		<param name="Внешний аналоговый вход 1" ShortText="ADC_ext1" EngText="ADC_ext1" textid="641" sets="0"/>
+		<param name="Коэффициент внешнего входа" ShortText="ADC_ext_gain" EngText="ADC_ext_gain" textid="642" sets="0"/>
+		<param name="Смещение внешнего входа" ShortText="ADC_ext_offset" EngText="ADC_ext_offset" textid="643" sets="0"/>
+		<param name="Частота даталогера" ShortText="dlogFreq" EngText="DataLogger Sampling Rate" textid="644" sets="0"/>
+		<param name="Адрес в EEPROM" ShortText="" EngText="" textid="645" sets="0"/>
+		<param name="ADC10" ShortText="ADC10" EngText="ADC10" textid="646" sets="0"/>
+		<param name="ADC12" ShortText="ADC12" EngText="ADC12" textid="647" sets="0"/>
+		<param name="ADC14" ShortText="ADC14" EngText="ADC14" textid="648" sets="0"/>
+		<param name="ADC10 (MCB1) / ADC20 (MCB3) - разъем X20" ShortText="X20" EngText="X20" textid="649" sets="0"/>
+		<param name="ADC12 (MCB1) / ADC15 (MCB3) - разъем X1" ShortText="X1" EngText="X1" textid="650" sets="0"/>
+		<param name="ADC14 (MCB1) / ADC27 (MCB3) - разъем X2" ShortText="X2" EngText="X2" textid="651" sets="0"/>
+		<param name="Вкл/выкл дискретные выходы" ShortText="on_off_all_DO" EngText="on_off_all_DO" textid="652" sets="0"/>
+		<param name="Дискретный выход 1" ShortText="DO_1" EngText="DO_1" textid="653" sets="0"/>
+		<param name="Дискретный выход 2" ShortText="DO_2" EngText="DO_2" textid="654" sets="0"/>
+		<param name="Дискретный выход 3" ShortText="DO_3" EngText="DO_3" textid="655" sets="0"/>
+		<param name="Дискретный вход 1" ShortText="DI_1" EngText="DI_1" textid="656" sets="0"/>
+		<param name="Дискретный вход 2" ShortText="DI_2" EngText="DI_2" textid="657" sets="0"/>
+		<param name="Дискретный вход 3" ShortText="DI_3" EngText="DI_3" textid="658" sets="0"/>
+		<param name="Для тестирования" ShortText="" EngText="" textid="659" sets="0"/>
+		<param name="Частота тактирования модуляторов" ShortText="" EngText="" textid="660" sets="0"/>
+		<param name="АЦП - SDFM" ShortText="ADC_SDFM" EngText="ADC - SDFM" textid="661" sets="0"/>
+		<param name="Скважность сигнала тактирования" ShortText="" EngText="" textid="662" sets="0"/>
+		<param name="TBPRD" ShortText="TBPRD" EngText="TBPRD" textid="663" sets="0"/>
+		<param name="CMPA" ShortText="CMPA" EngText="CMPA" textid="664" sets="0"/>
+		<param name="АЦП - SPORT" ShortText="ADC - SPORT" EngText="ADC - SPORT" textid="665" sets="0"/>
+		<param name="data_out[0]" ShortText="data_out[0]" EngText="data_out[0]" textid="666" sets="0"/>
+		<param name="data_out[1]" ShortText="data_out[1]" EngText="data_out[1]" textid="667" sets="0"/>
+		<param name="data_out[2]" ShortText="data_out[2]" EngText="data_out[2]" textid="668" sets="0"/>
+		<param name="data_out[3]" ShortText="data_out[3]" EngText="data_out[3]" textid="669" sets="0"/>
+		<param name="data_out[4]" ShortText="data_out[4]" EngText="data_out[4]" textid="670" sets="0"/>
+		<param name="data_out[5]" ShortText="data_out[5]" EngText="data_out[5]" textid="671" sets="0"/>
+		<param name="Тип АЦП (0 - SPORT, 1 - SDFM)" ShortText="ADC_type" EngText="ADC type" textid="672" sets="0"/>
+		<param name="Бит статуса синхронизации манчестерского кода (SDFM0 канал 1)" ShortText="" EngText="" textid="673" sets="0"/>
+		<param name="Бит статуса синхронизации манчестерского кода (SDFM0 канал 2)" ShortText="" EngText="" textid="674" sets="0"/>
+		<param name="Бит статуса синхронизации манчестерского кода (SDFM0 канал 3)" ShortText="" EngText="" textid="675" sets="0"/>
+		<param name="Бит статуса синхронизации манчестерского кода (SDFM0 канал 4)" ShortText="" EngText="" textid="676" sets="0"/>
+		<param name="Бит статуса синхронизации манчестерского кода (SDFM1 канал 1)" ShortText="" EngText="" textid="677" sets="0"/>
+		<param name="Бит статуса синхронизации манчестерского кода (SDFM1 канал 2)" ShortText="" EngText="" textid="678" sets="0"/>
+		<param name="UalphaRef" ShortText="" EngText="" textid="679" sets="0"/>
+		<param name="UbetaRef" ShortText="" EngText="" textid="680" sets="0"/>
+		<param name="UalphaNorm" ShortText="" EngText="" textid="681" sets="0"/>
+		<param name="UbetaNorm" ShortText="" EngText="" textid="682" sets="0"/>
+		<param name="Автоограничение выходов регуляторов тока напряжением ЗПТ" ShortText="" EngText="" textid="683" sets="0"/>
+		<param name="Debug1" ShortText="Debug1" EngText="Debug1" textid="684" sets="0"/>
+		<param name="Debug2" ShortText="Debug2" EngText="Debug2" textid="685" sets="0"/>
+		<param name="Код аварии Стенд1" ShortText="" EngText="" textid="686" sets="59"/>
+		<param name="dlogTrigger.state" ShortText="" EngText="dlogTrigger.state" textid="687" sets="0"/>
+		<param name="dlogTrigger.index" ShortText="" EngText="dlogTrigger.index" textid="688" sets="0"/>
+		<param name="dlogTrigger.subIndex" ShortText="" EngText="dlogTrigger.subIndex" textid="689" sets="0"/>
+		<param name="dlogTrigger.mode" ShortText="" EngText="dlogTrigger.mode" textid="690" sets="0"/>
+		<param name="dlogTrigger.minimum" ShortText="" EngText="dlogTrigger.minimum" textid="691" sets="0"/>
+		<param name="dlogTrigger.maximum" ShortText="" EngText="dlogTrigger.maximum" textid="692" sets="0"/>
+		<param name="dlogTrigger.prehistory" ShortText="" EngText="dlogTrigger.prehistory" textid="693" sets="0"/>
+		<param name="Дискретные выходы" ShortText="dout" EngText="Digital Outputs" textid="694" sets="0"/>
+		<param name="Период таймера" ShortText="tpr" EngText="Timer Period" textid="695" sets="0"/>
+		<param name="Последняя функция 1" ShortText="func1" EngText="Latest Function 1" textid="696" sets="0"/>
+		<param name="Последняя функция 2" ShortText="func2" EngText="Latest Function 2" textid="697" sets="0"/>
+		<param name="Последняя функция 3" ShortText="func3" EngText="Latest Function 3" textid="698" sets="0"/>
+		<param name="Последняя функция 4" ShortText="func4" EngText="Latest Function 4" textid="699" sets="0"/>
+		<param name="Счётчик прерываний профилировщика" ShortText="pCnt" EngText="Profiler ISR Counter" textid="700" sets="0"/>
+		<param name="Профилировщик" ShortText="prof" EngText="Profiler" textid="701" sets="0"/>
+		<param name="Vendor Specific" ShortText="Vendor Specific" EngText="Vendor Specific" textid="702" sets="0"/>
+		<param name="Vendor Token" ShortText="Vendor Token" EngText="Vendor Token" textid="703" sets="0"/>
+		<param name="Пользовательская память" ShortText="" EngText="" textid="704" sets="0"/>
+		<param name="Запустить тест памяти" ShortText="" EngText="" textid="705" sets="0"/>
+		<param name="Текущая страница" ShortText="" EngText="" textid="706" sets="0"/>
+		<param name="Количество ошибок" ShortText="" EngText="" textid="707" sets="0"/>
+		<param name="Последняя ошибка" ShortText="" EngText="" textid="708" sets="0"/>
+		<param name="Указатель массива" ShortText="" EngText="" textid="709" sets="0"/>
+		<param name="Разрешить светодиод вместо JTAG" ShortText="" EngText="" textid="710" sets="0"/>
+		<param name="Диапазон аналогового входа" ShortText="" EngText="" textid="711" sets="0"/>
+		<param name="Включить принудительно" ShortText="" EngText="" textid="712" sets="0"/>
+		<param name="Тормозной резистор" ShortText="" EngText="" textid="713" sets="0"/>
+		<param name="Счетчик событий индексной метки" ShortText="" EngText="" textid="714" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="715" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="716" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="717" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="718" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="719" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="720" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="721" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="722" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="723" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="724" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="725" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="726" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="727" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="728" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="729" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="730" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="731" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="732" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="733" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="734" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="735" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="736" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="737" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="738" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="739" sets="0"/>
+		<param name="резерв ш" ShortText="" EngText="" textid="740" sets="0"/>
+		<param name="" ShortText="" EngText="" textid="741" sets="0"/>
+		<param name="" ShortText="" EngText="" textid="742" sets="0"/>
+		<param name="DebugW5" ShortText="DebugW5" EngText="DebugW5" textid="743" sets="0"/>
+		<param name="DebugW6" ShortText="DebugW6" EngText="DebugW6" textid="744" sets="0"/>
+		<param name="QPOSCNT" ShortText="QPOSCNT" EngText="QPOSCNT" textid="745" sets="0"/>
+		<param name="QPOSILAT" ShortText="QPOSILAT" EngText="QPOSILAT" textid="746" sets="0"/>
+		<param name="" ShortText="" EngText="" textid="747" sets="0"/>
+		<param name="" ShortText="" EngText="" textid="748" sets="0"/>
+		<param name="" ShortText="" EngText="" textid="749" sets="0"/>
+		<param name="" ShortText="" EngText="" textid="750" sets="0"/>
+		<param name="" ShortText="" EngText="" textid="751" sets="0"/>
+		<param name="" ShortText="" EngText="" textid="752" sets="0"/>
+	</params>
+	<enums>
+		<enum id="1">
+			<text text_par="10кбод"/>
+			<text text_par="20кбод"/>
+			<text text_par="50кбод"/>
+			<text text_par="125кб"/>
+			<text text_par="250кб"/>
+			<text text_par="500кб"/>
+			<text text_par="1Мбод"/>
+			<text text_par="2,5Мб"/>
+		</enum>
+		<enum id="2">
+			<text text_par="Нет"/>
+			<text text_par="Да"/>
+		</enum>
+		<enum id="3">
+			<text text_par="Выкл"/>
+			<text text_par="Вкл"/>
+		</enum>
+		<enum id="4">
+			<text text_par="Запрещ"/>
+			<text text_par="Разреш"/>
+		</enum>
+		<enum id="5">
+			<text text_par="Коммуникационные"/>
+			<text text_par="Масштабирующие"/>
+			<text text_par="Системные"/>
+			<text text_par="Пользователь"/>
+			<text text_par="Опытный польз-ль"/>
+			<text text_par="Наладчик"/>
+			<text text_par="Программист"/>
+			<text text_par=""/>
+		</enum>
+		<enum id="6">
+			<text text_par=""/>
+			<text text_par="к"/>
+			<text text_par="М"/>
+			<text text_par="Г"/>
+			<text text_par="п"/>
+			<text text_par="н"/>
+			<text text_par="~m"/>
+			<text text_par="м"/>
+		</enum>
+		<enum id="7">
+			<text text_par=""/>
+			<text text_par="А"/>
+			<text text_par="В"/>
+			<text text_par="Гц"/>
+			<text text_par="%"/>
+			<text text_par="сек"/>
+			<text text_par="мин"/>
+			<text text_par="час"/>
+			<text text_par="Гц/с"/>
+			<text text_par="Вт"/>
+			<text text_par="мс"/>
+			<text text_par="Па"/>
+			<text text_par="град"/>
+			<text text_par="об/м"/>
+			<text text_par="Н*м"/>
+			<text text_par="Ом"/>
+			<text text_par="Гн"/>
+			<text text_par="ВтЧ"/>
+			<text text_par="атм"/>
+			<text text_par="C"/>
+			<text text_par="м"/>
+			<text text_par="м3/ч"/>
+			<text text_par="см"/>
+			<text text_par="1/с"/>
+			<text text_par="л"/>
+			<text text_par="м3"/>
+			<text text_par="л/ч"/>
+			<text text_par="%/с"/>
+			<text text_par="р./с"/>
+			<text text_par="м/ч"/>
+			<text text_par="кг/с"/>
+		</enum>
+		<enum id="8">
+			<text text_par="ИНИЦ"/>
+			<text text_par="ГОТОВ"/>
+			<text text_par="РАБОТА"/>
+			<text text_par="АВАРИЯ"/>
+			<text text_par="ТЕСТ"/>
+			<text text_par="TEXT5"/>
+			<text text_par="TEXT6"/>
+			<text text_par="TEXT7"/>
+			<text text_par="ПРЕД"/>
+			<text text_par="ГОТ+ПР"/>
+			<text text_par="РАБ+ПР"/>
+			<text text_par="АВ+ПР"/>
+			<text text_par="TEXT12"/>
+			<text text_par="TEXT13"/>
+			<text text_par="TEXT14"/>
+			<text text_par="TEXT15"/>
+		</enum>
+		<enum id="9">
+			<text text_par="ЗадСкор "/>
+			<text text_par="Зад_Iов "/>
+			<text text_par="ЗадImax "/>
+			<text text_par="ТекСкор"/>
+			<text text_par="ТекМощн"/>
+			<text text_par="Тек_Iов "/>
+			<text text_par="Код_ДП "/>
+		</enum>
+		<enum id="10">
+			<text text_par="ПЧ1"/>
+			<text text_par="ПЧ2"/>
+			<text text_par="ПЧ3"/>
+			<text text_par="ПЧ4"/>
+			<text text_par="ПЧ5"/>
+			<text text_par="ПЧ6"/>
+			<text text_par="ПК"/>
+			<text text_par="ПУ1"/>
+			<text text_par="ПУ2"/>
+			<text text_par="ПУ3"/>
+			<text text_par="ПУ4"/>
+			<text text_par="ПУ5"/>
+			<text text_par="ПУ6"/>
+		</enum>
+		<enum id="11">
+			<text text_par=" "/>
+			<text text_par=" (1)"/>
+			<text text_par=" (2)"/>
+			<text text_par=" (3)"/>
+			<text text_par=" (4)"/>
+			<text text_par=" (5)"/>
+			<text text_par=" (6)"/>
+		</enum>
+		<enum id="12">
+			<text text_par="6сект_SV"/>
+			<text text_par="Синусоидальная"/>
+		</enum>
+		<enum id="13">
+			<text text_par="Вперед"/>
+			<text text_par="Назад"/>
+		</enum>
+		<enum id="14">
+			<text text_par="Нет датчика"/>
+			<text text_par="Инкрем.Энкодер"/>
+			<text text_par="Датчик Холла"/>
+		</enum>
+		<enum id="15">
+			<text text_par="MCB4_2810"/>
+			<text text_par="Наблюдаемые"/>
+			<text text_par="ВНЕ ГРУПП"/>
+			<text text_par="Задания"/>
+			<text text_par="Дискретные входы и выходы"/>
+			<text text_par="MODBUS"/>
+			<text text_par="CAN"/>
+			<text text_par="Слово управления"/>
+			<text text_par="Рег. тока Id"/>
+			<text text_par="Рег. тока Iq"/>
+			<text text_par="Рег. скорости"/>
+			<text text_par="Рег. положения"/>
+			<text text_par="Рег. тока якоря"/>
+			<text text_par="Рег. тока возбуждения"/>
+			<text text_par="Настройки СУ"/>
+			<text text_par="Базов. парам"/>
+			<text text_par="АЦП"/>
+			<text text_par="ШИМ"/>
+			<text text_par="Защиты"/>
+			<text text_par="ЗИ"/>
+			<text text_par="Кривая U-f"/>
+			<text text_par="ДПТ Сист. Упр."/>
+			<text text_par="Наблюдатель ротора АД"/>
+			<text text_par="БВУ"/>
+			<text text_par="Для тестирования"/>
+			<text text_par="ДПР-Холл"/>
+			<text text_par="ДПР-Энкодер"/>
+			<text text_par="ДПР-SSI энкодер"/>
+			<text text_par=""/>
+			<text text_par="Для отладки"/>
+			<text text_par="dlog"/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par="ДА sm_ctrl"/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par="Счетчики"/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par="Тормозной резистор"/>
+			<text text_par="Система охлаждения"/>
+			<text text_par="Плавный заряд ЗПТ"/>
+			<text text_par="Модель общие данные"/>
+			<text text_par="Модель (асинхронный)"/>
+			<text text_par="Модель (синхронный)"/>
+			<text text_par="Модель (ДПТ)"/>
+			<text text_par="Модель (ВИД)"/>
+		</enum>
+		<enum id="16">
+			<text text_par="MCB4 - нет аварий"/>
+			<text text_par="Понижение Udc"/>
+			<text text_par="Повышение Udc"/>
+			<text text_par="Отказ энкодера"/>
+			<text text_par="Авария модели двигателя"/>
+			<text text_par="авария резерв"/>
+			<text text_par="Превышение температуры"/>
+			<text text_par="Ошибка восст. парам."/>
+			<text text_par="авария резерв"/>
+			<text text_par="Сбой прогр-ы 1кГц"/>
+			<text text_par="Сбой прогр-ы 10кГц"/>
+			<text text_par="Сбой прогр-ы 40кГц"/>
+			<text text_par="авария резерв"/>
+			<text text_par="АППАРАТНАЯ"/>
+			<text text_par="Цепь зар. ЗПТ не зашунт."/>
+			<text text_par="Программа в BFLASH"/>
+			<text text_par="авария резерв"/>
+			<text text_par="авария резерв"/>
+			<text text_par="авария резерв"/>
+			<text text_par="авария резерв"/>
+			<text text_par="авария резерв"/>
+			<text text_par="Макс. ток фазы А"/>
+			<text text_par="Макс. ток фазы В"/>
+			<text text_par="Макс. ток фазы С"/>
+			<text text_par="авария резерв"/>
+			<text text_par="авария резерв"/>
+			<text text_par="Превыш. скорости"/>
+			<text text_par="авария резерв"/>
+			<text text_par="авария резерв"/>
+			<text text_par="Авария ключа 1"/>
+			<text text_par="Авария ключа 3"/>
+			<text text_par="Авария ключа 5"/>
+			<text text_par="Авария нижних ключей"/>
+		</enum>
+		<enum id="17"/>
+		<enum id="18">
+			<text text_par="Асинхронный"/>
+			<text text_par="Синхронный"/>
+			<text text_par="ДПТ"/>
+			<text text_par="ВИД"/>
+			<text text_par="Двигатель 4"/>
+			<text text_par="Двигатель 5"/>
+			<text text_par="Двигатель 6"/>
+		</enum>
+		<enum id="56">
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par=""/>
+			<text text_par="MCB4_2810"/>
+		</enum>
+		<enum id="57">
+			<text text_par="ИНИЦ"/>
+			<text text_par="ГОТОВ"/>
+			<text text_par="РАБОТА"/>
+			<text text_par="АВАРИЯ"/>
+			<text text_par="ТЕСТ"/>
+			<text text_par="TEXT5"/>
+			<text text_par="TEXT6"/>
+			<text text_par="TEXT7"/>
+			<text text_par="ПРЕДУПР."/>
+			<text text_par="ГОТОВ+ПРЕД"/>
+			<text text_par="РАБ+ПРЕД"/>
+			<text text_par="АВАРИЯ+ПРЕД"/>
+			<text text_par="ПЕРЕГРЕВ"/>
+			<text text_par="TEXT13"/>
+			<text text_par="TEXT14"/>
+			<text text_par="TEXT15"/>
+		</enum>
+		<enum id="58"/>
+		<enum id="59"/>
+		<enum id="60">
+			<text text_par=""/>
+			<text text_par=""/>
+		</enum>
+		<enum id="61">
+			<text text_par=""/>
+			<text text_par=""/>
+		</enum>
+	</enums>
+</root>

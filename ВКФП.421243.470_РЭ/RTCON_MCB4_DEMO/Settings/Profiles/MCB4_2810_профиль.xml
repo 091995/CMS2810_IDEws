@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+	<Device>
+		<Product_Code_Low value="150" any="0"/>
+		<Product_Code_High value="0" any="0"/>
+		<Revision_Number_Low value="1" any="1"/>
+		<Revision_Number_High value="0" any="1"/>
+		<VendorToken value="33333333"/>
+	</Device>
+	<Settings>
+		<Edit_OsIndex1 value="20816"/>
+		<Edit_OsSubindex1 value="3"/>
+		<Edit_OsNextValueVarIndex value="20817"/>
+		<Edit_OsNextValueVarSubindex value="0"/>
+		<Edit_ControlIndex value="20816"/>
+		<Edit_ControlSubindex value="2"/>
+		<Edit_SamplingRateIndex value="20816"/>
+		<Edit_SamplingRateSubindex value="11"/>
+		<ScopeTriggerIndex value="0"/>
+		<LE_ReqDat1Index value="9478"/>
+		<LE_ReqDat1Subindex value="1"/>
+		<LE_AnsDat1Index value="9478"/>
+		<LE_AnsDat1Subindex value="2"/>
+		<LE_DataL1Index value="9478"/>
+		<LE_DataL1Subindex value="3"/>
+		<LE_DataH1Index value="9478"/>
+		<LE_DataH1Subindex value="4"/>
+		<CheckBoxFaultsEnumEnabled value="0"/>
+		<CB_FaultsLinkedEnum value="-1"/>
+		<CB_EventsLinkedEnum value="-1"/>
+		<LE_Tests1Index value="0"/>
+		<LE_Tests1Subindex value="0"/>
+		<LE_Tests2Index value="0"/>
+		<LE_Tests2Subindex value="0"/>
+		<LE_Tests3Index value="0"/>
+		<LE_Tests3Subindex value="0"/>
+		<CpuType value="1"/>
+		<FirmwareFileMask value="*.out"/>
+		<ControlPanel>
+			<Button ButtonName="Пуск" pos_x="15" pos_y="270" ButtonWidth="45" ButtonHeight="25" index="9474" subindex="1" ButtonValue="1" ButtonType="0" ButtonSettingsFileName="" FontSize="8" FontBold="0"/>
+			<Button ButtonName="Стоп" pos_x="65" pos_y="270" ButtonWidth="45" ButtonHeight="25" index="9474" subindex="2" ButtonValue="1" ButtonType="0" ButtonSettingsFileName="" FontSize="8" FontBold="0"/>
+			<Button ButtonName="СбрАвр" pos_x="17" pos_y="304" ButtonWidth="90" ButtonHeight="25" index="9474" subindex="3" ButtonValue="1" ButtonType="0" ButtonSettingsFileName="" FontSize="8" FontBold="0"/>
+			<ViewVar ViewVarName="Авария" pos_x="15" pos_y="75" VarWidth="115" index="9522" subindex="1" Editable="0" ShowDimension="0" IsDateTime="0" IsBits="0" EnumEnabled="0" Enum="-1" ThresholdColoringEnabled="0" ThresholdColor1From="" ThresholdColor1To="" ThresholdBackColor1="2147483653" ThresholdColor2From="" ThresholdColor2To="" ThresholdBackColor2="65280" ThresholdColor3From="" ThresholdColor3To="" ThresholdBackColor3="255" FontSize="8" FontBold="0"/>
+			<ViewVar ViewVarName="Скорость" pos_x="16" pos_y="138" VarWidth="115" index="20754" subindex="1" Editable="1" ShowDimension="1" IsDateTime="0" IsBits="0" EnumEnabled="0" Enum="-1" ThresholdColoringEnabled="0" ThresholdColor1From="" ThresholdColor1To="" ThresholdBackColor1="2147483653" ThresholdColor2From="" ThresholdColor2To="" ThresholdBackColor2="65280" ThresholdColor3From="" ThresholdColor3To="" ThresholdBackColor3="255" FontSize="8" FontBold="0"/>
+			<ViewVar ViewVarName="Состояние" pos_x="15" pos_y="15" VarWidth="115" index="20747" subindex="2" Editable="1" ShowDimension="1" IsDateTime="0" IsBits="0" EnumEnabled="1" Enum="57" ThresholdColoringEnabled="0" ThresholdColor1From="" ThresholdColor1To="" ThresholdBackColor1="2147483653" ThresholdColor2From="" ThresholdColor2To="" ThresholdBackColor2="65280" ThresholdColor3From="" ThresholdColor3To="" ThresholdBackColor3="255" FontSize="8" FontBold="0"/>
+		</ControlPanel>
+	</Settings>
+</root>

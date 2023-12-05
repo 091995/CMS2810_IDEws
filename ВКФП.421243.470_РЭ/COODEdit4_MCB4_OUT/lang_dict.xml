@@ -1,0 +1,3482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form1-Caption>
+	<RUS>CodeEdit 4</RUS>
+	<ENG />
+</Form1-Caption>
+<Form1-PageControl1-TabSheetLogin-Caption>
+	<RUS>Вход</RUS>
+	<ENG>Login</ENG>
+</Form1-PageControl1-TabSheetLogin-Caption>
+<Form1-PageControl1-TabSheetLogin-Label1-Caption>
+	<RUS>Пользователь</RUS>
+	<ENG>User</ENG>
+</Form1-PageControl1-TabSheetLogin-Label1-Caption>
+<Form1-PageControl1-TabSheetLogin-LabelDBconnect-Caption>
+	<RUS>_</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetLogin-LabelDBconnect-Caption>
+<Form1-PageControl1-TabSheetLogin-Label15-Caption>
+	<RUS>Адрес БД</RUS>
+	<ENG>DB address</ENG>
+</Form1-PageControl1-TabSheetLogin-Label15-Caption>
+<Form1-PageControl1-TabSheetLogin-Label21-Caption>
+	<RUS>Пользователь БД</RUS>
+	<ENG>DB user</ENG>
+</Form1-PageControl1-TabSheetLogin-Label21-Caption>
+<Form1-PageControl1-TabSheetLogin-Label22-Caption>
+	<RUS>Пароль для БД</RUS>
+	<ENG>DB password</ENG>
+</Form1-PageControl1-TabSheetLogin-Label22-Caption>
+<Form1-PageControl1-TabSheetLogin-Label23-Caption>
+	<RUS>Список существующих пользователей</RUS>
+	<ENG>Existing users list</ENG>
+</Form1-PageControl1-TabSheetLogin-Label23-Caption>
+<Form1-PageControl1-TabSheetLogin-EditUser-Text>
+	<RUS>Трофимов</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetLogin-EditUser-Text>
+<Form1-PageControl1-TabSheetLogin-ButtonDBconnect-Caption>
+	<RUS>Подключиться к базе данных</RUS>
+	<ENG>Connect to database</ENG>
+</Form1-PageControl1-TabSheetLogin-ButtonDBconnect-Caption>
+<Form1-PageControl1-TabSheetLogin-ButtonSynchrSet-Caption>
+	<RUS>Синхронизировать перечисления</RUS>
+	<ENG>Synchronize enumerations</ENG>
+</Form1-PageControl1-TabSheetLogin-ButtonSynchrSet-Caption>
+<Form1-PageControl1-TabSheetLogin-ButtonSynchrText-Caption>
+	<RUS>Синхронизировать тексты</RUS>
+	<ENG>Synchronize texts</ENG>
+</Form1-PageControl1-TabSheetLogin-ButtonSynchrText-Caption>
+<Form1-PageControl1-TabSheetLogin-ButtonLogin-Caption>
+	<RUS>Войти</RUS>
+	<ENG>Login</ENG>
+</Form1-PageControl1-TabSheetLogin-ButtonLogin-Caption>
+<Form1-PageControl1-TabSheetLogin-Panel2-Caption>
+	<RUS>Panel2</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetLogin-Panel2-Caption>
+<Form1-PageControl1-TabSheetLogin-Panel2-Label19-Caption>
+	<RUS>Синхронизация проходит так:
+сравниваются тексты (или перечисления) под одинаковыми номерами
+из общей БД и из локальной XML-базы.
+    если тексты/перечисления совпали -
+        ничего не происходит
+    если текст/пер-е есть в БД, но его нет в XML -
+        текст/пер-е копируется в XML-базу
+    если текста/пер-е нет в БД, но он есть в XML -
+        текст/пер-е удаляется из XML (т.к. добавление нового текста/пер-я
+        производится только путем резервирования в БД, см. кнопки выше)
+    если текст/пер-е в MySQL оказался пустым, а в XML - не пустым (т.е. зарезервированный
+    текст/пер-е был отредактирован и сохранен пользователем) - 
+        обновим текст/пер-е в общей БД
+    если тексты/пер-я различны и непусты -
+        если автор в обеих базах одинаков, и автором является текущий пользователь или old -
+            выводится запрос: где следует заменить текст/пер-е
+        иначе
+            текст/пер-е обновляется в XML-базе</RUS>
+	<ENG>Synchronization takes place as follows:
+the texts (or enumerations) under the same numbers are compared
+in common MySQL database and in local XML database.
+    if the texts/enumerations coincided -
+        nothing happens
+    if the text/enum exists in the MySQL, but it doesn't in XML -
+        text/enum is copied to the XML database
+    if there is no such text/enum in the MySQL, but it is in XML -
+        text/enum is removed from XML (because adding new text/enum
+        is made only by reservation in the database, see the buttons above)
+    if the text/enum is empty in MySQL, and it is not empty in XML (i.e., reserved
+    text/enum was edited and saved by user) -
+        update the text/enum in the common database
+    if the texts/enums are different and non-empty -
+        if the author is the same in both databases, and the author is the current user or "old" -
+            a query is displayed: where should the text/enum be updated
+        otherwise
+            text/enum is updated in the XML database</ENG>
+</Form1-PageControl1-TabSheetLogin-Panel2-Label19-Caption>
+<Form1-PageControl1-TabSheetLogin-LoginButtonHintPanel-Caption>
+	<RUS>LoginButtonHintPanel</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetLogin-LoginButtonHintPanel-Caption>
+<Form1-PageControl1-TabSheetLogin-LoginButtonHintPanel-LoginButtonHint-Caption>
+	<RUS>Кнопка входа открывает доступ к функциям программы.</RUS>
+	<ENG>The login button allows access to the program functions.</ENG>
+</Form1-PageControl1-TabSheetLogin-LoginButtonHintPanel-LoginButtonHint-Caption>
+<Form1-PageControl1-TabSheetLogin-GB_CoodEdit3-Caption>
+	<RUS>Импорт профиля из COODEdit 3</RUS>
+	<ENG>Import profile from COODEdit 3</ENG>
+</Form1-PageControl1-TabSheetLogin-GB_CoodEdit3-Caption>
+<Form1-PageControl1-TabSheetLogin-GB_CoodEdit3-ButtonProfSelect-Caption>
+	<RUS>OK</RUS>
+	<ENG>OK</ENG>
+</Form1-PageControl1-TabSheetLogin-GB_CoodEdit3-ButtonProfSelect-Caption>
+<Form1-PageControl1-TabSheetLogin-GB_CoodEdit3-Panel3-Caption>
+	<RUS>Panel3</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetLogin-GB_CoodEdit3-Panel3-Caption>
+<Form1-PageControl1-TabSheetLogin-GB_CoodEdit3-Panel3-Label16-Caption>
+	<RUS>Выберите профиль в базе данных MySQL,
+который вы хотите преобразовать в XML-формат</RUS>
+	<ENG>Select a profile in the MySQL database,
+which you want to convert to XML format</ENG>
+</Form1-PageControl1-TabSheetLogin-GB_CoodEdit3-Panel3-Label16-Caption>
+<Form1-PageControl1-TabSheetLogin-EditDBHost-Text>
+	<RUS />
+	<ENG />
+</Form1-PageControl1-TabSheetLogin-EditDBHost-Text>
+<Form1-PageControl1-TabSheetLogin-EditDBUser-Text>
+	<RUS />
+	<ENG />
+</Form1-PageControl1-TabSheetLogin-EditDBUser-Text>
+<Form1-PageControl1-TabSheetLogin-EditDBPassword-Text>
+	<RUS />
+	<ENG />
+</Form1-PageControl1-TabSheetLogin-EditDBPassword-Text>
+<Form1-PageControl1-TabSheetLogin-Panel1-Label20-Caption>
+	<RUS>Синхронизация локальной (XML) и общей базы текстов и перечислений.
+Перед началом синхронизации в общей базе будет зарезервировано
+требуемое количество текстов/перечислений (количество можно указать в настройках).</RUS>
+	<ENG>Synchronization of local (XML) and common databases of texts and enumerations.
+Before the start of synchronization the required number of texts/enumerations
+will be reserved in the common database (the number can be specified in settings).</ENG>
+</Form1-PageControl1-TabSheetLogin-Panel1-Label20-Caption>
+<Form1-PageControl1-TabSheetLogin-ButtonStdHost-Caption>
+	<RUS>Стандартный адрес БД</RUS>
+	<ENG>Standard DB address</ENG>
+</Form1-PageControl1-TabSheetLogin-ButtonStdHost-Caption>
+<Form1-PageControl1-TabSheetLogin-ButtonDownloadTexts-Caption>
+	<RUS>Скачать тексты с сервера</RUS>
+	<ENG>Download texts from server</ENG>
+</Form1-PageControl1-TabSheetLogin-ButtonDownloadTexts-Caption>
+<Form1-PageControl1-TabSheetLogin-Panel4-Label12-Caption>
+	<RUS>При скачивании старый XML-файл будет удален, а новый сформирован из MySQL-базы.</RUS>
+	<ENG>When downloading the old XML file will be deleted, and the new one is generated from the MySQL database.</ENG>
+</Form1-PageControl1-TabSheetLogin-Panel4-Label12-Caption>
+<Form1-PageControl1-TabSheetLogin-ButtonDownloadSets-Caption>
+	<RUS>Скачать перечисления с сервера</RUS>
+	<ENG>Download enumerations from server</ENG>
+</Form1-PageControl1-TabSheetLogin-ButtonDownloadSets-Caption>
+<Form1-PageControl1-TabSheetProfile-Caption>
+	<RUS>Профиль</RUS>
+	<ENG>Profile</ENG>
+</Form1-PageControl1-TabSheetProfile-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-Caption>
+	<RUS>Словарь</RUS>
+	<ENG>Dictionary</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-RadioGroupDefaults-Items-Strings_0>
+	<RUS>без изменений</RUS>
+	<ENG>unchanged</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-RadioGroupDefaults-Items-Strings_0>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-RadioGroupDefaults-Items-Strings_1>
+	<RUS>абс. единицы</RUS>
+	<ENG>absolute units</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-RadioGroupDefaults-Items-Strings_1>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-RadioGroupDefaults-Items-Strings_2>
+	<RUS>отн. единицы</RUS>
+	<ENG>relative units</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-RadioGroupDefaults-Items-Strings_2>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-RadioGroupDefaults-Caption>
+	<RUS>Значения по умолчанию (IQ)</RUS>
+	<ENG>Default values (IQ)</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-RadioGroupDefaults-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-Caption>
+	<RUS>Фильтр</RUS>
+	<ENG>Filter</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-Label14-Caption>
+	<RUS>--</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-Label14-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-CheckBoxGroup-Caption>
+	<RUS>Группа</RUS>
+	<ENG>Group</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-CheckBoxGroup-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-CheckBoxRange-Caption>
+	<RUS>Диапазон</RUS>
+	<ENG>Range</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-CheckBoxRange-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-EditBegin-Text>
+	<RUS>0000</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-EditBegin-Text>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-EditEnd-Text>
+	<RUS>6000</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox3-EditEnd-Text>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-ButtonAddObject-Caption>
+	<RUS>Создать элемент словаря</RUS>
+	<ENG>Create a dictionary element</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-ButtonAddObject-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-Button1-Caption>
+	<RUS>Кнопка для отладки (невидимая)</RUS>
+	<ENG>Debug button (invsible)</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-Button1-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-ButtonXMLEditor-Caption>
+	<RUS>Открыть профиль XML-редактором</RUS>
+	<ENG>Open the profile in XML editor</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-ButtonXMLEditor-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-Caption>
+	<RUS>Файл словаря для контроллера</RUS>
+	<ENG>Dictionary file for controller</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-LabelObjectCount-Caption>
+	<RUS>Всего 0 объектов</RUS>
+	<ENG>Total 0 objects</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-LabelObjectCount-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-ButtonGenerate-Caption>
+	<RUS>Генерировать</RUS>
+	<ENG>Generate</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-ButtonGenerate-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-ButtonWord-Hint>
+	<RUS>Экспортировать профиль в Microsoft Word</RUS>
+	<ENG>Export the profile to Microsoft Word</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-ButtonWord-Hint>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-Caption>
+	<RUS>Масштабирующие коэффициенты</RUS>
+	<ENG>Scale numbers</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-Label2-Caption>
+	<RUS>При генерации файла словаря для контроллера cood.c информация о масштабирующих коэффициентах из этой таблицы попадёт в соответствующие объекты словаря</RUS>
+	<ENG>At generation of a dictionary file for the controller cood.c the information about the scale numbers from this table will be placed into the corresponding dictionary objects</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-Label2-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleNum_of_float-Items-Strings_0>
+	<RUS>x</RUS>
+	<ENG>x</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleNum_of_float-Items-Strings_0>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleNum_of_float-Items-Strings_1>
+	<RUS>x.x</RUS>
+	<ENG>x.x</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleNum_of_float-Items-Strings_1>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleNum_of_float-Items-Strings_2>
+	<RUS>x.xx</RUS>
+	<ENG>x.xx</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleNum_of_float-Items-Strings_2>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleNum_of_float-Items-Strings_3>
+	<RUS>x.xxx</RUS>
+	<ENG>x.xxx</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleNum_of_float-Items-Strings_3>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_0>
+	<RUS>16.0</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_0>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_1>
+	<RUS>15.1</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_1>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_2>
+	<RUS>14.2</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_2>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_3>
+	<RUS>13.3</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_3>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_4>
+	<RUS>12.4</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_4>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_5>
+	<RUS>11.5</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_5>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_6>
+	<RUS>10.6</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_6>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_7>
+	<RUS>9.7</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_7>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_8>
+	<RUS>8.8</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_8>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_9>
+	<RUS>7.9</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_9>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_10>
+	<RUS>6.10</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_10>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_11>
+	<RUS>5.11</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_11>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_12>
+	<RUS>4.12</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_12>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_13>
+	<RUS>3.13</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_13>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_14>
+	<RUS>2.14</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_14>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_15>
+	<RUS>1.15</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_15>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_16>
+	<RUS>0.16</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet3-CBScaleScaleQ-Items-Strings_16>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-Caption>
+	<RUS>Настройки профиля</RUS>
+	<ENG>Profile settings</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-Label4-Caption>
+	<RUS>Перечисление для групп</RUS>
+	<ENG>Enumeration for groups</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-Label4-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-RadioGroupProc-Items-Strings_0>
+	<RUS>Си-код</RUS>
+	<ENG>C code</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-RadioGroupProc-Items-Strings_0>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-RadioGroupProc-Items-Strings_1>
+	<RUS>Ассемблер x24</RUS>
+	<ENG>Assembler x24</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-RadioGroupProc-Items-Strings_1>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-RadioGroupProc-Caption>
+	<RUS>Тип выходного файла</RUS>
+	<ENG>Output file type</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-RadioGroupProc-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-Caption>
+	<RUS>Настройки генерации выходного файла</RUS>
+	<ENG>Output file generation settings</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-Label7-Caption>
+	<RUS>Смещение в ЭнОЗУ частей словаря:
+    1000-2FFF индексы - обязательная часть         :
+    3000-5FFF индексы - пользовательская часть :
+    (для ввода нажать ENTER)</RUS>
+	<ENG>Dictionary parts offset in NVRAM:
+	1000-2FFF indexes - mandatory part         :
+	3000-5FFF indexes - user part :
+	(for input press ENTER)</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-Label7-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-LabelDict-Caption>
+	<RUS>Словарь                                                                    :</RUS>
+	<ENG>Dictionary</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-LabelDict-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CBCANNum-Text>
+	<RUS>Процессор с одним модулем CAN</RUS>
+	<ENG>Processor with one CAN module</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CBCANNum-Text>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CBCANNum-Items-Strings_0>
+	<RUS>Процессор с одним модулем CAN</RUS>
+	<ENG>Processor with one CAN module</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CBCANNum-Items-Strings_0>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CBCANNum-Items-Strings_1>
+	<RUS>1-ый модуль CANopen</RUS>
+	<ENG>1st CANopen module</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CBCANNum-Items-Strings_1>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CBCANNum-Items-Strings_2>
+	<RUS>2-ой модуль CANopen</RUS>
+	<ENG>2nd CANopen module</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CBCANNum-Items-Strings_2>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-EditAddrComm-Text>
+	<RUS>CO1_SPI_START_ADDR</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-EditAddrComm-Text>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-EditAddrUser-Text>
+	<RUS>CO1_SPI_START_ADDR</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-EditAddrUser-Text>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CheckBoxBigYA-Caption>
+	<RUS>Заменять маленькие "я" на большие "Я" в файле cood.c</RUS>
+	<ENG>Replace lowercase "я" by capital "Я" in cood.c file</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CheckBoxBigYA-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CheckBoxM3Includes-Caption>
+	<RUS>include'ы для проекта на Cortex M3</RUS>
+	<ENG>includes for Cortex M3 project</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CheckBoxM3Includes-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CheckBox6000Range-Caption>
+	<RUS>Использовать параметры 6000h (есть в новых версиях драйвера CanOpen)</RUS>
+	<ENG>Use parameters 6000h (used in new versions of the CANOpen driver)</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CheckBox6000Range-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CheckBoxEncryptFormats-Caption>
+	<RUS>Шифровать форматы при генерации словаря</RUS>
+	<ENG>Encrypt formats when generating a dictionary</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox1-CheckBoxEncryptFormats-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox2-Caption>
+	<RUS>Настройки генерации выходного файла</RUS>
+	<ENG>Output file generation settings</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox2-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox2-CheckBoxCood_inc-Caption>
+	<RUS>Закоментировать cood.inc для 24xx</RUS>
+	<ENG>Comment out the cood.inc for 24xx</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox2-CheckBoxCood_inc-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-CBOldGroups-Caption>
+	<RUS>Старые группы</RUS>
+	<ENG>Old groups</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-CBOldGroups-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet8-Caption>
+	<RUS>EDS-файл</RUS>
+	<ENG>EDS-file</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet8-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet8-GroupBoxEdsHeader-Caption>
+	<RUS>Шапка EDS-файла</RUS>
+	<ENG>EDS file header</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet8-GroupBoxEdsHeader-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet8-ButtonEdsGenerate-Caption>
+	<RUS>Генерировать файл .eds</RUS>
+	<ENG>Generate .eds file</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet8-ButtonEdsGenerate-Caption>
+<Form1-PageControl1-TabSheetTexts-Caption>
+	<RUS>Тексты</RUS>
+	<ENG>Texts</ENG>
+</Form1-PageControl1-TabSheetTexts-Caption>
+<Form1-PageControl1-TabSheetTexts-Label3-Caption>
+	<RUS>Перечисления</RUS>
+	<ENG>Enumerations</ENG>
+</Form1-PageControl1-TabSheetTexts-Label3-Caption>
+<Form1-PageControl1-TabSheetTexts-Label6-Caption>
+	<RUS>Таблица текстов</RUS>
+	<ENG>Table of texts</ENG>
+</Form1-PageControl1-TabSheetTexts-Label6-Caption>
+<Form1-PageControl1-TabSheetTexts-Label10-Caption>
+	<RUS>Связано с текстами</RUS>
+	<ENG>Bind to texts</ENG>
+</Form1-PageControl1-TabSheetTexts-Label10-Caption>
+<Form1-PageControl1-TabSheetTexts-Label13-Caption>
+	<RUS>Автор:</RUS>
+	<ENG>Author:</ENG>
+</Form1-PageControl1-TabSheetTexts-Label13-Caption>
+<Form1-PageControl1-TabSheetTexts-LabelSetAuthor-Caption>
+	<RUS>_</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetTexts-LabelSetAuthor-Caption>
+<Form1-PageControl1-TabSheetTexts-ButtonSaveST-Caption>
+	<RUS>Сохранить XML-базы текстов и перечислений</RUS>
+	<ENG>Save texts and enumerations XML bases</ENG>
+</Form1-PageControl1-TabSheetTexts-ButtonSaveST-Caption>
+<Form1-PageControl1-TabSheetTexts-ButtonCopySet-Caption>
+	<RUS>Скопировать перечисление</RUS>
+	<ENG>Copy enumeration</ENG>
+</Form1-PageControl1-TabSheetTexts-ButtonCopySet-Caption>
+<Form1-PageControl1-TabSheetTexts-GroupBoxSearch-Caption>
+	<RUS>Фильтр перечислений по фрагменту</RUS>
+	<ENG>Filter enumerations by fragment</ENG>
+</Form1-PageControl1-TabSheetTexts-GroupBoxSearch-Caption>
+<Form1-PageControl1-TabSheetTexts-GroupBoxSearch-CheckBoxCase-Caption>
+	<RUS>Игнор. регистр</RUS>
+	<ENG>Ignore case</ENG>
+</Form1-PageControl1-TabSheetTexts-GroupBoxSearch-CheckBoxCase-Caption>
+<Form1-PageControl1-TabSheetTexts-GroupBoxSearch-CheckBoxFilterSets-Caption>
+	<RUS>Фильтровать</RUS>
+	<ENG>Filter</ENG>
+</Form1-PageControl1-TabSheetTexts-GroupBoxSearch-CheckBoxFilterSets-Caption>
+<Form1-PageControl1-TabSheetTexts-btnAddNewEnum-Caption>
+	<RUS>Добавить</RUS>
+	<ENG>Add</ENG>
+</Form1-PageControl1-TabSheetTexts-btnAddNewEnum-Caption>
+<Form1-PageControl1-TabSheetTexts-btnAddNewEnum-Hint>
+	<RUS>Добавить новое перечисление</RUS>
+	<ENG>Add a new enumeration</ENG>
+</Form1-PageControl1-TabSheetTexts-btnAddNewEnum-Hint>
+<Form1-PageControl1-TabSheetTexts-btnAddNewText-Caption>
+	<RUS>Добавить</RUS>
+	<ENG>Add</ENG>
+</Form1-PageControl1-TabSheetTexts-btnAddNewText-Caption>
+<Form1-PageControl1-TabSheetTexts-btnAddNewText-Hint>
+	<RUS>Добавить новый текст</RUS>
+	<ENG>Add a new text</ENG>
+</Form1-PageControl1-TabSheetTexts-btnAddNewText-Hint>
+<Form1-PageControl1-TabSheetPU-Caption>
+	<RUS>Пульт управления</RUS>
+	<ENG>Control panel</ENG>
+</Form1-PageControl1-TabSheetPU-Caption>
+<Form1-PageControl1-TabSheetPU-Label18-Caption>
+	<RUS>Поле перевода произвольного текста в кодировку пульта оперативного управления</RUS>
+	<ENG>The field for translating arbitrary text into the operational control panel encoding</ENG>
+</Form1-PageControl1-TabSheetPU-Label18-Caption>
+<Form1-PageControl1-TabSheetPU-Label8-Caption>
+	<RUS>ВНИМАНИЕ! Для правильного создания файла текстов следует 
+предварительно синхронизировать базы текстов и перечислений </RUS>
+	<ENG>ATTENTION! To create a text file properly,
+synchronize the database of texts and enumerations before</ENG>
+</Form1-PageControl1-TabSheetPU-Label8-Caption>
+<Form1-PageControl1-TabSheetPU-ButtonPUHeaderC-Caption>
+	<RUS>header для ПУ на Си</RUS>
+	<ENG>header for CP on C</ENG>
+</Form1-PageControl1-TabSheetPU-ButtonPUHeaderC-Caption>
+<Form1-PageControl1-TabSheetPU-CB_PUType-Items-Strings_0>
+	<RUS>Ассемблер для 240x (А)</RUS>
+	<ENG>Assembler for 240x (A)</ENG>
+</Form1-PageControl1-TabSheetPU-CB_PUType-Items-Strings_0>
+<Form1-PageControl1-TabSheetPU-CB_PUType-Items-Strings_1>
+	<RUS>Ассемблер для 240x (Ш)</RUS>
+	<ENG>Assembler for 240x (Sh)</ENG>
+</Form1-PageControl1-TabSheetPU-CB_PUType-Items-Strings_1>
+<Form1-PageControl1-TabSheetPU-CB_PUType-Items-Strings_2>
+	<RUS>Си для 28x</RUS>
+	<ENG>C for 28x</ENG>
+</Form1-PageControl1-TabSheetPU-CB_PUType-Items-Strings_2>
+<Form1-PageControl1-TabSheetPU-CB_PUType-Items-Strings_3>
+	<RUS>Си с упаковкой для 2808</RUS>
+	<ENG>C with packing for 2808</ENG>
+</Form1-PageControl1-TabSheetPU-CB_PUType-Items-Strings_3>
+<Form1-PageControl1-TabSheetPU-BProfText-Caption>
+	<RUS>Создать файл текстов по выбр. профилю</RUS>
+	<ENG>Create a text file for the selected profile</ENG>
+</Form1-PageControl1-TabSheetPU-BProfText-Caption>
+<Form1-PageControl1-TabSheetPU-EditText-Text>
+	<RUS>Введите текст</RUS>
+	<ENG>Enter the text</ENG>
+</Form1-PageControl1-TabSheetPU-EditText-Text>
+<Form1-BindST-Caption>
+	<RUS>Связать с перечислением</RUS>
+	<ENG>Bind to enumeration</ENG>
+</Form1-BindST-Caption>
+<Form1-UnBindST-Caption>
+	<RUS>Отвязать от перечисления</RUS>
+	<ENG>Unbind from enumeration</ENG>
+</Form1-UnBindST-Caption>
+<Form1-CopyObject-Caption>
+	<RUS>Копировать</RUS>
+	<ENG>Copy</ENG>
+</Form1-CopyObject-Caption>
+<Form1-DeleteObject-Caption>
+	<RUS>Удалить</RUS>
+	<ENG>Delete</ENG>
+</Form1-DeleteObject-Caption>
+<Form1-RenumSubs-Caption>
+	<RUS>Перенумеровать подындексы</RUS>
+	<ENG>Renumber subindexes</ENG>
+</Form1-RenumSubs-Caption>
+<Form1-CopyWithSubs-Caption>
+	<RUS>Копировать с подындексами</RUS>
+	<ENG>Copy with subindexes</ENG>
+</Form1-CopyWithSubs-Caption>
+<Form1-CopyAndIncIndex-Caption>
+	<RUS>Копировать с инкрементом индекса (Alt+LeftClick)</RUS>
+	<ENG>Copy with index increment (Alt+LeftClick)</ENG>
+</Form1-CopyAndIncIndex-Caption>
+<Form1-CopyAndIncSubIndex-Caption>
+	<RUS>Копировать с инкрементом подындекса (Ctrl+LeftClick)</RUS>
+	<ENG>Copy with subindex increment (Ctrl+LeftClick)</ENG>
+</Form1-CopyAndIncSubIndex-Caption>
+<Form1-N1-Caption>
+	<RUS>Файл</RUS>
+	<ENG>File</ENG>
+</Form1-N1-Caption>
+<Form1-N_Open-Caption>
+	<RUS>Открыть профиль</RUS>
+	<ENG>Open profile</ENG>
+</Form1-N_Open-Caption>
+<Form1-N_Save-Caption>
+	<RUS>Сохранить профиль</RUS>
+	<ENG>Save profile</ENG>
+</Form1-N_Save-Caption>
+<Form1-N_SaveAs-Caption>
+	<RUS>Сохранить профиль как</RUS>
+	<ENG>Save profile as</ENG>
+</Form1-N_SaveAs-Caption>
+<Form1-N4-Caption>
+	<RUS>-</RUS>
+	<ENG />
+</Form1-N4-Caption>
+<Form1-N_Recent0-Caption>
+	<RUS>C:\Tmp\1\AL1-INV.xml</RUS>
+	<ENG />
+</Form1-N_Recent0-Caption>
+<Form1-N_Recent1-Caption>
+	<RUS>C:\Tmp\4\MK17_4_L500_INV.xml</RUS>
+	<ENG />
+</Form1-N_Recent1-Caption>
+<Form1-N_Recent2-Caption>
+	<RUS>C:\Tmp\4\test_profile.xml</RUS>
+	<ENG />
+</Form1-N_Recent2-Caption>
+<Form1-N_Service-Caption>
+	<RUS>Сервис</RUS>
+	<ENG>Service</ENG>
+</Form1-N_Service-Caption>
+<Form1-N_Options-Caption>
+	<RUS>Настройки</RUS>
+	<ENG>Settings</ENG>
+</Form1-N_Options-Caption>
+<Form1-N_Import-Caption>
+	<RUS>Импорт объектов</RUS>
+	<ENG>Import objects</ENG>
+</Form1-N_Import-Caption>
+<Form1-N_UniConDefaults-Caption>
+	<RUS>Загрузка параметров по умолчанию</RUS>
+	<ENG>Load default parameter values</ENG>
+</Form1-N_UniConDefaults-Caption>
+<Form1-N_CreateNewInstanceForProfile-Caption>
+	<RUS>Создать новый экземпляр CoodEdit по текущему профилю</RUS>
+	<ENG>Create a new instance of CoodEdit by the current profile</ENG>
+</Form1-N_CreateNewInstanceForProfile-Caption>
+<Form1-N2-Caption>
+	<RUS>Справка</RUS>
+	<ENG>Help</ENG>
+</Form1-N2-Caption>
+<FormObjImport-Caption>
+	<RUS>Импорт объектов</RUS>
+	<ENG>Import objects</ENG>
+</FormObjImport-Caption>
+<FormObjImport-ButtonOpen-Caption>
+	<RUS>Открыть</RUS>
+	<ENG>Open</ENG>
+</FormObjImport-ButtonOpen-Caption>
+<FormObjImport-ButtonClose-Caption>
+	<RUS>Готово</RUS>
+	<ENG>Done</ENG>
+</FormObjImport-ButtonClose-Caption>
+<FormObjImport-ButtonImport-Caption>
+	<RUS>Импортировать</RUS>
+	<ENG>Import</ENG>
+</FormObjImport-ButtonImport-Caption>
+<FormOptions-Caption>
+	<RUS>Настройки COODEdit</RUS>
+	<ENG>COODEdit settings</ENG>
+</FormOptions-Caption>
+<FormOptions-LabelLanguage-Caption>
+	<RUS>Язык интерфейса (изменится после перезагрузки)</RUS>
+	<ENG>Interface language (will change after restart)</ENG>
+</FormOptions-LabelLanguage-Caption>
+<FormOptions-ButtonOK-Caption>
+	<RUS>OK</RUS>
+	<ENG>OK</ENG>
+</FormOptions-ButtonOK-Caption>
+<FormOptions-ButtonCancel-Caption>
+	<RUS>Отмена</RUS>
+	<ENG>Cancel</ENG>
+</FormOptions-ButtonCancel-Caption>
+<FormOptions-GroupBox1-Caption>
+	<RUS>Нужное количество зарезервированных</RUS>
+	<ENG>The required number of reserved</ENG>
+</FormOptions-GroupBox1-Caption>
+<FormOptions-GroupBox1-Label3-Caption>
+	<RUS>Текстов:</RUS>
+	<ENG>Texts:</ENG>
+</FormOptions-GroupBox1-Label3-Caption>
+<FormOptions-GroupBox1-Label4-Caption>
+	<RUS>Перечислений:</RUS>
+	<ENG>Enumerations:</ENG>
+</FormOptions-GroupBox1-Label4-Caption>
+<FormOptions-GroupBox2-Caption>
+	<RUS>Автосохранение профиля</RUS>
+	<ENG>Autosave profile</ENG>
+</FormOptions-GroupBox2-Caption>
+<FormOptions-GroupBox2-Label2-Caption>
+	<RUS>Период</RUS>
+	<ENG>Period</ENG>
+</FormOptions-GroupBox2-Label2-Caption>
+<FormOptions-GroupBox2-Label5-Caption>
+	<RUS>секунд</RUS>
+	<ENG>seconds</ENG>
+</FormOptions-GroupBox2-Label5-Caption>
+<FormOptions-GroupBox2-CheckBoxAutoSave-Caption>
+	<RUS>Включить</RUS>
+	<ENG>On</ENG>
+</FormOptions-GroupBox2-CheckBoxAutoSave-Caption>
+<FormOptions-GroupBox2-CheckBoxBackup-Caption>
+	<RUS>Сохранять резервную копию (.back)</RUS>
+	<ENG>Save a backup copy (.back)</ENG>
+</FormOptions-GroupBox2-CheckBoxBackup-Caption>
+<FormOptions-CheckBoxSaveAtGen-Caption>
+	<RUS>Сохранять XML-файл профиля при генерации словаря</RUS>
+	<ENG>Save profile to XML-file at dictionary generation</ENG>
+</FormOptions-CheckBoxSaveAtGen-Caption>
+<FormOptions-gbSharedConfig-Caption>
+	<RUS>Настройки, общие для всех пользователей</RUS>
+	<ENG>Settings common to all users</ENG>
+</FormOptions-gbSharedConfig-Caption>
+<FormOptions-gbSharedConfig-Hint>
+	<RUS>Данные настройки являются общими для всех пользователей
+текущей базы данных (синхронизируются через сервер).</RUS>
+	<ENG>These settings are common to all users of
+the current database (synchronized through the server).</ENG>
+</FormOptions-gbSharedConfig-Hint>
+<FormOptions-gbSharedConfig-lVendorToken-Caption>
+	<RUS>Ключ производителя</RUS>
+	<ENG>Vendor token</ENG>
+</FormOptions-gbSharedConfig-lVendorToken-Caption>
+<FormOptions-gbSharedConfig-btGenVendorToken-Caption>
+	<RUS>Создать</RUS>
+	<ENG>Create</ENG>
+</FormOptions-gbSharedConfig-btGenVendorToken-Caption>
+<FormOptions-gbSharedConfig-btGenVendorToken-Hint>
+	<RUS>Сгенерировать случайный ключ</RUS>
+	<ENG>Generate random token</ENG>
+</FormOptions-gbSharedConfig-btGenVendorToken-Hint>
+<FormOptions-gbSharedConfig-btDelVendorToken-Caption>
+	<RUS>Удалить</RUS>
+	<ENG>Delete</ENG>
+</FormOptions-gbSharedConfig-btDelVendorToken-Caption>
+<FormOptions-gbSharedConfig-btDelVendorToken-Hint>
+	<RUS>Удалить ключ</RUS>
+	<ENG>Delete token</ENG>
+</FormOptions-gbSharedConfig-btDelVendorToken-Hint>
+<FormOptions-gbDemoToken-Caption>
+	<RUS>Ключ пользователя Demo-версии</RUS>
+	<ENG>Demo-version user token</ENG>
+</FormOptions-gbDemoToken-Caption>
+<FormOptions-GroupBox3-Caption>
+	<RUS>Стандартная программа для открытия XML-файлов</RUS>
+	<ENG>A standard program for opening XML files</ENG>
+</FormOptions-GroupBox3-Caption>
+<FormOptions-GroupBox3-EditOpenDialogXMLProgPath-Text>
+	<RUS>C:\Windows\notepad.exe</RUS>
+	<ENG />
+</FormOptions-GroupBox3-EditOpenDialogXMLProgPath-Text>
+<FormOptions-GroupBox3-ButtonXMLProgPath-Caption>
+	<RUS>...</RUS>
+	<ENG />
+</FormOptions-GroupBox3-ButtonXMLProgPath-Caption>
+<FormOptions-ComboBoxLanguage-Text>
+	<RUS>English</RUS>
+	<ENG />
+</FormOptions-ComboBoxLanguage-Text>
+<FormOptions-ComboBoxLanguage-Items-Strings_0>
+	<RUS>Русский (Russian)</RUS>
+	<ENG>Russian</ENG>
+</FormOptions-ComboBoxLanguage-Items-Strings_0>
+<FormOptions-ComboBoxLanguage-Items-Strings_1>
+	<RUS>English</RUS>
+	<ENG />
+</FormOptions-ComboBoxLanguage-Items-Strings_1>
+<FormWord-Caption>
+	<RUS>Отчет в Word по профилю: </RUS>
+	<ENG>Report in Word on the profile: </ENG>
+</FormWord-Caption>
+<FormWord-TimeLabel-Caption>
+	<RUS>00 ч 00 мин 00 сек</RUS>
+	<ENG>00 h 00 min 00 sec</ENG>
+</FormWord-TimeLabel-Caption>
+<FormWord-Label1-Caption>
+	<RUS>До завершения осталось:</RUS>
+	<ENG>Until completion:</ENG>
+</FormWord-Label1-Caption>
+<FormWord-IndexLabel-Caption>
+	<RUS>Выводить индексы с</RUS>
+	<ENG>Show indexes from</ENG>
+</FormWord-IndexLabel-Caption>
+<FormWord-Label2-Caption>
+	<RUS>h    по</RUS>
+	<ENG>h    to</ENG>
+</FormWord-Label2-Caption>
+<FormWord-Label3-Caption>
+	<RUS>h</RUS>
+	<ENG />
+</FormWord-Label3-Caption>
+<FormWord-Label4-Caption>
+	<RUS>Выводить группы с</RUS>
+	<ENG>Show groups from</ENG>
+</FormWord-Label4-Caption>
+<FormWord-Label5-Caption>
+	<RUS>по</RUS>
+	<ENG>to</ENG>
+</FormWord-Label5-Caption>
+<FormWord-ProgressLabel-Caption>
+	<RUS>100 %</RUS>
+	<ENG />
+</FormWord-ProgressLabel-Caption>
+<FormWord-ButtonStart-Caption>
+	<RUS>Старт</RUS>
+	<ENG>Start</ENG>
+</FormWord-ButtonStart-Caption>
+<FormWord-ButtonStart-Hint>
+	<RUS>Экспортировать профиль в Microsoft Word</RUS>
+	<ENG>Export profile to Microsoft Word</ENG>
+</FormWord-ButtonStart-Hint>
+<FormWord-cbShowWord-Caption>
+	<RUS>Показать окно Microsoft Word</RUS>
+	<ENG>Show Microsoft Word window</ENG>
+</FormWord-cbShowWord-Caption>
+<FormWord-StartIndexEdit-Text>
+	<RUS>2500</RUS>
+	<ENG />
+</FormWord-StartIndexEdit-Text>
+<FormWord-EndIndexEdit-Text>
+	<RUS>FFFF</RUS>
+	<ENG />
+</FormWord-EndIndexEdit-Text>
+<FormWord-StartGroupEdit-Text>
+	<RUS>-2</RUS>
+	<ENG />
+</FormWord-StartGroupEdit-Text>
+<FormWord-EndGroupEdit-Text>
+	<RUS>255</RUS>
+	<ENG />
+</FormWord-EndGroupEdit-Text>
+<FormWord-CheckBoxLongTexts-Caption>
+	<RUS>Использовать длинные тексты вместо коротких</RUS>
+	<ENG>Use long texts instead of short ones</ENG>
+</FormWord-CheckBoxLongTexts-Caption>
+<FormWord-CheckBox_C_names-Caption>
+	<RUS>Генерировать столбец с Си-переменными</RUS>
+	<ENG>Generate column with C variables</ENG>
+</FormWord-CheckBox_C_names-Caption>
+<FormWord-CheckBoxNoGrpEna-Caption>
+	<RUS>Генерировать группу "Вне групп"</RUS>
+	<ENG>Generate "Out of groups" group</ENG>
+</FormWord-CheckBoxNoGrpEna-Caption>
+<FormTextStats-Caption>
+	<RUS>Статистика</RUS>
+	<ENG>Statistics</ENG>
+</FormTextStats-Caption>
+<FormTextStats-ButtonOK-Caption>
+	<RUS>Закрыть</RUS>
+	<ENG>Close</ENG>
+</FormTextStats-ButtonOK-Caption>
+<FormParamLoad-Caption>
+	<RUS>Загрузка параметров из файла в качестве дефолтных значений текущего профиля</RUS>
+	<ENG>Load parameters from the file as default values of the current profile</ENG>
+</FormParamLoad-Caption>
+<FormParamLoad-PanelBottom-ButtonUploading-Caption>
+	<RUS>Загрузить параметры в профиль</RUS>
+	<ENG>Load parameters to profile</ENG>
+</FormParamLoad-PanelBottom-ButtonUploading-Caption>
+<FormParamLoad-PanelBottom-ButtonUploading-Hint>
+	<RUS>Все значения выбранных элементов загрузятся в качестве дефолтных значений текущего профиля</RUS>
+	<ENG>All values of selected elements will be loaded as default values of the current profile</ENG>
+</FormParamLoad-PanelBottom-ButtonUploading-Hint>
+<FormParamLoad-PanelBottom-ButtonCompare-Caption>
+	<RUS>&lt;= Сравнение =&gt;</RUS>
+	<ENG>&lt;= Comparison =&gt;</ENG>
+</FormParamLoad-PanelBottom-ButtonCompare-Caption>
+<FormParamLoad-PanelBottom-ButtonCompare-Hint>
+	<RUS>Сравнивает два словаря - загруженный из файла и словарь текущего устройства
+на предмет возможности загрузки выбранных параметров. Если какие-либо
+элементы отсутствуют или имеют другой формат, то флаг их выбора автоматически
+сбросится, а в диагностическое окно выведется сообщение об этом.</RUS>
+	<ENG>Compares two dictionaries - loaded from the file and the dictionary
+of the current device for the possibility of loading the selected parameters. If any
+elements are absent or have a different format, the flag of their selection
+will be automatically reset, and a message will be displayed in the diagnostic window.</ENG>
+</FormParamLoad-PanelBottom-ButtonCompare-Hint>
+<FormParamLoad-PanelMain-PanelLeft-TreeView1-Hint>
+	<RUS>Правой кнопкой мыши выберите параметры, которые собираетесь перенести
+на другое устройство.</RUS>
+	<ENG>Right-click the parameters you want to transfer
+to another device.</ENG>
+</FormParamLoad-PanelMain-PanelLeft-TreeView1-Hint>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox1-Caption>
+	<RUS>Название</RUS>
+	<ENG>Name</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox1-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox1-RadioButtonFullText-Caption>
+	<RUS>Полн.</RUS>
+	<ENG>Full</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox1-RadioButtonFullText-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox1-RadioButtonFullText-Hint>
+	<RUS>Отображение имен параметров в виде длинных названий</RUS>
+	<ENG>Displaying parameter names in the long form</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox1-RadioButtonFullText-Hint>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox1-RadioButtonShortText-Caption>
+	<RUS>Корот.</RUS>
+	<ENG>Short</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox1-RadioButtonShortText-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox1-RadioButtonShortText-Hint>
+	<RUS>Отображение имен параметров в виде коротких названий,</RUS>
+	<ENG>Displaying parameter names in the short form</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox1-RadioButtonShortText-Hint>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-Caption>
+	<RUS>Иерархия</RUS>
+	<ENG>Hierarchy</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeGroup-Caption>
+	<RUS>Гр</RUS>
+	<ENG>Gr</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeGroup-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeGroup-Hint>
+	<RUS>Отображение "Группы-&gt;Элементы"</RUS>
+	<ENG>Displaying "Groups-&gt;Elements"</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeGroup-Hint>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeGroupInd-Caption>
+	<RUS>ГрИ</RUS>
+	<ENG>GrI</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeGroupInd-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeGroupInd-Hint>
+	<RUS>Отображение "Группы-&gt;Индексы-&gt;Элементы"</RUS>
+	<ENG>Displaying "Groups-&gt;Indexes-&gt;Elements"</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeGroupInd-Hint>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeInd-Caption>
+	<RUS>И</RUS>
+	<ENG>I</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeInd-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeInd-Hint>
+	<RUS>Отображение "Индексы-&gt;Элементы"</RUS>
+	<ENG>Displaying "Indexes-&gt;Elements"</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox2-ToolBarTreeView-TBTreeInd-Hint>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-Caption>
+	<RUS>Выбор параметров</RUS>
+	<ENG>Selection of parameters</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectAll-Caption>
+	<RUS>Гр</RUS>
+	<ENG>Gr</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectAll-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectAll-Hint>
+	<RUS>Выбрать всё</RUS>
+	<ENG>Choose all</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectAll-Hint>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectNone-Caption>
+	<RUS>ГрИ</RUS>
+	<ENG>GrI</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectNone-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectNone-Hint>
+	<RUS>Очистить выбор</RUS>
+	<ENG>Clear selection</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectNone-Hint>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectStd-Caption>
+	<RUS>И</RUS>
+	<ENG>I</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectStd-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectStd-Hint>
+	<RUS>Выбрать только стандартные элементы - коммуникационные, масштабирующие
+коэффициенты, служебные параметры и т.п (до индекса 0x2500).</RUS>
+	<ENG>Select only standard elements - communication, scale
+numbers, service parameters, etc. (up to the index 0x2500).</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectStd-Hint>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectNotStd-Caption>
+	<RUS>T</RUS>
+	<ENG>T</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectNotStd-Caption>
+<FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectNotStd-Hint>
+	<RUS>Выбрать всё, кроме стандартных элементов (после индекса 0x2500).</RUS>
+	<ENG>Select everything except the standard elements (after the index 0x2500).</ENG>
+</FormParamLoad-PanelMain-PanelLeft-PanelTreeBott-GroupBox3-ToolBarTreeSelect-TBSelectNotStd-Hint>
+<FormParamLoad-PanelMain-PanelLeft-Panel1-Label1-Caption>
+	<RUS>Словарь из файла</RUS>
+	<ENG>Dictionary from file</ENG>
+</FormParamLoad-PanelMain-PanelLeft-Panel1-Label1-Caption>
+<FormParamLoad-PanelMain-PanelLeft-Panel1-ToolBar1-ButtonLoadFromFile-Caption>
+	<RUS>ButtonLoadFromFile</RUS>
+	<ENG />
+</FormParamLoad-PanelMain-PanelLeft-Panel1-ToolBar1-ButtonLoadFromFile-Caption>
+<FormParamLoad-PanelMain-PanelLeft-Panel1-ToolBar1-ButtonLoadFromFile-Hint>
+	<RUS>Загружает словарь с параметрами из выбранного файла</RUS>
+	<ENG>Loads a dictionary with parameters from the selected file</ENG>
+</FormParamLoad-PanelMain-PanelLeft-Panel1-ToolBar1-ButtonLoadFromFile-Hint>
+<FormParamLoad-PanelMain-RichEdit1-Hint>
+	<RUS>Диагностическое окно с протоколом всех выполняемых операций.</RUS>
+	<ENG>A diagnostic window with the protocol of all operations performed.</ENG>
+</FormParamLoad-PanelMain-RichEdit1-Hint>
+<FormParamLoad-PanelMain-Panel2-TreeView2-Hint>
+	<RUS>Здесь отображается дерево словаря текущего устройства в 
+качестве справочной информации.</RUS>
+	<ENG>The dictionary tree of the current device is displayed here
+as reference information.</ENG>
+</FormParamLoad-PanelMain-Panel2-TreeView2-Hint>
+<FormParamLoad-PanelMain-Panel2-Panel3-Label2-Caption>
+	<RUS>Словарь профиля</RUS>
+	<ENG>Profile dictionary</ENG>
+</FormParamLoad-PanelMain-Panel2-Panel3-Label2-Caption>
+<FormSelectProductCode-Caption>
+	<RUS>Выберите тип изделия (Product Code)</RUS>
+	<ENG>Select device type (Product Code)</ENG>
+</FormSelectProductCode-Caption>
+<FormSelectProductCode-btnOk-Caption>
+	<RUS>OK</RUS>
+	<ENG>OK</ENG>
+</FormSelectProductCode-btnOk-Caption>
+<_4255208522>
+	<RUS>Номер</RUS>
+	<ENG>Number</ENG>
+</_4255208522>
+<_3085381549>
+	<RUS>Точность отображения</RUS>
+	<ENG>Display accuracy</ENG>
+</_3085381549>
+<_2730025271>
+	<RUS>Префикс</RUS>
+	<ENG>Prefix</ENG>
+</_2730025271>
+<_2425451183>
+	<RUS>Единицы</RUS>
+	<ENG>Units</ENG>
+</_2425451183>
+<_164749584>
+	<RUS>Формат IQ</RUS>
+	<ENG>IQ format</ENG>
+</_164749584>
+<_2898386567>
+	<RUS>Предполагаемое значение</RUS>
+	<ENG>Possible value</ENG>
+</_2898386567>
+<_2217566856>
+	<RUS>Описание</RUS>
+	<ENG>Description</ENG>
+</_2217566856>
+<_33710429>
+	<RUS>Вариант</RUS>
+	<ENG>Variant</ENG>
+</_33710429>
+<_736444654>
+	<RUS>Длиный текст</RUS>
+	<ENG>Long text</ENG>
+</_736444654>
+<_510649973>
+	<RUS>Короткий текст</RUS>
+	<ENG>Short text</ENG>
+</_510649973>
+<_446447536>
+	<RUS>Английский текст</RUS>
+	<ENG>English text</ENG>
+</_446447536>
+<_178554817>
+	<RUS>Связь</RUS>
+	<ENG>Binding</ENG>
+</_178554817>
+<_3203968178>
+	<RUS>Автор</RUS>
+	<ENG>Author</ENG>
+</_3203968178>
+<_4294967225>
+	<RUS>№</RUS>
+	<ENG>#</ENG>
+</_4294967225>
+<_85961885>
+	<RUS>Индекс</RUS>
+	<ENG>Index</ENG>
+</_85961885>
+<_1119016025>
+	<RUS>Подындекс</RUS>
+	<ENG>Subindex</ENG>
+</_1119016025>
+<_190013719>
+	<RUS>Длинный текст</RUS>
+	<ENG>Long text</ENG>
+</_190013719>
+<_3360695696>
+	<RUS>Формат</RUS>
+	<ENG>Format</ENG>
+</_3360695696>
+<_3563603120>
+	<RUS>Адрес</RUS>
+	<ENG>Address</ENG>
+</_3563603120>
+<_1399112718>
+	<RUS>Группа</RUS>
+	<ENG>Group</ENG>
+</_1399112718>
+<_2752217183>
+	<RUS>По умолчанию</RUS>
+	<ENG>Default</ENG>
+</_2752217183>
+<_1732825021>
+	<RUS>Мин.</RUS>
+	<ENG>Min</ENG>
+</_1732825021>
+<_1339738095>
+	<RUS>Макс.</RUS>
+	<ENG>Max</ENG>
+</_1339738095>
+<_1009072063>
+	<RUS>Комментарий</RUS>
+	<ENG>Comment</ENG>
+</_1009072063>
+<_3942660587>
+	<RUS>CallBack</RUS>
+	<ENG>CallBack</ENG>
+</_3942660587>
+<_2840607211>
+	<RUS>Станд. числ.</RUS>
+	<ENG>Standard num.</ENG>
+</_2840607211>
+<_2139494135>
+	<RUS>Корневой</RUS>
+	<ENG>Root</ENG>
+</_2139494135>
+<_3132240789>
+	<RUS>Бит.</RUS>
+	<ENG>Bit.</ENG>
+</_3132240789>
+<_1114535044>
+	<RUS>текст. </RUS>
+	<ENG>text. </ENG>
+</_1114535044>
+<_1090316873>
+	<RUS>10-ич. </RUS>
+	<ENG>decimal. </ENG>
+</_1090316873>
+<_2601710379>
+	<RUS>Q-тип.</RUS>
+	<ENG>Q-type.</ENG>
+</_2601710379>
+<_3107484613>
+	<RUS> м.к.№</RUS>
+	<ENG> s.n.#</ENG>
+</_3107484613>
+<_1722095322>
+	<RUS>2-ич. </RUS>
+	<ENG>binary. </ENG>
+</_1722095322>
+<_760829373>
+	<RUS>Всего </RUS>
+	<ENG>Total </ENG>
+</_760829373>
+<_2286390268>
+	<RUS> объектов</RUS>
+	<ENG> objects</ENG>
+</_2286390268>
+<_2600928501>
+	<RUS> - Профиль: </RUS>
+	<ENG> - Profile: </ENG>
+</_2600928501>
+<_2423475033>
+	<RUS>Вы собираетесь сменить автора для текста "</RUS>
+	<ENG>You are going to change the author for the text "</ENG>
+</_2423475033>
+<_1129754983>
+	<RUS>" под номером </RUS>
+	<ENG>" under number</ENG>
+</_1129754983>
+<_3509471868>
+	<RUS>Вы собираетесь сменить автора для перечисления "</RUS>
+	<ENG>You are going to change the author for the enumeration "</ENG>
+</_3509471868>
+<_2327125432>
+	<RUS>/..." под номером </RUS>
+	<ENG>/..." under number </ENG>
+</_2327125432>
+<_3762226677>
+	<RUS>Привязанное перечисление</RUS>
+	<ENG>Bound enumeration</ENG>
+</_3762226677>
+<_2866874492>
+	<RUS>Выберите текст для объекта</RUS>
+	<ENG>Choose text for object</ENG>
+</_2866874492>
+<_674761049>
+	<RUS> (текущий текст - номер </RUS>
+	<ENG> (current text - number </ENG>
+</_674761049>
+<_1810287719>
+	<RUS>Перечисление, в которое Вы хотите вставить копию непустое. Заменить существующее перечисление?</RUS>
+	<ENG>The enumeration into which you want to insert a copy is non-empty. Do you want to replace the existing enumeration?</ENG>
+</_1810287719>
+<_3074111814>
+	<RUS>Внимение</RUS>
+	<ENG>Attention</ENG>
+</_3074111814>
+<_1669332400>
+	<RUS>Текущий профиль был изменен.
+Сохранить изменения?</RUS>
+	<ENG>The current profile has been changed.
+Save changes?</ENG>
+</_1669332400>
+<_203202156>
+	<RUS>Сохранить текущий профиль?</RUS>
+	<ENG>Save current profile?</ENG>
+</_203202156>
+<_2911979703>
+	<RUS>У Вас было </RUS>
+	<ENG>You had </ENG>
+</_2911979703>
+<_4245476823>
+	<RUS> свободных текстов. Дополнительно зарезервировано еще </RUS>
+	<ENG> free texts. Additionally reserved </ENG>
+</_4245476823>
+<_477964956>
+	<RUS> текстов.</RUS>
+	<ENG> texts.</ENG>
+</_477964956>
+<_1939672211>
+	<RUS>Синхронизация текстов. Прогресс: </RUS>
+	<ENG>Synchronization of texts. Progress: </ENG>
+</_1939672211>
+<_33676307>
+	<RUS>Таблица 'texts' базы данных 'od3' не содержит данных.
+Файл текстов 'xml_DB\TextBase.xml' не обнаружен
+</RUS>
+	<ENG>The table 'texts' of the database 'od3' does not contain data.
+The texts file 'xml_DB\TextBase.xml' was not found
+</ENG>
+</_33676307>
+<_1410582540>
+	<RUS>Синхронизация текстов невозможна</RUS>
+	<ENG>Synchronization of texts is not possible</ENG>
+</_1410582540>
+<_2204772035>
+	<RUS>Синхронизация текстов. Прогресс: %.0f%</RUS>
+	<ENG>Synchronization of texts. Progress: %.0f%</ENG>
+</_2204772035>
+<_242600505>
+	<RUS>Ошибка при синхронизации</RUS>
+	<ENG>Synchronization error</ENG>
+</_242600505>
+<_2587210188>
+	<RUS>XML-файл локальной базы текстов не обнаружен.</RUS>
+	<ENG>The local text database XML file was not found.</ENG>
+</_2587210188>
+<_1729955830>
+	<RUS>Он был создан заново, и база текстов полностью скопирована с сервера.</RUS>
+	<ENG>It was re-created, and the texts database was completely copied from the server.</ENG>
+</_1729955830>
+<_1191015349>
+	<RUS>Текст №</RUS>
+	<ENG>Text #</ENG>
+</_1191015349>
+<_3112283570>
+	<RUS>    автора </RUS>
+	<ENG>    of autgor </ENG>
+</_3112283570>
+<_92444251>
+	<RUS> был удален из XML-базы.</RUS>
+	<ENG> was removed from XML database.</ENG>
+</_92444251>
+<_3235008918>
+	<RUS> был добавлен в XML-базу.</RUS>
+	<ENG> was added to XML database.</ENG>
+</_3235008918>
+<_4285425133>
+	<RUS> был обновлен в общей базе.</RUS>
+	<ENG> was updated in common database.</ENG>
+</_4285425133>
+<_1969298277>
+	<RUS> был обновлен в XML-базе.</RUS>
+	<ENG> was updated in XML database.</ENG>
+</_1969298277>
+<_1044457161>
+	<RUS>Базы полностью идентичны, никаких изменений не внесено.</RUS>
+	<ENG>The bases are completely identical, no changes have been made.</ENG>
+</_1044457161>
+<_1954598608>
+	<RUS>В общей базе обновлено </RUS>
+	<ENG>Updated in common database: </ENG>
+</_1954598608>
+<_259994182>
+	<RUS>В XML-базе обновлено </RUS>
+	<ENG>Updated in XML database: </ENG>
+</_259994182>
+<_2451921117>
+	<RUS>В XML-базу добавлено </RUS>
+	<ENG>Added to XML database: </ENG>
+</_2451921117>
+<_2031686864>
+	<RUS>Из XML-базы удалено </RUS>
+	<ENG>Removed from XML database: </ENG>
+</_2031686864>
+<_4126850351>
+	<RUS> вновь зарезервированных текстов.</RUS>
+	<ENG> newly reserved texts.</ENG>
+</_4126850351>
+<_1470633706>
+	<RUS>Синхронизация завершена.</RUS>
+	<ENG>Synchronization complete.</ENG>
+</_1470633706>
+<_4149638622>
+	<RUS> свободных перечислений. Дополнительно зарезервировано еще </RUS>
+	<ENG> free enumerations. Additionally reserved </ENG>
+</_4149638622>
+<_3739384551>
+	<RUS> перечислений.</RUS>
+	<ENG> enumerations.</ENG>
+</_3739384551>
+<_4072277208>
+	<RUS>Синхронизация перечислений. Прогресс: </RUS>
+	<ENG>Synchronization of enumerations. Progress: </ENG>
+</_4072277208>
+<_1879469708>
+	<RUS>Таблица 'sets' базы данных 'od3' не содержит данных.
+Файл перечислений 'xml_DB\SetBase.xml' не обнаружен
+</RUS>
+	<ENG>The table 'sets' of the database 'od3' does not contain data.
+The enumerations file 'xml_DB\SetBase.xml' was not found
+</ENG>
+</_1879469708>
+<_4213913425>
+	<RUS>Синхронизация перечислений невозможна</RUS>
+	<ENG>Synchronization of enumerations is not possible</ENG>
+</_4213913425>
+<_3760519536>
+	<RUS>Синхронизация перечислений. Прогресс: %.0f%</RUS>
+	<ENG>Synchronization of enumerations. Progress: %.0f%</ENG>
+</_3760519536>
+<_1096318047>
+	<RUS>XML-файл локальной базы перечислений не обнаружен.</RUS>
+	<ENG>The local enukeration database XML file was not found.</ENG>
+</_1096318047>
+<_872064665>
+	<RUS>Он был создан заново, и база перечислений полностью скопирована с сервера.</RUS>
+	<ENG>It was re-created, and the enumerations database was completely copied from the server.</ENG>
+</_872064665>
+<_2027942708>
+	<RUS>Перечисление №</RUS>
+	<ENG>Enumeration #</ENG>
+</_2027942708>
+<_1380484371>
+	<RUS>/...    автора </RUS>
+	<ENG>/...    of atuhor </ENG>
+</_1380484371>
+<_2153250880>
+	<RUS> было добавлено в XML-базу.</RUS>
+	<ENG> was added to XML database.</ENG>
+</_2153250880>
+<_2258763247>
+	<RUS> было удалено из XML-базы.</RUS>
+	<ENG> was removed from XML database.</ENG>
+</_2258763247>
+<_776490503>
+	<RUS> было обновлено в общей базе.</RUS>
+	<ENG> was updated in common database.</ENG>
+</_776490503>
+<_529880095>
+	<RUS> было обновлено в XML-базе.</RUS>
+	<ENG> was updated in XML database.</ENG>
+</_529880095>
+<_1828832426>
+	<RUS> вновь зарезервированных перечислений.</RUS>
+	<ENG> newly reserved enumerations.</ENG>
+</_1828832426>
+<_843345329>
+	<RUS>Ошибка</RUS>
+	<ENG>Error</ENG>
+</_843345329>
+<_2859894589>
+	<RUS>Параметр является корневым в группе под-индексов.</RUS>
+	<ENG>The parameter is the root of the subindex group.</ENG>
+</_2859894589>
+<_2670225598>
+	<RUS>Наблюдаемый </RUS>
+	<ENG>Readonly </ENG>
+</_2670225598>
+<_1088886277>
+	<RUS>Редактируемый </RUS>
+	<ENG>Writeable </ENG>
+</_1088886277>
+<_1821923465>
+	<RUS>Защищенный редактируемый </RUS>
+	<ENG>Protected writeable</ENG>
+</_1821923465>
+<_1203206707>
+	<RUS>Секретный защищенный редактируемый </RUS>
+	<ENG>Secret protected writeable </ENG>
+</_1203206707>
+<_145821535>
+	<RUS>битовый параметр</RUS>
+	<ENG>bit parameter</ENG>
+</_145821535>
+<_1406032930>
+	<RUS> со значениями, отображаемыми в </RUS>
+	<ENG> with the values displayed in the </ENG>
+</_1406032930>
+<_3648107298>
+	<RUS>виде текстовых надписей.</RUS>
+	<ENG>form of text inscriptions.</ENG>
+</_3648107298>
+<_3274221296>
+	<RUS>двоичной системе счисления.</RUS>
+	<ENG>binary notation.</ENG>
+</_3274221296>
+<_2891950899>
+	<RUS>десятичной системе счисления.</RUS>
+	<ENG>decimal notation.</ENG>
+</_2891950899>
+<_325416852>
+	<RUS>шестнадцатеричной системе счисления.</RUS>
+	<ENG>hexadecimal notation.</ENG>
+</_325416852>
+<_2113674994>
+	<RUS> Параметр содержит </RUS>
+	<ENG> Parameter contains </ENG>
+</_2113674994>
+<_1803470992>
+	<RUS> бит, начиная с </RUS>
+	<ENG> bits, starting with </ENG>
+</_1803470992>
+<_2864717246>
+	<RUS> бита, начиная с </RUS>
+	<ENG> bits, starting with </ENG>
+</_2864717246>
+<_3451107293>
+	<RUS>-ого бита.</RUS>
+	<ENG> bit.</ENG>
+</_3451107293>
+<_4265959942>
+	<RUS>параметр с плавающей точкой</RUS>
+	<ENG>floating-point parameter</ENG>
+</_4265959942>
+<_2622712324>
+	<RUS>числовой </RUS>
+	<ENG>numeric </ENG>
+</_2622712324>
+<_307013659>
+	<RUS>стандартный </RUS>
+	<ENG>standerd </ENG>
+</_307013659>
+<_284387149>
+	<RUS>беззнаковый байт.</RUS>
+	<ENG>unsigned byte.</ENG>
+</_284387149>
+<_2112850946>
+	<RUS>знаковый байт.</RUS>
+	<ENG>signed byte.</ENG>
+</_2112850946>
+<_1265246714>
+	<RUS>беззнаковый 16-разрядный параметр.</RUS>
+	<ENG>unsigned 16-bit parameter.</ENG>
+</_1265246714>
+<_734723877>
+	<RUS>знаковый 16-разрядный параметр.</RUS>
+	<ENG>signed 16-bit parameter.</ENG>
+</_734723877>
+<_2355994464>
+	<RUS>беззнаковый 32-разрядный параметр.</RUS>
+	<ENG>unsigned 32-bit parameter.</ENG>
+</_2355994464>
+<_3190475899>
+	<RUS>знаковый 32-разрядный параметр.</RUS>
+	<ENG>signed 32-bit parameter.</ENG>
+</_3190475899>
+<_1498544235>
+	<RUS>Q-типа </RUS>
+	<ENG>Q-type </ENG>
+</_1498544235>
+<_3283045028>
+	<RUS>параметр.</RUS>
+	<ENG>parameter.</ENG>
+</_3283045028>
+<_1500928500>
+	<RUS>Плав. </RUS>
+	<ENG>Float </ENG>
+</_1500928500>
+<_3892799217>
+	<RUS>абс.ед., </RUS>
+	<ENG>abs.units, </ENG>
+</_3892799217>
+<_1135393000>
+	<RUS>отн.ед.</RUS>
+	<ENG>rel.units, </ENG>
+</_1135393000>
+<_3244423327>
+	<RUS>16-ич. </RUS>
+	<ENG>hex. </ENG>
+</_3244423327>
+<_2218624488>
+	<RUS>не задан</RUS>
+	<ENG>not specified</ENG>
+</_2218624488>
+<_3520700034>
+	<RUS>ВНЕ ГРУПП</RUS>
+	<ENG>OUT OF GROUPS</ENG>
+</_3520700034>
+<_1184434515>
+	<RUS>При сохранении словаря обнаружился неправильный индекс.подындекс: слишком длинный:
+</RUS>
+	<ENG>While saving the dictionary, there was found an incorrect index.subindex: too long:
+	</ENG>
+</_1184434515>
+<_745147591>
+	<RUS>сходите, поищите его и исправьте. Сохранение профиля отменено, чтобы не наделать косяков!</RUS>
+	<ENG>please, find and correct it. Saving profile is cancelled, not to make errors!</ENG>
+</_745147591>
+<_1903786578>
+	<RUS>неизвестна</RUS>
+	<ENG>unknown</ENG>
+</_1903786578>
+<_3018437656>
+	<RUS>Файл </RUS>
+	<ENG>File </ENG>
+</_3018437656>
+<_1242306832>
+	<RUS> был изменен внешним приложением.
+Если сохранить файл под тем же именем, изменения, внесенные внешним приложением, могут быть потеряны.
+Выберите другое имя файла, для сохранения профиля.</RUS>
+	<ENG> was changed by an external application.
+If you save the file with the same name, the changes made by the external application may be lost.
+Select a different file name to save the profile.</ENG>
+</_1242306832>
+<_129788045>
+	<RUS>Файл изменен внешней программой</RUS>
+	<ENG>The file is changed by an external program</ENG>
+</_129788045>
+<_266137543>
+	<RUS> (ред.).xml</RUS>
+	<ENG> (ed.).xml</ENG>
+</_266137543>
+<_1730713156>
+	<RUS>Предупреждение</RUS>
+	<ENG>Warning</ENG>
+</_1730713156>
+<_1591401828>
+	<RUS>Создать базу данных 'od3'?</RUS>
+	<ENG>Create a database 'od3'?</ENG>
+</_1591401828>
+<_3208420881>
+	<RUS>База данных 'od3' не обнаружена</RUS>
+	<ENG>Database 'od3' not found</ENG>
+</_3208420881>
+<_568517837>
+	<RUS>Cвязь с базой данных </RUS>
+	<ENG>Connection to the database </ENG>
+</_568517837>
+<_2601015774>
+	<RUS> установлена</RUS>
+	<ENG> is established</ENG>
+</_2601015774>
+<_487566405>
+	<RUS>Ошибка при синхронизации общих настроек</RUS>
+	<ENG>Error during common settings synchronization</ENG>
+</_487566405>
+<_4247473115>
+	<RUS>Синхронизация перечислений. Общий прогресс: </RUS>
+	<ENG>Synchronization of enumerations. Overall progress: </ENG>
+</_4247473115>
+<_3940971900>
+	<RUS>Введите имя пользователя!</RUS>
+	<ENG>Enter the user name!</ENG>
+</_3940971900>
+<_2626498342>
+	<RUS>Не удалось открыть локальную базу текстов или перечислений.
+При открытии профиля могут возникнуть проблемы.
+Синхронизируйте тексты и перечисления с базой данных, затем снова нажмите "Войти".</RUS>
+	<ENG>Failed to open local text or enumeration database.
+When you open a profile, problems can occur.
+Synchronize texts and enumerations with the database, then click on "Login" again.</ENG>
+</_2626498342>
+<_1388579490>
+	<RUS>XML-базы не найдены</RUS>
+	<ENG>XML databases not found</ENG>
+</_1388579490>
+<_2557987552>
+	<RUS>Группу можно выбирать только для корневых или единичных элементов (у которых подындекс 00h).</RUS>
+	<ENG>The group can be selected only for root or single elements (which subindex is 00h).</ENG>
+</_2557987552>
+<_2081801214>
+	<RUS>Единицы измерения, префикс, Q-формат и число знаков после запятой для масштабирующих коэффициентов задается во вкладке "Масштабирующие коэффициенты". Данные о м.к. из индексов 2100h-211Fh.03h-06h не будут использованы в процессе генерации словаря для контроллера.</RUS>
+	<ENG>Units, prefix, Q-format and the number of decimal places for scale numbers are specified in the "Scale numbers" tab. Information about SN's from indexes 2100h-211Fh.03h-06h will not be used in the process of generating a dictionary for the controller.</ENG>
+</_2081801214>
+<_901652436>
+	<RUS>Для корневых элементов нельзя вводить подындекс, адрес, значение по умолчанию, максимум и минимум.</RUS>
+	<ENG>You can not enter a sub-index, an address, a default value, a maximum, and a minimum for root elements.</ENG>
+</_901652436>
+<_1717250834>
+	<RUS>Сallback можно вводить только для единичных и корневых элементов (подынд. 00h).</RUS>
+	<ENG>A callback function can only be set for single and root elements (subindex 00h).</ENG>
+</_1717250834>
+<_1156886365>
+	<RUS>Выделено несколько объектов. Хотите удалить их все?</RUS>
+	<ENG>Multiple objects are selected. Do you want to delete them all?</ENG>
+</_1156886365>
+<_1918890609>
+	<RUS>Внимание</RUS>
+	<ENG>Attention</ENG>
+</_1918890609>
+<_1432149347>
+	<RUS>Вы собираетесь удалить корневой элемент. Удалить все его подындексы?</RUS>
+	<ENG>You are going to delete the root element. Do you want to delete all of its subindexes?</ENG>
+</_1432149347>
+<_1285181346>
+	<RUS>Генерируется файл для контроллера...</RUS>
+	<ENG>Generating a file for controller...</ENG>
+</_1285181346>
+<_2142132267>
+	<RUS>НЕТ ТЕКСТА ГРУППЫ</RUS>
+	<ENG>NO GROUP TEXT</ENG>
+</_2142132267>
+<_2257858826>
+	<RUS>], Название=</RUS>
+	<ENG>], Name=</ENG>
+</_2257858826>
+<_3003114635>
+	<RUS>, ТекстПУ=</RUS>
+	<ENG>, CP text=</ENG>
+</_3003114635>
+<_205342081>
+	<RUS>, группа=</RUS>
+	<ENG>, group=</ENG>
+</_205342081>
+<_2502936789>
+	<RUS>
+ // Корневой под-индекс </RUS>
+	<ENG>
+ // Root subindex </ENG>
+</_2502936789>
+<_3334183734>
+	<RUS>* Файл определения объектного словаря CAN-Open _____________ *</RUS>
+	<ENG>* CAN-Open object dictionary definition file _____________ *</ENG>
+</_3334183734>
+<_994818617>
+	<RUS>; Создано на основе профиля </RUS>
+	<ENG>; Created from a profile </ENG>
+</_994818617>
+<_421925368>
+	<RUS>; для микроконроллеров TMS320x24xx</RUS>
+	<ENG>; for TMS320x24xx microcontrollers</ENG>
+</_421925368>
+<_2394288517>
+	<RUS>;Дата создания: </RUS>
+	<ENG>;Date of creation: </ENG>
+</_2394288517>
+<_2032708980>
+	<RUS>;Пользователь: </RUS>
+	<ENG>;User: </ENG>
+</_2032708980>
+<_2751669826>
+	<RUS>; Здесь можно поместить ссылки на внешние символы:</RUS>
+	<ENG>; Here you can put links to external characters:</ENG>
+</_2751669826>
+<_3592008870>
+	<RUS>; всего </RUS>
+	<ENG>; total </ENG>
+</_3592008870>
+<_276180432>
+	<RUS>; Сначала определяется первая таблица для поиска</RUS>
+	<ENG>; First, the first table for search is defined</ENG>
+</_276180432>
+<_280625133>
+	<RUS>; элементов словаря</RUS>
+	<ENG>; dictionary elements</ENG>
+</_280625133>
+<_2071422150>
+	<RUS>; индекс</RUS>
+	<ENG>; index</ENG>
+</_2071422150>
+<_3237639252>
+	<RUS>; адрес переменной</RUS>
+	<ENG>; variable address</ENG>
+</_3237639252>
+<_2249344636>
+	<RUS>; Определение второй таблицы с информацией по элементам</RUS>
+	<ENG>; The definition of the second table with information about the elements</ENG>
+</_2249344636>
+<_2590193418>
+	<RUS>: ;индекс</RUS>
+	<ENG>: ;index</ENG>
+</_2590193418>
+<_3061818042>
+	<RUS>    ; ТекстПУ=</RUS>
+	<ENG>    ; CP text=</ENG>
+</_3061818042>
+<_4282303283>
+	<RUS>, Название=</RUS>
+	<ENG>, Name=</ENG>
+</_4282303283>
+<_2885155707>
+	<RUS> под-индексов</RUS>
+	<ENG> subindexes</ENG>
+</_2885155707>
+<_1660307782>
+	<RUS>    .word 0 ; CallBack-функция для объекта </RUS>
+	<ENG>    .word 0 ; CallBack function for object </ENG>
+</_1660307782>
+<_1263881976>
+	<RUS> не определена</RUS>
+	<ENG> not defined</ENG>
+</_1263881976>
+<_4256625282>
+	<RUS> ; CallBack-функция для объекта </RUS>
+	<ENG> ; CallBack function for object </ENG>
+</_4256625282>
+<_3393116552>
+	<RUS>Файл сгенерирован. Содержимое файла скопировано в буфер обмена.</RUS>
+	<ENG>The file is generated. The contents of the file are copied to the clipboard.</ENG>
+</_3393116552>
+<_1432041701>
+	<RUS>Готово</RUS>
+	<ENG>Done</ENG>
+</_1432041701>
+<_3313849339>
+	<RUS>Ошибка при чтении файла</RUS>
+	<ENG>Error reading file</ENG>
+</_3313849339>
+<_1217256712>
+	<RUS>Ошибка при выделении памяти для чтения файла профиля</RUS>
+	<ENG>Error while allocating memory for reading profile file</ENG>
+</_1217256712>
+<_720187565>
+	<RUS>Ошибка при открытии файла</RUS>
+	<ENG>Error opening file</ENG>
+</_720187565>
+<_1368623966>
+	<RUS>Генерация файла, ждите...</RUS>
+	<ENG>Generating a file, please wait ...</ENG>
+</_1368623966>
+<_398389190>
+	<RUS>*вставить в main.h*</RUS>
+	<ENG>*insert in main.h*</ENG>
+</_398389190>
+<_2974188709>
+	<RUS>Профиль не выбран</RUS>
+	<ENG>Profile is not selected</ENG>
+</_2974188709>
+<_1872233375>
+	<RUS>* Файл описания текстов для Пульта Оперативного Управления (тип А) *</RUS>
+	<ENG>* Text description file for the Operational Control Panel (type A) *</ENG>
+</_1872233375>
+<_1531789427>
+	<RUS>* для профиля(й) *</RUS>
+	<ENG>* for profile(s) *</ENG>
+</_1531789427>
+<_774318196>
+	<RUS>    ; В файле texts.inc могут содержаться переопределения</RUS>
+	<ENG>    ; The texts.inc file can contain overrides</ENG>
+</_774318196>
+<_1707562271>
+	<RUS>    ; автоматически генерируемых символов. Например,</RUS>
+	<ENG>    ; of automatically generated characters. For example,</ENG>
+</_1707562271>
+<_3389804540>
+	<RUS>    ; смещение перечисления размерностей, метка на который</RUS>
+	<ENG>    ; the offset of the units enumeration, the label on which</ENG>
+</_3389804540>
+<_3495703074>
+	<RUS>    ; генерируется автоматически и не является асоциативно</RUS>
+	<ENG>    ; is generated automatically and is not associatively</ENG>
+</_3495703074>
+<_4200694243>
+	<RUS>    ; понятной для программиста.</RUS>
+	<ENG>    ; understandable for the programmer.</ENG>
+</_4200694243>
+<_901975864>
+	<RUS>    ; Размер записи </RUS>
+	<ENG>    ; Record size</ENG>
+</_901975864>
+<_4064959018>
+	<RUS> символ(а/ов)</RUS>
+	<ENG> symbol(s)</ENG>
+</_4064959018>
+<_1677283502>
+	<RUS>    ; или </RUS>
+	<ENG>    ; or </ENG>
+</_1677283502>
+<_663903650>
+	<RUS> слов(а/ов)</RUS>
+	<ENG> word(s)</ENG>
+</_663903650>
+<_3392285902>
+	<RUS> ; вариантов</RUS>
+	<ENG> ; variants</ENG>
+</_3392285902>
+<_1943742223>
+	<RUS>; Таблица ссылок на тексты</RUS>
+	<ENG>; Table of references to texts</ENG>
+</_1943742223>
+<_2606962237>
+	<RUS>; Таблица текстов</RUS>
+	<ENG>; Table of texts</ENG>
+</_2606962237>
+<_879639479>
+	<RUS>* Файл описания текстов для Пульта Оперативного Управления (тип Ш) *</RUS>
+	<ENG>* Text description file for the Operational Control Panel (type Sh) *</ENG>
+</_879639479>
+<_1321620893>
+	<RUS>* Файл описания текстов для Пульта Оперативного Управления *</RUS>
+	<ENG>* Text description file for the Operational Control Panel *</ENG>
+</_1321620893>
+<_3832073715>
+	<RUS>Новое имя файла не выбрано. Отменить сохранение?</RUS>
+	<ENG>The new file name is not selected. Cancel saving?</ENG>
+</_3832073715>
+<_3832207718>
+	<RUS>Не выбрано новое имя</RUS>
+	<ENG>No new name is selected</ENG>
+</_3832207718>
+<_2116401524>
+	<RUS>Сохранение</RUS>
+	<ENG>Saving</ENG>
+</_2116401524>
+<_4250909659>
+	<RUS>Экспорт в xml-файл: </RUS>
+	<ENG>Export to xml-file: </ENG>
+</_4250909659>
+<_1460774926>
+	<RUS>Выход</RUS>
+	<ENG>Exit</ENG>
+</_1460774926>
+<_1375816806>
+	<RUS>Сохранение баз</RUS>
+	<ENG>Saving databases</ENG>
+</_1375816806>
+<_2390669057>
+	<RUS>"Перетаскивание" подындексов возможно только при выключенных фильтрах (по группе и по диапазону).</RUS>
+	<ENG>Dragging subindexes is possible only when the filters are off (by group and by range).</ENG>
+</_2390669057>
+<_4292625148>
+	<RUS>Вы изменили индекс корневого элемента. Хотите сменить индекс для всех его подэлементов?</RUS>
+	<ENG>You have changed the index of the root element. Do you want to change the index for all its sub-elements?</ENG>
+</_4292625148>
+<_827632573>
+	<RUS>Ошибка в значении по умолчанию</RUS>
+	<ENG>Error in the default value</ENG>
+</_827632573>
+<_2720095029>
+	<RUS>Ошибка в минимальном значении</RUS>
+	<ENG>Error in the minimum value</ENG>
+</_2720095029>
+<_3689345705>
+	<RUS>Ошибка в максимальном значении</RUS>
+	<ENG>Error in the maximum value</ENG>
+</_3689345705>
+<_983750812>
+	<RUS>База данных не содержит данных</RUS>
+	<ENG>The database contains no data</ENG>
+</_983750812>
+<_2041945756>
+	<RUS>В шапке EDS-файла есть кавычки &lt;&gt;. Это может привести к неправильному сохранению заголовка в XML-файл. Удалите символы &lt; и &gt; из шапки.</RUS>
+	<ENG>There are quotation marks &lt;&gt; in the header of the EDS file. This can cause the header to be stored in an XML file incorrectly. Delete the &lt;and &gt; from the header.</ENG>
+</_2041945756>
+<_3370935931>
+	<RUS>;Файл: </RUS>
+	<ENG>;File: </ENG>
+</_3370935931>
+<_549395241>
+	<RUS>;Профиль: </RUS>
+	<ENG>;Profile: </ENG>
+</_549395241>
+<_1767898021>
+	<RUS>;Дата созданиЯ: </RUS>
+	<ENG>;Date of creation: </ENG>
+</_1767898021>
+<_1872637269>
+	<RUS>;Словарь объектов</RUS>
+	<ENG>;Object dictionary</ENG>
+</_1872637269>
+<_3261378117>
+	<RUS>Файл сгенерирован и находится по пути: </RUS>
+	<ENG>The file is generated and saved to: </ENG>
+</_3261378117>
+<_579348775>
+	<RUS>Выберите, где создать новый экземпляр CoodEdit
+с профилем '%s'</RUS>
+	<ENG>Choose where to create a new instance of CoodEdit
+with profile '%s'</ENG>
+</_579348775>
+<_391211905>
+	<RUS>длинный</RUS>
+	<ENG>long</ENG>
+</_391211905>
+<_1157177995>
+	<RUS>короткий</RUS>
+	<ENG>short</ENG>
+</_1157177995>
+<_1453852314>
+	<RUS>английский</RUS>
+	<ENG>english</ENG>
+</_1453852314>
+<_534294289>
+	<RUS>Текущий '%s' текст №%s совпадает с текстом №%s (автор: %s)</RUS>
+	<ENG>Current '%s' text #%s matches text #%s (author: %s)</ENG>
+</_534294289>
+<_1870671840>
+	<RUS>Ключ производителя должен быть задан в виде
+8-символьного шестнадцатеричного ненулевого числа.
+Например: 7A9A356B</RUS>
+	<ENG>The vendor token must be specified in the form
+of 8-character hexadecimal non-zero number.
+For example: 7A9A356B</ENG>
+</_1870671840>
+<_1968358133>
+	<RUS>Вы изменили настройки, затрагивающие всех пользователей БД!
+Вы действительно хотите их применить?</RUS>
+	<ENG>You changed the settings affecting all database users!
+Do you really want to apply them?</ENG>
+</_1968358133>
+<_768946710>
+	<RUS>Значение</RUS>
+	<ENG>Value</ENG>
+</_768946710>
+<_2393349874>
+	<RUS>Профиль: </RUS>
+	<ENG>Profile: </ENG>
+</_2393349874>
+<_1733470464>
+	<RUS>Значение по умолчанию для параметра 2600.01 (Vendor Token)
+в импортируемом профиле: %s, и оно отличается от
+текущей настройки: %s.
+Это может означать, что импортируемый профиль был создан
+на базе другой базы текстов-перечислений.
+Продолжить импорт?</RUS>
+	<ENG>The default value for parameter 2600.01 (Vendor Token)
+in the imported profile is %s, and it differs from
+current setting: %s.
+This could mean that the imported profile was created
+on the basis of another database of enumerations and texts.
+Continue importing?</ENG>
+</_1733470464>
+<_929267304>
+	<RUS>не задано</RUS>
+	<ENG>not specified</ENG>
+</_929267304>
+<_2032581551>
+	<RUS>Ошибка чтения файла настроек. Битая запись: 
+</RUS>
+	<ENG>Error reading configuration file. The broken record: 
+</ENG>
+</_2032581551>
+<_721017517>
+	<RUS>Словарь с переносимыми параметрами загружен из файла </RUS>
+	<ENG>A dictionary with transferred parameters is loaded from a file </ENG>
+</_721017517>
+<_1567032907>
+	<RUS>Перед переносом значений по умолчанию откройте файл c переносимыми параметрами!</RUS>
+	<ENG>Before transferring the default values, open a file with transferred parameters!</ENG>
+</_1567032907>
+<_772813722>
+	<RUS>Перед переносом выполните сравнение текущего словаря со словарем из файла параметров!</RUS>
+	<ENG>Before transferring, compare the current dictionary with the dictionary from the parameter file!</ENG>
+</_772813722>
+<_1307481213>
+	<RUS>Загрузка выбранных параметров в значения по умолчанию текущего словаря...</RUS>
+	<ENG>Loading the selected parameters into the default values of the current dictionary...</ENG>
+</_1307481213>
+<_215240809>
+	<RUS>Значения по умолчанию загружены.</RUS>
+	<ENG>The default values are loaded.</ENG>
+</_215240809>
+<_4040195384>
+	<RUS>Загрузите словарь из файла</RUS>
+	<ENG>Load the dictionary from a file</ENG>
+</_4040195384>
+<_2905446869>
+	<RUS>Сравнение словарей...</RUS>
+	<ENG>Comparing dictionaries ...</ENG>
+</_2905446869>
+<_2166182626>
+	<RUS>мк</RUS>
+	<ENG>u</ENG>
+</_2166182626>
+<_1579310048>
+	<RUS>!!! Разный формат эл-в </RUS>
+	<ENG>!!! Different format of elements </ENG>
+</_1579310048>
+<_2731818408>
+	<RUS>!!! Разный номер текста эл-в </RUS>
+	<ENG>!!! Different text number of elements </ENG>
+</_2731818408>
+<_543875831>
+	<RUS>!!! Параметр </RUS>
+	<ENG>!!! Parameter </ENG>
+</_543875831>
+<_629364833>
+	<RUS> исключен из списка. Это скорость сети, при её смене загрузка прервется.</RUS>
+	<ENG> is excluded from the list. This is the network baudrate, if you change it, the download will be interrupted.</ENG>
+</_629364833>
+<_3580812354>
+	<RUS> исключен из списка. Это команда драйверу CanOpen.</RUS>
+	<ENG> is excluded from the list. This is CanOpen driver command.</ENG>
+</_3580812354>
+<_3254656646>
+	<RUS> исключен из списка. Это собьет часы контроллера</RUS>
+	<ENG> is excluded from the list. This will wreck the controller clock</ENG>
+</_3254656646>
+<_324121633>
+	<RUS>В словаре устройства нет элемента(ов):</RUS>
+	<ENG>The device dictionary doesn't contain element(s):</ENG>
+</_324121633>
+<_1179282877>
+	<RUS>В словаре устройства неизвестные (новые) параметр(ы) :</RUS>
+	<ENG>The device dictionary has unknown (new) parameter(s):</ENG>
+</_1179282877>
+<_732456215>
+	<RUS>Сравнение завершено. </RUS>
+	<ENG>The comparison is complete. </ENG>
+</_732456215>
+<_263241884>
+	<RUS>Отменена загрузка </RUS>
+	<ENG>Cancelled download of </ENG>
+</_263241884>
+<_1126029560>
+	<RUS> параметров.</RUS>
+	<ENG> parameters.</ENG>
+</_1126029560>
+<_359267941>
+	<RUS>Все выбранные параметры могут быть загружены.</RUS>
+	<ENG>All selected parameters can be loaded.</ENG>
+</_359267941>
+<_845065658>
+	<RUS>Перед сравнением загрузите словарь c переносимыми параметрами из файла!</RUS>
+	<ENG>Before comparing, load a dictionary with transferred parameters from a file!</ENG>
+</_845065658>
+<_255754864>
+	<RUS>Стд.числ. </RUS>
+	<ENG>Std.num. </ENG>
+</_255754864>
+<_1317933364>
+	<RUS>Плав.т. </RUS>
+	<ENG>Float. </ENG>
+</_1317933364>
+<_3450241049>
+	<RUS>Бит. </RUS>
+	<ENG>Bit. </ENG>
+</_3450241049>
+<_2721050946>
+	<RUS>" перечисл.</RUS>
+	<ENG>" enum.</ENG>
+</_2721050946>
+<_4213759178>
+	<RUS> 2-ич.</RUS>
+	<ENG> binary.</ENG>
+</_4213759178>
+<_833242549>
+	<RUS> 10-ич.</RUS>
+	<ENG> decimal.</ENG>
+</_833242549>
+<_3150318271>
+	<RUS> 16-ич.</RUS>
+	<ENG> hex.</ENG>
+</_3150318271>
+<_46377967>
+	<RUS> корневой</RUS>
+	<ENG> root</ENG>
+</_46377967>
+<_3322059486>
+	<RUS>Словарь-приемник параметров по умолчанию загружен</RUS>
+	<ENG>Dictionary-acceptor for default parameters is loaded</ENG>
+</_3322059486>
+<_3053535677>
+	<RUS>Имя</RUS>
+	<ENG>Name</ENG>
+</_3053535677>
+<_1158948933>
+	<RUS>Диапазон
+значений</RUS>
+	<ENG>The range
+of values</ENG>
+</_1158948933>
+<_2044102517>
+	<RUS>Имя перем. Си</RUS>
+	<ENG>Var. name C</ENG>
+</_2044102517>
+<_2139494167>
+	<RUS>корневой</RUS>
+	<ENG>root</ENG>
+</_2139494167>
+<_1793329579>
+	<RUS>Ошибка при открытии Microsoft Word</RUS>
+	<ENG>Error opening Microsoft Word</ENG>
+</_1793329579>
+<_304241852>
+	<RUS>Параметры профиля </RUS>
+	<ENG>Profile parameters </ENG>
+</_304241852>
+<_3598762658>
+	<RUS>%02u ч %02u мин %02u сек</RUS>
+	<ENG>%02u h %02u min %02u sec</ENG>
+</_3598762658>
+<_3343045956>
+	<RUS>наблюдаемый</RUS>
+	<ENG>readonly</ENG>
+</_3343045956>
+<_1501651181>
+	<RUS> (секретный)</RUS>
+	<ENG> (secret)</ENG>
+</_1501651181>
+<FormTextSynchr-Caption>
+	<RUS>Синхронизация текстов в таблице базы данных на сервере и в XML-файле</RUS>
+	<ENG>Synchronization of texts in the database table on the server and in the XML file</ENG>
+</FormTextSynchr-Caption>
+<FormTextSynchr-Label1-Caption>
+	<RUS>Текст был изменен (не совпадает в базе данных на сервере и в XML).</RUS>
+	<ENG>The text has been changed (does not match in the database on the server and in XML).</ENG>
+</FormTextSynchr-Label1-Caption>
+<FormTextSynchr-Label2-Caption>
+	<RUS>В базах текст выглядит следующим образом:</RUS>
+	<ENG>In databases, the text is as follows:</ENG>
+</FormTextSynchr-Label2-Caption>
+<FormTextSynchr-Label3-Caption>
+	<RUS>В XML:</RUS>
+	<ENG>In XML:</ENG>
+</FormTextSynchr-Label3-Caption>
+<FormTextSynchr-Label4-Caption>
+	<RUS>Где следует заменить текст на новый: в общей базе данных или в XML?</RUS>
+	<ENG>Where should the text be replaced with a new one: in the common database or in XML?</ENG>
+</FormTextSynchr-Label4-Caption>
+<FormTextSynchr-Label11-Caption>
+	<RUS>В общей:</RUS>
+	<ENG>In common DB:</ENG>
+</FormTextSynchr-Label11-Caption>
+<FormTextSynchr-ButtonMySQL-Caption>
+	<RUS>Заменить в общей БД</RUS>
+	<ENG>Replace in common DB</ENG>
+</FormTextSynchr-ButtonMySQL-Caption>
+<FormTextSynchr-ButtonXML-Caption>
+	<RUS>Заменить в XML</RUS>
+	<ENG>Replace in XML</ENG>
+</FormTextSynchr-ButtonXML-Caption>
+<FormTextSynchr-Panel1-Label5-Caption>
+	<RUS>id</RUS>
+	<ENG />
+</FormTextSynchr-Panel1-Label5-Caption>
+<FormTextSynchr-Panel2-Label7-Caption>
+	<RUS>textid</RUS>
+	<ENG />
+</FormTextSynchr-Panel2-Label7-Caption>
+<FormTextSynchr-Panel3-Label9-Caption>
+	<RUS>корот. текст</RUS>
+	<ENG>short text</ENG>
+</FormTextSynchr-Panel3-Label9-Caption>
+<FormTextSynchr-Panel4-Label13-Caption>
+	<RUS>№ перечисления</RUS>
+	<ENG>enumeration #</ENG>
+</FormTextSynchr-Panel4-Label13-Caption>
+<FormTextSynchr-Panel6-Label21-Caption>
+	<RUS>длинный русский текст</RUS>
+	<ENG>long russian text</ENG>
+</FormTextSynchr-Panel6-Label21-Caption>
+<FormTextSynchr-Panel7-Label25-Caption>
+	<RUS>автор</RUS>
+	<ENG>author</ENG>
+</FormTextSynchr-Panel7-Label25-Caption>
+<FormTextSynchr-ButtonStop-Caption>
+	<RUS>Прекратить синхронизацию</RUS>
+	<ENG>Stop synchronization</ENG>
+</FormTextSynchr-ButtonStop-Caption>
+<FormTextSynchr-Panel5-Label6-Caption>
+	<RUS>English text</RUS>
+	<ENG />
+</FormTextSynchr-Panel5-Label6-Caption>
+<FormSetSynchr-Caption>
+	<RUS>Синхронизация перечислений в таблице базы данных на сервере и в XML-файле</RUS>
+	<ENG>Synchronization of enumerations in the database table on the server and in the XML file</ENG>
+</FormSetSynchr-Caption>
+<FormSetSynchr-Label1-Caption>
+	<RUS>Перечисление было изменено (не совпадает в базе данных на сервере и в XML).</RUS>
+	<ENG>The enumeration has been changed (does not match in the database on the server and in XML).</ENG>
+</FormSetSynchr-Label1-Caption>
+<FormSetSynchr-Label2-Caption>
+	<RUS>В базах перечисление выглядит следующим образом:</RUS>
+	<ENG>In databases, the enumeration is as follows:</ENG>
+</FormSetSynchr-Label2-Caption>
+<FormSetSynchr-Label3-Caption>
+	<RUS>В XML:</RUS>
+	<ENG>In XML:</ENG>
+</FormSetSynchr-Label3-Caption>
+<FormSetSynchr-Label4-Caption>
+	<RUS>Где следует заменить перечисление на новое: в общей базе данных или в XML?</RUS>
+	<ENG>Where should the enumeration be replaced with a new one: in the common database or in XML?</ENG>
+</FormSetSynchr-Label4-Caption>
+<FormSetSynchr-Label6-Caption>
+	<RUS>В общей:</RUS>
+	<ENG>In common:</ENG>
+</FormSetSynchr-Label6-Caption>
+<FormSetSynchr-ButtonMySQL-Caption>
+	<RUS>Заменить в БД</RUS>
+	<ENG>Replace in DB</ENG>
+</FormSetSynchr-ButtonMySQL-Caption>
+<FormSetSynchr-ButtonXML-Caption>
+	<RUS>Заменить в XML</RUS>
+	<ENG>Replace in XML</ENG>
+</FormSetSynchr-ButtonXML-Caption>
+<FormSetSynchr-Panel1-Label5-Caption>
+	<RUS>id</RUS>
+	<ENG />
+</FormSetSynchr-Panel1-Label5-Caption>
+<FormSetSynchr-Panel2-Label13-Caption>
+	<RUS>список вариантов</RUS>
+	<ENG>item list</ENG>
+</FormSetSynchr-Panel2-Label13-Caption>
+<FormSetSynchr-Panel3-Label25-Caption>
+	<RUS>автор</RUS>
+	<ENG>author</ENG>
+</FormSetSynchr-Panel3-Label25-Caption>
+<FormSetSynchr-ButtonStop-Caption>
+	<RUS>Прекратить синхронизацию</RUS>
+	<ENG>Stop synchronization</ENG>
+</FormSetSynchr-ButtonStop-Caption>
+<FormChooseText-Caption>
+	<RUS>Выберите текст для объекта</RUS>
+	<ENG>Select text for the object</ENG>
+</FormChooseText-Caption>
+<FormChooseText-ButtonOK-Caption>
+	<RUS>OK</RUS>
+	<ENG>OK</ENG>
+</FormChooseText-ButtonOK-Caption>
+<FormChooseText-ButtonCancel-Caption>
+	<RUS>Отмена</RUS>
+	<ENG>Cancel</ENG>
+</FormChooseText-ButtonCancel-Caption>
+<FormChooseText-GroupBox1-Caption>
+	<RUS>Сортировка</RUS>
+	<ENG>Sorting</ENG>
+</FormChooseText-GroupBox1-Caption>
+<FormChooseText-GroupBox1-ButtonSortAuthor-Caption>
+	<RUS>по автору</RUS>
+	<ENG>by author</ENG>
+</FormChooseText-GroupBox1-ButtonSortAuthor-Caption>
+<FormChooseText-GroupBox1-ButtonSortShort-Caption>
+	<RUS>по короткому тексту</RUS>
+	<ENG>by short text</ENG>
+</FormChooseText-GroupBox1-ButtonSortShort-Caption>
+<FormChooseText-GroupBox1-ButtonSortLong-Caption>
+	<RUS>по длинному тексту</RUS>
+	<ENG>by long text</ENG>
+</FormChooseText-GroupBox1-ButtonSortLong-Caption>
+<FormChooseText-GroupBox1-ButtonSortNum-Caption>
+	<RUS>по номеру</RUS>
+	<ENG>by number</ENG>
+</FormChooseText-GroupBox1-ButtonSortNum-Caption>
+<FormChooseText-GroupBoxSearch-Caption>
+	<RUS>Поиск/фильтр текстов</RUS>
+	<ENG>Search/filter texts</ENG>
+</FormChooseText-GroupBoxSearch-Caption>
+<FormChooseText-GroupBoxSearch-ButtonSearch-Caption>
+	<RUS>Найти</RUS>
+	<ENG>Find</ENG>
+</FormChooseText-GroupBoxSearch-ButtonSearch-Caption>
+<FormChooseText-GroupBoxSearch-CheckBoxCase-Caption>
+	<RUS>Регистр</RUS>
+	<ENG>Case sens.</ENG>
+</FormChooseText-GroupBoxSearch-CheckBoxCase-Caption>
+<FormChooseText-MoveToEdit-Caption>
+	<RUS>Перейти к редактированию</RUS>
+	<ENG>Go to editing</ENG>
+</FormChooseText-MoveToEdit-Caption>
+<FormDescrEdit-Caption>
+	<RUS>Описание</RUS>
+	<ENG>Description</ENG>
+</FormDescrEdit-Caption>
+<FormDescrEdit-Button1-Caption>
+	<RUS>Сохранить</RUS>
+	<ENG>Save</ENG>
+</FormDescrEdit-Button1-Caption>
+<FormFormatEdit-Caption>
+	<RUS>Формат</RUS>
+	<ENG>Format</ENG>
+</FormFormatEdit-Caption>
+<FormFormatEdit-LabelQScale-Caption>
+	<RUS>Масштабирующий коэффициент:</RUS>
+	<ENG>Scale number:</ENG>
+</FormFormatEdit-LabelQScale-Caption>
+<FormFormatEdit-LabelField-Caption>
+	<RUS>Задайте положение битового поля в слове</RUS>
+	<ENG>Specify the position of the bit field in the word</ENG>
+</FormFormatEdit-LabelField-Caption>
+<FormFormatEdit-LabelQValue-Caption>
+	<RUS>Q-формат числа:</RUS>
+	<ENG>Number Q-format:</ENG>
+</FormFormatEdit-LabelQValue-Caption>
+<FormFormatEdit-LabelNumOfFloat-Caption>
+	<RUS>Количество знаков после запятой для отображения:</RUS>
+	<ENG>The number of decimal places to display:</ENG>
+</FormFormatEdit-LabelNumOfFloat-Caption>
+<FormFormatEdit-LabelPrefix-Caption>
+	<RUS>Префикс</RUS>
+	<ENG>Prefix</ENG>
+</FormFormatEdit-LabelPrefix-Caption>
+<FormFormatEdit-LabelUnits-Caption>
+	<RUS>Единицы</RUS>
+	<ENG>Units</ENG>
+</FormFormatEdit-LabelUnits-Caption>
+<FormFormatEdit-RadioGroupAccess-Items-Strings_0>
+	<RUS>Наблюдаемый</RUS>
+	<ENG>Readonly</ENG>
+</FormFormatEdit-RadioGroupAccess-Items-Strings_0>
+<FormFormatEdit-RadioGroupAccess-Items-Strings_1>
+	<RUS>Редактируемый</RUS>
+	<ENG>Writable</ENG>
+</FormFormatEdit-RadioGroupAccess-Items-Strings_1>
+<FormFormatEdit-RadioGroupAccess-Items-Strings_2>
+	<RUS>Защищенный</RUS>
+	<ENG>Protected</ENG>
+</FormFormatEdit-RadioGroupAccess-Items-Strings_2>
+<FormFormatEdit-RadioGroupAccess-Items-Strings_3>
+	<RUS>Секретный</RUS>
+	<ENG>Secret</ENG>
+</FormFormatEdit-RadioGroupAccess-Items-Strings_3>
+<FormFormatEdit-RadioGroupAccess-Caption>
+	<RUS>Тип доступа</RUS>
+	<ENG>Access type</ENG>
+</FormFormatEdit-RadioGroupAccess-Caption>
+<FormFormatEdit-RadioGroupRoot-Items-Strings_0>
+	<RUS>Не корневой</RUS>
+	<ENG>Non-root</ENG>
+</FormFormatEdit-RadioGroupRoot-Items-Strings_0>
+<FormFormatEdit-RadioGroupRoot-Items-Strings_1>
+	<RUS>Корневой</RUS>
+	<ENG>Root</ENG>
+</FormFormatEdit-RadioGroupRoot-Items-Strings_1>
+<FormFormatEdit-RadioGroupRoot-Caption>
+	<RUS>Место в подгруппе объектов</RUS>
+	<ENG>Place in a sub-group of objects</ENG>
+</FormFormatEdit-RadioGroupRoot-Caption>
+<FormFormatEdit-RadioGroupStdNum-Items-Strings_0>
+	<RUS>Беззнаковый байт (U8)</RUS>
+	<ENG>Unsigned byte (U8)</ENG>
+</FormFormatEdit-RadioGroupStdNum-Items-Strings_0>
+<FormFormatEdit-RadioGroupStdNum-Items-Strings_1>
+	<RUS>Знаковый байт (I8)</RUS>
+	<ENG>Signed byte (I8)</ENG>
+</FormFormatEdit-RadioGroupStdNum-Items-Strings_1>
+<FormFormatEdit-RadioGroupStdNum-Items-Strings_2>
+	<RUS>Беззнаковое слово (U16)</RUS>
+	<ENG>Unsigned word (U16)</ENG>
+</FormFormatEdit-RadioGroupStdNum-Items-Strings_2>
+<FormFormatEdit-RadioGroupStdNum-Items-Strings_3>
+	<RUS>Знаковое слово (I16)</RUS>
+	<ENG>Signed word (I16)</ENG>
+</FormFormatEdit-RadioGroupStdNum-Items-Strings_3>
+<FormFormatEdit-RadioGroupStdNum-Items-Strings_4>
+	<RUS>Беззнаковое двойное слово (U32)</RUS>
+	<ENG>Unsigned double word (U32)</ENG>
+</FormFormatEdit-RadioGroupStdNum-Items-Strings_4>
+<FormFormatEdit-RadioGroupStdNum-Items-Strings_5>
+	<RUS>Знаковое двойное слово (I32)</RUS>
+	<ENG>Signed double word (I32)</ENG>
+</FormFormatEdit-RadioGroupStdNum-Items-Strings_5>
+<FormFormatEdit-RadioGroupStdNum-Caption>
+	<RUS>Стандартное число: разрядность, наличие знака</RUS>
+	<ENG>Standard number: length, presence of a sign</ENG>
+</FormFormatEdit-RadioGroupStdNum-Caption>
+<FormFormatEdit-RadioGroupQ-Items-Strings_0>
+	<RUS>Знаковое слово (I16)</RUS>
+	<ENG>Signed word (I16)</ENG>
+</FormFormatEdit-RadioGroupQ-Items-Strings_0>
+<FormFormatEdit-RadioGroupQ-Items-Strings_1>
+	<RUS>Знаковое двойное слово (I32)</RUS>
+	<ENG>Signed double word (I32)</ENG>
+</FormFormatEdit-RadioGroupQ-Items-Strings_1>
+<FormFormatEdit-RadioGroupQ-Items-Strings_2>
+	<RUS>Беззнаковое слово (U16)</RUS>
+	<ENG>Unsigned word (U16)</ENG>
+</FormFormatEdit-RadioGroupQ-Items-Strings_2>
+<FormFormatEdit-RadioGroupQ-Items-Strings_3>
+	<RUS>Беззнаковое двойное слово (U32)</RUS>
+	<ENG>Unsigned double word (U32)</ENG>
+</FormFormatEdit-RadioGroupQ-Items-Strings_3>
+<FormFormatEdit-RadioGroupQ-Caption>
+	<RUS>Q-тип: разрядность, наличие знака</RUS>
+	<ENG>Q-type: length, presence of a sign</ENG>
+</FormFormatEdit-RadioGroupQ-Caption>
+<FormFormatEdit-RadioGroupBit-Items-Strings_0>
+	<RUS>Текст</RUS>
+	<ENG>Text</ENG>
+</FormFormatEdit-RadioGroupBit-Items-Strings_0>
+<FormFormatEdit-RadioGroupBit-Items-Strings_1>
+	<RUS>Двоичная</RUS>
+	<ENG>Binary</ENG>
+</FormFormatEdit-RadioGroupBit-Items-Strings_1>
+<FormFormatEdit-RadioGroupBit-Items-Strings_2>
+	<RUS>Десятичная</RUS>
+	<ENG>Decimal</ENG>
+</FormFormatEdit-RadioGroupBit-Items-Strings_2>
+<FormFormatEdit-RadioGroupBit-Items-Strings_3>
+	<RUS>Шестнадцатеричная</RUS>
+	<ENG>Hexadecimal</ENG>
+</FormFormatEdit-RadioGroupBit-Items-Strings_3>
+<FormFormatEdit-RadioGroupBit-Caption>
+	<RUS>Визуализация битового параметра</RUS>
+	<ENG>Visualization of the bit parameter</ENG>
+</FormFormatEdit-RadioGroupBit-Caption>
+<FormFormatEdit-ButtonOK-Caption>
+	<RUS>OK</RUS>
+	<ENG>OK</ENG>
+</FormFormatEdit-ButtonOK-Caption>
+<FormFormatEdit-ButtonCancel-Caption>
+	<RUS>Отмена</RUS>
+	<ENG>Cancel</ENG>
+</FormFormatEdit-ButtonCancel-Caption>
+<FormFormatEdit-RadioGroupType-Items-Strings_0>
+	<RUS>Битовый</RUS>
+	<ENG>Bit</ENG>
+</FormFormatEdit-RadioGroupType-Items-Strings_0>
+<FormFormatEdit-RadioGroupType-Items-Strings_1>
+	<RUS>Станд. числовой</RUS>
+	<ENG>Std. numeric</ENG>
+</FormFormatEdit-RadioGroupType-Items-Strings_1>
+<FormFormatEdit-RadioGroupType-Items-Strings_2>
+	<RUS>Числовой Q-тип</RUS>
+	<ENG>Numeric Q-type</ENG>
+</FormFormatEdit-RadioGroupType-Items-Strings_2>
+<FormFormatEdit-RadioGroupType-Items-Strings_3>
+	<RUS>С плав. точкой</RUS>
+	<ENG>Float</ENG>
+</FormFormatEdit-RadioGroupType-Items-Strings_3>
+<FormFormatEdit-RadioGroupType-Caption>
+	<RUS>Тип данных</RUS>
+	<ENG>Data type</ENG>
+</FormFormatEdit-RadioGroupType-Caption>
+<FormFormatEdit-RadioGroupFloatType-Items-Strings_0>
+	<RUS>Абсолютны единицы</RUS>
+	<ENG>Absolute units</ENG>
+</FormFormatEdit-RadioGroupFloatType-Items-Strings_0>
+<FormFormatEdit-RadioGroupFloatType-Items-Strings_1>
+	<RUS>Относительные единицы</RUS>
+	<ENG>Relative units</ENG>
+</FormFormatEdit-RadioGroupFloatType-Items-Strings_1>
+<FormFormatEdit-RadioGroupFloatType-Caption>
+	<RUS>Тип числа с плавающей точкой</RUS>
+	<ENG>Floating point number type</ENG>
+</FormFormatEdit-RadioGroupFloatType-Caption>
+<FormProfSelect-Caption>
+	<RUS>Выберите профили для составления файла текстов</RUS>
+	<ENG>Select profiles to compile a text file</ENG>
+</FormProfSelect-Caption>
+<FormProfSelect-ButtonAdd-Caption>
+	<RUS>Добавить</RUS>
+	<ENG>Add</ENG>
+</FormProfSelect-ButtonAdd-Caption>
+<FormProfSelect-ButtonOK-Caption>
+	<RUS>OK</RUS>
+	<ENG>OK</ENG>
+</FormProfSelect-ButtonOK-Caption>
+<FormCopySet-Caption>
+	<RUS>Копирование перечисления</RUS>
+	<ENG>Copy enumeration</ENG>
+</FormCopySet-Caption>
+<FormCopySet-Label1-Caption>
+	<RUS>Выберите перечисление, в которое нужно вставить копию:</RUS>
+	<ENG>Select the enumeration where you want to paste the copy:</ENG>
+</FormCopySet-Label1-Caption>
+<FormCopySet-ButtonPaste-Caption>
+	<RUS>Вставить</RUS>
+	<ENG>Paste</ENG>
+</FormCopySet-ButtonPaste-Caption>
+<FormCopySet-ButtonCancel-Caption>
+	<RUS>Отмена</RUS>
+	<ENG>Cancel</ENG>
+</FormCopySet-ButtonCancel-Caption>
+<FormChangeAuthor-Caption>
+	<RUS>Смена автора текста/перечисления</RUS>
+	<ENG>Change author of text/enumeration</ENG>
+</FormChangeAuthor-Caption>
+<FormChangeAuthor-LabelHint-Caption>
+	<RUS>_</RUS>
+	<ENG />
+</FormChangeAuthor-LabelHint-Caption>
+<FormChangeAuthor-Label1-Caption>
+	<RUS>Вы можете выбрать автора из списка или ввести вручную.</RUS>
+	<ENG>You can select an author from the list or enter manually.</ENG>
+</FormChangeAuthor-Label1-Caption>
+<FormChangeAuthor-ButtonOK-Caption>
+	<RUS>OK</RUS>
+	<ENG>OK</ENG>
+</FormChangeAuthor-ButtonOK-Caption>
+<FormChangeAuthor-ButtonCancel-Caption>
+	<RUS>Отмена</RUS>
+	<ENG>Cancel</ENG>
+</FormChangeAuthor-ButtonCancel-Caption>
+<FormCopyWithSubs-Caption>
+	<RUS>Скопировать с подындексами</RUS>
+	<ENG>Copy with subindexes</ENG>
+</FormCopyWithSubs-Caption>
+<FormCopyWithSubs-Label1-Caption>
+	<RUS>Введите новый индекс:</RUS>
+	<ENG>Enter new index:</ENG>
+</FormCopyWithSubs-Label1-Caption>
+<FormCopyWithSubs-ButtonOK-Caption>
+	<RUS>OK</RUS>
+	<ENG>OK</ENG>
+</FormCopyWithSubs-ButtonOK-Caption>
+<FormCopyWithSubs-ButtonCancel-Caption>
+	<RUS>Отмена</RUS>
+	<ENG>Cancel</ENG>
+</FormCopyWithSubs-ButtonCancel-Caption>
+<FormNewObject-Caption>
+	<RUS>Создать элемент словаря</RUS>
+	<ENG>Create dictionary element</ENG>
+</FormNewObject-Caption>
+<FormNewObject-EditInd-Text>
+	<RUS>0000h</RUS>
+	<ENG />
+</FormNewObject-EditInd-Text>
+<FormNewObject-EditSubInd-Text>
+	<RUS>00h</RUS>
+	<ENG />
+</FormNewObject-EditSubInd-Text>
+<FormNewObject-ButtonOK-Caption>
+	<RUS>OK</RUS>
+	<ENG>OK</ENG>
+</FormNewObject-ButtonOK-Caption>
+<FormNewObject-ButtonCancel-Caption>
+	<RUS>Отмена</RUS>
+	<ENG>Cancel</ENG>
+</FormNewObject-ButtonCancel-Caption>
+<FormScaleNumMissmatch-Caption>
+	<RUS>Масштабирующие коэффициенты не совпадают</RUS>
+	<ENG>Scale numbers do not match</ENG>
+</FormScaleNumMissmatch-Caption>
+<FormScaleNumMissmatch-Label6-Caption>
+	<RUS>В словаре:</RUS>
+	<ENG>In dictionary:</ENG>
+</FormScaleNumMissmatch-Label6-Caption>
+<FormScaleNumMissmatch-Label3-Caption>
+	<RUS>В файле параметров:</RUS>
+	<ENG>In parameters file:</ENG>
+</FormScaleNumMissmatch-Label3-Caption>
+<FormScaleNumMissmatch-Label1-Caption>
+	<RUS>Форматы или значения МК в словаре и файле параметров не совпадают.
+Это может вызвать различные ошибки в случае загрузки параметров.</RUS>
+	<ENG>The formats or values of the SN's in the dictionary and the parameter file do not match.
+This can cause various errors in case of loading parameters.</ENG>
+</FormScaleNumMissmatch-Label1-Caption>
+<FormScaleNumMissmatch-Label4-Caption>
+	<RUS>Следует ли заменить МК в словаре на МК из файла параметров
+и перезагрузить словарь для сравнения?</RUS>
+	<ENG>Should SN's in the dictionary be replaced with SN's from the parameter file
+and the dictionary be reloaded for comparison?</ENG>
+</FormScaleNumMissmatch-Label4-Caption>
+<FormScaleNumMissmatch-ButtonOK-Caption>
+	<RUS>Заменить и перейти к сравнению словарей</RUS>
+	<ENG>Replace and go to dictionaries comparison</ENG>
+</FormScaleNumMissmatch-ButtonOK-Caption>
+<FormScaleNumMissmatch-ButtonCancel-Caption>
+	<RUS>Отмена</RUS>
+	<ENG>Cancel</ENG>
+</FormScaleNumMissmatch-ButtonCancel-Caption>
+<FormScaleNumMissmatch-ButtonIgnore-Caption>
+	<RUS>Перейти к сравнению без замены МК (не рекоменд.)</RUS>
+	<ENG>Go to comparison without SN's replacing (not recommended)</ENG>
+</FormScaleNumMissmatch-ButtonIgnore-Caption>
+<Form1-PageControl1-TabSheetTexts-BitBtnUniconTexts-Hint>
+	<RUS>Экспортировать тексты в файл</RUS>
+	<ENG>Export enumerations\texts to file</ENG>
+</Form1-PageControl1-TabSheetTexts-BitBtnUniconTexts-Hint>
+<FormOptions-gbSharedConfig-lVendorToken-Hint>
+	<RUS>Необязательный ключ производителя: 32-разрядное число в шестнадцатеричном виде (8-символов).
+Должен быть одинаковым для всего вашего ПО и всех ваших устройств!
+Используется, например, для идентификации файла текстов в сети с устройствами нескольких
+производителей. В этом случае в профиле устройства по адресу 2600.01 должен присутствовать
+параметр типа UINT32 с этим ключом.</RUS>
+	<ENG>Optional vendor token: 32-bit number in hexadecimal (8-character).
+Must be identical for all your firmware and all your devices!
+Used, for example, to identify a text file when working on a network
+with devices of different manufacturers. In this case, the device profile
+must have parameter at address 2600.01 of type UINT32 with this token.</ENG>
+</FormOptions-gbSharedConfig-lVendorToken-Hint>
+<FormOptions-gbSharedConfig-eVendorToken-Hint>
+	<RUS>Необязательный ключ производителя: 32-разрядное число в шестнадцатеричном виде (8-символов).
+Должен быть одинаковым для всего вашего ПО и всех ваших устройств!
+Используется, например, для идентификации файла текстов в сети с устройствами нескольких
+производителей. В этом случае в профиле устройства по адресу 2600.01 должен присутствовать
+параметр типа UINT32 с этим ключом.</RUS>
+	<ENG>Optional vendor token: 32-bit number in hexadecimal (8-character).
+Must be identical for all your firmware and all your devices!
+Used, for example, to identify a text file when working on a network
+with devices of different manufacturers. In this case, the device profile
+must have parameter at address 2600.01 of type UINT32 with this token.</ENG>
+</FormOptions-gbSharedConfig-eVendorToken-Hint>
+<_2318249316>
+	<RUS>* Дата создания: </RUS>
+	<ENG>* Creation date: </ENG>
+</_2318249316>
+<_1378225361>
+	<RUS>* Пользователь: </RUS>
+	<ENG>* User: </ENG>
+</_1378225361>
+<_2562387382>
+	<RUS>* Файл описания текстов для Пульта Оперативного Управления [</RUS>
+	<ENG>* Text description file for the Operational Control Panel [</ENG>
+</_2562387382>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-sbNewConfig-Hint>
+	<RUS>Создать новую конфигурацию</RUS>
+	<ENG>Create new configuration</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-sbNewConfig-Hint>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-sbRenameConfig-Hint>
+	<RUS>Переименовать конфигурацию</RUS>
+	<ENG>Rename configuration</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-sbRenameConfig-Hint>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-sbDeleteConfig-Hint>
+	<RUS>Удалить конфигурацию</RUS>
+	<ENG>Delete configuration</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-sbDeleteConfig-Hint>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-rgCANmoduleNum-Items-Strings_0>
+	<RUS>Процессор с одним модулем CAN</RUS>
+	<ENG>Processor with one CAN module</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-rgCANmoduleNum-Items-Strings_0>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-rgCANmoduleNum-Items-Strings_1>
+	<RUS>1-ый модуль CANopen</RUS>
+	<ENG>1st CANopen module</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-rgCANmoduleNum-Items-Strings_1>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-rgCANmoduleNum-Items-Strings_2>
+	<RUS>2-ой модуль CANopen</RUS>
+	<ENG>2nd CANopen module</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet4-GroupBox4-rgCANmoduleNum-Items-Strings_2>
+<Form1-N3-Caption>
+	<RUS>-</RUS>
+	<ENG />
+</Form1-N3-Caption>
+<Form1-N5-Caption>
+	<RUS>-</RUS>
+	<ENG />
+</Form1-N5-Caption>
+<Form1-MoveObjectToConfig-Caption>
+	<RUS>Переместить в</RUS>
+	<ENG>Move to</ENG>
+</Form1-MoveObjectToConfig-Caption>
+<Form1-CopyObjectToConfig-Caption>
+	<RUS>Копировать в</RUS>
+	<ENG>Copy to</ENG>
+</Form1-CopyObjectToConfig-Caption>
+<Form1-N_OpenXML-Caption>
+	<RUS>Открыть профиль XML-редактором</RUS>
+	<ENG>Open the profile in XML editor</ENG>
+</Form1-N_OpenXML-Caption>
+<_3916582138>
+	<RUS>Код ошибки: 0x%X</RUS>
+	<ENG>Error code: 0x%X</ENG>
+</_3916582138>
+<_3297049482>
+	<RUS>Перечисление, в которое Вы хотите вставить копию - непустое. Заменить существующее перечисление?</RUS>
+	<ENG>Target enumeration is not empty. Replace it?</ENG>
+</_3297049482>
+<_680205740>
+	<RUS>Установите в ПО значение:
+%s = %d</RUS>
+	<ENG>Set variable in your software:
+%s = %d</ENG>
+</_680205740>
+<_2556206676>
+	<RUS>В новом профиле изменился номер перечисления групп!</RUS>
+	<ENG>In new profile the number of enumeration with groups names has changed!</ENG>
+</_2556206676>
+<_4168437974>
+	<RUS>Служебная информация производителя</RUS>
+	<ENG>Service information of vendor</ENG>
+</_4168437974>
+<_2768382087>
+	<RUS>Ключ производителя - берётся из настроек 'COODedit'</RUS>
+	<ENG>Vendor token - is taken from the application settings</ENG>
+</_2768382087>
+<_1775636319>
+	<RUS>Необязательный ключ производителя: 32-разрядное число в шестнадцатеричном виде (8-символов).
+Должен быть одинаковым для всего вашего ПО и всех ваших устройств!
+Используется, например, для идентификации файла текстов в сети с устройствами нескольких
+производителей. В этом случае в профиле устройства по адресу 2600.01 должен присутствовать
+параметр типа UINT32 с этим ключом.</RUS>
+	<ENG>Optional vendor token: 32-bit number in hexadecimal (8-character).
+Must be identical for all your firmware and all your devices!
+Used, for example, to identify a text file when working on a network
+with devices of different manufacturers. In this case, the device profile
+must have parameter at address 2600.01 of type UINT32 with this token.</ENG>
+</_1775636319>
+<_448511832>
+	<RUS>Папка назначения не существует</RUS>
+	<ENG>Destination folder does not exist</ENG>
+</_448511832>
+<_4137411161>
+	<RUS>В выбранную папку писать нельзя</RUS>
+	<ENG>You can't write to the selected folder</ENG>
+</_4137411161>
+<_2137155813>
+	<RUS>Не загружен профиль</RUS>
+	<ENG>Profile is not loaded</ENG>
+</_2137155813>
+<_2024514558>
+	<RUS>Ошибка при записи нового файла 'TextBase.xml'</RUS>
+	<ENG>Error writing new file 'TextBase.xml'</ENG>
+</_2024514558>
+<_575711081>
+	<RUS>Ошибка при записи нового файла 'SetBase.xml'</RUS>
+	<ENG>Error writing new file 'SetBase.xml'</ENG>
+</_575711081>
+<_4053724735>
+	<RUS>Ошибка при открытии текущего профиля</RUS>
+	<ENG>Error opening current profile</ENG>
+</_4053724735>
+<_3228783496>
+	<RUS>Ошибка при записи нового профиля</RUS>
+	<ENG>Error writing new profile</ENG>
+</_3228783496>
+<_2612466385>
+	<RUS>Cвязь с базой данных '%s' установлена</RUS>
+	<ENG>Connected to database '%s'</ENG>
+</_2612466385>
+<_748711497>
+	<RUS>    ; Размер записи %d символ(а/ов)</RUS>
+	<ENG>    ; the record size is %d symbols</ENG>
+</_748711497>
+<_583032273>
+	<RUS>    ; или %d слов(а/ов)</RUS>
+	<ENG>    ; or %d words</ENG>
+</_583032273>
+<_2865422943>
+	<RUS>Короткий текст не должен быть длиннее 20 символов.
+Короткий текст '%s' был обрезан до '%s'</RUS>
+	<ENG>Short text should not be longer than 20 characters.
+Short text '%s' was cut to '%s'</ENG>
+</_2865422943>
+<_2811876815>
+	<RUS>В значении по умолчанию элемента %s.%s присутствует запятая.
+Проверьте правильность значения по умолчанию.</RUS>
+	<ENG>The default value of object %s.%s contains comma.
+Check that the default value is correct.</ENG>
+</_2811876815>
+<_2194280335>
+	<RUS>В значении минимума элемента %s.%s присутствует запятая.
+Проверьте правильность минимального значения.</RUS>
+	<ENG>The minimum value of object %s.%s contains comma.
+Check that the minimum value is correct.</ENG>
+</_2194280335>
+<_3888119115>
+	<RUS>В значении максимума элемента %s.%s присутствует запятая.
+Проверьте правильность максимального значения.</RUS>
+	<ENG>The maximum value of object %s.%s contains comma.
+Check that the maximum value is correct.</ENG>
+</_3888119115>
+<_4088575630>
+	<RUS>Новая конфигурация</RUS>
+	<ENG>New configuration</ENG>
+</_4088575630>
+<_2040385776>
+	<RUS>Удалить конфигурацию '%s'?</RUS>
+	<ENG>Delete configuration '%s'?</ENG>
+</_2040385776>
+<_2255052244>
+	<RUS>В конфигурации '%s' уже существует объект с адресом %s.%s:
+'%s'
+Продолжить?</RUS>
+	<ENG>The configuration '%s' already has object with address %s.%s:
+'%s'
+Continue?</ENG>
+</_2255052244>
+<_1043925687>
+	<RUS>Код ошибки: </RUS>
+	<ENG>Error code: </ENG>
+</_1043925687>
+<_2747393700>
+	<RUS>Базовый профиль</RUS>
+	<ENG>Base profile</ENG>
+</_2747393700>
+<_1910340989>
+	<RUS>В профиле сразу два элемента имеют индексацию %s. Продолжить проверку?</RUS>
+	<ENG>There are two elements in the profile with the same index %s. Continue verification?</ENG>
+</_1910340989>
+<_3336216480>
+	<RUS>Какой-то левый индекс, не выходит преобразовать его в число: '%s'. По-идее он может быть только числом... Попробуйте найти его в редакторе словаря. Его номер: %d. Продолжить проверку?</RUS>
+	<ENG>Some kind of wrong index, can not convert it to a number: '%s'. Normally, it can only be a number. Try to find it in the dictionary. Its number is %d. Continue verification?</ENG>
+</_3336216480>
+<_3499083615>
+	<RUS>Какой-то левый под-индекс, не выходит преобразовать его в число: '%s'. По-идее он может быть только числом... Попробуйте найти  этот объект в редакторе словаря. Его номер: %d. Продолжить проверку?</RUS>
+	<ENG>Some kind of wrong subindex, can not convert it to a number: '%s'. Normally, it can only be a number. Try to find it in the dictionary. Its number is %d. Continue verification?</ENG>
+</_3499083615>
+<_1030131618>
+	<RUS>В индексе: '%s.%s' присутствуют маленькие буквы. Это может вызвать ошибки при генерации словаря. Номер объекта: %d. Продолжить проверку?</RUS>
+	<ENG>There are low case symbols in index '%s.%s'. This can cause errors when generating the dictionary. The object number is %d. Continue verification?</ENG>
+</_1030131618>
+<_1675730044>
+	<RUS>В подындексе: '%s.%s' присутствуют маленькие буквы. Это может вызвать ошибки при генерации словаря. Номер объекта: %d. Продолжить проверку?</RUS>
+	<ENG>There are low case symbols in subindex '%s.%s'. This can cause errors when generating the dictionary. The object number is %d. Continue verification?</ENG>
+</_1675730044>
+<_2972550006>
+	<RUS>Какой-то левый формат, не выходит преобразовать его в число: '%s'. По-идее он может быть только числом... Попробуйте найти этот объект в редакторе словаря. Его номер: %d. Продолжить проверку?</RUS>
+	<ENG>Some kind of wrong format, can not convert it to a number: '%s'. Normally, it can only be a number. Try to find it in the dictionary. Its number is %d. Continue verification?</ENG>
+</_2972550006>
+<_4046971138>
+	<RUS>У битового объекта %s максимум, минимум или default выходят за диапазон 0..0xFF. Продолжить проверку?</RUS>
+	<ENG>Bit object %s has maximum, minimum or default value outside the range 0..0xFF. Continue verification?</ENG>
+</_4046971138>
+<_2755255133>
+	<RUS>У масштабирующего коэффициента %s Q-формат задан криво. Попробуйте выбрать его заново в таблице м.к. Продолжить проверку?</RUS>
+	<ENG>Scale number %s has wrong Q-format. Try to select it again in the table of SN's. Continue verification?</ENG>
+</_2755255133>
+<_1674882510>
+	<RUS>У масштабирующего коэффициента %s число знаков после запятой задано криво. Попробуйте выбрать его заново в таблице м.к. Продолжить проверку?</RUS>
+	<ENG>Scale number %s has wrong number of decimal places. Try to select it again in the table of SN's. Continue verification?</ENG>
+</_1674882510>
+<_1357282874>
+	<RUS>У масштабирующего коэффициента %s префикс задан криво. Попробуйте выбрать его заново в таблице м.к. Продолжить проверку?</RUS>
+	<ENG>Scale number %s has wrong prefix. Try to select it again in the table of SN's. Continue verification?</ENG>
+</_1357282874>
+<_2830328336>
+	<RUS>У масштабирующего коэффициента %s единицы заданы криво. Попробуйте выбрать их заново в таблице м.к. Продолжить проверку?</RUS>
+	<ENG>Scale number %s has wrong units. Try to select it again in the table of SN's. Continue verification?</ENG>
+</_2830328336>
+<_4151194686>
+	<RUS>В индексе %s под-индексы расположены непоследовательно. Проверьте, все ли требуемые под-индексы добавлены. Если да, то перенумеруйте их последовательно. Продолжить проверку?</RUS>
+	<ENG>In index %s subindexes are disposed inconsistently. Check if all the required subindexes have been added. If so, then renumber them sequentially. Continue verification?</ENG>
+</_4151194686>
+<_4084431316>
+	<RUS>Индекс %s не имеет корневого под-индекса. Необходимо добавить. Продолжить проверку?</RUS>
+	<ENG>Index %s does not have a root subindex. It is necessary to add it. Continue verification?</ENG>
+</_4084431316>
+<_2566049711>
+	<RUS>Индекс %s не является корневым в группе под-индексов. (Его формат не соответствует корневому элементу). Продолжить проверку?</RUS>
+	<ENG>Index %s is not the root of the subindex group. (Its format does not match the root element). Continue verification?</ENG>
+</_2566049711>
+<_4268801705>
+	<RUS>Индекс %s по формату является корневым, но имеет подындекс, отличный от 00h. Продолжить проверку?</RUS>
+	<ENG>Index %s is root by format, but has a subindex that is different from 00h. Continue verification?</ENG>
+</_4268801705>
+<_820813844>
+	<RUS>Индекс %s является корневым, но не имеет под-индексов. Продолжить проверку?</RUS>
+	<ENG>Index %s is a root, but has no subindexes. Continue verification?</ENG>
+</_820813844>
+<_3226825970>
+	<RUS>// Файл: cood.c</RUS>
+	<ENG>// File: cood.c</ENG>
+</_3226825970>
+<_2727181890>
+	<RUS>// Профиль: </RUS>
+	<ENG>// Profile: </ENG>
+</_2727181890>
+<_1345662942>
+	<RUS>// Конфигурация: </RUS>
+	<ENG>// Configuration: </ENG>
+</_1345662942>
+<_2904908150>
+	<RUS>// Дата создания: </RUS>
+	<ENG>// Date of creation: </ENG>
+</_2904908150>
+<_2723648309>
+	<RUS>// Пользователь: </RUS>
+	<ENG>// User: </ENG>
+</_2723648309>
+<_2640528854>
+	<RUS>// всего %d индексов в словаре</RUS>
+	<ENG>// Total number of indexes in dictionary: %d</ENG>
+</_2640528854>
+<_1175290426>
+	<RUS>// всего %d элементов в словаре</RUS>
+	<ENG>// Total number of items in dictionary: %d</ENG>
+</_1175290426>
+<_779998840>
+	<RUS>// Номер перечесления для групп</RUS>
+	<ENG>// Number of enumeration for names of groups</ENG>
+</_779998840>
+<_873488725>
+	<RUS>// Таблица с адресами переменных</RUS>
+	<ENG>// Table with addresses of variables</ENG>
+</_873488725>
+<_917799723>
+	<RUS>
+// Таблица с форматами, дефолтами, и другими параметрами элементов</RUS>
+	<ENG>
+// Table with formats, defaults, and other parameters of items</ENG>
+</_917799723>
+<_1094747034>
+	<RUS>
+// Корневой подындекс %s, ТекстПУ=%s</RUS>
+	<ENG>
+// Root subindex %s, CP_text=%s</ENG>
+</_1094747034>
+<_2509608542>
+	<RUS>,	// кол-во подындексов</RUS>
+	<ENG>,	// subindex count</ENG>
+</_2509608542>
+<_2066545593>
+	<RUS>,	// номер текста</RUS>
+	<ENG>,	// text number</ENG>
+</_2066545593>
+<_1954587123>
+	<RUS>,	// такой длиной</RUS>
+	<ENG>,	// this length</ENG>
+</_1954587123>
+<_2678285015>
+	<RUS>,	// формат</RUS>
+	<ENG>,	// format</ENG>
+</_2678285015>
+<_1052018684>
+	<RUS>,	// номер текста, ТекстПУ=</RUS>
+	<ENG>,	// text number, CP_text=</ENG>
+</_1052018684>
+<_119725911>
+	<RUS>,	// смещение для таблицы с адресами</RUS>
+	<ENG>,	//offset for the addresses table</ENG>
+</_119725911>
+<_2231206761>
+	<RUS>),	// знач по умолч.</RUS>
+	<ENG>),	// default value</ENG>
+</_2231206761>
+<_1400398799>
+	<RUS>)&gt;&gt;16),	// знач по умолч.</RUS>
+	<ENG>)&gt;&gt;16),	// default value</ENG>
+</_1400398799>
+<_3940131537>
+	<RUS>,	// минимум</RUS>
+	<ENG>,	// minimum</ENG>
+</_3940131537>
+<_1657688591>
+	<RUS>,	// максимум</RUS>
+	<ENG>,	// maximum</ENG>
+</_1657688591>
+<_1658387234>
+	<RUS>),	// минимум</RUS>
+	<ENG>),	// minimum</ENG>
+</_1658387234>
+<_1235644090>
+	<RUS>)&gt;&gt;16),	// минимум</RUS>
+	<ENG>)&gt;&gt;16),	// minimum</ENG>
+</_1235644090>
+<_955786058>
+	<RUS>),	// максимум</RUS>
+	<ENG>),	// maximum</ENG>
+</_955786058>
+<_4218567256>
+	<RUS>)&gt;&gt;16),	// максимум</RUS>
+	<ENG>)&gt;&gt;16),	// maximum</ENG>
+</_4218567256>
+<_4090428795>
+	<RUS>0,	// заполнитель места под одинак. размер. подинд.</RUS>
+	<ENG>0,	// placeholder for the same subindex size</ENG>
+</_4090428795>
+<_1128646126>
+	<RUS>// Хэш-сумма:
+Uint32 const co_odHash[4] = {</RUS>
+	<ENG>// Hash sum:
+Uint32 const co_odHash[4] = {</ENG>
+</_1128646126>
+<_4286948659>
+	<RUS>// Хэш-сумма:
+Uint32 const co1_odHash[4] = {</RUS>
+	<ENG>// Hash sum:
+Uint32 const co1_odHash[4] = {</ENG>
+</_4286948659>
+<_2338963226>
+	<RUS>// Хэш-сумма:
+Uint32 const co2_odHash[4] = {</RUS>
+	<ENG>// Hash sum:
+Uint32 const co2_odHash[4] = {</ENG>
+</_2338963226>
+<_933040683>
+	<RUS>// Таблица соответствия индекса и смещения для таблицы с адресами</RUS>
+	<ENG>// Table of correspondence between index and offset for the addresses table</ENG>
+</_933040683>
+<_1365261420>
+	<RUS>,	// индекс</RUS>
+	<ENG>,	// index</ENG>
+</_1365261420>
+<_2439047204>
+	<RUS>// Таблица групп</RUS>
+	<ENG>// Table of groups</ENG>
+</_2439047204>
+<_3755386429>
+	<RUS>// Таблица CALLBACK-функций</RUS>
+	<ENG>// Table of callback functions</ENG>
+</_3755386429>
+<_4003433525>
+	<RUS>; всего %d индексов в словаре</RUS>
+	<ENG>; Total count of indexes in dictionary: %d</ENG>
+</_4003433525>
+<_4209397095>
+	<RUS>    .word %s    ; ТекстПУ=%s, Название=%s, EngText=%s</RUS>
+	<ENG>    .word %s    ; CP_text=%s, Name=%s, EngText=%s</ENG>
+</_4209397095>
+<_2161740588>
+	<RUS>    .word 0 ; CallBack-функция для объекта %s не определена</RUS>
+	<ENG>    .word 0 ; callBack function for object %s is not defined</ENG>
+</_2161740588>
+<_1384678702>
+	<RUS>Не задан ключ пользователя Demo-версии</RUS>
+	<ENG>Demo-version user token is not set</ENG>
+</_1384678702>
+<_4066687729>
+	<RUS>Не задан адрес сервера</RUS>
+	<ENG>Server address is not set</ENG>
+</_4066687729>
+<_3902590889>
+	<RUS>Не задан URL скрипта генерации</RUS>
+	<ENG>URL of generation script is not set</ENG>
+</_3902590889>
+<_587360852>
+	<RUS>Не задан номер перечисления с названиями групп параметров</RUS>
+	<ENG>The number of enumeration with the names of groups is not set</ENG>
+</_587360852>
+<_235017468>
+	<RUS>Нулевой указатель на XML-узел</RUS>
+	<ENG>Null pointer to XML node</ENG>
+</_235017468>
+<_3947187766>
+	<RUS>Объект не валидный</RUS>
+	<ENG>Object is not valid</ENG>
+</_3947187766>
+<_203069559>
+	<RUS>Новый</RUS>
+	<ENG>New</ENG>
+</_203069559>
+<_3426842225>
+	<RUS>Без имени</RUS>
+	<ENG>No name</ENG>
+</_3426842225>
+<_499285302>
+	<RUS>Вы собираетесь сменить автора для текста '%s' под номером %s.</RUS>
+	<ENG>You are going to change the author of text '%s' with number %s.</ENG>
+</_499285302>
+<_257044642>
+	<RUS>Ошибка при открытии Microsoft Word:
+</RUS>
+	<ENG>Error opening Microsoft Word
+</ENG>
+</_257044642>
+<_3854633426>
+	<RUS>Ошибка при вызове mysql_init(NULL)</RUS>
+	<ENG>Error calling mysql_init(NULL)</ENG>
+</_3854633426>
+<_4291625534>
+	<RUS>Ошибка при установке опций</RUS>
+	<ENG>Error setting options</ENG>
+</_4291625534>
+<_2032162558>
+	<RUS>В базе данных отсутствует таблица '%s'</RUS>
+	<ENG>There is no table '%s' in database</ENG>
+</_2032162558>
+<_3752894702>
+	<RUS>В базе данных отсутствует таблица '%s'</RUS>
+	<ENG>There is no table '%s' in database</ENG>
+</_3752894702>
+<_3925256069>
+	<RUS>;всего %d индексов в словаре</RUS>
+	<ENG>;total count of indexes in dictionary: %d</ENG>
+</_3925256069>
+<_3254109543>
+	<RUS>;всего %d элементов в словаре</RUS>
+	<ENG>;total count of items in dictionary: %d</ENG>
+</_3254109543>
+<_860352787>
+	<RUS>;Конфигурация: </RUS>
+	<ENG>;Configuration: </ENG>
+</_860352787>
+<_1745338179>
+	<RUS>; Конфигурация: </RUS>
+	<ENG>; Configuration: </ENG>
+</_1745338179>
+<FormOptions-gbSharedConfig-eVendorToken-Text>
+	<RUS>11111111</RUS>
+	<ENG />
+</FormOptions-gbSharedConfig-eVendorToken-Text>
+<FormOptions-gbDemoToken-eDemoToken-Text>
+	<RUS />
+	<ENG />
+</FormOptions-gbDemoToken-eDemoToken-Text>
+<_3624002788>
+	<RUS>Ошибка при копировании файла: </RUS>
+	<ENG>Error copying file: </ENG>
+</_3624002788>
+<Form1-mRecentProfiles-Caption>
+	<RUS>Последние открытые профили</RUS>
+	<ENG>Recent profiles</ENG>
+</Form1-mRecentProfiles-Caption>
+<FormOptions-gbRecentProfiles-Caption>
+	<RUS>Последние использованные профили</RUS>
+	<ENG>Recent profiles</ENG>
+</FormOptions-gbRecentProfiles-Caption>
+<FormOptions-gbRecentProfiles-Label1-Caption>
+	<RUS>Запоминать последние</RUS>
+	<ENG>Remember recent</ENG>
+</FormOptions-gbRecentProfiles-Label1-Caption>
+<FormOptions-gbRecentProfiles-Label6-Caption>
+	<RUS>профилей</RUS>
+	<ENG>profiles</ENG>
+</FormOptions-gbRecentProfiles-Label6-Caption>
+<FormOptions-gbRecentProfiles-CheckBoxLastOpen-Caption>
+	<RUS>Открывать последний при запуске</RUS>
+	<ENG>Open last profile at startup</ENG>
+</FormOptions-gbRecentProfiles-CheckBoxLastOpen-Caption>
+<_3791759504>
+	<RUS>Проверьте, что в вашем ПО присваивается значение:
+</RUS>
+	<ENG>Check value of variable in your software:
+</ENG>
+</_3791759504>
+<Form1-PageControl1-TabSheetPU-CB_PUType-Items-Strings_4>
+	<RUS>Си для ПУ HIWIN</RUS>
+	<ENG>C for HIWIN</ENG>
+</Form1-PageControl1-TabSheetPU-CB_PUType-Items-Strings_4>
+<FormChooseText-GroupBoxSearch-cbOwnOnly-Caption>
+	<RUS>только свои</RUS>
+	<ENG>only own</ENG>
+</FormChooseText-GroupBoxSearch-cbOwnOnly-Caption>
+<_3036451532>
+	<RUS>, биты с %d по %d: %s</RUS>
+	<ENG>, bits from %d to %d: %s</ENG>
+</_3036451532>
+<_1813673315>
+	<RUS>* Файл описания текстов для Пульта Оперативного Управления</RUS>
+	<ENG>* Text description file for the Operational Control Panel</ENG>
+</_1813673315>
+<_2338321177>
+	<RUS>для профиля(й):</RUS>
+	<ENG>for profile(s):</ENG>
+</_2338321177>
+<_820788419>
+	<RUS>Внимание! Вы редактируете объект из базового профиля!</RUS>
+	<ENG>Warning! You are editing the object from base profile!</ENG>
+</_820788419>
+<Form1-PageControl1-TabSheetTexts-labelTextsFilter-Caption>
+	<RUS>Фильтр</RUS>
+	<ENG>Filter</ENG>
+</Form1-PageControl1-TabSheetTexts-labelTextsFilter-Caption>
+<Form1-PageControl1-TabSheetTexts-labelBindedEnum-Caption>
+	<RUS>Привязка к перечислению</RUS>
+	<ENG>Binded to enumeration</ENG>
+</Form1-PageControl1-TabSheetTexts-labelBindedEnum-Caption>
+<Form1-PageControl1-TabSheetTexts-labelEnumAuthor1-Caption>
+	<RUS>Автор:</RUS>
+	<ENG>Author:</ENG>
+</Form1-PageControl1-TabSheetTexts-labelEnumAuthor1-Caption>
+<Form1-PageControl1-TabSheetTexts-CheckBoxShowAllTexts-Caption>
+	<RUS>Показывать чужие тексты</RUS>
+	<ENG>Show texts of other authors</ENG>
+</Form1-PageControl1-TabSheetTexts-CheckBoxShowAllTexts-Caption>
+<Form1-PageControl1-TabSheetTexts-btnSaveTexts-Hint>
+	<RUS>Сохранить тексты в XML-базу на диске</RUS>
+	<ENG>Save texts to XML database on disk</ENG>
+</Form1-PageControl1-TabSheetTexts-btnSaveTexts-Hint>
+<Form1-PageControl1-TabSheetTexts-btnExportToFile1-Hint>
+	<RUS>Экспортировать тексты/перечисления в файл</RUS>
+	<ENG>Export texts/enumerations to file</ENG>
+</Form1-PageControl1-TabSheetTexts-btnExportToFile1-Hint>
+<Form1-PageControl1-TabSheetTexts-cbShowAllEnumsToBind-Caption>
+	<RUS>Показать чужие</RUS>
+	<ENG>Show other's</ENG>
+</Form1-PageControl1-TabSheetTexts-cbShowAllEnumsToBind-Caption>
+<Form1-PageControl1-TabSheetEnums-Caption>
+	<RUS>Перечисления</RUS>
+	<ENG>Enumerations</ENG>
+</Form1-PageControl1-TabSheetEnums-Caption>
+<Form1-PageControl1-TabSheetEnums-labelEnumAuthor2-Caption>
+	<RUS>Автор:</RUS>
+	<ENG>Author:</ENG>
+</Form1-PageControl1-TabSheetEnums-labelEnumAuthor2-Caption>
+<Form1-PageControl1-TabSheetEnums-labelEnumsFilter-Caption>
+	<RUS>Фильтр</RUS>
+	<ENG>Filter</ENG>
+</Form1-PageControl1-TabSheetEnums-labelEnumsFilter-Caption>
+<Form1-PageControl1-TabSheetEnums-Label3-Caption>
+	<RUS>Привязанные тексты</RUS>
+	<ENG>Binded texts</ENG>
+</Form1-PageControl1-TabSheetEnums-Label3-Caption>
+<Form1-PageControl1-TabSheetEnums-CBSet-Hint>
+	<RUS>Перечисление с ProductCode'ами - №56</RUS>
+	<ENG>Product Code enumeration - #56</ENG>
+</Form1-PageControl1-TabSheetEnums-CBSet-Hint>
+<Form1-PageControl1-TabSheetEnums-btnAddNewEnum-Caption>
+	<RUS>Добавить</RUS>
+	<ENG>Add</ENG>
+</Form1-PageControl1-TabSheetEnums-btnAddNewEnum-Caption>
+<Form1-PageControl1-TabSheetEnums-btnAddNewEnum-Hint>
+	<RUS>Добавить новое перечисление</RUS>
+	<ENG>Add new enumeration</ENG>
+</Form1-PageControl1-TabSheetEnums-btnAddNewEnum-Hint>
+<Form1-PageControl1-TabSheetEnums-btnSaveEnums-Hint>
+	<RUS>Сохранить перечисления в XML-базу на диске</RUS>
+	<ENG>Save enumerations to XML database on disk</ENG>
+</Form1-PageControl1-TabSheetEnums-btnSaveEnums-Hint>
+<Form1-PageControl1-TabSheetEnums-btnExportToFile2-Hint>
+	<RUS>Экспортировать тексты/перечисления в файл</RUS>
+	<ENG>Export texts/enumerations to file</ENG>
+</Form1-PageControl1-TabSheetEnums-btnExportToFile2-Hint>
+<Form1-PageControl1-TabSheetEnums-ButtonSetAuthor-Caption>
+	<RUS>Сменить</RUS>
+	<ENG>Change</ENG>
+</Form1-PageControl1-TabSheetEnums-ButtonSetAuthor-Caption>
+<Form1-PageControl1-TabSheetEnums-ButtonSetAuthor-Hint>
+	<RUS>Сменить автора</RUS>
+	<ENG>Change author</ENG>
+</Form1-PageControl1-TabSheetEnums-ButtonSetAuthor-Hint>
+<Form1-PageControl1-TabSheetEnums-CheckBoxShowAllSets-Caption>
+	<RUS>Показывать чужие перечисления</RUS>
+	<ENG>Show enumerations of other authors</ENG>
+</Form1-PageControl1-TabSheetEnums-CheckBoxShowAllSets-Caption>
+<_1275386595>
+	<RUS>Длинный русский</RUS>
+	<ENG>Long russian</ENG>
+</_1275386595>
+<_3132585361>
+	<RUS>Длинный английский</RUS>
+	<ENG>Long english</ENG>
+</_3132585361>
+<_2727173481>
+	<RUS>Короткий русский</RUS>
+	<ENG>Short russian</ENG>
+</_2727173481>
+<_3390374191>
+	<RUS>Короткий английский</RUS>
+	<ENG>Short english</ENG>
+</_3390374191>
+<_1157177963>
+	<RUS>Короткий</RUS>
+	<ENG>Short</ENG>
+</_1157177963>
+<_1275386627>
+	<RUS>длинный русский</RUS>
+	<ENG>long russian</ENG>
+</_1275386627>
+<_3132585393>
+	<RUS>длинный английский</RUS>
+	<ENG>long english</ENG>
+</_3132585393>
+<_1012443475>
+	<RUS>--- ОТСУТСТВУЕТ ---</RUS>
+	<ENG>--- NO BINDING ---</ENG>
+</_1012443475>
+<_2980296156>
+	<RUS>Автор: </RUS>
+	<ENG>Author: </ENG>
+</_2980296156>
+<Form1-PageControl1-TabSheetEnums-labelBindedTexts-Caption>
+	<RUS>Привязанные тексты</RUS>
+	<ENG>Binded texts</ENG>
+</Form1-PageControl1-TabSheetEnums-labelBindedTexts-Caption>
+<Form1-menuUnbinText-Caption>
+	<RUS>Отвязать от перечисления</RUS>
+	<ENG>Unbind from enumeration</ENG>
+</Form1-menuUnbinText-Caption>
+<_1247459870>
+	<RUS>Привязанные тексты</RUS>
+	<ENG>Binded texts</ENG>
+</_1247459870>
+<FormProfSelect-rgTextsSelector-Caption>
+	<RUS>Генерировать тексты</RUS>
+	<ENG>Texts to generate</ENG>
+</FormProfSelect-rgTextsSelector-Caption>
+<FormProfSelect-rgEnumsSelector-Caption>
+	<RUS>Генерировать перечисления</RUS>
+	<ENG>Enumerations to generate</ENG>
+</FormProfSelect-rgEnumsSelector-Caption>
+<_3144841784>
+	<RUS>База текстов была изменена.
+Сохранить изменения?</RUS>
+	<ENG>Text's data was changed.
+Save changes to disk?</ENG>
+</_3144841784>
+<_101258064>
+	<RUS>Открываемый файл не является профилем словаря CANopen</RUS>
+	<ENG>The file you are opening is not CANopen dictionary</ENG>
+</_101258064>
+<_3589259059>
+	<RUS>База перечислений была изменена.
+Сохранить изменения?</RUS>
+	<ENG>Enumeration's data was changed.
+Save changes to disk?</ENG>
+</_3589259059>
+<FormProfSelect-labelUseOtherIfNoGiven-Caption>
+	<RUS>Если в перечислении отсутствует текст требуемого типа, то использовать первый непустой текст (в приоритете - длинный текст на текущем языке)</RUS>
+	<ENG>If there is no text of required type in enumeration, then use first non-empty text</ENG>
+</FormProfSelect-labelUseOtherIfNoGiven-Caption>
+<Form1-PageControl1-TabSheetEnums-btnCopyEnum-Hint>
+	<RUS>Копировать перечисление</RUS>
+	<ENG>Copy enumeration</ENG>
+</Form1-PageControl1-TabSheetEnums-btnCopyEnum-Hint>
+<_3581930728>
+	<RUS>Привязанные тексты отсутствуют</RUS>
+	<ENG>There is no binded texts</ENG>
+</_3581930728>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbCoodCFolder-Caption>
+	<RUS>       Автоматически генерировать файл 'cood.c' в папку</RUS>
+	<ENG>       Automatically generate file 'cood.c' to the folder</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbCoodCFolder-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbCoodCFolder-CoodCAbsPath-Caption>
+	<RUS>CoodCAbsPath</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbCoodCFolder-CoodCAbsPath-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbCoodCFolder-Label3-Caption>
+	<RUS>Абсолютный путь:</RUS>
+	<ENG>Absolute path:</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbCoodCFolder-Label3-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox5-Caption>
+	<RUS>       Автоматически генерировать файлы текстов для ПУ</RUS>
+	<ENG>       Automatically generate texts files for control panel</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-GroupBox5-Caption>
+<Form1-PageControl1-TabSheetEnums-editEnumSize-Text>
+	<RUS>1</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetEnums-editEnumSize-Text>
+<_805859447>
+	<RUS>Выберите целевую папку для генерации файла 'cood.c'</RUS>
+	<ENG>Select target folder to generate file 'cood.c'</ENG>
+</_805859447>
+<_4261518454>
+	<RUS>// Файл: </RUS>
+	<ENG>// File: </ENG>
+</_4261518454>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Caption>
+	<RUS>       Автоматически генерировать файлы текстов для ПУ</RUS>
+	<ENG>       Automatically generate texts files for control panel</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-labelUseOtherIfNoGiven-Caption>
+	<RUS>Если в перечислении отсутствует текст требуемого типа, то использовать первый непустой текст (в приоритете - длинный текст на текущем языке)</RUS>
+	<ENG>If there is no text of required type in enumeration, then use first non-empty text</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-labelUseOtherIfNoGiven-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label5-Caption>
+	<RUS>Заголовочный файл:</RUS>
+	<ENG>Header file:</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label5-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label6-Caption>
+	<RUS>Абсолютный путь:</RUS>
+	<ENG>Absolute path:</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label6-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-TextsHAbsPath-Caption>
+	<RUS>TextsHAbsPath</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-TextsHAbsPath-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label10-Caption>
+	<RUS>#include</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label10-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label11-Caption>
+	<RUS>Си-файл:</RUS>
+	<ENG>C-file</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label11-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label13-Caption>
+	<RUS>Абсолютный путь:</RUS>
+	<ENG>Absolute path:</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label13-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-TextsCAbsPath-Caption>
+	<RUS> TextsCAbsPath</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-TextsCAbsPath-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label17-Caption>
+	<RUS>#include</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-Label17-Caption>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUCodeType-Text>
+	<RUS>Си для 28x</RUS>
+	<ENG>C for 28x</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUCodeType-Text>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUCodeType-Items-Strings_0>
+	<RUS>Си для 28x</RUS>
+	<ENG>C for 28x</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUCodeType-Items-Strings_0>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUCodeType-Items-Strings_1>
+	<RUS>Си с упаковкой для 2808</RUS>
+	<ENG>C with packing for 2808</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUCodeType-Items-Strings_1>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUCodeType-Items-Strings_2>
+	<RUS>Си для ПУ HIWIN</RUS>
+	<ENG>C for HIWIN</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUCodeType-Items-Strings_2>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUTextsType-Text>
+	<RUS>Короткие тексты</RUS>
+	<ENG>Short texts</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUTextsType-Text>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUTextsType-Items-Strings_0>
+	<RUS>Длинные русские тексты</RUS>
+	<ENG>Long russian texts</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUTextsType-Items-Strings_0>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUTextsType-Items-Strings_1>
+	<RUS>Длинные английские тексты</RUS>
+	<ENG>Long english texts</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUTextsType-Items-Strings_1>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUTextsType-Items-Strings_2>
+	<RUS>Короткие тексты</RUS>
+	<ENG>Short texts</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUTextsType-Items-Strings_2>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUEnumsType-Text>
+	<RUS>Короткие русские перечисления</RUS>
+	<ENG>Short russian enumerations</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUEnumsType-Text>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUEnumsType-Items-Strings_0>
+	<RUS>Длинные русские перечисления</RUS>
+	<ENG>Long russian enumerations</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUEnumsType-Items-Strings_0>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUEnumsType-Items-Strings_1>
+	<RUS>Длинные английские перечисления</RUS>
+	<ENG>Long english enumerations</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUEnumsType-Items-Strings_1>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUEnumsType-Items-Strings_2>
+	<RUS>Короткие русские перечисления</RUS>
+	<ENG>Short russian enumerations</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUEnumsType-Items-Strings_2>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUEnumsType-Items-Strings_3>
+	<RUS>Короткие английские перечисления</RUS>
+	<ENG>Short english enumerations</ENG>
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-cbPUEnumsType-Items-Strings_3>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-editPUTextsHInc-Text>
+	<RUS>"DSP.h"</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-editPUTextsHInc-Text>
+<Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-editPUTextsCInc-Text>
+	<RUS>&lt;LCD/LCD_Text.h&gt;</RUS>
+	<ENG />
+</Form1-PageControl1-TabSheetProfile-PageControl2-TabSheet5-gbGenPUTexts-editPUTextsCInc-Text>
+<_1002777099>
+	<RUS>* Заголовочный файл описания текстов для ПУ</RUS>
+	<ENG>* Header file for Control Panel texts</ENG>
+</_1002777099>
+<_1512621066>
+	<RUS>* Файл описания текстов для ПУ</RUS>
+	<ENG>* Text description file for Control Panel</ENG>
+</_1512621066>
+<_2392598365>
+	<RUS>* Файл описания текстов для ПУ [</RUS>
+	<ENG>* Text description file for Control Panel [</ENG>
+</_2392598365>
+<_4174677993>
+	<RUS>Диапазон
+значений
+[зн. по умолч.]</RUS>
+	<ENG>Range
+[Default]</ENG>
+</_4174677993>
+<_1977367706>
+	<RUS>Неправильный номер группы: '%s'. Не является числом или выходит за диапазон длины перечисления групп. Это может привести к некорректной работе софта со сгенерированным словрем. Попробуйте найти этот объект в редакторе словаря. Его номер: %d (см. самый левый столбец таблицы). Как бы то ни было, словарь с такими некритичными ошибками можно сгенерировать. Выводить подобные предупреждения, если они появятся в ходе текущей проверки снова?</RUS>
+	<ENG>Invalid group number: '%s'. It is not a number or is beyond the range of the enumeration of groups. This can lead to incorrect work of the software with the generated dictionary. Try to find this object in the dictionary editor. Its number: %d (see first column in table). However, a dictionary with such uncritical errors can be generated. Display such warnings if they appear again during the current verification?</ENG>
+</_1977367706>
+<_2919761705>
+	<RUS>(long)(&amp;%s),	//[%s.%s], Название: %s, ТекстПУ: %s, Группа: %s</RUS>
+	<ENG>(long)(&amp;%s),	//[%s.%s], Name: %s, CP text: %s, Group: %s</ENG>
+</_2919761705>
+<_1189146307>
+	<RUS>,	// номер текста, название: </RUS>
+	<ENG>,	// text ID, name: </ENG>
+</_1189146307>
+<_4197720705>
+	<RUS>// Массив ссылок для драйвера CANopen двухядерных процессоров</RUS>
+	<ENG>// Array of pointers for 2-core processor's CANopen driver</ENG>
+</_4197720705>
+<Form1-N6-Caption>
+	<RUS>-</RUS>
+	<ENG />
+</Form1-N6-Caption>
+<Form1-CopyText-Caption>
+	<RUS>Копировать</RUS>
+	<ENG>Copy</ENG>
+</Form1-CopyText-Caption>
+<Form1-PasteText-Caption>
+	<RUS>Вставить</RUS>
+	<ENG>Paste</ENG>
+</Form1-PasteText-Caption>
+<Form1-CutText-Caption>
+	<RUS>Вырезать</RUS>
+	<ENG>Cut</ENG>
+</Form1-CutText-Caption>
+<_3392522928>
+	<RUS>База текстов на диске была изменена.
+Синхронизировать изменения с БД на сервере?</RUS>
+	<ENG>The texts base on disk has changed.
+Synchronize changes with remote data base?</ENG>
+</_3392522928>
+<_1143368171>
+	<RUS>База перечислений на диске была изменена.
+Синхронизировать изменения с БД на сервере?</RUS>
+	<ENG>The enumerations base on disk has changed.
+Synchronize changes with remote data base?</ENG>
+</_1143368171>
+<_2604681841>
+	<RUS>Не удалось подключиться к базе данных</RUS>
+	<ENG>Couldn't connect to remote data base</ENG>
+</_2604681841>
+<FormOptions-cbPromptSyncOnClose-Caption>
+	<RUS>Предлагать синхронизацию с удалённой БД при выходе</RUS>
+	<ENG>Suggest synchronization with remote data base on exit</ENG>
+</FormOptions-cbPromptSyncOnClose-Caption>
+<_1609530181>
+	<RUS>Словарь сгенерирован и сохранён в файл:
+%s
+Содержимое файла также скопировано в буфер обмена.</RUS>
+	<ENG>Dictionary has generated and saved to the file:
+%s
+Its content has also copied to the clipboard.</ENG>
+</_1609530181>
+<FormWord-cbGenNumberColumn-Caption>
+	<RUS>Генерировать столбец '№' (№ группы + № параметра в ней)</RUS>
+	<ENG>Generate column '#' (group number + parameter number)</ENG>
+</FormWord-cbGenNumberColumn-Caption>
+<FormWord-cbGenNumberColumn-Hint>
+	<RUS>Если отмечено, то будет генериться столбец с коротким адресом X.Y, где
+X - номер группы, Y - номер параметра внутри этой группы.
+Такая нумерация применяется, как правило, в местных пультах управления.</RUS>
+	<ENG>If this option is enabled, a column with short address will be generated.
+The short address has format X.Y where X is the group number, Y is the parameter number in this group.
+For example: 05.11. Such short address is mainly used in local control panel.</ENG>
+</FormWord-cbGenNumberColumn-Hint>
+<FormWord-cbNumGrpFromZero-Caption>
+	<RUS>Нумеровать группы от нуля</RUS>
+	<ENG>Number the groups from zero</ENG>
+</FormWord-cbNumGrpFromZero-Caption>
+<_1652754956>
+	<RUS>Примечание: номер параметра в столбце '№' указан в формате NN.MM, где:
+NN - номер группы, MM - номер параметра внутри группы</RUS>
+	<ENG>Note: the parameter number in '#' column is given in the format NN.MM, where:
+NN - group number, MM - parameter number inside the group</ENG>
+</_1652754956>
+<_1418892720>
+	<RUS>В базе текстов отсутствует текст №%d, используемый в профиле.
+Синхронизируйте базы с сервером и попробуйте еще раз.</RUS>
+	<ENG>The text's database doesn't contain the text #%d used in the profile.
+Synchronize the databases with the server and try again.</ENG>
+</_1418892720>
+<Form1-CopyPathToObject-Caption>
+	<RUS>Копировать путь к объекту</RUS>
+	<ENG>Copy path to object</ENG>
+</Form1-CopyPathToObject-Caption>

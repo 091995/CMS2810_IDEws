@@ -1,0 +1,7 @@
+
+!CONFIGURATION: 'com.ti.ccstudio.buildDefinitions.C2000.Debug.1640849638' [Fri Dec 01 14:23:23 IST 2023]
+
+	!TOOL: 'com.ti.ccstudio.buildDefinitions.C2000_18.1.exe.compilerDebug.123620408'
+
+		!WARNING: Unresolved option: com.ti.ccstudio.buildDefinitions.C2000_18.1.compilerID.ABI
+

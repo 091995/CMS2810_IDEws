@@ -1,0 +1,62 @@
+2023-11-28 15:06:15.438 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:15.525 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:15.829 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 4 times, with average period 101 ms]
+2023-11-28 15:06:17.437 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:17.444 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:17.847 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 100 ms]
+2023-11-28 15:06:19.440 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:19.443 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:19.840 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 99 ms]
+2023-11-28 15:06:21.453 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:21.460 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:21.853 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 98 ms]
+2023-11-28 15:06:23.487 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:23.502 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:23.906 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 100 ms]
+2023-11-28 15:06:25.487 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:25.501 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:25.905 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 100 ms]
+2023-11-28 15:06:27.495 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:27.509 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:27.913 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 100 ms]
+2023-11-28 15:06:29.522 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:29.534 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:29.938 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 101 ms]
+2023-11-28 15:06:31.534 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:31.549 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:31.953 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 101 ms]
+2023-11-28 15:06:33.557 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:33.561 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:33.965 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 100 ms]
+2023-11-28 15:06:35.595 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:35.598 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:36.001 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 100 ms]
+2023-11-28 15:06:37.624 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:37.627 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:38.030 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 100 ms]
+2023-11-28 15:06:39.650 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:39.658 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:40.063 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 101 ms]
+2023-11-28 15:06:41.665 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:41.670 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:42.074 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 100 ms]
+2023-11-28 15:06:43.674 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:43.680 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:44.084 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 101 ms]
+2023-11-28 15:06:45.670 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:45.692 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:46.096 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 100 ms]
+2023-11-28 15:06:47.670 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:47.702 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:48.105 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 100 ms]
+2023-11-28 15:06:49.678 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:49.709 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:50.113 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 101 ms]
+2023-11-28 15:06:51.665 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:51.718 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:52.122 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 100 ms]
+2023-11-28 15:06:53.674 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:53.727 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV
+2023-11-28 15:06:54.131 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV  <--[repeated 5 times, with average period 101 ms]
+2023-11-28 15:06:55.662 DEBUG: MARATHON_CAN_MODULE::open_module: CHAI version: 2.11.0
+2023-11-28 15:06:55.733 ERROR: MARATHON_CAN_MODULE::calc: CiChipStat error: ECINODEV

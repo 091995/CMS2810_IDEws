@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UniOSViewer-Caption>
+	<RUS>UniOSViewer</RUS>
+	<ENG></ENG>
+</UniOSViewer-Caption>
+<FormOsSave-Caption>
+	<RUS>Сохранение осцилограмм</RUS>
+	<ENG>Saving oscillograms</ENG>
+</FormOsSave-Caption>
+<FormOsSave-RadioButtonPic-Caption>
+	<RUS>Сохранить как BMP</RUS>
+	<ENG>Save as BMP image</ENG>
+</FormOsSave-RadioButtonPic-Caption>
+<FormOsSave-RadioButtonExcel-Caption>
+	<RUS>Сохранить в Excel</RUS>
+	<ENG>Save as Excel file (CSV)</ENG>
+</FormOsSave-RadioButtonExcel-Caption>
+<FormOsSave-ButtonCancel-Caption>
+	<RUS>Отмена</RUS>
+	<ENG>Cancel</ENG>
+</FormOsSave-ButtonCancel-Caption>
+<FormOsSave-Button1-Caption>
+	<RUS>Сохранить</RUS>
+	<ENG>Save</ENG>
+</FormOsSave-Button1-Caption>
+<FormOsSave-GroupBox1-Caption>
+	<RUS>Комментарий</RUS>
+	<ENG>Comment</ENG>
+</FormOsSave-GroupBox1-Caption>
+<FormOsSave-GroupBox1-Memo1-Hint>
+	<RUS>Данные текстового файла, сохраняемые автоматически вместе 
+с файлом рисунка. Допишите любые свои комментарии о снятии 
+осциллограммы, если требуется.</RUS>
+	<ENG>This text will be saved as additional comment to the scope text file</ENG>
+</FormOsSave-GroupBox1-Memo1-Hint>
+<FormOsSave-RadioButtonPNG-Caption>
+	<RUS>Сохранить как PNG</RUS>
+	<ENG>Save as PNG image</ENG>
+</FormOsSave-RadioButtonPNG-Caption>
+<FormOsSave-GroupBoxExcelSave-Caption>
+	<RUS>Параметры сохранения  в Excel</RUS>
+	<ENG>Excel export options</ENG>
+</FormOsSave-GroupBoxExcelSave-Caption>
+<FormOsSave-GroupBoxExcelSave-OnScreen-Caption>
+	<RUS>Как на экране</RUS>
+	<ENG>As on the screen</ENG>
+</FormOsSave-GroupBoxExcelSave-OnScreen-Caption>
+<FormOsSave-GroupBoxExcelSave-OnScreen-Hint>
+	<RUS>Сохраняет только тот участок осциллограммы, что отображается на экране
+в данный момент.</RUS>
+	<ENG>Save the data area currently displayed on the screen</ENG>
+</FormOsSave-GroupBoxExcelSave-OnScreen-Hint>
+<FormOsSave-GroupBoxExcelSave-AllData-Caption>
+	<RUS>Все данные</RUS>
+	<ENG>All data</ENG>
+</FormOsSave-GroupBoxExcelSave-AllData-Caption>
+<FormOsSave-GroupBoxExcelSave-AllData-Hint>
+	<RUS>Сохраняет все данные осцилограммы, доступные в осциллографе при
+скроллинге по оси времени.</RUS>
+	<ENG>Save all scope data (even hidden outside the display)</ENG>
+</FormOsSave-GroupBoxExcelSave-AllData-Hint>
+<FormOsSave-GroupBoxExcelSave-DecimationPanel-Caption>
+	<RUS>Разреживание </RUS>
+	<ENG>Decimation </ENG>
+</FormOsSave-GroupBoxExcelSave-DecimationPanel-Caption>
+<FormOsSave-GroupBoxExcelSave-DecimationPanel-Label1-Caption>
+	<RUS>Точка каждые </RUS>
+	<ENG>Sample every </ENG>
+</FormOsSave-GroupBoxExcelSave-DecimationPanel-Label1-Caption>
+<FormOsSave-GroupBoxExcelSave-DecimationPanel-Label2-Caption>
+	<RUS>сек</RUS>
+	<ENG>s</ENG>
+</FormOsSave-GroupBoxExcelSave-DecimationPanel-Label2-Caption>
+<FormOsSave-GroupBoxExcelSave-DecimationPanel-RadioGroupNoData-Items-Strings_0>
+	<RUS>Заполнять нулями</RUS>
+	<ENG>Fill with zeros</ENG>
+</FormOsSave-GroupBoxExcelSave-DecimationPanel-RadioGroupNoData-Items-Strings_0>
+<FormOsSave-GroupBoxExcelSave-DecimationPanel-RadioGroupNoData-Items-Strings_1>
+	<RUS>Не выводить в файл</RUS>
+	<ENG>Don't write to file</ENG>
+</FormOsSave-GroupBoxExcelSave-DecimationPanel-RadioGroupNoData-Items-Strings_1>
+<FormOsSave-GroupBoxExcelSave-DecimationPanel-RadioGroupNoData-Caption>
+	<RUS>Отсутствие данных:</RUS>
+	<ENG>If data missed:</ENG>
+</FormOsSave-GroupBoxExcelSave-DecimationPanel-RadioGroupNoData-Caption>
+<FormOsSave-GroupBoxExcelSave-DecimationPanel-RadioGroupNoData-Hint>
+	<RUS>Выбирает тип сохранения участков осциллограммы с отсутствущими даными.
+Это может случаться, если не все каналы были добавлены единовременно,
+программа перезапускалась, нарушалась связь и т.п.</RUS>
+	<ENG>Select what to write to the file if there is no data in the channel.
+The channel may has no data in some cases (restart of application, connection lost and so on).</ENG>
+</FormOsSave-GroupBoxExcelSave-DecimationPanel-RadioGroupNoData-Hint>
+<FormOsSave-GroupBoxExcelSave-gbSeparator-Caption>
+	<RUS>Разделитель</RUS>
+	<ENG>Separator</ENG>
+</FormOsSave-GroupBoxExcelSave-gbSeparator-Caption>
+<FormOsSave-GroupBoxExcelSave-gbSeparator-rbTabSeparator-Caption>
+	<RUS>Символ табуляции</RUS>
+	<ENG>'Tab' character</ENG>
+</FormOsSave-GroupBoxExcelSave-gbSeparator-rbTabSeparator-Caption>
+<FormOsSave-GroupBoxExcelSave-gbSeparator-rbSymbol-Caption>
+	<RUS>Символ</RUS>
+	<ENG>Character</ENG>
+</FormOsSave-GroupBoxExcelSave-gbSeparator-rbSymbol-Caption>
+<FormOsSave-GroupBoxExcelSave-gbSeparator-LE_Separator-Text>
+	<RUS>;</RUS>
+	<ENG></ENG>
+</FormOsSave-GroupBoxExcelSave-gbSeparator-LE_Separator-Text>
+<FormOsSave-GroupBoxExcelSave-gbSeparator-LE_Separator-Hint>
+	<RUS>Формат файла csv - данные, разделенные некоторым символом. 
+Можно выбрать этот символ. Обычно он разный для англоязычных
+и русскоязычных операционных систем и требует корректировки.</RUS>
+	<ENG>Data fields in CSV-file are separated by a character.
+It is generally depends on your culture.</ENG>
+</FormOsSave-GroupBoxExcelSave-gbSeparator-LE_Separator-Hint>
+<FormOsSave-GroupBoxExcelSave-rgDecimalSeparator-Items-Strings_0>
+	<RUS>Точка</RUS>
+	<ENG>Dot</ENG>
+</FormOsSave-GroupBoxExcelSave-rgDecimalSeparator-Items-Strings_0>
+<FormOsSave-GroupBoxExcelSave-rgDecimalSeparator-Items-Strings_1>
+	<RUS>Запятая</RUS>
+	<ENG>Comma</ENG>
+</FormOsSave-GroupBoxExcelSave-rgDecimalSeparator-Items-Strings_1>
+<FormOsSave-GroupBoxExcelSave-rgDecimalSeparator-Caption>
+	<RUS>Десятичный разделитель</RUS>
+	<ENG>Decimal separator</ENG>
+</FormOsSave-GroupBoxExcelSave-rgDecimalSeparator-Caption>
+<_219286780>
+	<RUS>Величина</RUS>
+	<ENG>Value</ENG>
+</_219286780>
+<_3392515496>
+	<RUS>время</RUS>
+	<ENG>time</ENG>
+</_3392515496>
+<_1393036139>
+	<RUS>неизвестная ошибка при определении номера канала</RUS>
+	<ENG>unknown error while detecting channel number</ENG>
+</_1393036139>
+<_2910175520>
+	<RUS>Канал </RUS>
+	<ENG>Channel </ENG>
+</_2910175520>
+<_522321368>
+	<RUS> - пусто</RUS>
+	<ENG> - empty</ENG>
+</_522321368>
+<_720187565>
+	<RUS>Ошибка при открытии файла</RUS>
+	<ENG>Error opening the file</ENG>
+</_720187565>
+<_1289301333>
+	<RUS>Неверная сигнатура</RUS>
+	<ENG>Wrong signature</ENG>
+</_1289301333>
+<_267857964>
+	<RUS>Неверный номер канала</RUS>
+	<ENG>Wrong channel number</ENG>
+</_267857964>
+<_3392515464>
+	<RUS>Время</RUS>
+	<ENG>Time</ENG>
+</_3392515464>
+<_3053535677>
+	<RUS>Имя</RUS>
+	<ENG>Name</ENG>
+</_3053535677>
+<_3487650053>
+	<RUS>Избранное</RUS>
+	<ENG>Favorites</ENG>
+</_3487650053>
+<_2640401831>
+	<RUS>Её файл переименован в '%s'</RUS>
+	<ENG>It's file was renamed to '%s'</ENG>
+</_2640401831>
+<_4104845438>
+	<RUS>Обнаружена осциллограмма в старом формате!</RUS>
+	<ENG>Scope data in old format detected!</ENG>
+</_4104845438>
+<_1906532446>
+	<RUS>Курсор</RUS>
+	<ENG>Cursor</ENG>
+</_1906532446>
+<_90139401>
+	<RUS>Не могу открыть файл</RUS>
+	<ENG>Couldn't open the file</ENG>
+</_90139401>
+<_235006640>
+	<RUS>t,мсек</RUS>
+	<ENG>t,ms</ENG>
+</_235006640>
+<_2895250656>
+	<RUS>Не удалось скопировать изображение в буфер обмена</RUS>
+	<ENG>Couldn't copy the image to clipboard</ENG>
+</_2895250656>
+<_843345329>
+	<RUS>Ошибка</RUS>
+	<ENG>Error</ENG>
+</_843345329>
+<_2249699696>
+	<RUS>Канал</RUS>
+	<ENG>Channel</ENG>
+</_2249699696>
+<_1980377572>
+	<RUS>Maсштаб: </RUS>
+	<ENG>Scale: </ENG>
+</_1980377572>
+<_770193286>
+	<RUS>/Кл    </RUS>
+	<ENG>/div    </ENG>
+</_770193286>
+<_2779691680>
+	<RUS>Смещение: </RUS>
+	<ENG>Offset: </ENG>
+</_2779691680>
+<_1147055036>
+	<RUS>Свободен</RUS>
+	<ENG>Empty</ENG>
+</_1147055036>
+<_4010303073>
+	<RUS>Режим осциллографирования: </RUS>
+	<ENG>Scope mode: </ENG>
+</_4010303073>
+<_3817996338>
+	<RUS>непрерывный</RUS>
+	<ENG>continuous</ENG>
+</_3817996338>
+<_644400184>
+	<RUS>выборка</RUS>
+	<ENG>sample</ENG>
+</_644400184>
+<_693503493>
+	<RUS>Масштаб по оси времени: </RUS>
+	<ENG>Time scale: </ENG>
+</_693503493>
+<_1754175109>
+	<RUS> c/Кл</RUS>
+	<ENG> s/div</ENG>
+</_1754175109>
+<_2038638404>
+	<RUS>Делитель: </RUS>
+	<ENG>Decimation: </ENG>
+</_2038638404>
+<UniOSViewer-panelBottom-panelControl-lblScaleX-Caption>
+	<RUS>Масштаб времени:</RUS>
+	<ENG>Time scale:</ENG>
+</UniOSViewer-panelBottom-panelControl-lblScaleX-Caption>
+<UniOSViewer-panelBottom-panelControl-lblMsPerDiv-Caption>
+	<RUS>мс/кл</RUS>
+	<ENG>ms/div</ENG>
+</UniOSViewer-panelBottom-panelControl-lblMsPerDiv-Caption>
+<UniOSViewer-panelBottom-panelControl-TimeUnitsLabel-Caption>
+	<RUS>Единицы времени:</RUS>
+	<ENG>Time units:</ENG>
+</UniOSViewer-panelBottom-panelControl-TimeUnitsLabel-Caption>
+<UniOSViewer-panelBottom-panelControl-sbGraphLegendToClipbrd-Hint>
+	<RUS>Копировать в буфер обмена графики + легенду</RUS>
+	<ENG>Copy graphs and legend to clipboard</ENG>
+</UniOSViewer-panelBottom-panelControl-sbGraphLegendToClipbrd-Hint>
+<UniOSViewer-panelBottom-panelControl-sbGraphToClipbrd-Hint>
+	<RUS>Копировать в буфер обмена только графики (без легенды)</RUS>
+	<ENG>Copy graphs only (without legend) to clipboard</ENG>
+</UniOSViewer-panelBottom-panelControl-sbGraphToClipbrd-Hint>
+<UniOSViewer-panelBottom-panelControl-sbSaveOsc-Hint>
+	<RUS>Сохранить данные, отображаемые в данный момент</RUS>
+	<ENG>Save displayed data to file</ENG>
+</UniOSViewer-panelBottom-panelControl-sbSaveOsc-Hint>
+<UniOSViewer-panelBottom-panelControl-sbInvertColors-Hint>
+	<RUS>Инвертировать цвета отображения осциллограмм</RUS>
+	<ENG>Invert colors of display</ENG>
+</UniOSViewer-panelBottom-panelControl-sbInvertColors-Hint>
+<UniOSViewer-panelBottom-panelControl-EditXScale-Text>
+	<RUS>10000</RUS>
+	<ENG></ENG>
+</UniOSViewer-panelBottom-panelControl-EditXScale-Text>
+<UniOSViewer-panelBottom-panelControl-cbTimeUnits-Text>
+	<RUS>Tдиск</RUS>
+	<ENG>Tsample</ENG>
+</UniOSViewer-panelBottom-panelControl-cbTimeUnits-Text>
+<UniOSViewer-panelBottom-panelControl-cbTimeUnits-Items-Strings_0>
+	<RUS>Tдиск</RUS>
+	<ENG>Tsample</ENG>
+</UniOSViewer-panelBottom-panelControl-cbTimeUnits-Items-Strings_0>
+<UniOSViewer-panelBottom-panelControl-cbTimeUnits-Items-Strings_1>
+	<RUS>мкс</RUS>
+	<ENG>us</ENG>
+</UniOSViewer-panelBottom-panelControl-cbTimeUnits-Items-Strings_1>
+<UniOSViewer-panelBottom-panelControl-cbTimeUnits-Items-Strings_2>
+	<RUS>мс</RUS>
+	<ENG>ms</ENG>
+</UniOSViewer-panelBottom-panelControl-cbTimeUnits-Items-Strings_2>
+<UniOSViewer-panelBottom-panelControl-cbTimeUnits-Items-Strings_3>
+	<RUS>с</RUS>
+	<ENG>s</ENG>
+</UniOSViewer-panelBottom-panelControl-cbTimeUnits-Items-Strings_3>
+<UniOSViewer-panelBottom-panelExplorer-sbPrevFile-Hint>
+	<RUS>Перйти к предыдущему файлу [клавиши Вверх/Влево]</RUS>
+	<ENG>Jump to previous file [use Up/Left keys]</ENG>
+</UniOSViewer-panelBottom-panelExplorer-sbPrevFile-Hint>
+<UniOSViewer-panelBottom-panelExplorer-sbNextFile-Hint>
+	<RUS>Перйти к следующему файлу [клавиши Вниз/Вправо]</RUS>
+	<ENG>Jump to next file [use Down/Right keys]</ENG>
+</UniOSViewer-panelBottom-panelExplorer-sbNextFile-Hint>
+<UniOSViewer-panelBottom-panelExplorer-sbRefreshDir-Hint>
+	<RUS>Обновить список файлов в папке</RUS>
+	<ENG>Refresh the list of files in the folder</ENG>
+</UniOSViewer-panelBottom-panelExplorer-sbRefreshDir-Hint>
+<UniOSViewer-panelBottom-panelExplorer-sbMarkFile-Hint>
+	<RUS>Пометить файл [клавиша Insert или ПКМ]</RUS>
+	<ENG>Mark the file [use Insert key or right mouse button]</ENG>
+</UniOSViewer-panelBottom-panelExplorer-sbMarkFile-Hint>
+<UniOSViewer-panelBottom-panelExplorer-sbCopyFile-Hint>
+	<RUS>Копировать помеченные файлы в подпапку 'Избранное' [клавиша F5]</RUS>
+	<ENG>Copy marked files to the 'Favorites' subfolder [use F5 key]</ENG>
+</UniOSViewer-panelBottom-panelExplorer-sbCopyFile-Hint>
+<UniOSViewer-panelBottom-panelExplorer-sbMoveFile-Hint>
+	<RUS>Переместить помеченные файлы в подпапку 'Избранное' [клавиша F6]</RUS>
+	<ENG>Move marked files to the 'Favorites' subfolder [use F6 key]</ENG>
+</UniOSViewer-panelBottom-panelExplorer-sbMoveFile-Hint>
+<UniOSViewer-panelBottom-panelExplorer-sbDelFile-Hint>
+	<RUS>Удалить выделенный файл/папку в Корзину [клавиша Delete]</RUS>
+	<ENG>Move marked file/folder to the recycle bin [use Delete key]</ENG>
+</UniOSViewer-panelBottom-panelExplorer-sbDelFile-Hint>
+<UniOSViewer-panelBottom-panelExplorer-lCurrDir-Caption>
+	<RUS>C:\Program Files (x86)\Borland\CBuilder6\Projects\UniCon\scope\2023-06-30\DataLogDump\</RUS>
+	<ENG></ENG>
+</UniOSViewer-panelBottom-panelExplorer-lCurrDir-Caption>
+<UniOSViewer-panelBottom-panelExplorer-btnFilesSort-Caption>
+	<RUS>Имя</RUS>
+	<ENG>Name</ENG>
+</UniOSViewer-panelBottom-panelExplorer-btnFilesSort-Caption>
+<UniOSViewer-panelBottom-panelExplorer-btnFilesSort-Hint>
+	<RUS>Режим сортировки файлов</RUS>
+	<ENG>Sort mode</ENG>
+</UniOSViewer-panelBottom-panelExplorer-btnFilesSort-Hint>
+<UniOSViewer-panelBottom-panelExplorer-btnDrive-Caption>
+	<RUS>C</RUS>
+	<ENG></ENG>
+</UniOSViewer-panelBottom-panelExplorer-btnDrive-Caption>
+<UniOSViewer-panelBottom-panelExplorer-btnDrive-Hint>
+	<RUS>Сменить диск</RUS>
+	<ENG>Change drive</ENG>
+</UniOSViewer-panelBottom-panelExplorer-btnDrive-Hint>
+<UniOSViewer-panelBottom-panelExplorer-btnOpenOsc-Hint>
+	<RUS>Открыть осциллограмму</RUS>
+	<ENG>Open the scope file</ENG>
+</UniOSViewer-panelBottom-panelExplorer-btnOpenOsc-Hint>
+<_1399112718>
+	<RUS>Группа</RUS>
+	<ENG>Group</ENG>
+</_1399112718>
+<_3487282724>
+	<RUS>Параметр</RUS>
+	<ENG>Parameter</ENG>
+</_3487282724>
+<_305344957>
+	<RUS>Курс.1</RUS>
+	<ENG>Trace 1</ENG>
+</_305344957>
+<_2726942492>
+	<RUS>Курс.2</RUS>
+	<ENG>Trace 2</ENG>
+</_2726942492>
+<_2155345136>
+	<RUS>Курс.2-1</RUS>
+	<ENG>Trace 2-1</ENG>
+</_2155345136>
+<_2259904137>
+	<RUS>Масш.</RUS>
+	<ENG>Scale</ENG>
+</_2259904137>
+<_3767516037>
+	<RUS>Смещ.</RUS>
+	<ENG>Offset</ENG>
+</_3767516037>
+<FormOsSave-GroupBoxExcelSave-DecimationPanel-CSpinEditSampleTime-Hint>
+	<RUS>Для уменьшения объема файла выберите желаемое разреживание 
+данных.</RUS>
+	<ENG>Specify decimation to decrease file size</ENG>
+</FormOsSave-GroupBoxExcelSave-DecimationPanel-CSpinEditSampleTime-Hint>
+<_4254659077>
+	<RUS>Канал #</RUS>
+	<ENG>Channel #</ENG>
+</_4254659077>
+<_3630778981>
+	<RUS> c/кл</RUS>
+	<ENG> s/div</ENG>
+</_3630778981>
+<_3899858170>
+	<RUS> /кл    </RUS>
+	<ENG> /div    </ENG>
+</_3899858170>
+<_2969401706>
+	<RUS>%.1f %s/кл</RUS>
+	<ENG>%.1f %s/div</ENG>
+</_2969401706>
+<UniOSViewer-panelBottom-panelControl-sbResetColors-Hint>
+	<RUS>Установить цвета по умолчанию</RUS>
+	<ENG>Set default colors</ENG>
+</UniOSViewer-panelBottom-panelControl-sbResetColors-Hint>
+<UniOSViewer-panelBottom-panelControl-editScaleOffset-Text>
+	<RUS>10000</RUS>
+	<ENG></ENG>
+</UniOSViewer-panelBottom-panelControl-editScaleOffset-Text>
+<UniOSViewer-miAdjustScopeVarsColWidths-Caption>
+	<RUS>Подобрать ширину столбцов</RUS>
+	<ENG>Adjust columns widths</ENG>
+</UniOSViewer-miAdjustScopeVarsColWidths-Caption>
+<_360039708>
+	<RUS>Делитель: %d (%.1f %s/кл)</RUS>
+	<ENG>Decimation: %d (%.1f %s/div)</ENG>
+</_360039708>
+<UniOSViewer-panelBottom-panelControl-sbOscInfo-Hint>
+	<RUS>Дополнительная информация об осциллограмме</RUS>
+	<ENG>Additional information about oscillogram</ENG>
+</UniOSViewer-panelBottom-panelControl-sbOscInfo-Hint>
+<_3035492582>
+	<RUS>Номер узла: %d</RUS>
+	<ENG>Node ID: %d</ENG>
+</_3035492582>
+<_3679634891>
+	<RUS>Время записи: %04d-%02d-%02d %02d:%02d:%02d</RUS>
+	<ENG>Timestamp: %04d-%02d-%02d %02d:%02d:%02d</ENG>
+</_3679634891>
+<OscInfoForm-btnOk-Caption>
+	<RUS>Закрыть (Esc)</RUS>
+	<ENG>Close (Esc)</ENG>
+</OscInfoForm-btnOk-Caption>

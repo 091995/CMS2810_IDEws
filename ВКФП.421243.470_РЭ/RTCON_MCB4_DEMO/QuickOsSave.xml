@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+	<Profile3>
+		<OsItem Slot="0" enabled="1" abs_index="729" co_index="20758" co_subindex="19" Scale="300" Offset="0" Color="65280" Unipolar="0"/>
+		<OsItem Slot="1" enabled="1" abs_index="732" co_index="20758" co_subindex="22" Scale="300" Offset="0" Color="255" Unipolar="0"/>
+		<OsItem Slot="2" enabled="1" abs_index="735" co_index="20758" co_subindex="25" Scale="300" Offset="0" Color="16776960" Unipolar="0"/>
+		<OsItem Slot="3" enabled="1" abs_index="671" co_index="20753" co_subindex="4" Scale="1" Offset="0" Color="65535" Unipolar="0"/>
+		<ScaleX value="10000"/>
+		<Delimiter value="2"/>
+		<TimeUnits value="2"/>
+		<LoadButtonHint hint="Сохранено с узла №: 2
+Линейное напряжение U1-V1 [5116.13]
+Линейное напряжение V1-W1 [5116.16]
+Линейное напряжение W1-U1 [5116.19]
+Состояние главного ДА [5111.04]"/>
+	</Profile3>
+	<Profile4>
+		<OsItem Slot="0" enabled="1" abs_index="720" co_index="20758" co_subindex="10" Scale="250" Offset="0.000" Color="16776960" Unipolar="0"/>
+		<OsItem Slot="1" enabled="1" abs_index="723" co_index="20758" co_subindex="13" Scale="125" Offset="0.000" Color="255" Unipolar="0"/>
+		<OsItem Slot="2" enabled="1" abs_index="726" co_index="20758" co_subindex="16" Scale="2" Offset="0.000" Color="65280" Unipolar="0"/>
+		<OsItem Slot="3" enabled="1" abs_index="867" co_index="23301" co_subindex="1" Scale="1" Offset="0.000" Color="16744448" Unipolar="0"/>
+		<ScaleX value="10000"/>
+		<Delimiter value="255"/>
+		<TimeUnits value="0"/>
+		<LoadButtonHint hint="Сохранено с узла №: 2
+Напряжение ЗПТ [5116.0A]
+Напряжение питающей сети [5116.0D]
+Ток питающей сети [5116.10]
+Текущее состояние реле [5B05.01]"/>
+	</Profile4>
+	<Profile1>
+		<OsItem Slot="0" enabled="1" abs_index="929" co_index="20768" co_subindex="1" Scale="2500" Offset="0" Color="65280" Unipolar="0"/>
+		<OsItem Slot="1" enabled="1" abs_index="945" co_index="20768" co_subindex="17" Scale="2500" Offset="0" Color="255" Unipolar="0"/>
+		<OsItem Slot="2" enabled="1" abs_index="952" co_index="20768" co_subindex="24" Scale="40920" Offset="0" Color="16776960" Unipolar="0"/>
+		<OsItem Slot="3" enabled="1" abs_index="936" co_index="20768" co_subindex="8" Scale="4092" Offset="0" Color="65535" Unipolar="0"/>
+		<ScaleX value="10000"/>
+		<Delimiter value="10"/>
+		<TimeUnits value="0"/>
+		<LoadButtonHint hint="Сохранено с узла №: 1
+Ток фазы А двигателя мгн. [5120.01]
+Ток фазы А сети мгн. [5120.11]
+Напряжение фазы А сети мгн. [5120.18]
+Напряжение фазы А двигателя мгн. [5120.08]"/>
+		<Trigger sourceType="0" channel="0" index="0" subIndex="0" mode="0" minimum="" maximum="" prehistory="25"/>
+	</Profile1>
+	<Profile2>
+		<OsItem Slot="0" enabled="1" abs_index="1153" co_index="20851" co_subindex="3" Scale="200000" Offset="0" Color="16776960" Unipolar="0"/>
+		<OsItem Slot="1" enabled="1" abs_index="1154" co_index="20851" co_subindex="4" Scale="10" Offset="0" Color="65280" Unipolar="0"/>
+		<OsItem Slot="2" enabled="1" abs_index="1163" co_index="20851" co_subindex="13" Scale="10000" Offset="0" Color="255" Unipolar="0"/>
+		<OsItem Slot="3" enabled="1" abs_index="1162" co_index="20851" co_subindex="12" Scale="20000000" Offset="0" Color="65535" Unipolar="0"/>
+		<ScaleX value="10000"/>
+		<Delimiter value="10"/>
+		<TimeUnits value="0"/>
+		<LoadButtonHint hint="Сохранено с узла №: 1
+T_10мс [5173.03]
+T_10мс [5173.04]
+T_ШИМ [5173.0D]
+Счетчик прерываний ШИМ [5173.0C]"/>
+		<Trigger sourceType="0" channel="0" index="0" subIndex="0" mode="0" minimum="" maximum="" prehistory="25"/>
+	</Profile2>
+</root>

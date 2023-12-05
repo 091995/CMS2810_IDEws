@@ -1,0 +1,2 @@
+[1201/101043.442:ERROR:context.cc(151)] The cache_path directory (C:\Users\���\AppData\LocalLow\Adobe\AcroCef\DC\Acrobat\Cache) could not be created.
+[1201/101043.445:ERROR:context.cc(166)] The cache_path is invalid. Defaulting to in-memory storage.

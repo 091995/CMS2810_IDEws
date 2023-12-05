@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+	<Sets>
+		<set_1 id="1" author="default">
+			<items item_0="10кбод" item_1="20кбод" item_2="50кбод" item_3="125кб" item_4="250кб" item_5="500кб" item_6="1Мбод" item_7="2,5Мб"/>
+		</set_1>
+		<set_2 id="2" author="default">
+			<items item_0="Нет" item_1="Да"/>
+		</set_2>
+		<set_3 id="3" author="default">
+			<items item_0="Выкл" item_1="Вкл"/>
+		</set_3>
+		<set_4 id="4" author="default">
+			<items item_0="Запрещ" item_1="Разреш"/>
+		</set_4>
+		<set_5 id="5" author="default">
+			<items item_0="Коммуникационные" item_1="Масштабирующие" item_2="Системные" item_3="Пользователь" item_4="Опытный польз-ль" item_5="Наладчик" item_6="Программист" item_7=""/>
+		</set_5>
+		<set_6 id="6" author="default">
+			<items item_0="" item_1="к" item_2="М" item_3="Г" item_4="п" item_5="н" item_6="~m" item_7="м"/>
+		</set_6>
+		<set_7 id="7" author="default">
+			<items item_0="" item_1="А" item_2="В" item_3="Гц" item_4="%" item_5="сек" item_6="мин" item_7="час" item_8="Гц/с" item_9="Вт" item_10="мс" item_11="Па" item_12="град" item_13="об/м" item_14="Н*м" item_15="Ом" item_16="Гн" item_17="ВтЧ" item_18="атм" item_19="C" item_20="м" item_21="м3/ч" item_22="см" item_23="1/с" item_24="л" item_25="м3" item_26="л/ч" item_27="%/с" item_28="р./с" item_29="м/ч" item_30="кг/с"/>
+		</set_7>
+		<set_8 id="8" author="default">
+			<items item_0="ИНИЦ" item_1="ГОТОВ" item_2="РАБОТА" item_3="АВАРИЯ" item_4="ТЕСТ" item_5="TEXT5" item_6="TEXT6" item_7="TEXT7" item_8="ПРЕД" item_9="ГОТ+ПР" item_10="РАБ+ПР" item_11="АВ+ПР" item_12="TEXT12" item_13="TEXT13" item_14="TEXT14" item_15="TEXT15"/>
+		</set_8>
+		<set_9 id="9" author="default">
+			<items item_0="ЗадСкор " item_1="Зад_Iов " item_2="ЗадImax " item_3="ТекСкор" item_4="ТекМощн" item_5="Тек_Iов " item_6="Код_ДП "/>
+		</set_9>
+		<set_10 id="10" author="default">
+			<items item_0="ПЧ1" item_1="ПЧ2" item_2="ПЧ3" item_3="ПЧ4" item_4="ПЧ5" item_5="ПЧ6" item_6="ПК" item_7="ПУ1" item_8="ПУ2" item_9="ПУ3" item_10="ПУ4" item_11="ПУ5" item_12="ПУ6"/>
+		</set_10>
+		<set_11 id="11" author="default">
+			<items item_0=" " item_1=" (1)" item_2=" (2)" item_3=" (3)" item_4=" (4)" item_5=" (5)" item_6=" (6)"/>
+		</set_11>
+		<set_12 id="12" author="default">
+			<items item_0="6сект_SV" item_1="Синусоидальная"/>
+		</set_12>
+		<set_13 id="13" author="default">
+			<items item_0="Вперед" item_1="Назад"/>
+		</set_13>
+		<set_14 id="14" author="default">
+			<items item_0="Нет датчика" item_1="Инкрем.Энкодер" item_2="Датчик Холла"/>
+		</set_14>
+		<set_15 id="15" author="default">
+			<items item_0="MCB4_2810" item_1="Наблюдаемые" item_2="ВНЕ ГРУПП" item_3="Задания" item_4="Дискретные входы и выходы" item_5="MODBUS" item_6="CAN" item_7="Слово управления" item_8="Рег. тока Id" item_9="Рег. тока Iq" item_10="Рег. скорости" item_11="Рег. положения" item_12="Рег. тока якоря" item_13="Рег. тока возбуждения" item_14="Настройки СУ" item_15="Базов. парам" item_16="АЦП" item_17="ШИМ" item_18="Защиты" item_19="ЗИ" item_20="Кривая U-f" item_21="ДПТ Сист. Упр." item_22="Наблюдатель ротора АД" item_23="БВУ" item_24="Для тестирования" item_25="ДПР-Холл" item_26="ДПР-Энкодер" item_27="ДПР-SSI энкодер" item_28="" item_29="Для отладки" item_30="dlog" item_31="" item_32="" item_33="" item_34="" item_35="" item_36="" item_37="" item_38="ДА sm_ctrl" item_39="" item_40="" item_41="" item_42="Счетчики" item_43="" item_44="" item_45="" item_46="Тормозной резистор" item_47="Система охлаждения" item_48="Плавный заряд ЗПТ" item_49="Модель общие данные" item_50="Модель (асинхронный)" item_51="Модель (синхронный)" item_52="Модель (ДПТ)" item_53="Модель (ВИД)"/>
+		</set_15>
+		<set_16 id="16" author="default">
+			<items item_0="MCB4 - нет аварий" item_1="Понижение Udc" item_2="Повышение Udc" item_3="Отказ энкодера" item_4="Авария модели двигателя" item_5="авария резерв" item_6="Превышение температуры" item_7="Ошибка восст. парам." item_8="авария резерв" item_9="Сбой прогр-ы 1кГц" item_10="Сбой прогр-ы 10кГц" item_11="Сбой прогр-ы 40кГц" item_12="авария резерв" item_13="АППАРАТНАЯ" item_14="Цепь зар. ЗПТ не зашунт." item_15="Программа в BFLASH" item_16="авария резерв" item_17="авария резерв" item_18="авария резерв" item_19="авария резерв" item_20="авария резерв" item_21="Макс. ток фазы А" item_22="Макс. ток фазы В" item_23="Макс. ток фазы С" item_24="авария резерв" item_25="авария резерв" item_26="Превыш. скорости" item_27="авария резерв" item_28="авария резерв" item_29="Авария ключа 1" item_30="Авария ключа 3" item_31="Авария ключа 5" item_32="Авария нижних ключей"/>
+		</set_16>
+		<set_17 id="17" author="default">
+			<items/>
+		</set_17>
+		<set_18 id="18" author="default">
+			<items item_0="Асинхронный" item_1="Синхронный" item_2="ДПТ" item_3="ВИД" item_4="Двигатель 4" item_5="Двигатель 5" item_6="Двигатель 6"/>
+		</set_18>
+		<set_56 id="56" author="default">
+			<items item_0="" item_1="" item_2="" item_3="" item_4="" item_5="" item_6="" item_7="" item_8="" item_9="" item_10="" item_11="" item_12="" item_13="" item_14="" item_15="" item_16="" item_17="" item_18="" item_19="" item_20="" item_21="" item_22="" item_23="" item_24="" item_25="" item_26="" item_27="" item_28="" item_29="" item_30="" item_31="" item_32="" item_33="" item_34="" item_35="" item_36="" item_37="" item_38="" item_39="" item_40="" item_41="" item_42="" item_43="" item_44="" item_45="" item_46="" item_47="" item_48="" item_49="" item_50="" item_51="" item_52="" item_53="" item_54="" item_55="" item_56="" item_57="" item_58="" item_59="" item_60="" item_61="" item_62="" item_63="" item_64="" item_65="" item_66="" item_67="" item_68="" item_69="" item_70="" item_71="" item_72="" item_73="" item_74="" item_75="" item_76="" item_77="" item_78="" item_79="" item_80="" item_81="" item_82="" item_83="" item_84="" item_85="" item_86="" item_87="" item_88="" item_89="" item_90="" item_91="" item_92="" item_93="" item_94="" item_95="" item_96="" item_97="" item_98="" item_99="" item_100="" item_101="" item_102="" item_103="" item_104="" item_105="" item_106="" item_107="" item_108="" item_109="" item_110="" item_111="" item_112="" item_113="" item_114="" item_115="" item_116="" item_117="" item_118="" item_119="" item_120="" item_121="" item_122="" item_123="" item_124="" item_125="" item_126="" item_127="" item_128="" item_129="" item_130="" item_131="" item_132="" item_133="" item_134="" item_135="" item_136="" item_137="" item_138="" item_139="" item_140="" item_141="" item_142="" item_143="" item_144="" item_145="" item_146="" item_147="" item_148="" item_149="" item_150="MCB4_2810"/>
+		</set_56>
+		<set_57 id="57" author="default">
+			<items item_0="ИНИЦ" item_1="ГОТОВ" item_2="РАБОТА" item_3="АВАРИЯ" item_4="ТЕСТ" item_5="TEXT5" item_6="TEXT6" item_7="TEXT7" item_8="ПРЕДУПР." item_9="ГОТОВ+ПРЕД" item_10="РАБ+ПРЕД" item_11="АВАРИЯ+ПРЕД" item_12="ПЕРЕГРЕВ" item_13="TEXT13" item_14="TEXT14" item_15="TEXT15"/>
+		</set_57>
+		<set_58 id="58" author="default">
+			<items/>
+		</set_58>
+		<set_59 id="59" author="default">
+			<items/>
+		</set_59>
+		<set_60 id="60" author="default">
+			<items item_0="" item_1=""/>
+		</set_60>
+		<set_61 id="61" author="default">
+			<items item_0="" item_1=""/>
+		</set_61>
+	</Sets>
+</root>
