@@ -22,7 +22,7 @@ Uint32 FastCounter=0;
 int main(void)
 {
     InitSysCtrl();
-    DINT;
+    DINT;//Interrupt disable
     IER = 0x0000;
     IFR = 0x0000;
 
