@@ -1,4 +1,4 @@
-// ÍÀ×ÀËÎ âû
+
 #ifdef __cplusplus
 extern "C"
 {
