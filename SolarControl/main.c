@@ -173,7 +173,7 @@ interrupt void pdpinta_protect_isr(void) {
 
     EvbRegs.EVBIMRA.all |= (1 << 0);
     EvbRegs.EVBIFRA.all |= (1 << 0);
-
+//
     PieCtrlRegs.PIEACK.all = PIEACK_GROUP1;
 }
 
